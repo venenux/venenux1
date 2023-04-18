@@ -1,0 +1,56 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 11 Feb 2019 09:35:00 -0430
+Source: ecj
+Binary: ecj ecj-gcj ecj-bootstrap ecj-bootstrap-gcj
+Architecture: source all i386
+Version: 3.2.2-2
+Distribution: unstable
+Urgency: low
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ ecj        - standalone version of the Eclipse Java compiler
+ ecj-bootstrap - standalone version of the Eclipse Java compiler (transitional pac
+ ecj-bootstrap-gcj - standalone version of the Eclipse Java compiler (transitional pac
+ ecj-gcj    - standalone version of the Eclipse Java compiler (native version)
+Closes: 421488
+Changes: 
+ ecj (3.2.2-2) unstable; urgency=low
+ .
+   [ Matthias Klose ]
+   * Loosen dependency on gij-4.1, libgcj7-jar. Closes: #421488.
+ .
+   [ PICCORO Lenz McKAY ]
+   * backported for venenux 0.6 and debian 4 etch
+Checksums-Sha1: 
+ a4f28b10a583fe120cec92f0abdc00feb99a7fc7 1262 ecj_3.2.2-2.dsc
+ c81cc68baf0ae34068d71bc610f105977e7cdae1 24441 ecj_3.2.2-2.diff.gz
+ 154d12039b1f3d37985b8b567b1861d0f5df4dfb 1114956 ecj_3.2.2-2_all.deb
+ 1a588847b5733b3c2c98b2bbbdcd8e5f0eff23f8 10090 ecj-bootstrap_3.2.2-2_all.deb
+ 1938eacaaed28f8ec3e1a37e0bf19b43e374fda7 9638 ecj-bootstrap-gcj_3.2.2-2_all.deb
+ 6b543cabdc2f477be562f8cb797796d7b695664f 2515164 ecj-gcj_3.2.2-2_i386.deb
+Checksums-Sha256: 
+ 0e243534f5ce44319d070d327561387de62bb9c24f039bbf7a3aa53526a20da2 1262 ecj_3.2.2-2.dsc
+ baaea770ee1b416a56ed93c2660629ac2034a4ee9b227dd4e6553013e078f8c8 24441 ecj_3.2.2-2.diff.gz
+ efe0df6185018a336b81efe5c2f1bec1f5837e24c3a21f7bec16c5979664c8f4 1114956 ecj_3.2.2-2_all.deb
+ 8ed0399dbb9a81fb3c90bc16018ff9f010d37796ea96fcd22429ecd07e047aa8 10090 ecj-bootstrap_3.2.2-2_all.deb
+ 8fd2ead777c5da8d674f3ac3e479c741c720028a8e05dadc969cc88b50671f53 9638 ecj-bootstrap-gcj_3.2.2-2_all.deb
+ f8d7d66ad5fdd44b21b3d69b60efbb08019be84f98f3f10bbc5289069fdb3b7b 2515164 ecj-gcj_3.2.2-2_i386.deb
+Files: 
+ 227d98592b23db87d6c04663fb6c174b 1262 devel optional ecj_3.2.2-2.dsc
+ a55798a8b8eb17a3738dbc6bf8d68543 24441 devel optional ecj_3.2.2-2.diff.gz
+ 61fb739ef21ad3d980324e9b2d9caedc 1114956 devel optional ecj_3.2.2-2_all.deb
+ 273b9c0854751587ce88a09ef4cc6e3a 10090 devel optional ecj-bootstrap_3.2.2-2_all.deb
+ 6d4bd7fb706753398ec66c67421f0fdf 9638 devel optional ecj-bootstrap-gcj_3.2.2-2_all.deb
+ f8eb3f71d1f1164efa98bf26b96868e3 2515164 devel optional ecj-gcj_3.2.2-2_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcYYKHz+9Ts05YtsQRAh7/AKCn8Q3v9iHIPJ/rM/X62pgLuNz1XgCgt98m
+1D+S5DCzbaobIm5IHnlDRBU=
+=qTmz
+-----END PGP SIGNATURE-----

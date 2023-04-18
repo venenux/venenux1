@@ -1,0 +1,115 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 28 Jan 2019 15:06:15 -0430
+Source: gcc-defaults
+Binary: cpp g++ g++-multilib gobjc gobjc-multilib gobjc++ gobjc++-multilib g77 gfortran gfortran-multilib libgcj-common gcj gij libgcj-bc lib32gcj-bc gpc gcc gcc-multilib gpc-doc gnat
+Architecture: source i386
+Version: 1.52.1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ cpp        - The GNU C preprocessor (cpp)
+ g++        - The GNU C++ compiler
+ g++-multilib - The GNU C++ compiler (multilib files)
+ g77        - The GNU Fortran 77 compiler
+ gcc        - The GNU C compiler
+ gcc-multilib - The GNU C compiler (multilib files)
+ gcj        - The GNU Java compiler
+ gfortran   - The GNU Fortran 95 compiler
+ gfortran-multilib - The GNU Fortran 95 compiler (multilib files)
+ gij        - The GNU Java bytecode interpreter
+ gnat       - The GNU Ada compiler
+ gobjc      - The GNU Objective-C compiler
+ gobjc++    - The GNU Objective-C++ compiler
+ gobjc++-multilib - The GNU Objective-C++ compiler (multilib files)
+ gobjc-multilib - The GNU Objective-C compiler (multilib files)
+ gpc        - The GNU Pascal compiler
+ gpc-doc    - Documentation for the GNU Pascal compiler (gpc)
+ lib32gcj-bc - Link time only library for use with gcj (32bit)
+ libgcj-bc  - Link time only library for use with gcj
+ libgcj-common - Java runtime library (common files)
+Changes: 
+ gcc-defaults (1.52.1) unstable; urgency=low
+ .
+   * Newer release for VenenuX 0.6 and Debian 4 etch
+   * Depend on the 4.1.2 release.
+   * Make 4.1.2 the default version for all including java and fortran
+   * ajust gcj-common for gcj libs
+Checksums-Sha1: 
+ af629ae89b8849468a6ff4b85eb09d4912822e69 1087 gcc-defaults_1.52.1.dsc
+ 3c83a86ee6df5cbcea394d32cba04266c8d79d4a 39356 gcc-defaults_1.52.1.tar.gz
+ 806e069a9da532f76c13b05a3f9589f8a86e2dfc 12008 cpp_4.1.2-2.1_i386.deb
+ a43aae761353e2d62559d3363b14d6b4cd996a40 5044 gcc_4.1.2-2.1_i386.deb
+ 51f4e6aa5729a0e5cef366e55b4cdbaa138f053e 822 gcc-multilib_4.1.2-2.1_i386.deb
+ b66817828b97fde9286e1fe050b8942177c05623 870 gnat_4.1.2-2.1_i386.deb
+ fc7d7d053ff42e382c3728fdf1dc2eb5f93a7a6c 1368 g++_4.1.2-2.1_i386.deb
+ cbe7f42cbcd1bd52533b886d803b51008fb293c5 828 g++-multilib_4.1.2-2.1_i386.deb
+ 824dcfe98f3814228ac0350860b46a740ba397fc 850 gobjc_4.1.2-2.1_i386.deb
+ 5cc53fa7c6d6555c690cd1437a80d7a358d8bf43 844 gobjc-multilib_4.1.2-2.1_i386.deb
+ ebba559e88a3352deeb2695fc8ad0081787be902 874 gobjc++_4.1.2-2.1_i386.deb
+ a91e5615212221afe15161768caeb15e7aa05c9b 846 gobjc++-multilib_4.1.2-2.1_i386.deb
+ 9d582bbdbed669c70f0031cd5a27cac2f26fbd03 1222 g77_3.4.6-21.1_i386.deb
+ 24a417b0d8f70dfa2c7b9f6608572f8192b2a3d0 1128 gfortran_4.1.2-2.1_i386.deb
+ 06923e3de7a6f1762f45ede3062c55f2617b70f2 846 gfortran-multilib_4.1.2-2.1_i386.deb
+ 7d7d3c06b688919212a8fc80564236baa6aa6844 1464 gpc_3.4.6-21.1_i386.deb
+ 59e5394bfd8e9a6e36ca49bb1aa9f9ba90f05ce0 1020 gpc-doc_3.4.6-21.1_i386.deb
+ 9c1de26b026efcc90a82541db99b847e0be81764 1372 gcj_4.1.2-2.1_i386.deb
+ adeb208c7e3613046d481cdf10c3d357d7bbf079 1452 gij_4.1.2-2.1_i386.deb
+ 26c24e18bf47702eee49ff815541279849ae5f89 1126 libgcj-bc_4.1.2-2.1_i386.deb
+ 124e439dd12fb36fa55c1f5af805baf1b03d29ed 11756 libgcj-common_4.1.2-2.1_i386.deb
+Checksums-Sha256: 
+ a7de65b0f8656cf9858836409e42edfc2c7b230ed76f9be64975e4f97a90d2c1 1087 gcc-defaults_1.52.1.dsc
+ 10a7c7df7e951e5e9a0870e86e4f3ee1ca8b6553effc2443412be28379f79cc8 39356 gcc-defaults_1.52.1.tar.gz
+ 56a585cd3698e8f4a04dd457d355ee096738f4c63b7f8dc693247bb000f358ae 12008 cpp_4.1.2-2.1_i386.deb
+ 62f7687de41047599312b7fcd1a00526a695daade424ac773474812be657785a 5044 gcc_4.1.2-2.1_i386.deb
+ b1dbe7b7894de402cd35e9fb4fc30da2bfd9fe9598f081f5ddaa8ad19384dc9b 822 gcc-multilib_4.1.2-2.1_i386.deb
+ 761b21c7eb19358221ea97a84880c91ec0d4c8d90604f2335bb08af387e2c7e4 870 gnat_4.1.2-2.1_i386.deb
+ f902b13ede043855972b009f5bfbe99962fa39a83dd8f2d0d517dedf46daf0ce 1368 g++_4.1.2-2.1_i386.deb
+ 17beb1a04b156bd4b87cf60ca6ce24a22f7b10b096ebda591f067d5c2b29fedd 828 g++-multilib_4.1.2-2.1_i386.deb
+ 74f059e5f12ca9ea48764e00cbe7ea77b37a1bae7481e1e83d99a199baa37e38 850 gobjc_4.1.2-2.1_i386.deb
+ 6559d0656d15614a8d57d49fabb22e63ae9fb6de13078e06bb100ccf9662115f 844 gobjc-multilib_4.1.2-2.1_i386.deb
+ fcc9732d61acdff2d48a15b1180927ae4007e59a2f1f2b71277da8aea85dca9b 874 gobjc++_4.1.2-2.1_i386.deb
+ 49d8237e195dcf47e4a9d18d55d9b9069d09a028fc17bf8a74c7fefa35700ab9 846 gobjc++-multilib_4.1.2-2.1_i386.deb
+ 32b68066064ad542fdcabbcdd794c7385dcf00d4b9c6d16f80df98f54d9aaa57 1222 g77_3.4.6-21.1_i386.deb
+ ca52bbe9e98b0bdebd0a810991268629a031f18dec71b7ac4547fd41e30da621 1128 gfortran_4.1.2-2.1_i386.deb
+ e809c1c14ca27a4fbcbd5d7cfa0515b41de899f7f62e63ef3e62d0ce89f30a9f 846 gfortran-multilib_4.1.2-2.1_i386.deb
+ 1611eac2c018229717a7ab736162f6dbbe02c8319934775740cb665b0f305f7c 1464 gpc_3.4.6-21.1_i386.deb
+ 89118f4fe1c8cc794900c631c0dedf035599af140ac9575c549da8b6cb3d2998 1020 gpc-doc_3.4.6-21.1_i386.deb
+ d5999fdb060d0fb72721fdc1a1dde3e21ede3a17789939b6781191eafd0cf989 1372 gcj_4.1.2-2.1_i386.deb
+ f374dafb8adf75c7a7a6ad2b35d9ccf92a1cb57b376b0fbd376f01c6e9636f8e 1452 gij_4.1.2-2.1_i386.deb
+ bbda9db2acda1788c8498e6a34ee1639985e57f329527ff5e4549f88068583bc 1126 libgcj-bc_4.1.2-2.1_i386.deb
+ 5af49f6913a185144158bd4f7c6476000d7363f457a74f16d45ec52b43a0b9a7 11756 libgcj-common_4.1.2-2.1_i386.deb
+Files: 
+ 125e1f15c45ecd52b8ed2e07120e91d4 1087 devel standard gcc-defaults_1.52.1.dsc
+ 2db2db6acd6e2706d2d4d3afdbedc410 39356 devel standard gcc-defaults_1.52.1.tar.gz
+ b3c2bde60e9d4e9b87f4cd93edd6f57d 12008 interpreters optional cpp_4.1.2-2.1_i386.deb
+ db64e70a237836bbb121edc017afb3c1 5044 devel optional gcc_4.1.2-2.1_i386.deb
+ 3fe317acdc33a838e653e41cfb390964 822 devel standard gcc-multilib_4.1.2-2.1_i386.deb
+ 70864cce7dd2b0a7da67b4e207b23a27 870 devel optional gnat_4.1.2-2.1_i386.deb
+ a52be3e72bc5e041b4de7b21e89cbabe 1368 devel optional g++_4.1.2-2.1_i386.deb
+ c79604f3166e01a418d9174d3a9044b3 828 devel standard g++-multilib_4.1.2-2.1_i386.deb
+ 15162ac49e348ae632598cccc32efc4d 850 devel optional gobjc_4.1.2-2.1_i386.deb
+ 66459f97a04c8e50722f22b764d1fd91 844 devel standard gobjc-multilib_4.1.2-2.1_i386.deb
+ 8caebe20f4c390ab5cabeddeedab8485 874 devel optional gobjc++_4.1.2-2.1_i386.deb
+ 00e3d939dce5fee206dbda26c332d589 846 devel standard gobjc++-multilib_4.1.2-2.1_i386.deb
+ 00b261ddde9308de4acf0965f96d4ed0 1222 devel optional g77_3.4.6-21.1_i386.deb
+ c8a84cbc69b69ca7616ac045f38a997f 1128 devel optional gfortran_4.1.2-2.1_i386.deb
+ 5fdd87bf151bb4ea90457887831fa3b1 846 devel standard gfortran-multilib_4.1.2-2.1_i386.deb
+ 891fca6a58ad2e5a55ff062e27233c5d 1464 devel optional gpc_3.4.6-21.1_i386.deb
+ 70a52270e80d3d0fb698506f0356aa50 1020 doc optional gpc-doc_3.4.6-21.1_i386.deb
+ 5a79a64d4346a94037a111c1600621df 1372 devel optional gcj_4.1.2-2.1_i386.deb
+ 4852d298a75ef85e20664ca07cf54591 1452 devel optional gij_4.1.2-2.1_i386.deb
+ d92cbd27ab3e0eb6048876e857749a31 1126 libs optional libgcj-bc_4.1.2-2.1_i386.deb
+ 02c0496211685c22e092643cde2e64cd 11756 libs optional libgcj-common_4.1.2-2.1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcXkUOz+9Ts05YtsQRAiyZAJ0dXIDHTsPqAqgEjr2cr4DHzoIEkACeI/8I
+IEjvXj8e3qSbclQwURDCNXA=
+=hBH4
+-----END PGP SIGNATURE-----

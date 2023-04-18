@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 28 Jan 2019 19:40:00 -0430
+Source: ecj-bootstrap
+Binary: ecj-bootstrap ecj-bootstrap-gcj
+Architecture: source all i386
+Version: 3.2.1-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ ecj-bootstrap - bootstrap version of the Eclipse Java compiler
+ ecj-bootstrap-gcj - bootstrap version of the Eclipse Java compiler (native version)
+Changes: 
+ ecj-bootstrap (3.2.1-4) unstable; urgency=medium
+ .
+   [ Matthias Klose ]
+   * TEST
+   * Refactor batch/org/eclipse/jdt/internal/compiler/batch/Main.java,
+     add batch/org/eclipse/jdt/internal/compiler/batch/GCCMain.java,
+     needed to bootstrap GCC-4.3.
+ .
+   [ PICCORO Lenz McKAY ]
+   * backported for venenux 0.6 and debian 4 etch
+Checksums-Sha1: 
+ efb1a78475327dd986d71e324bd3d337ce8559bc 1253 ecj-bootstrap_3.2.1-4.dsc
+ 53618c7b440939a4e281240dd03cea8953fa7d15 25581 ecj-bootstrap_3.2.1-4.diff.gz
+ e696e5ec0f86f3b06e08322fe27eb16451d33dcc 1111810 ecj-bootstrap_3.2.1-4_all.deb
+ 29688fcdccb4e57e31f929b8637cc91b85655586 2505038 ecj-bootstrap-gcj_3.2.1-4_i386.deb
+Checksums-Sha256: 
+ af5bbbbcf73757fa5cc59f6f919fbe99a405d415afebac6f4b650ad3b906f0e9 1253 ecj-bootstrap_3.2.1-4.dsc
+ e794b3048282a146dff28d0a0837d30b44eabee49e482c1792dc40e5078258a1 25581 ecj-bootstrap_3.2.1-4.diff.gz
+ 15d7b7cd3256b4e8cdf6bfb74a3890105989a6f04569867fa9e254092f4261c9 1111810 ecj-bootstrap_3.2.1-4_all.deb
+ 3eb0e686fd032644b2ee685a065e8689f2da1df99044fcc754b93bae06d97721 2505038 ecj-bootstrap-gcj_3.2.1-4_i386.deb
+Files: 
+ 01e867d9de4b8c3b828ce7352efe0992 1253 devel optional ecj-bootstrap_3.2.1-4.dsc
+ 42198ec13b2e66d6525a1a17f94f1a64 25581 devel optional ecj-bootstrap_3.2.1-4.diff.gz
+ 10734ea8d35e65d63ec576b096e0eef0 1111810 devel optional ecj-bootstrap_3.2.1-4_all.deb
+ acab4d44539fe950585bd58c4896b168 2505038 devel optional ecj-bootstrap-gcj_3.2.1-4_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcT7Ddz+9Ts05YtsQRAlDAAKCnBjEiCmSN1DZBCfu1tsRqhdkCKQCgvJsf
+DJV8m7A/4ZKuMkLsdaP/tr0=
+=uHpF
+-----END PGP SIGNATURE-----

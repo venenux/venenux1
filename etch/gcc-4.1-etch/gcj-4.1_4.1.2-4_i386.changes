@@ -1,0 +1,86 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 28 Jan 2019 15:33:18 -0430
+Source: gcj-4.1
+Binary: gcj-4.1-base gcj-4.1 gij-4.1 libgcj7-1 libgcj7-jar libgcj7-1-awt gappletviewer-4.1 gcjwebplugin-4.1 lib64gcj7-1 lib32gcj7-1 libgcj7-dev lib32gcj7-dev libgcj7-dbg lib32gcj7-dbg libgcj7-src libgcj-doc
+Architecture: source all i386
+Version: 4.1.2-4
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ gappletviewer-4.1 - Standalone application to execute Java (tm) applets
+ gcj-4.1    - The GNU compiler for Java(TM)
+ gcj-4.1-base - The GNU Compiler Collection (gcj base package)
+ gcjwebplugin-4.1 - Web browser plugin to execute Java (tm) applets
+ gij-4.1    - The GNU Java bytecode interpreter
+ lib32gcj7-1 - Java runtime library for use with gcj (32bit)
+ lib32gcj7-dbg - Debugging symbols for libraries provided in lib32gcj7-dev
+ lib32gcj7-dev - Java development and static library for use with gcj (32bit)
+ lib64gcj7-1 - Java runtime library for use with gcj (64bit)
+ libgcj-doc - libgcj API documentation and example programs
+ libgcj7-1  - Java runtime library for use with gcj
+ libgcj7-1-awt - AWT peer runtime libraries for use with gcj
+ libgcj7-dbg - Debugging symbols for libraries provided in libgcj7-dev
+ libgcj7-dev - Java development headers and static library for use with gcj
+ libgcj7-jar - Java runtime library for use with gcj (jar files)
+ libgcj7-src - libgcj java sources for use in eclipse
+Changes: 
+ gcj-4.1 (4.1.2-4) unstable; urgency=medium
+ .
+   [ Matthias Klose ]
+   * Upload as gcj-4.1.
+ .
+   [ PICCORO Lenz McKAY ]
+   * backported for venenux 0.6 and debian 4 etch for gcc 4.1.2 update
+   * fix slibdeps at gcj package make in binary-java.mk in rules.d
+Checksums-Sha1: 
+ f572dc6a3aa60454541f1598ea3b2ee342e2372c 3172 gcj-4.1_4.1.2-4.dsc
+ feaf7e7e8fae5c143b60b3c660dc2ca96fc3da4f 1228372 gcj-4.1_4.1.2-4.diff.gz
+ 69e9759868354502d8dbc4d4c979eaf04148c8e7 9775280 libgcj7-jar_4.1.2-4_all.deb
+ 4e208ae6b106441a04a07121c069d2429aa69995 12237336 libgcj7-src_4.1.2-4_all.deb
+ 2f8ba9723dd4d9fbe8e4ce42dcc73e08332de0af 94252 gcj-4.1-base_4.1.2-4_i386.deb
+ 9a554c906b098dfcaabac5685e0f58191c1c2845 49986 gij-4.1_4.1.2-4_i386.deb
+ 206c934c854ea6277e2ba6d8b5e161f3edb04c46 10281460 libgcj7-1_4.1.2-4_i386.deb
+ 3fcd2c2c48b57fee0a6613cc50b90940655f9f29 79006 libgcj7-1-awt_4.1.2-4_i386.deb
+ 6d6e2262dd9e0937e362cee0de33fadd212fa663 751360 libgcj7-dev_4.1.2-4_i386.deb
+ 032d96fea9b3637933f9f709a319292ec2dff3ef 2601164 gcj-4.1_4.1.2-4_i386.deb
+ ed124b4759e4d45ee7f112de387ce532d551beba 12242 gappletviewer-4.1_4.1.2-4_i386.deb
+ 3b1433ce632e145ad420c3939704958ce9d1ba78 12383740 libgcj7-dbg_4.1.2-4_i386.deb
+Checksums-Sha256: 
+ 73a737ad8ebfd5c5ece885eb4b056b5e4c43f45f3a910252769eec9b8ef33973 3172 gcj-4.1_4.1.2-4.dsc
+ 002b5b1ddaec0965b4d5214c140b77cc817951a06595a4de871fd4e2e1a76e1d 1228372 gcj-4.1_4.1.2-4.diff.gz
+ 46015d2e4dd4ef9762e60e4cca7431db90c86558ed0444aa553570a080ebf9ea 9775280 libgcj7-jar_4.1.2-4_all.deb
+ b742cc08335bb1104d8ad16413aa03b76b65bebb0a58e98619942f31534b27d6 12237336 libgcj7-src_4.1.2-4_all.deb
+ f784c3cd1bba290ad7c3d0a72d273c7515de9f4a7bce7c4a2089b96ba693bd61 94252 gcj-4.1-base_4.1.2-4_i386.deb
+ 78f28761636c973e76cb9be7f488e58ba575d221b01be1c415ea3dce8f5f90c5 49986 gij-4.1_4.1.2-4_i386.deb
+ ca53940735df1f967b9307c73f4e66cf8b8201f92005642d5479e3e2aa8546e4 10281460 libgcj7-1_4.1.2-4_i386.deb
+ 17cb65441b3d0c3179b9092e1d0035944fffc643c7e43df9e4d257aeb51493fd 79006 libgcj7-1-awt_4.1.2-4_i386.deb
+ c0de162517e4f0f82880973bda11f09054b84aab3cf413f5277b456af4d02e82 751360 libgcj7-dev_4.1.2-4_i386.deb
+ 7c3e95e3a093ae61faf71270de5a39dd5082983730750fd40b3818d36ceac4c1 2601164 gcj-4.1_4.1.2-4_i386.deb
+ 11baaf0dc7bfac5e01d75c0dc6ad8fab779609ef7648869120d639fa92fdb584 12242 gappletviewer-4.1_4.1.2-4_i386.deb
+ e7a80a18041dff67f1a458545ce7ad30861e3a724b508d19a34131b0f2f496a4 12383740 libgcj7-dbg_4.1.2-4_i386.deb
+Files: 
+ 3369eca827472deffeecdb799e83c455 3172 devel standard gcj-4.1_4.1.2-4.dsc
+ ff367643f85901d51107c627b185aca3 1228372 devel standard gcj-4.1_4.1.2-4.diff.gz
+ 8fa5cb521abef28463f83314d2dd38f3 9775280 libs optional libgcj7-jar_4.1.2-4_all.deb
+ 02e68f5defdbc6930cbf9792912aa2f2 12237336 libdevel optional libgcj7-src_4.1.2-4_all.deb
+ c1ee48aebda7381b96322af076ce4f1f 94252 libs optional gcj-4.1-base_4.1.2-4_i386.deb
+ 7e427c47d50773371110bb2d92a09f09 49986 devel optional gij-4.1_4.1.2-4_i386.deb
+ 3c6e242ccd73532a9d0c48b42b20352c 10281460 libs optional libgcj7-1_4.1.2-4_i386.deb
+ 3eef844e4fae071d95ab031a61c675f9 79006 libs optional libgcj7-1-awt_4.1.2-4_i386.deb
+ e0a3c888671f3d91ddedb68e8913cd47 751360 libdevel optional libgcj7-dev_4.1.2-4_i386.deb
+ 9b391e74dc3e265a5081661b53f74a72 2601164 devel optional gcj-4.1_4.1.2-4_i386.deb
+ 2db243ddf415f7d6f08d918f4c74cd05 12242 utils optional gappletviewer-4.1_4.1.2-4_i386.deb
+ 85f798a853e869318b5a93283aa0305d 12383740 libdevel extra libgcj7-dbg_4.1.2-4_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcXixkz+9Ts05YtsQRAkwuAKCrXqvCWU9/aFJge4NI5cUhAUHQZwCeIzv4
+j0GASlYJ0D+2nW5+uK5gMXg=
+=aECU
+-----END PGP SIGNATURE-----
