@@ -1,0 +1,2365 @@
+Package: autoconf2.59
+Version: 2.59-1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1420
+Depends: m4, debianutils (>= 1.8), autoconf (>= 2.50), perl, libfile-temp-perl
+Conflicts: autoconf (<< 2.50)
+Replaces: autoconf (<< 2.50)
+Filename: lenny/autoconf/autoconf2.59_2.59-1_all.deb
+Size: 358338
+MD5sum: fca831fb69da586dde0ac67c615fc772
+SHA1: 718dff4593ebfc286db46829c791c7b198ff04cd
+SHA256: 417846c99edf624343828cd690c83155eb67bb4eba66986bc464cd74d98e158d
+Section: devel
+Priority: extra
+Description: automatic configure script builder (obsolete version)
+ This obsolete version is required to build GCC (>= 4.3.3), newlib,
+ and probably some others toolchain related packages.
+
+Package: autoconf2.64
+Version: 2.64-3
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1908
+Depends: m4, debianutils (>= 1.8), autoconf (>= 2.50), perl, libfile-temp-perl
+Conflicts: autoconf (<< 2.50)
+Replaces: autoconf (<< 2.50)
+Filename: lenny/autoconf/autoconf2.64_2.64-3_all.deb
+Size: 521508
+MD5sum: 15c7b1575159e65a34bde0d12a826b8b
+SHA1: 677602d39d559bf8788464d3d6a6b851a45e28c4
+SHA256: e37a5ba239e29164633d8d65a80830bdf89423cfa03d31cf882d86eebdfba8c3
+Section: devel
+Priority: extra
+Description: automatic configure script builder (obsolete version)
+ This obsolete version is required to build GCC (>= 4.3.3), newlib,
+ and probably some others toolchain related packages.
+
+Package: cloog-isl
+Source: cloog
+Version: 0.18.0-1vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 64
+Depends: libcloog-isl4 (= 0.18.0-1vnz1), libc6 (>= 2.3.6-6), libgmp3c2
+Conflicts: cloog-ppl (<< 0.15.11-4), libcloog-ppl-dev (<< 0.15.11-1)
+Filename: lenny/cloogisl/cloog-isl_0.18.0-1vnz1_i386.deb
+Size: 7946
+MD5sum: fa6bb086adb275eb11b35ac6783d3f01
+SHA1: 5b11d97a356b0fb8e10d24686b40830407a355a3
+SHA256: ee3638066b3a893a69104fc5cefe416e77b5e7ba2353eb407c30ae628b8dc86b
+Section: libs
+Priority: optional
+Homepage: http://www.CLooG.org
+Description: Chunky Loop Generator (runtime library)
+ CLooG is a software which generates loops for scanning Z-polyhedra.
+ .
+ This package contains the cloog-isl binary.
+
+Package: cloog-ppl
+Version: 0.15.11-5vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 68
+Depends: libcloog-ppl0 (= 0.15.11-5vnz1), libc6 (>= 2.3.6-6), libgmp3c2, libgmpxx4ldbl, libppl-c4, libppl9, libstdc++6 (>= 4.1.1-12)
+Replaces: libcloog-ppl-dev (<< 0.15.9-4)
+Provides: cloog
+Filename: lenny/cloogppl/cloog-ppl_0.15.11-5vnz1_i386.deb
+Size: 7988
+MD5sum: 255af5001b01bcf3c057c1067376cc93
+SHA1: ee097b55c7b98f0fc5a9e5ca4825b3f18e37fdb3
+SHA256: 70f88baec75d9c1605a8471667e16fe4a1001ada94c1192f5936ac85274e3aab
+Section: devel
+Priority: optional
+Homepage: http://www.CLooG.org
+Description: Chunky Loop Generator
+ CLooG is a software which generates loops for scanning Z-polyhedra.
+ .
+ This package contains the cloog binary.
+
+Package: cpp
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 76
+Depends: cpp-4.4 (>= 4.4.1-2)
+Suggests: cpp-doc
+Conflicts: cpp-doc (<< 1:2.95.3)
+Filename: lenny/gcc-4.4-lenny/cpp_4.4.1-2_i386.deb
+Size: 14716
+MD5sum: c3c8d9670080d53699cd95feeae46441
+SHA1: e5318ab7a703f6495437abc484a841982e37a9a6
+SHA256: 01adc4aaa59107e054036265ae34e344128171628990c7fe17db8722e2d503d6
+Section: interpreters
+Priority: optional
+Description: The GNU C preprocessor (cpp)
+ The GNU C preprocessor is a macro processor that is used automatically
+ by the GNU C compiler to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+ .
+ This is a dependency package providing the default GNU C preprocessor.
+
+Package: cpp-4.4
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 8428
+Depends: gcc-4.4-base (= 4.4.5-8), libc6 (>= 2.7-1), libgmp3c2, libmpfr1ldbl
+Suggests: gcc-4.4-locales (>= 4.4.4-17)
+Filename: lenny/gcc-4.4-lenny/cpp-4.4_4.4.5-8_i386.deb
+Size: 3501012
+MD5sum: d1f11e6db445db236fa2f51a5cdf3ad7
+SHA1: 46bd9b8010eb94d6a265dab075f69ef5ff08b0e3
+SHA256: 31623cd9665c5701577a7b599c72397f7624a777bee240a440240968d75ff55b
+Section: interpreters
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU C preprocessor
+ A macro processor that is used automatically by the GNU C compiler
+ to transform programs before actual compilation.
+ .
+ This package has been separated from gcc for the benefit of those who
+ require the preprocessor but not the compiler.
+
+Package: fixincludes
+Source: gcc-4.4 (4.4.5-8)
+Version: 1:4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 228
+Depends: gcc-4.4-base (= 4.4.5-8), gcc-4.4 (= 4.4.5-8), libc6 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/fixincludes_4.4.5-8_i386.deb
+Size: 59576
+MD5sum: 1ee980031e7fe708cc631ad1e5b30c20
+SHA1: b360eeacf4526a7bea55c846b0c31ae76d29d8a7
+SHA256: 53a5a65de355007ff5cd588a2e0f7e74cc6b51b6ad365f019d36cb26e6c3569e
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Fix non-ANSI header files
+ FixIncludes was created to fix non-ANSI system header files. Many
+ system manufacturers supply proprietary headers that are not ANSI compliant.
+ The GNU compilers cannot compile non-ANSI headers. Consequently, the
+ FixIncludes shell script was written to fix the header files.
+ .
+ Not all packages with header files are installed on the system, when the
+ package is built, so we make fixincludes available at build time of other
+ packages, such that checking tools like lintian can make use of it.
+
+Package: g++
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 40
+Depends: cpp (>= 4:4.4.1-2), gcc (>= 4:4.4.1-2), g++-4.4 (>= 4.4.1-2), gcc-4.4 (>= 4.4.1-2)
+Suggests: g++-multilib
+Provides: c++-compiler
+Filename: lenny/gcc-4.4-lenny/g++_4.4.1-2_i386.deb
+Size: 1360
+MD5sum: a6c2b7bd9da62e01cc2b4a500e42dbe2
+SHA1: ec55292376bf18bb4ee77920b9b52b6cee8f2784
+SHA256: 48bc39e2dbe7d20ebe3a7e47f786e28833dc3c614a0589b5e0e8fb6cbfcd87e8
+Section: devel
+Priority: optional
+Description: The GNU C++ compiler
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ This is a dependency package providing the default GNU C++ compiler.
+
+Package: g++-4.4
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 10024
+Depends: gcc-4.4-base (= 4.4.5-8), gcc-4.4 (= 4.4.5-8), libstdc++6-4.4-dev (= 4.4.5-8), libc6 (>= 2.7-1), libgmp3c2, libmpfr1ldbl
+Suggests: g++-4.4-multilib, gcc-4.4-doc (>= 4.4.4-17), libstdc++6-4.4-dbg
+Provides: c++-compiler, c++abi2-dev
+Filename: lenny/gcc-4.4-lenny/g++-4.4_4.4.5-8_i386.deb
+Size: 4689630
+MD5sum: f7fcda8424fd4dbaa7169ca04597f502
+SHA1: 5eb7ed6147d98bee3011b590a4644f51a0d129e7
+SHA256: 7cdb627c9e08f9def34b4e01089dacdc54cc9e40cc452389f472cadb58bc62dc
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU C++ compiler
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+
+Package: g++-4.4-multilib
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 6236
+Depends: gcc-4.4-base (= 4.4.5-8), g++-4.4 (= 4.4.5-8), gcc-4.4-multilib (= 4.4.5-8), lib64stdc++6 (>= 4.4.5-8)
+Suggests: lib64stdc++6-4.4-dbg
+Filename: lenny/gcc-4.4-lenny/g++-4.4-multilib_4.4.5-8_i386.deb
+Size: 1054168
+MD5sum: d783000126f5f7654c529844b64898d5
+SHA1: 09360a9653768b89ce97b52ba6775d843d113d11
+SHA256: d20b9eab5349237460962acb5cef269add636502b5fcbdef86edd21b1864e0a4
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU C++ compiler (multilib files)
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ On architectures with multilib support, the package contains files
+ and dependencies for the non-default multilib architecture(s).
+
+Package: g++-multilib
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: cpp (>= 4:4.4.1-2), g++ (>= 4:4.4.1-2), g++-4.4-multilib (>= 4.4.1-2)
+Filename: lenny/gcc-4.4-lenny/g++-multilib_4.4.1-2_i386.deb
+Size: 826
+MD5sum: 429ce88e1de63008d4823dbfb1f1bd82
+SHA1: c3b77ee880ec64d5d663610f31f9bd8236ffbfba
+SHA256: 13f7fcf56b00bcc555bb7b4234bcc0d112ceee09fc97c589025706da5a9050dd
+Section: devel
+Priority: optional
+Description: The GNU C++ compiler (multilib files)
+ This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gcc
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 64
+Depends: cpp (>= 4:4.4.1-2), gcc-4.4 (>= 4.4.1-2)
+Recommends: libc6-dev | libc-dev
+Suggests: gcc-multilib, make, manpages-dev, autoconf, automake1.9, libtool, flex, bison, gdb, gcc-doc
+Conflicts: gcc-doc (<< 1:2.95.3)
+Provides: c-compiler
+Filename: lenny/gcc-4.4-lenny/gcc_4.4.1-2_i386.deb
+Size: 4968
+MD5sum: 5fb6330061e9538a63d0aec868950873
+SHA1: 61b14e6c1a88a0a19c0e19f3d85de70832719b00
+SHA256: a84380603d2dbef8511d5f97c56df1bf745d2b9b2d835f9d189660ad403a27fe
+Section: devel
+Priority: optional
+Description: The GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ This is a dependency package providing the default GNU C compiler.
+
+Package: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 4612
+Depends: gcc-4.4-base (= 4.4.5-8), cpp-4.4 (= 4.4.5-8), binutils (>= 2.20.1-15~), libgcc1 (>= 1:4.4.5-8), libgomp1 (>= 4.4.5-8), libc6 (>= 2.7-1)
+Recommends: libc6-dev (>= 2.5)
+Suggests: gcc-4.4-multilib, libmudflap0-4.4-dev (>= 4.4.5-8), gcc-4.4-doc (>= 4.4.4-17), gcc-4.4-locales (>= 4.4.4-17), libgcc1-dbg, libgomp1-dbg, libmudflap0-dbg
+Provides: c-compiler
+Filename: lenny/gcc-4.4-lenny/gcc-4.4_4.4.5-8_i386.deb
+Size: 2800286
+MD5sum: d142b55bbe207d7c469cde61b30ed873
+SHA1: 64514d9c431b95473b692af08171ffd7e75cb3c4
+SHA256: 75326f4609b580d4b07981b13e7ecce361d8c648dcd9aedd6b660d744693a7df
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU C compiler
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+
+Package: gcc-4.4-base
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 180
+Filename: lenny/gcc-4.4-lenny/gcc-4.4-base_4.4.5-8_i386.deb
+Size: 122512
+MD5sum: 4fa0bd1470092a334b625da166e438ff
+SHA1: b20752817be25b8fb0daf722cc1bde5eecfb8405
+SHA256: ccbb38cde5f179212b85c9dc148d050f6e07c91dbc80eea4faf4d2fa7d52cc84
+Section: libs
+Priority: required
+Homepage: http://gcc.gnu.org/
+Description: The GNU Compiler Collection (base package)
+ This package contains files common to all languages and libraries
+ contained in the GNU Compiler Collection (GCC).
+
+Package: gcc-4.4-locales
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 7624
+Depends: gcc-4.4-base (>= 4.4.4-17), cpp-4.4 (>= 4.4.4-17)
+Recommends: gcc-4.4 (>= 4.4.4-17)
+Filename: lenny/gcc-4.4-lenny/gcc-4.4-locales_4.4.5-8_all.deb
+Size: 2291466
+MD5sum: 74ed8174e510170a06ec100cfb8b48ef
+SHA1: 75528f4ae81d30c56fb9025a0928a029080376f4
+SHA256: c573e111f28cdbb02640f51b7df314e17e46b07058fab1e0609c86bcb82aac89
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU C compiler (native language support files)
+ Native language support for GCC. Lets GCC speak your language,
+ if translations are available.
+ .
+ Please do NOT submit bug reports in other languages than "C".
+ Always reset your language settings to use the "C" locales.
+
+Package: gcc-4.4-multilib
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 3256
+Depends: gcc-4.4-base (= 4.4.5-8), gcc-4.4 (= 4.4.5-8), libc6-dev-amd64 (>= 2.5), lib64gcc1 (>= 1:4.4.5-8), lib64gomp1 (>= 4.4.5-8)
+Suggests: lib64mudflap0 (>= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/gcc-4.4-multilib_4.4.5-8_i386.deb
+Size: 2203494
+MD5sum: 34ec34c6d9e34bda55bc7b4554100d0f
+SHA1: ac7c0fd17da0a0af20d3dbedde5c62aaed68fd36
+SHA256: 6ee174ff418d109be31498af0a691aa2c7e12e9ffc6e871575040362df18f9b2
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU C compiler (multilib files)
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ On architectures with multilib support, the package contains files
+ and dependencies for the non-default multilib architecture(s).
+
+Package: gcc-4.4-source
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 56064
+Depends: make (>= 3.81), autoconf2.59, automake1.9, quilt, patchutils
+Filename: lenny/gcc-4.4-lenny/gcc-4.4-source_4.4.5-8_all.deb
+Size: 51171348
+MD5sum: 26be56b0d98aa934c935460ce7ad6be0
+SHA1: ca58e842c7ff6cef0490d69da46bbfb329cbdc69
+SHA256: a4f390c8acc683bc8025056af6b4fc628409517e4eecad203132bca6cdb79a22
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Source of the GNU Compiler Collection
+ This package contains the sources and patches which are needed to
+ build the GNU Compiler Collection (GCC).
+
+Package: gcc-multilib
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: cpp (>= 4:4.4.1-2), gcc (>= 4:4.4.1-2), gcc-4.4-multilib (>= 4.4.1-2)
+Filename: lenny/gcc-4.4-lenny/gcc-multilib_4.4.1-2_i386.deb
+Size: 820
+MD5sum: 30e4fc7c6637f30820b57d0f1c789839
+SHA1: 62740d84450e262b98357634058edbd4db089d58
+SHA256: 51d41677ff448c5890563f7dfa2c7d78d40a26eec1af48f6ad9055d4f4d5bfc6
+Section: devel
+Priority: optional
+Description: The GNU C compiler (multilib files)
+ This is the GNU C compiler, a fairly portable optimizing compiler for C.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gcj
+Source: gcc-defaults (1.89)
+Version: 4:4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 32
+Depends: cpp (>= 4:4.4.1-2), gcj-jdk (>= 4:4.1.2-39)
+Filename: lenny/gcc-4.4-lenny/gcj_4.1.2-39_i386.deb
+Size: 866
+MD5sum: 67faef018a3b0aca5cfb2b01e34b4f25
+SHA1: 3efa03fab4898e994828a711cdfca37bc3303dbb
+SHA256: ebccac10a50f71ab29dccf893297376597eb1d902570528bacdd871df0ba0c71
+Section: java
+Priority: optional
+Description: The GNU Java compiler (transitional package)
+ GCJ is a front end to the GCC compiler which can natively compile both
+ Java(tm) source and bytecode files. The compiler can also generate class
+ files.
+ .
+ This is a transitional package. It can be removed.
+
+Package: gcj-jdk
+Source: gcc-defaults (1.89)
+Version: 4:4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 44
+Depends: libgcj-common (>= 1:4.2.1-34), gcj-jre (>= 4:4.1.2-39), java-gcj-compat-dev (>= 1.0.80), gcj-4.1 (>= 4.2.4-1)
+Conflicts: classpath-common (<= 2:0.97.2-1.1), gcj (<< 4:4.3.3-6), java-gcj-compat-dev (<< 1.0.80-2)
+Replaces: java-gcj-compat-dev (<< 1.0.80-2)
+Provides: java-compiler, java-gcj-compat-dev, java-sdk, java2-sdk, java5-sdk
+Filename: lenny/gcc-4.4-lenny/gcj-jdk_4.1.2-39_i386.deb
+Size: 1536
+MD5sum: 6827b2f59f1209473a7049bf345c47ef
+SHA1: 4d883dbfc340afbebaaec296e25e0461f6bcd72d
+SHA256: 9e6fbf894bed7c8e18583dfa3cbb500b2d8c722ed072a72394a8c474b1f7a9cb
+Section: java
+Priority: optional
+Description: gcj and classpath development tools for Java(TM)
+ GCJ is a front end to the GCC compiler which can natively compile both
+ Java(tm) source and bytecode files. The compiler can also generate class
+ files. Other java development tools from classpath are included in this
+ package.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-SDK-like interface to the GCJ tool set.
+
+Package: gcj-jre
+Source: gcc-defaults (1.89)
+Version: 4:4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: libgcj-common (>= 1:4.2.1-34), gcj-jre-headless (>= 4:4.1.2-39), java-gcj-compat (>= 1.0.80)
+Provides: java-gcj-compat, java-runtime, java1-runtime, java2-runtime, java5-runtime
+Filename: lenny/gcc-4.4-lenny/gcj-jre_4.1.2-39_i386.deb
+Size: 1024
+MD5sum: a8d8eda1a8a61e133b7148af53e72215
+SHA1: 7ae03e5bb02bad9afdd2ada5317325abef383f32
+SHA256: 13fca2102556f38ead366699d1324adecb07f86a4db28aa1bf5717b379cdc90e
+Section: java
+Priority: optional
+Description: Java runtime environment using GIJ/classpath
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set.
+
+Package: gcj-jre-headless
+Source: gcc-defaults (1.89)
+Version: 4:4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 32
+Depends: libgcj-common (>= 1:4.2.1-34), java-gcj-compat-headless (>= 1.0.80), gij-4.1 (>= 4.2.4-1)
+Suggests: gcj-jdk
+Conflicts: gij (<< 4:4.3.3-6), java-gcj-compat-headless (<< 1.0.80-2)
+Replaces: java-gcj-compat-headless (<< 1.0.80-2)
+Provides: java-gcj-compat-headless, java-runtime-headless, java-virtual-machine, java1-runtime-headless, java2-runtime-headless, java5-runtime-headless
+Filename: lenny/gcc-4.4-lenny/gcj-jre-headless_4.1.2-39_i386.deb
+Size: 1416
+MD5sum: 54e99b4ece072b1cb3527b803d8898a5
+SHA1: 1cc81968e387a5d2178d6dbecb757c19c9a2413e
+SHA256: ce23525b93fece6052680d3d2c53ebeda1c0d05e5f92f6fc4f365aa647225007
+Section: java
+Priority: optional
+Description: Java runtime environment using GIJ/classpath (headless version)
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set,
+ limited to the headless tools and libraries.
+
+Package: gdc
+Source: gcc-defaults (1.89)
+Version: 4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 64
+Depends: gdc-4.1 (>= 0.25-4.1.2-18)
+Replaces: gdc-4.1 (<< 0.25-4.1.2-18), gdc-4.2 (<< 0.25-4.2.2-7)
+Filename: lenny/gcc-4.4-lenny/gdc_4.1.2-39_i386.deb
+Size: 14738
+MD5sum: a84a5c66571c0c637406067d04ba0d93
+SHA1: 0f5f177e79315f5bbc1f1a95116f79b720dec304
+SHA256: 4cf0aeee724199c17cea3b63458986fedb3bb188a900d1575150cf479f0038de
+Section: devel
+Priority: optional
+Description: The D compiler
+ This is a dependency package providing the default D compiler.
+ Per policy, all packages that contain D sources must use this package
+ in their Build-Depends line.
+
+Package: gfortran
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 40
+Depends: cpp (>= 4:4.4.1-2), gcc (>= 4:4.4.1-2), gfortran-4.4 (>= 4.4.1-2)
+Suggests: gfortran-multilib, gfortran-doc
+Provides: fortran-compiler
+Filename: lenny/gcc-4.4-lenny/gfortran_4.4.1-2_i386.deb
+Size: 1120
+MD5sum: c6b3f155b540637ded7797889857d983
+SHA1: 4ed1da3770ec17b009476bb374e11c0cb32e19d4
+SHA256: 5ea0ee11c771e78fa8430329b47ab2f6f168ce0875f470c6dd84516972b6164e
+Section: devel
+Priority: optional
+Description: The GNU Fortran 95 compiler
+ This is the GNU Fortran 95 compiler, which compiles Fortran 95 on platforms
+ supported by the gcc compiler. It uses the gcc backend to generate optimized
+ code.
+ .
+ This is a dependency package providing the default GNU Fortran 95 compiler.
+
+Package: gfortran-4.4
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 10232
+Depends: gcc-4.4-base (= 4.4.5-8), gcc-4.4 (= 4.4.5-8), libgfortran3 (>= 4.4.5-8), libc6-dev (>= 2.5), libc6 (>= 2.7-1), libgmp3c2, libmpfr1ldbl
+Suggests: gfortran-4.4-multilib, gfortran-4.4-doc, libgfortran3-dbg
+Replaces: libgfortran3-dev
+Provides: fortran95-compiler
+Filename: lenny/gcc-4.4-lenny/gfortran-4.4_4.4.5-8_i386.deb
+Size: 3978928
+MD5sum: 58aa3981752774d7d3166b13d8534872
+SHA1: d08356b29827367796d7c1a15f010709a7fb6698
+SHA256: 3a4e5ddcf0d248d9afa9983d7195a3ddf353fc61263567b5ec6a823bc012fdd9
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Fortran 95 compiler
+ This is the GNU Fortran compiler, which compiles
+ Fortran 95 on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+
+Package: gfortran-4.4-multilib
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 2084
+Depends: gcc-4.4-base (= 4.4.5-8), gfortran-4.4 (= 4.4.5-8), gcc-4.4-multilib (= 4.4.5-8), lib64gfortran3 (>= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/gfortran-4.4-multilib_4.4.5-8_i386.deb
+Size: 334992
+MD5sum: 70bf74cc89ef1f2741c2679f60894c45
+SHA1: 6285677b90fead8b41426abac1573ec07e1b08a0
+SHA256: 59159849a9dec21c0985c90058f215a6a917ed30f905ea39b0a97937f46e3116
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Fortran 95 compiler (multilib files)
+ This is the GNU Fortran compiler, which compiles Fortran 95 on platforms
+ supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains files
+ and dependencies for the non-default multilib architecture(s).
+
+Package: gfortran-multilib
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: cpp (>= 4:4.4.1-2), gfortran (>= 4:4.4.1-2), gfortran-4.4-multilib (>= 4.4.1-2)
+Filename: lenny/gcc-4.4-lenny/gfortran-multilib_4.4.1-2_i386.deb
+Size: 842
+MD5sum: 83cb88bbb56450e635a526d699f01360
+SHA1: 339d81d682c5f5b7a50a505216e800dc7e8d59ab
+SHA256: 863e0edbe29e186f0c51bdd949bb52fe93a142c7a004044546e2b29863a43614
+Section: devel
+Priority: optional
+Description: The GNU Fortran 95 compiler (multilib files)
+ This is the GNU Fortran compiler, which compiles Fortran 95 on platforms
+ supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gij
+Source: gcc-defaults (1.89)
+Version: 4:4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 24
+Depends: libgcj-common (>= 1:4.2.1-34), gcj-jre-headless (>= 4:4.1.2-39)
+Filename: lenny/gcc-4.4-lenny/gij_4.1.2-39_i386.deb
+Size: 1050
+MD5sum: aa08d8d7b01876901b3392b3560a31d2
+SHA1: e4ff4e48a6300e3cb95e5d3ffcfb838265dab858
+SHA256: 2eab5c66c27c0e731ae929f9b952d6840a8e45704e17fb60d4909804ec757dfb
+Section: java
+Priority: optional
+Description: The GNU Java bytecode interpreter (transitional package)
+ GIJ is not limited to interpreting bytecode. It includes a class loader which
+ can dynamically load shared objects, so it is possible to give it the name
+ of a class which has been compiled and put into a shared library on the
+ class path.
+ .
+ This is a transitional package. It can be removed.
+
+Package: gobjc
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: cpp (>= 4:4.4.1-2), gcc (>= 4:4.4.1-2), gobjc-4.4 (>= 4.4.1-2)
+Suggests: gobjc-multilib
+Provides: objc-compiler
+Filename: lenny/gcc-4.4-lenny/gobjc_4.4.1-2_i386.deb
+Size: 848
+MD5sum: 8c2b9012695ad225fe6ec0b83df0dcb4
+SHA1: ebb181ecb45a53f8ee43089cfb2a923aa544b813
+SHA256: f188b568b52a3db00fc4ae60597f02968f74e229a9168a0776821ed1a076647a
+Section: devel
+Priority: optional
+Description: The GNU Objective-C compiler
+ This is the GNU Objective-C compiler, which compiles Objective-C on platforms
+ supported by the gcc compiler. It uses the gcc backend to generate optimized
+ code.
+ .
+ This is a dependency package providing the default GNU Objective-C compiler.
+
+Package: gobjc++
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: cpp (>= 4:4.4.1-2), gcc (>= 4:4.4.1-2), gobjc++-4.4 (>= 4.4.1-2)
+Recommends: g++ (>= 4:4.4.1-2), gobjc (>= 4:4.4.1-2)
+Suggests: gobjc++-multilib
+Provides: objc++-compiler
+Filename: lenny/gcc-4.4-lenny/gobjc++_4.4.1-2_i386.deb
+Size: 870
+MD5sum: 0973ec81095f9b404d3042c6b991751e
+SHA1: 0131c4b5b91c70d7402b549fa54c5ce05ef4b695
+SHA256: 2631200c38a10390ee7c8b74f67897870896acd78095c91cf81d44198e1630d9
+Section: devel
+Priority: optional
+Description: The GNU Objective-C++ compiler
+ This is the GNU Objective-C++ compiler, which compiles
+ Objective-C++ on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+ .
+ This is a dependency package providing the default GNU Objective-C++ compiler.
+
+Package: gobjc++-4.4
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 8880
+Depends: gcc-4.4-base (= 4.4.5-8), gobjc-4.4 (= 4.4.5-8), g++-4.4 (= 4.4.5-8), libc6 (>= 2.7-1), libgmp3c2, libmpfr1ldbl, libobjc2 (>= 4.4.5-8)
+Suggests: gobjc++-4.4-multilib, gcc-4.4-doc (>= 4.4.4-17)
+Provides: objc++-compiler
+Filename: lenny/gcc-4.4-lenny/gobjc++-4.4_4.4.5-8_i386.deb
+Size: 3748046
+MD5sum: d29b5061a72dc5babbbc756777f56080
+SHA1: 8d1f4bf123a255d50cbf65a9a112adc39bf78909
+SHA256: 56477ddc244dabf1c666ebe7336cbf0ef4e5ea3a2857bbd13ade9aa223cfa109
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Objective-C++ compiler
+ This is the GNU Objective-C++ compiler, which compiles
+ Objective-C++ on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+
+Package: gobjc++-4.4-multilib
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: gcc-4.4-base (= 4.4.5-8), gobjc++-4.4 (= 4.4.5-8), g++-4.4-multilib (= 4.4.5-8), gobjc-4.4-multilib (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/gobjc++-4.4-multilib_4.4.5-8_i386.deb
+Size: 872
+MD5sum: 26c568601dae4fc6d2d124c61591b896
+SHA1: 8140754f2b22ec5d876f1ecbba6cd1e25c734b90
+SHA256: 07632170554deef117733db83bb32b3125659319cb79b9d255af86845f91e83e
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Objective-C++ compiler (multilib files)
+ This is the GNU Objective-C++ compiler, which compiles Objective-C++ on
+ platforms supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains files
+ and dependencies for the non-default multilib architecture(s).
+
+Package: gobjc++-multilib
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: cpp (>= 4:4.4.1-2), gobjc++ (>= 4:4.4.1-2), gobjc++-4.4-multilib (>= 4.4.1-2)
+Filename: lenny/gcc-4.4-lenny/gobjc++-multilib_4.4.1-2_i386.deb
+Size: 848
+MD5sum: abb53aaf4c10a197b7907a41ce2b96d8
+SHA1: 31ff5847352cbbbc8bd9ae0abb046ff15d98f57d
+SHA256: 48e443cc6901416642342e0f3f969e142fddab0ebf7bf7111779dad36f94ccf5
+Section: devel
+Priority: optional
+Description: The GNU Objective-C++ compiler (multilib files)
+ This is the GNU Objective-C++ compiler, which compiles Objective-C++ on
+ platforms supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gobjc-4.4
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 8896
+Depends: gcc-4.4-base (= 4.4.5-8), gcc-4.4 (= 4.4.5-8), libc6-dev (>= 2.5), libc6 (>= 2.7-1), libgmp3c2, libmpfr1ldbl, libobjc2 (>= 4.4.5-8)
+Suggests: gobjc-4.4-multilib, gcc-4.4-doc (>= 4.4.4-17), libobjc2-dbg
+Provides: objc-compiler
+Filename: lenny/gcc-4.4-lenny/gobjc-4.4_4.4.5-8_i386.deb
+Size: 3639448
+MD5sum: c8e704dda6ef9121eceb280f94452e63
+SHA1: 0ccb33ec0b04d2ec8ae3397abaec2cb852d2dece
+SHA256: 1d8d6cfcbb2779086b944c2d0ad78ba6758d7bdcf0f5c8f0b07ed0bd8f36a71f
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Objective-C compiler
+ This is the GNU Objective-C compiler, which compiles
+ Objective-C on platforms supported by the gcc compiler. It uses the
+ gcc backend to generate optimized code.
+
+Package: gobjc-4.4-multilib
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 720
+Depends: gcc-4.4-base (= 4.4.5-8), gobjc-4.4 (= 4.4.5-8), gcc-4.4-multilib (= 4.4.5-8), lib64objc2 (>= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/gobjc-4.4-multilib_4.4.5-8_i386.deb
+Size: 185446
+MD5sum: f627f654f952addc77c6e3abffcfbe7c
+SHA1: d0227661281fbb28f11379bd559693f6b2a82d2a
+SHA256: 225ae0084bf16e71d25ca33370404a672cee91dd38434181d5db22f05cc48cfb
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Objective-C compiler (multilib files)
+ This is the GNU Objective-C compiler, which compiles Objective-C on platforms
+ supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains files
+ and dependencies for the non-default multilib architecture(s).
+
+Package: gobjc-multilib
+Source: gcc-defaults (1.89)
+Version: 4:4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 20
+Depends: cpp (>= 4:4.4.1-2), gobjc (>= 4:4.4.1-2), gobjc-4.4-multilib (>= 4.4.1-2)
+Filename: lenny/gcc-4.4-lenny/gobjc-multilib_4.4.1-2_i386.deb
+Size: 840
+MD5sum: b61e8451e590184b4ef546dd09d1ed3f
+SHA1: 6e7e2117252b8a0e178dabc584a7dd65ad1ac678
+SHA256: 55daf5bce48e400b2e8b00207196476e1f8725033230bda0b8ecbf9611f2193b
+Section: devel
+Priority: optional
+Description: The GNU Objective-C compiler (multilib files)
+ This is the GNU Objective-C compiler, which compiles Objective-C on
+ platforms supported by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gpc
+Source: gcc-defaults (1.89)
+Version: 5:2.1-4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 40
+Depends: cpp (>= 4:4.4.1-2), gcc (>= 4:4.4.1-2), gpc-4.1 (>= 2.1-4.1.2-16)
+Suggests: gpc-doc
+Conflicts: gpc-doc (<< 1:2.95.3)
+Provides: pascal-compiler
+Filename: lenny/gcc-4.4-lenny/gpc_2.1-4.1.2-39_i386.deb
+Size: 1458
+MD5sum: eaa24910cbf8829d143f65b15da718ac
+SHA1: 4285c4d4692890a9e13dac2b8a5b30ec4af6014f
+SHA256: 9b130fedc645d03b9dd72d916e7e2e3814c6a5fb95d2deea565bfd78830c0029
+Section: devel
+Priority: optional
+Description: The GNU Pascal compiler
+ This is the GNU Pascal compiler, which compiles Pascal on platforms supported
+ by the gcc compiler. It uses the gcc backend to generate optimized code.
+ .
+ The current version 2.2 (release candidate 2) implements Standard Pascal
+ (ISO 7185, level 1), a large subset of Extended Pascal (ISO 10206), and
+ Borland Pascal. Many Borland Pascal units supported.
+ .
+ This is a dependency package providing the default GNU Pascal compiler.
+
+Package: gpc-doc
+Source: gcc-defaults (1.89)
+Version: 5:2.1-4.1.2-39
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 52
+Depends: gpc-4.1-doc (>= 2.1-4.1.2-16)
+Suggests: gpc (>= 5:2.1-4.1.2-39)
+Filename: lenny/gcc-4.4-lenny/gpc-doc_2.1-4.1.2-39_i386.deb
+Size: 11682
+MD5sum: 511e8e1b9c01a8bae6ee6787e6f495b2
+SHA1: 7a07793cd4fc546b52957051e3e9cffd78f3d0e5
+SHA256: c1c93feb091f5ad2068602711a369afb06d7ca46909c585851b32d481ca0461a
+Section: doc
+Priority: optional
+Description: Documentation for the GNU Pascal compiler (gpc)
+ Documentation for the GNU Pascal compiler in info format (dependency package).
+
+Package: lib64gcc1
+Source: gcc-4.4 (4.4.5-8)
+Version: 1:4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 132
+Depends: gcc-4.4-base (= 4.4.5-8), libc6-amd64 (>= 2.5)
+Conflicts: libgcc1 (<= 1:3.3-0pre9)
+Filename: lenny/gcc-4.4-lenny/lib64gcc1_4.4.5-8_i386.deb
+Size: 44932
+MD5sum: d7c7aef38fcfcf32e2217455a13eae62
+SHA1: 3b7512e5cd6b54038cc122caced34b42d3343bd0
+SHA256: 5d8b8e5c2eca14947b2143d46828fe043f69d7a8b8c2c3640747a652cd09f5da
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC support library (64bit)
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+
+Package: lib64gcc1-dbg
+Source: gcc-4.4 (4.4.5-8)
+Version: 1:4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 416
+Depends: gcc-4.4-base (= 4.4.5-8), lib64gcc1 (= 1:4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/lib64gcc1-dbg_4.4.5-8_i386.deb
+Size: 83660
+MD5sum: 6979756da6048242352d2ad4369dd9ee
+SHA1: ca6717db6aba1b7cbac66361cfb7b611da40b150
+SHA256: 553cde50d4cafe1b95dce0b374f8793017e54b0f6362401e97e70e8015cdcd3c
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: lib64gfortran3
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1020
+Depends: gcc-4.4-base (= 4.4.5-8), libc6-amd64 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/lib64gfortran3_4.4.5-8_i386.deb
+Size: 291360
+MD5sum: 73eaf968cd4d3d8cd2d226c88a5e3bff
+SHA1: 342741a92208406fa2d12ecbdde879c66e20949c
+SHA256: ad260cdcd3b01e481980e730dfa2a922dbb97d7f94ca738734476176dd8e25b1
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Fortran applications (64bit)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: lib64gfortran3-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 3044
+Depends: gcc-4.4-base (= 4.4.5-8), lib64gfortran3 (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/lib64gfortran3-dbg_4.4.5-8_i386.deb
+Size: 502190
+MD5sum: ffb84907511d10a6674b5fa6930b2dd9
+SHA1: 4941ca23115688bd80de5f0751a4b52244da91bf
+SHA256: 2cd491aeee379a62b131a2e25e3c900533e3f2daaf0a2ee153d433d11177d300
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Fortran applications (64bit debug symbols)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: lib64gomp1
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 96
+Depends: gcc-4.4-base (= 4.4.5-8), libc6-amd64 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/lib64gomp1_4.4.5-8_i386.deb
+Size: 25326
+MD5sum: b692fd5f5699e49c5c146797bd293c2d
+SHA1: cdfb2a754fb8c4259af44aefc659f88e995c030c
+SHA256: abf5018e38c5e40b41359549ac1cd615f1e5eaf65b4eb78bf49fa34d961cda10
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library (64bit)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
+Package: lib64gomp1-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 240
+Depends: gcc-4.4-base (= 4.4.5-8), lib64gomp1 (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/lib64gomp1-dbg_4.4.5-8_i386.deb
+Size: 58880
+MD5sum: a7603daa6b3eaf668786318731274b28
+SHA1: 6131a6dc4d3e8ec9875fce0f54bd89cca01ad344
+SHA256: 91bbb61469336409dce835bfddd175cc11674b42af73359c86e612c7bc651057
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library (64bit debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
+Package: lib64mudflap0
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 280
+Depends: gcc-4.4-base (= 4.4.5-8), libc6-amd64 (>= 2.7-1)
+Replaces: libmudflap0 (<< 4.1)
+Filename: lenny/gcc-4.4-lenny/lib64mudflap0_4.4.5-8_i386.deb
+Size: 98274
+MD5sum: 1df8ea9a1cb1e8ffd62fc8de243ed564
+SHA1: 97dabe2184a5e8fd0069c22069206461d8afda77
+SHA256: afe345ca610e36848f960e14d0946322642eb88ae5d60e59cf2b5052a7dcf5a0
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC mudflap shared support libraries (64bit)
+ The libmudflap libraries are used by GCC for instrumenting pointer and array
+ dereferencing operations.
+
+Package: lib64mudflap0-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 416
+Depends: gcc-4.4-base (= 4.4.5-8), lib64mudflap0 (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/lib64mudflap0-dbg_4.4.5-8_i386.deb
+Size: 123266
+MD5sum: 60b4c88716cd78303b72aabd3d2dbfc6
+SHA1: 87bd6111778f699fc4522df0843bbfade3fd9b9b
+SHA256: c98996c654990b509627da2bef5ec6b11c6b8a0ca2e078dd30da6343c8d01816
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC mudflap shared support libraries (64 bit debug symbols)
+ The libmudflap libraries are used by GCC for instrumenting pointer and array
+ dereferencing operations.
+
+Package: lib64objc2
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 428
+Depends: gcc-4.4-base (= 4.4.5-8), libc6-amd64 (>= 2.7-1), lib64gcc1 (>= 1:4.1.1)
+Filename: lenny/gcc-4.4-lenny/lib64objc2_4.4.5-8_i386.deb
+Size: 160666
+MD5sum: 6e9bd1a9ebcc259a5af540967509cc2f
+SHA1: aeb98e35d9c5c3bf6ca61f7dc21377def10a9aa4
+SHA256: 76418cffefa870c836985b698f6d86a8077f45c6ee6abc6dfbfd3880c9fc490d
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Objective-C applications (64bit)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: lib64objc2-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 872
+Depends: gcc-4.4-base (= 4.4.5-8), lib64objc2 (= 4.4.5-8), lib64gcc1-dbg
+Filename: lenny/gcc-4.4-lenny/lib64objc2-dbg_4.4.5-8_i386.deb
+Size: 279028
+MD5sum: b25650d6167f07d6e10d8bb9d1fb0c1b
+SHA1: c588e1296b5536ccc74cde63bb08bbab3f906ed6
+SHA256: 1ee420fd21b17beef43a37eaf85b4acd05bb19bdccbb7a4e04266e6d92473d51
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Objective-C applications (64 bit debug symbols)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: lib64stdc++6
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1272
+Depends: gcc-4.4-base (= 4.4.5-8), lib64gcc1 (>= 1:4.1.1), libc6-amd64 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/lib64stdc++6_4.4.5-8_i386.deb
+Size: 341362
+MD5sum: c6ced9687117db81b3dbbdb4cf8d6703
+SHA1: caba91c46af4bbe40f21f1953f1df4c138bd967e
+SHA256: 91bfa778abdc3c2938dfc41561d505ea0a949bd9de0e163b349d95d600dfe911
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Standard C++ Library v3 (64bit)
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+
+Package: lib64stdc++6-4.4-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 24856
+Depends: gcc-4.4-base (= 4.4.5-8), lib64stdc++6 (>= 4.4.5-8), libstdc++6-4.4-dev (= 4.4.5-8), lib64gcc1-dbg, lib64gcc1 (>= 1:4.1.1), libc6-amd64 (>= 2.7-1)
+Conflicts: lib64stdc++6-4.0-dbg, lib64stdc++6-4.1-dbg, lib64stdc++6-4.2-dbg, lib64stdc++6-4.3-dbg, lib64stdc++6-dbg
+Filename: lenny/gcc-4.4-lenny/lib64stdc++6-4.4-dbg_4.4.5-8_i386.deb
+Size: 6416278
+MD5sum: 4bb86fcfcc99ce15a800450d0a040a9c
+SHA1: 3a2ca1f820ebf7e28fdfc11f4c4d6971cac7956a
+SHA256: b49f1a3eb6bcf22b5e48b1f41a300679648ec9a041f6ccead05c6c2a0878a4c6
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: The GNU Standard C++ Library v3 (debugging files)
+ This package contains the shared library of libstdc++ compiled with
+ debugging symbols.
+
+Package: libcloog-isl-dev
+Source: cloog
+Version: 0.18.0-1vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 344
+Depends: libisl-dev (>= 0.11), libgmp-dev | libgmp3-dev, libcloog-isl4 (= 0.18.0-1vnz1), dpkg (>= 1.15.4) | install-info
+Conflicts: libcloog-ppl-dev
+Filename: lenny/cloogisl/libcloog-isl-dev_0.18.0-1vnz1_i386.deb
+Size: 71048
+MD5sum: 621111c4bf0692749e54c8a32d6c6c55
+SHA1: 25010bdb9a3a49e53fce359ae2891daf880051fd
+SHA256: cff28ba5aae41b39d888fa39fb016069521a1e946f3c2dd881fbd144543cfab2
+Section: libdevel
+Priority: optional
+Homepage: http://www.CLooG.org
+Description: Chunky Loop Generator (development files)
+ CLooG is a software which generates loops for scanning Z-polyhedra. That is,
+ CLooG finds the code or pseudo-code where each integral point of one or more
+ parametrized polyhedron or parametrized polyhedra union is reached. CLooG is
+ designed to avoid control overhead and to produce a very efficient code.
+ .
+ This package contains the development files and the cloog binary.
+
+Package: libcloog-isl4
+Source: cloog
+Version: 0.18.0-1vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 164
+Depends: libc6 (>= 2.3.6-6), libgmp3c2, libisl10
+Filename: lenny/cloogisl/libcloog-isl4_0.18.0-1vnz1_i386.deb
+Size: 56464
+MD5sum: 2d4daaa9b5dbf21baae8df2f8e99521a
+SHA1: 915545791ba8880a7e002e1d683dd5e29f9c6272
+SHA256: 72d209dfadeeb667b08f76ef94242cff5834876d3fa95be161b106ad30c277f5
+Section: libs
+Priority: optional
+Homepage: http://www.CLooG.org
+Description: Chunky Loop Generator (runtime library)
+ CLooG is a software which generates loops for scanning Z-polyhedra.
+ .
+ This package contains the runtime library.
+
+Package: libcloog-ppl-dev
+Source: cloog-ppl
+Version: 0.15.11-5vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 296
+Depends: libppl0.11-dev, libgmp-dev | libgmp3-dev, libcloog-ppl0 (= 0.15.11-5vnz1), dpkg (>= 1.15.4) | install-info
+Filename: lenny/cloogppl/libcloog-ppl-dev_0.15.11-5vnz1_i386.deb
+Size: 88728
+MD5sum: 63d02b668a7f916a64bcf40041c0a0e3
+SHA1: 1250845c17c1093e2e4a65bf4779d4e4823e586b
+SHA256: f2e20fc2946384b30a3558174957493a0237d602ea9dc080fbc4e4a01c1dbc70
+Section: libdevel
+Priority: optional
+Homepage: http://www.CLooG.org
+Description: Chunky Loop Generator (development files)
+ CLooG is a software which generates loops for scanning Z-polyhedra. That is,
+ CLooG finds the code or pseudo-code where each integral point of one or more
+ parametrized polyhedron or parametrized polyhedra union is reached. CLooG is
+ designed to avoid control overhead and to produce a very efficient code.
+ .
+ This package contains the development files.
+
+Package: libcloog-ppl0
+Source: cloog-ppl
+Version: 0.15.11-5vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 156
+Depends: libc6 (>= 2.3.6-6), libgmp3c2, libgmpxx4ldbl, libppl-c4, libppl9
+Filename: lenny/cloogppl/libcloog-ppl0_0.15.11-5vnz1_i386.deb
+Size: 50806
+MD5sum: 09bc88f8ee2b35fbd912d3e37a8e8feb
+SHA1: 590409b4bfb9dbb30efb87d927b2f719a8778f83
+SHA256: 80fd4b177104cffbe949b2190204928d9b42a65e7b27a8f2edbccdf62ec9b798
+Section: libs
+Priority: optional
+Homepage: http://www.CLooG.org
+Description: Chunky Loop Generator (runtime library)
+ CLooG is a software which generates loops for scanning Z-polyhedra.
+ .
+ This package contains the runtime library.
+
+Package: libelfg0
+Source: libelf
+Version: 0.8.13-1
+Architecture: i386
+Maintainer: Alex Pennace <alex@pennace.org>
+Installed-Size: 172
+Depends: libc6 (>= 2.3.6-6)
+Conflicts: libelf, libelf0 (<= 0.6.4-5)
+Filename: lenny/libefl/libelfg0_0.8.13-1_i386.deb
+Size: 56008
+MD5sum: 764931f41f0f8c54683ca88b26f6cfa2
+SHA1: 66e56f756a6f10f34048103c1c35b30b8d1899d4
+SHA256: 09b02e78d972b8b19216d401413af6c5c999f29a1e310b3c06c629fd91ed87df
+Section: libs
+Priority: optional
+Description: an ELF object file access library
+ The elf library provides routines to access, and manipulate, Elf object
+ files. It is still not complete, but is required for a number of programs,
+ such as Eli (a state of the art compiler generation system), and Elk (the
+ Extension Language Kit - an implementation of the Scheme programming
+ language.)
+ .
+ This shared library may be needed by pre-packaged programs. To compile
+ programs with this library, you will need to install the libelfg0-dev
+ package as well.
+
+Package: libelfg0-dev
+Source: libelf
+Version: 0.8.13-1
+Architecture: i386
+Maintainer: Alex Pennace <alex@pennace.org>
+Installed-Size: 268
+Depends: libelfg0 (= 0.8.13-1), libc6-dev
+Conflicts: libelf-dev, libelf0-dev, libelf1-dev
+Filename: lenny/libefl/libelfg0-dev_0.8.13-1_i386.deb
+Size: 63208
+MD5sum: 766e97789350be22cf1634a47a7c1ce6
+SHA1: 9db14b0329f19a6b799b364829fc085c8a9bf9df
+SHA256: 006db47bba6526502dd26d6d585079d91e3f611969cefa9157092e4294303560
+Section: libdevel
+Priority: optional
+Description: an ELF object file access library: development files
+ The elf library provides routines to access, and manipulate, Elf object
+ files. It is still not complete, but is required for a number of programs,
+ such as Eli (a state of the art compiler generation system), and Elk (the
+ Extension Language Kit - an implementation of the Scheme programming
+ language.)
+ .
+ This development library is only needed if you intend to compile, or
+ write, your own programs with this library. It holds the static linking
+ library (.a), and the required .so link to libelf0.so.0. To run programs
+ linked with this library, install the libelfg0 package.
+
+Package: libgcc1
+Source: gcc-4.4 (4.4.5-8)
+Version: 1:4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 156
+Depends: gcc-4.4-base (= 4.4.5-8), libc6 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/libgcc1_4.4.5-8_i386.deb
+Size: 55170
+MD5sum: 97431719d9cc49267c6c415754239701
+SHA1: 8311ebe67e805fce83abbe7b2ef40fce581cc61b
+SHA256: 05f1b4d997811020703370a21a50896b0db8886d245fb7dfd9e71b262111c13e
+Section: libs
+Priority: required
+Homepage: http://gcc.gnu.org/
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+
+Package: libgcc1-dbg
+Source: gcc-4.4 (4.4.5-8)
+Version: 1:4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 328
+Depends: gcc-4.4-base (= 4.4.5-8), libgcc1 (= 1:4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/libgcc1-dbg_4.4.5-8_i386.deb
+Size: 79602
+MD5sum: 6347f0557258d747e58777da15e2cfa3
+SHA1: 213b6d8e581299f4691ff8a301cddbca2554c331
+SHA256: a0b2ac37db6b5f30d54eb46bfbabbe948f3a83f24316d69c215ba025e6a5f2b8
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: libgcj-bc
+Source: gcc-defaults (1.89)
+Version: 4.4.1-2
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 40
+Depends: libgcj-common (>= 1:4.2.1-34), libgcj9-0 (>= 4.2.4-1)
+Filename: lenny/gcc-4.4-lenny/libgcj-bc_4.4.1-2_i386.deb
+Size: 1128
+MD5sum: 1fb47c3b25cc71b0f13cd292d1d0dcc6
+SHA1: 3c5dc6259fb83f522f4bd0fe1b6018146a0c049e
+SHA256: 8f9690c9ea5d5b52d5d6e0b12a7c04cdab52d676f0475149ea603170e3ef76a6
+Section: java
+Priority: optional
+Description: Link time only library for use with gcj
+ A fake library that is used at link time only.  It ensures that
+ binaries built with the BC-ABI link against a constant SONAME.
+ This way, BC-ABI binaries continue to work if the SONAME underlying
+ libgcj.so changes.
+
+Package: libgcj-common
+Source: gcc-defaults (1.89)
+Version: 1:4.2.1-34
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 184
+Conflicts: classpath (<= 0.04-4)
+Replaces: java-gcj-compat (<< 1.0.65-8), java-gcj-compat-dev (<< 1.0.80-2)
+Filename: lenny/gcc-4.4-lenny/libgcj-common_4.2.1-34_all.deb
+Size: 26824
+MD5sum: 37f3dd912f64e4f8df4a58e84df2335c
+SHA1: 4dccac340db848488bdd8858ae3a4ba2a4384c57
+SHA256: 5250ad1b463ea495e096b8bb7a55a6b24e37f7802255bf96856b1cd26677b2dd
+Section: java
+Priority: optional
+Description: Java runtime library (common files)
+ This package contains files shared by classpath and libgcj libraries.
+
+Package: libgfortran3
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 852
+Depends: gcc-4.4-base (= 4.4.5-8), libc6 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/libgfortran3_4.4.5-8_i386.deb
+Size: 238072
+MD5sum: 08938d92d5a749f130924db267b927b8
+SHA1: a7f1cc9061ba96dc4915da059ff30c32556b9924
+SHA256: b9a728c53680cc8616e8ee05034db72484c7a074a4c912ce33162f30ef58a3c6
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Fortran applications
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: libgfortran3-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 2096
+Depends: gcc-4.4-base (= 4.4.5-8), libgfortran3 (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/libgfortran3-dbg_4.4.5-8_i386.deb
+Size: 390346
+MD5sum: b8317383017b55f77a31819ea35e9f93
+SHA1: 547d91267d17ea8d85a20054125c50ef3a4432d5
+SHA256: f72bb34cf97eeae7ed5fb14bc838c2cea53fa09c914714960494d92672918963
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Fortran applications (debug symbols)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: libgmp3
+Source: gmp
+Version: 2:4.3.2+dfsg-1vnz1
+Architecture: i386
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Installed-Size: 44
+Depends: libgmp3c2 (= 2:4.3.2+dfsg-1vnz1)
+Suggests: libgmpxx4ldbl (= 2:4.3.2+dfsg-1vnz1), libgmp3-doc
+Conflicts: libgmp2 (<< 2.0.2-10), libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
+Replaces: libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
+Filename: lenny/gmp/libgmp3_4.3.2+dfsg-1vnz1_i386.deb
+Size: 11906
+MD5sum: 2562321edb576f1b7da15570a84f8b41
+SHA1: 7a3998729065a90fbdbfb5d1309418a46358490f
+SHA256: 4a99face3fa6f2fa0634151c77e9d8b6e37244f2ac87a09a103acdb12003411a
+Section: libs
+Priority: optional
+Homepage: http://gmplib.org/
+Description: Multiprecision arithmetic library backguard compat
+ GNU MP is a programmer's library for arbitrary precision
+ arithmetic (ie, a bignum package).  It can operate on signed
+ integer, rational, and floating point numeric types.
+ .
+ It has a rich set of functions, and the functions have a regular
+ interface.
+
+Package: libgmp3-dev
+Source: gmp
+Version: 2:4.3.2+dfsg-1vnz1
+Architecture: i386
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Installed-Size: 1768
+Depends: libgmp3c2 (= 2:4.3.2+dfsg-1vnz1), libgmpxx4ldbl (= 2:4.3.2+dfsg-1vnz1)
+Recommends: libstdc++-dev
+Suggests: libgmp3-doc, libmpfr-dev
+Conflicts: libgmp2-dev
+Replaces: libgmp2-dev
+Filename: lenny/gmp/libgmp3-dev_4.3.2+dfsg-1vnz1_i386.deb
+Size: 653990
+MD5sum: ff246deb7c16c14e8c883204011ce528
+SHA1: fc5e5c0510c0ea0c97f20c6d27fbe7500aa72a04
+SHA256: 6a98ad934ce927c93325ea64ed5b03c71a660850d8a618b0e80159601e6c750c
+Section: libdevel
+Priority: optional
+Homepage: http://gmplib.org/
+Description: Multiprecision arithmetic library developers tools
+ This development package provides the header files and the symbolic
+ links to allow compilation and linking of programs that use the libraries
+ provided in the libgmp3 package.
+ .
+ Both C and C++ bindings are present in this package.  Package
+ libstdc++-dev is required to use the C++ bindings.
+ .
+ The MPFR library (multiple-precision floating-point) used to be
+ included, but has since been moved to package libmpfr-dev.
+
+Package: libgmp3-doc
+Source: gmp
+Version: 2:4.3.2+dfsg-1vnz1
+Architecture: all
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Installed-Size: 320
+Replaces: libgmp3 (<< 3.1.1-8)
+Filename: lenny/gmp/libgmp3-doc_4.3.2+dfsg-1vnz1_all.deb
+Size: 149170
+MD5sum: 00f1547e1f7a47432c5d984397734215
+SHA1: 55fa7a7d18cc949804a95ee48d42ac0803d647de
+SHA256: 0e4a27ce0df2ed4818db1766d176269aaae945d9fbef933d6cd7aedac5144b66
+Section: doc
+Priority: optional
+Homepage: http://gmplib.org/
+Description: Multiprecision arithmetic library example code
+ This package provides example code illustrating the use of GMP.
+
+Package: libgmp3c2
+Source: gmp
+Version: 2:4.3.2+dfsg-1vnz1
+Architecture: i386
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Installed-Size: 668
+Depends: libc6 (>= 2.3.6-6)
+Suggests: libgmpxx4ldbl (= 2:4.3.2+dfsg-1vnz1), libgmp3-doc
+Conflicts: libgmp2 (<< 2.0.2-10), libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
+Replaces: libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
+Filename: lenny/gmp/libgmp3c2_4.3.2+dfsg-1vnz1_i386.deb
+Size: 314516
+MD5sum: 13c1990d99b6d8a7791e9add93c779d8
+SHA1: 43442507422fe9e1b8252f6ecdeca38259672e4e
+SHA256: abc27b32712459af44dd1a437718a98c462f9dcb920fada9a520351e4e38c4d8
+Section: libs
+Priority: optional
+Homepage: http://gmplib.org/
+Description: Multiprecision arithmetic library
+ GNU MP is a programmer's library for arbitrary precision
+ arithmetic (ie, a bignum package).  It can operate on signed
+ integer, rational, and floating point numeric types.
+ .
+ It has a rich set of functions, and the functions have a regular
+ interface.
+
+Package: libgmpxx4ldbl
+Source: gmp
+Version: 2:4.3.2+dfsg-1vnz1
+Architecture: i386
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Installed-Size: 84
+Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libstdc++6 (>= 4.1.1-12)
+Conflicts: libgmp2 (<< 2.0.2-10), libgmp3 (<< 2:4.3.2+dfsg-1vnz1), libgmpxx4
+Replaces: libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
+Provides: libgmpxx4
+Filename: lenny/gmp/libgmpxx4ldbl_4.3.2+dfsg-1vnz1_i386.deb
+Size: 18686
+MD5sum: 1a94cf7a41a3d4eb2e51c67d94928858
+SHA1: 03f4be8dbc05a7972d5a92ae26fbe0810abafe71
+SHA256: 4f3366f4317b79f6a46dec6ecf6e78fa4f0e3f3ce0cd7312e82e980b6e1fac5b
+Section: libs
+Priority: optional
+Homepage: http://gmplib.org/
+Description: Multiprecision arithmetic library (C++ bindings)
+ GNU MP is a programmer's library for arbitrary precision
+ arithmetic (ie, a bignum package).  It can operate on signed
+ integer, rational, and floating point numeric types.
+
+Package: libgomp1
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 84
+Depends: gcc-4.4-base (= 4.4.5-8), libc6 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/libgomp1_4.4.5-8_i386.deb
+Size: 24024
+MD5sum: 5e27e0069d873ab05f46e43fffb248e7
+SHA1: 718105cf43d5cfcf3812c69dbcdc4d306473da51
+SHA256: 765470f9ece744bc5ab5da301bdd97150d178452ba7de0512d42355068167962
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
+Package: libgomp1-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 224
+Depends: gcc-4.4-base (= 4.4.5-8), libgomp1 (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/libgomp1-dbg_4.4.5-8_i386.deb
+Size: 62040
+MD5sum: 0f258da2ec729243189f790552a195a5
+SHA1: 9bb4c6262a8b1768746f87cc377c3f5d13df8af0
+SHA256: d7250bec6a5dea478ad08a1b9917ee50f1677ad8951459a58d3ea335006a9f5f
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library (debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
+Package: libisl-dbg
+Source: isl
+Version: 0.11.1-1vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1872
+Depends: libisl10 (= 0.11.1-1vnz1)
+Replaces: libisl-dev (<< 0.08)
+Filename: lenny/cloogisl/libisl-dbg_0.11.1-1vnz1_i386.deb
+Size: 706008
+MD5sum: 2095ca2c527aae158e1e5f9c0203fd80
+SHA1: 787008399711ad9f246c22b88d3d78a02e7aa6a7
+SHA256: 927ad54cfab2ec0de63699eb2c1b83ec2f3ec1085a828e73ac600ab0684ab3da
+Section: debug
+Priority: extra
+Homepage: http://freecode.com/projects/isl
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains debug files.
+
+Package: libisl-dev
+Source: isl
+Version: 0.11.1-1vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1672
+Depends: libisl10 (= 0.11.1-1vnz1)
+Filename: lenny/cloogisl/libisl-dev_0.11.1-1vnz1_i386.deb
+Size: 476886
+MD5sum: ebe88ccf1f25f19bda958759244346e6
+SHA1: 2b6da2da4183e11382ad19baeb6683d331f16e17
+SHA256: 5fbf489af4a45e01f8a80c217818634dec390582467d684801c47eac6fc6372f
+Section: libdevel
+Priority: optional
+Homepage: http://freecode.com/projects/isl
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the development files.
+
+Package: libisl10
+Source: isl
+Version: 0.11.1-1vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1016
+Depends: libc6 (>= 2.3.6-6), libgmp3c2
+Filename: lenny/cloogisl/libisl10_0.11.1-1vnz1_i386.deb
+Size: 409344
+MD5sum: df6258ba17e32bf872b8e3955cf2d913
+SHA1: ffa04994af77e4e2a4193052c07d870909c9e682
+SHA256: 735209bebaf27e5744bc9b565933a4e1fcd12c8faeaf8c80c62b9503b89d74ef
+Section: libs
+Priority: optional
+Homepage: http://freecode.com/projects/isl
+Description: manipulating sets and relations of integer points bounded by linear constraints
+ isl is a library for manipulating sets and relations of integer points
+ bounded by linear constraints. Supported operations on sets include
+ intersection, union, set difference, emptiness check, convex hull,
+ (integer) affine hull, integer projection, and computing the lexicographic
+ minimum using parametric integer programming. It also includes an ILP solver
+ based on generalized basis reduction.
+ .
+ This package contains the runtime library.
+
+Package: libmpc-dev
+Source: mpclib
+Version: 0.9-2vnz1
+Architecture: i386
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 220
+Depends: libmpc2 (= 0.9-2vnz1), libmpfr-dev, libgmp-dev | libgmp3-dev
+Filename: lenny/mpc/libmpc-dev_0.9-2vnz1_i386.deb
+Size: 42792
+MD5sum: 7e709c497f8128bbad7712e2e59e5842
+SHA1: fcc2b8d73c2a678915483f49a59d1b1dca55a203
+SHA256: 95e2fe9bd79286c59b6040310eb0d9d2f731ba6d1228d48d11760e2a3d4421ea
+Section: libdevel
+Priority: extra
+Homepage: http://www.multiprecision.org/mpc/
+Description: multiple precision complex floating-point library development package
+ MPC is a portable library written in C for arbitrary precision
+ arithmetic on complex numbers providing correct rounding. For the time
+ being, it contains all arithmetic operations over complex numbers, the
+ exponential and the logarithm functions, the trigonometric and
+ hyperbolic functions.
+ .
+ Ultimately, it should implement a multiprecision equivalent of the ISO
+ C99 standard.
+ .
+ It builds upon the GNU MP and the MPFR libraries.
+
+Package: libmpc2
+Source: mpclib
+Version: 0.9-2vnz1
+Architecture: i386
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 128
+Depends: libc6 (>= 2.3.6-6), libgmp3c2, libmpfr4
+Filename: lenny/mpc/libmpc2_0.9-2vnz1_i386.deb
+Size: 33798
+MD5sum: 7be70579fc741a7a65fd89709e7b096d
+SHA1: 60fcf2f0fee31bdbde75062e77fa0870c355ac31
+SHA256: 348a118a536896d4b66a1a384200843ec183c46dfd3371a1435c850f1513332a
+Section: libs
+Priority: extra
+Homepage: http://www.multiprecision.org/mpc/
+Description: multiple precision complex floating-point library
+ MPC is a portable library written in C for arbitrary precision
+ arithmetic on complex numbers providing correct rounding. For the time
+ being, it contains all arithmetic operations over complex numbers, the
+ exponential and the logarithm functions, the trigonometric and
+ hyperbolic functions.
+ .
+ Ultimately, it should implement a multiprecision equivalent of the ISO
+ C99 standard.
+ .
+ It builds upon the GNU MP and the MPFR libraries.
+
+Package: libmpfi-dev
+Source: mpfi
+Version: 1.5.1-3vnz1
+Architecture: i386
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 290
+Depends: libgmp-dev | libgmp3-dev, libmpfr-dev (>= 2.2.0.dfsg.1-1), libmpfi0 (= 1.5.1-3vnz1), dpkg (>= 1.15.4) | install-info
+Filename: lenny/mpfi/libmpfi-dev_1.5.1-3vnz1_i386.deb
+Size: 68120
+MD5sum: 88c4e36fb4c6cbe8731d05e389060ec5
+SHA1: 27ac5482d7c9b804843997ae730eecc66ba5f8ad
+SHA256: e1d4ab4d78dd6df323d2b0073b6d8b96f21fbc6280dea2c7ee3b8d48e6323188
+Section: libdevel
+Priority: optional
+Homepage: http://mpfi.gforge.inria.fr/
+Description: multiple precision floating-point interval computation library
+ This package provides a C library of functions for interval arithmetic
+ computations with arbitrary precision.
+ .
+ The basic principle of interval arithmetic consists in enclosing every number
+ by an interval containing it and being representable by machine numbers: for
+ instance it can be stored as its lower and upper endpoints and these bounds
+ are machine numbers, or as a centre and a radius which are machine numbers.
+ .
+ The arithmetic operations are extended for interval operands in such a way
+ that the exact result of the operation belongs to the computed interval.
+ .
+ The purpose of an arbitrary precision interval arithmetic is on the one hand
+ to get guaranteed results, thanks to interval computation, and on the other
+ hand to obtain accurate results, thanks to multiple precision arithmetic. The
+ MPFI library is built upon MPFR in order to benefit from the correct roundings
+ provided by MPFR. Further advantages of using MPFR are its portability and
+ compliance with the IEEE 754 standard for floating-point arithmetic.
+
+Package: libmpfi0
+Source: mpfi
+Version: 1.5.1-3vnz1
+Architecture: i386
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 118
+Depends: libc6 (>= 2.3), libgmp3c2, libmpfr4
+Filename: lenny/mpfi/libmpfi0_1.5.1-3vnz1_i386.deb
+Size: 39670
+MD5sum: e1be1a9d0fe90eff586d8d41f02dfa73
+SHA1: e3de4cd970b545a4d6c95d980a869876a4307bbf
+SHA256: e7bed11c2bfa6ae3de4aaf2cb3d8699479602862e8b3144cda2e15ecd7252ccc
+Section: libs
+Priority: optional
+Homepage: http://mpfi.gforge.inria.fr/
+Description: multiple precision floating-point interval computation library
+ This package provides a C library of functions for interval arithmetic
+ computations with arbitrary precision.
+ .
+ The basic principle of interval arithmetic consists in enclosing every number
+ by an interval containing it and being representable by machine numbers: for
+ instance it can be stored as its lower and upper endpoints and these bounds
+ are machine numbers, or as a centre and a radius which are machine numbers.
+ .
+ The arithmetic operations are extended for interval operands in such a way
+ that the exact result of the operation belongs to the computed interval.
+ .
+ The purpose of an arbitrary precision interval arithmetic is on the one hand
+ to get guaranteed results, thanks to interval computation, and on the other
+ hand to obtain accurate results, thanks to multiple precision arithmetic. The
+ MPFI library is built upon MPFR in order to benefit from the correct roundings
+ provided by MPFR. Further advantages of using MPFR are its portability and
+ compliance with the IEEE 754 standard for floating-point arithmetic.
+ .
+ This package provides the dynamic library.
+
+Package: libmpfr-dev
+Source: mpfr4
+Version: 3.0.1-4
+Architecture: i386
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 1020
+Depends: libgmp-dev | libgmp3-dev, libmpfr4 (= 3.0.1-4)
+Suggests: libmpfr-doc
+Conflicts: libgmp3-dev (<< 4.1.4-3)
+Replaces: libgmp3-dev (<< 4.1.4-3)
+Filename: lenny/mpfr/libmpfr-dev_3.0.1-4_i386.deb
+Size: 522580
+MD5sum: 6cf17dd32fc98c6c9c586c9d0cc5725a
+SHA1: 6c6db33bcce5ea5f8e5a6258d4e0d74306bcfb9a
+SHA256: a81709a903ea84129ac20bf4c1f1ee52f4a4f61f1a5a7d4724ae730f0005c2de
+Section: libdevel
+Priority: optional
+Homepage: http://www.mpfr.org/
+Description: multiple precision floating-point computation developers tools
+ This development package provides the header files and the symbolic
+ links to allow compilation and linking of programs that use the libraries
+ provided in the libmpfr4 package.
+ .
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
+Package: libmpfr-doc
+Source: mpfr4
+Version: 3.0.1-4
+Architecture: all
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 1208
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: lenny/mpfr/libmpfr-doc_3.0.1-4_all.deb
+Size: 767266
+MD5sum: 744051f7fd1e0dddd6ba378de17294d6
+SHA1: 1d27d88eac99d3a4156a4e14382c42a71988323e
+SHA256: 1b239fd575c62cbc24cb12958473a46cc2da88fc445dd3ddf3d50054c8d07fe7
+Section: doc
+Priority: optional
+Homepage: http://www.mpfr.org/
+Description: multiple precision floating-point computation documentation
+ This package provides documentation for the multiple-precision floating-point
+ computation library MPFR.
+ .
+ The documentation is available as html and PDF.
+
+Package: libmpfr4
+Source: mpfr4
+Version: 3.0.1-4
+Architecture: i386
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 712
+Depends: libc6 (>= 2.3.6-6), libgmp3c2
+Conflicts: libgmp3 (<< 4.1.4-3)
+Filename: lenny/mpfr/libmpfr4_3.0.1-4_i386.deb
+Size: 472722
+MD5sum: c5a4e5c63015cd4e028338bd5d441ecc
+SHA1: fc1cbbe6488e445d319d43e1bf77531ea0d3c76a
+SHA256: 17e26b5e9b1e30143bb172c43a992146161a41cee6c36afb459bf2f318af39c3
+Section: libs
+Priority: optional
+Homepage: http://www.mpfr.org/
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+
+Package: libmpfr4-dbg
+Source: mpfr4
+Version: 3.0.1-4
+Architecture: i386
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Installed-Size: 1156
+Depends: libmpfr4 (= 3.0.1-4)
+Filename: lenny/mpfr/libmpfr4-dbg_3.0.1-4_i386.deb
+Size: 533048
+MD5sum: a593f9b4835350d2a165aba714281b97
+SHA1: 8bbf4bad1ecf30e1e5d78afda02fb10a14838303
+SHA256: e0e96656e80dee38cea9f43898c4271cf39e4a91fb1361768460b9df62bac965
+Section: debug
+Priority: extra
+Homepage: http://www.mpfr.org/
+Description: multiple precision floating-point computation
+ MPFR provides a library for multiple-precision floating-point computation
+ with correct rounding.  The computation is both efficient and has a
+ well-defined semantics. It copies the good ideas from the
+ ANSI/IEEE-754 standard for double-precision floating-point arithmetic
+ (53-bit mantissa).
+ .
+ This package contains the debugging symbols for libmpfr4.
+
+Package: libmudflap0
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 248
+Depends: gcc-4.4-base (= 4.4.5-8), libc6 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/libmudflap0_4.4.5-8_i386.deb
+Size: 81820
+MD5sum: 029194d8b639022c7c93e1591cf68c52
+SHA1: c41786dbf2a1f1a6e437cb04ee74016b1e60e444
+SHA256: 6bb6bff21fa09ce83983fa9fbf5f3e6e5538bbd4f18d0ebf0de49a2f2f005bd3
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC mudflap shared support libraries
+ The libmudflap libraries are used by GCC for instrumenting pointer and array
+ dereferencing operations.
+
+Package: libmudflap0-4.4-dev
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 836
+Depends: gcc-4.4-base (= 4.4.5-8), libmudflap0 (>= 4.4.5-8), libc6-dev (>= 2.5)
+Conflicts: libmudflap0-dev
+Filename: lenny/gcc-4.4-lenny/libmudflap0-4.4-dev_4.4.5-8_i386.deb
+Size: 215468
+MD5sum: bd15d76893c22676c04d7532dc5588b8
+SHA1: c46aaf4e84f810c906e6d49672626820e4517fe1
+SHA256: 94409d7e3d3fa265fe7e80315ae10e55f6f6dbf149e55bc6039e6dcb5d5643a8
+Section: libdevel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC mudflap support libraries (development files)
+ The libmudflap libraries are used by GCC for instrumenting pointer and array
+ dereferencing operations.
+ .
+ This package contains the headers and the static libraries.
+
+Package: libmudflap0-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 328
+Depends: gcc-4.4-base (= 4.4.5-8), libmudflap0 (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/libmudflap0-dbg_4.4.5-8_i386.deb
+Size: 121000
+MD5sum: 0fa03fe953822fe649a25c21641772df
+SHA1: 8fec394408f767e5c6f148e456fe1fca8b9edcc8
+SHA256: f8be4a48cbe5e399aa861415bfcbeb92c0b41a72efbc78e44c2eb61a0d5ab047
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC mudflap shared support libraries (debug symbols)
+ The libmudflap libraries are used by GCC for instrumenting pointer and array
+ dereferencing operations.
+
+Package: libobjc2
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 396
+Depends: gcc-4.4-base (= 4.4.5-8), libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1)
+Filename: lenny/gcc-4.4-lenny/libobjc2_4.4.5-8_i386.deb
+Size: 152130
+MD5sum: 6c3b0cb15d487a9a0cb9fae7d0e49050
+SHA1: f8327050192ab53e1f14a253dfa8745081df7390
+SHA256: 65c425d1541b301c4c0ce117409772b8bca8412c8bbe7410da01e2684d60a104
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Objective-C applications
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: libobjc2-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 704
+Depends: gcc-4.4-base (= 4.4.5-8), libobjc2 (= 4.4.5-8), libgcc1-dbg
+Filename: lenny/gcc-4.4-lenny/libobjc2-dbg_4.4.5-8_i386.deb
+Size: 268676
+MD5sum: 85e22b5f507aa035d27b2be35815fba9
+SHA1: b646ed870b97d2ec7c4e44285a6baa1b5acbd5b4
+SHA256: 1ea8137509917c1a3a37400d8031300320fa3915e3b73e59a7013f12cbfbc0bd
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Objective-C applications (debug symbols)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: libppl-c4
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 4532
+Depends: libppl9 (= 0.11.2-8vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libpwl5, libstdc++6 (>= 4.1.1-12)
+Suggests: libppl0.11-dev
+Filename: lenny/cloogppl/libppl-c4_0.11.2-8vnz1_i386.deb
+Size: 1269834
+MD5sum: 68a21aeac7a1c5de45fb29e431215b33
+SHA1: fb6b98536b303ec8e0352a9d90ddd9b0de990ffb
+SHA256: 95f02c10f12e397e087615993df9bbe67b8a7c818244f6aafcc90b463807268b
+Section: libs
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Polyhedra Library (C interface)
+ The Parma Polyhedra Library (PPL) is a C++ library for the
+ manipulation of (not necessarily closed) convex polyhedra and other
+ numerical abstractions.  The applications of convex polyhedra include
+ program analysis, optimized compilation, integer and combinatorial
+ optimization and statistical data-editing.  The Parma Polyhedra
+ Library is user friendly (you write `x + 2*y + 5*z <= 7' when you
+ mean it), fully dynamic (available virtual memory is the only
+ limitation to the dimension of anything), written in standard C++,
+ exception-safe, rather efficient and thoroughly documented.
+ .
+ This package provides the C interface.
+
+Package: libppl-doc
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 12124
+Filename: lenny/cloogppl/libppl-doc_0.11.2-8vnz1_all.deb
+Size: 4339350
+MD5sum: b8b517a23a9e4d175ea4eedecda09657
+SHA1: da21745bec5a1c20a1e9cb2414de07d342a2c957
+SHA256: 738f69141f5008ba78341652ed4501799f2d2b731228b29b8b6ff33c36a51d81
+Section: doc
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Polyhedra Library: Documentation
+ The Parma Polyhedra Library (PPL) is a C++ library for the
+ manipulation of (not necessarily closed) convex polyhedra and other
+ numerical abstractions.  The applications of convex polyhedra include
+ program analysis, optimized compilation, integer and combinatorial
+ optimization and statistical data-editing.  The Parma Polyhedra
+ Library is user friendly (you write `x + 2*y + 5*z <= 7' when you
+ mean it), fully dynamic (available virtual memory is the only
+ limitation to the dimension of anything), written in standard C++,
+ exception-safe, rather efficient and thoroughly documented.
+ .
+ This package provides the documentation.
+
+Package: libppl-swi
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 23348
+Depends: libppl9 (= 0.11.2-8vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libpwl5, libstdc++6 (>= 4.1.1-12), swi-prolog
+Filename: lenny/cloogppl/libppl-swi_0.11.2-8vnz1_i386.deb
+Size: 4714598
+MD5sum: 28ca858b616805acde2ab073cd0f8f35
+SHA1: 5f81dd8e7385449f9a48b652eefed2ffda11435c
+SHA256: de8d39da3e74063e70a221078d3e8b013f592f16dc35ad9ad1708a75c112764d
+Section: libs
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Polyhedra Library (SWI Prolog interface)
+ The Parma Polyhedra Library (PPL) is a C++ library for the
+ manipulation of (not necessarily closed) convex polyhedra and other
+ numerical abstractions.  The applications of convex polyhedra include
+ program analysis, optimized compilation, integer and combinatorial
+ optimization and statistical data-editing.  The Parma Polyhedra
+ Library is user friendly (you write `x + 2*y + 5*z <= 7' when you
+ mean it), fully dynamic (available virtual memory is the only
+ limitation to the dimension of anything), written in standard C++,
+ exception-safe, rather efficient and thoroughly documented.
+ .
+ This package provides the SWI Prolog interface.
+
+Package: libppl0.11-dev
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 22740
+Depends: libppl9 (= 0.11.2-8vnz1), libppl-c4 (= 0.11.2-8vnz1)
+Recommends: libgmp3-dev (>= 4.1.3)
+Suggests: libppl-doc
+Conflicts: libppl0.10-dev
+Replaces: libppl6, libppl7 (<< 0.10~pre27-4), libppl9
+Provides: libppl-c-dev, libppl-dev
+Filename: lenny/cloogppl/libppl0.11-dev_0.11.2-8vnz1_i386.deb
+Size: 4179564
+MD5sum: 3c86b2888caa021246f9dbb4500df2fd
+SHA1: 32a574bc9d54b589af1bb83ed921989cf327010d
+SHA256: fa8daea9a83e0e5f876d9ca9e0098408a02cce651e2669cb26b396c7c8ea32af
+Section: libdevel
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Polyhedra Library (development)
+ The Parma Polyhedra Library (PPL) is a C++ library for the
+ manipulation of (not necessarily closed) convex polyhedra and other
+ numerical abstractions.  The applications of convex polyhedra include
+ program analysis, optimized compilation, integer and combinatorial
+ optimization and statistical data-editing.  The Parma Polyhedra
+ Library is user friendly (you write `x + 2*y + 5*z <= 7' when you
+ mean it), fully dynamic (available virtual memory is the only
+ limitation to the dimension of anything), written in standard C++,
+ exception-safe, rather efficient and thoroughly documented.
+ .
+ This package provides the header files and static libraries for the
+ C and C++ interfaces.
+
+Package: libppl9
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1308
+Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libstdc++6 (>= 4.1.1-12)
+Suggests: libppl-swi (= 0.11.2-8vnz1), libppl-c4 (= 0.11.2-8vnz1), libpwl5 (= 0.11.2-8vnz1)
+Filename: lenny/cloogppl/libppl9_0.11.2-8vnz1_i386.deb
+Size: 519230
+MD5sum: 0442291b48fdcd84bc7130dd706ab294
+SHA1: 778e31eccb84de89d4a08a8f643f150fdb4a37f6
+SHA256: edd8a56ebe2681a5546bf6a2eba66102cb15c07329f246f7dbf890cf2039363c
+Section: libs
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Polyhedra Library (runtime library)
+ The Parma Polyhedra Library (PPL) is a C++ library for the
+ manipulation of (not necessarily closed) convex polyhedra and other
+ numerical abstractions.  The applications of convex polyhedra include
+ program analysis, optimized compilation, integer and combinatorial
+ optimization and statistical data-editing.  The Parma Polyhedra
+ Library is user friendly (you write `x + 2*y + 5*z <= 7' when you
+ mean it), fully dynamic (available virtual memory is the only
+ limitation to the dimension of anything), written in standard C++,
+ exception-safe, rather efficient and thoroughly documented.
+
+Package: libpwl-dev
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 160
+Depends: libpwl5 (= 0.11.2-8vnz1)
+Replaces: libpwl3, libpwl4
+Provides: libppl-pwl-dev
+Filename: lenny/cloogppl/libpwl-dev_0.11.2-8vnz1_i386.deb
+Size: 42046
+MD5sum: 0c38c63127a7af01f87d0294b2d4d2f1
+SHA1: 0f497966ac9905037e58b43702ad9ac9099e6c21
+SHA256: df02403b17979dc07538175bffae736a21c509d1ae732622019eb7899f2fd82a
+Section: libdevel
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Watchdog Library (Watchdog timers - development)
+ The Parma Watchdog Library (PWL) provides support for multiple,
+ concurrent watchdog timers on systems providing setitimer(2).  The
+ PWL is currently distributed with the Parma Polyhedra Library (PPL),
+ but is totally independent from it.
+ .
+ This package provides the header files and static libraries.
+
+Package: libpwl5
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 112
+Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libstdc++6 (>= 4.1.1-12)
+Provides: libppl-pwl
+Filename: lenny/cloogppl/libpwl5_0.11.2-8vnz1_i386.deb
+Size: 32122
+MD5sum: d72fe0b35114e157862cb3bbe6e18676
+SHA1: 456365ff98b1be8786dd3187b78ea863eb6e35d0
+SHA256: b3956880212a4a499c99b2907c20a7d47f62b55fb23dab36e77f37986bd6f594
+Section: libs
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Watchdog Library (Watchdog timers - runtime library)
+ The Parma Watchdog Library (PWL) provides support for multiple,
+ concurrent watchdog timers on systems providing setitimer(2).  The
+ PWL is currently distributed with the Parma Polyhedra Library (PPL),
+ but is totally independent from it.
+
+Package: libstdc++6
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1204
+Depends: gcc-4.4-base (= 4.4.5-8), libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1)
+Conflicts: scim (<< 1.4.2-1)
+Filename: lenny/gcc-4.4-lenny/libstdc++6_4.4.5-8_i386.deb
+Size: 346318
+MD5sum: 878ca2b3cdbb466d6e23e7db05f46ecf
+SHA1: 490539e5623512bf70969ee04f67a82fce4c7227
+SHA256: c2a095ec8c7566ecf27a5b8c9e3e3a543a36001ccda5e2cdc50651c7a9da557d
+Section: libs
+Priority: required
+Homepage: http://gcc.gnu.org/
+Description: The GNU Standard C++ Library v3
+ This package contains an additional runtime library for C++ programs
+ built with the GNU compiler.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+
+Package: libstdc++6-4.4-dbg
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 13152
+Depends: gcc-4.4-base (= 4.4.5-8), libstdc++6 (>= 4.4.5-8), libgcc1-dbg, libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1)
+Recommends: libstdc++6-4.4-dev (= 4.4.5-8)
+Conflicts: libstdc++5-3.3-dbg, libstdc++5-dbg, libstdc++6-4.0-dbg, libstdc++6-4.1-dbg, libstdc++6-4.2-dbg, libstdc++6-4.3-dbg, libstdc++6-dbg
+Filename: lenny/gcc-4.4-lenny/libstdc++6-4.4-dbg_4.4.5-8_i386.deb
+Size: 3813938
+MD5sum: 8a8fdca4650f40aa792d578b788d74d8
+SHA1: 164b9db04ae2faa9e4ed7cd90fd080772f30fd19
+SHA256: a58f8a74a54230f793ddb03420816dbcbf0d6478254e7fd6799aca0594723c0b
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: The GNU Standard C++ Library v3 (debugging files)
+ This package contains the shared library of libstdc++ compiled with
+ debugging symbols.
+
+Package: libstdc++6-4.4-dev
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 10228
+Depends: gcc-4.4-base (= 4.4.5-8), g++-4.4 (= 4.4.5-8), libstdc++6 (>= 4.4.5-8), libc6-dev (>= 2.5)
+Suggests: libstdc++6-4.4-doc
+Conflicts: libg++2.8-dev, libg++27-dev, libg++272-dev (<< 2.7.2.8-1), libstdc++2.10-dev (<< 1:2.95.3-2), libstdc++2.8-dev, libstdc++2.9-dev, libstdc++2.9-glibc2.1-dev, libstdc++3.0-dev
+Provides: libstdc++-dev
+Filename: lenny/gcc-4.4-lenny/libstdc++6-4.4-dev_4.4.5-8_i386.deb
+Size: 1490744
+MD5sum: 899ba58bdaad8c42b82d87257526e0cf
+SHA1: ab9ea71642fa27b93df8000bd895c1cbceefa3a8
+SHA256: f94bea7bde8e32db25d36ebea6a7fbfaa710c2d614e5350e86eca4cb78de1618
+Section: libdevel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Standard C++ Library v3 (development files)
+ This package contains the headers and static library files necessary for
+ building C++ programs which use libstdc++.
+ .
+ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+ was included up to g++-2.95. The first version of libstdc++-v3 appeared
+ in g++-3.0.
+
+Package: libstdc++6-4.4-doc
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 64860
+Depends: gcc-4.4-base (>= 4.4.4-17)
+Conflicts: libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-4.1-doc, libstdc++6-4.2-doc, libstdc++6-4.3-doc, libstdc++6-doc
+Filename: lenny/gcc-4.4-lenny/libstdc++6-4.4-doc_4.4.5-8_all.deb
+Size: 10180944
+MD5sum: 50563616ed1058498c62d27544a96829
+SHA1: 542e0e504670b8fc67f23c76342601089b8bb4e6
+SHA256: 1741405a74455bb14fff9386acc3abf9599b29156a9158e2dbed8160e52b1c65
+Section: doc
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: The GNU Standard C++ Library v3 (documentation files)
+ This package contains documentation files for the GNU stdc++ library.
+ .
+ One set is the distribution documentation, the other set is the
+ source documentation including a namespace list, class hierarchy,
+ alphabetical list, compound list, file list, namespace members,
+ compound members and file members.
+
+Package: libstdc++6-4.4-pic
+Source: gcc-4.4
+Version: 4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 2424
+Depends: gcc-4.4-base (= 4.4.5-8), libstdc++6 (>= 4.4.5-8), libstdc++6-4.4-dev (= 4.4.5-8)
+Filename: lenny/gcc-4.4-lenny/libstdc++6-4.4-pic_4.4.5-8_i386.deb
+Size: 499120
+MD5sum: 0b3534452698c4bc9b1c85a115e2adca
+SHA1: 7f724d41ee98591cbb3ff14b86a4d918d8b5af12
+SHA256: a174a06c56d7d7bec63654010ac1d38dc26e784e549d540557eb3f04ea75aca7
+Section: libdevel
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: The GNU Standard C++ Library v3 (shared library subset kit)
+ This is used to develop subsets of the libstdc++ shared libraries for
+ use on custom installation floppies and in embedded systems.
+ .
+ Unless you are making one of those, you will not need this package.
+
+Package: ppl-dev
+Source: ppl
+Version: 0.11.2-8vnz1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 232
+Depends: libppl0.11-dev (= 0.11.2-8vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libppl9, libstdc++6 (>= 4.1.1-12)
+Replaces: libppl0.11-dev (<< 0.11.2-8~)
+Filename: lenny/cloogppl/ppl-dev_0.11.2-8vnz1_i386.deb
+Size: 121752
+MD5sum: e639ac89e19d08ebe4002a849c7fca16
+SHA1: bc6ad3ce3faeb3c5a0cc20c98021a97bad31be52
+SHA256: 390ad0149b0ab4aa08813ae1a97db2834baaf0ac48aeb623e4b8fcc523b259f9
+Section: devel
+Priority: optional
+Homepage: http://www.cs.unipr.it/ppl/
+Description: Parma Polyhedra Library (development binaries)
+ The Parma Polyhedra Library (PPL) is a C++ library for the
+ manipulation of (not necessarily closed) convex polyhedra and other
+ numerical abstractions.  The applications of convex polyhedra include
+ program analysis, optimized compilation, integer and combinatorial
+ optimization and statistical data-editing.  The Parma Polyhedra
+ Library is user friendly (you write `x + 2*y + 5*z <= 7' when you
+ mean it), fully dynamic (available virtual memory is the only
+ limitation to the dimension of anything), written in standard C++,
+ exception-safe, rather efficient and thoroughly documented.
+ .
+ This package provides the ppl-config binary.
+
+Package: protoize
+Source: gcc-4.4 (4.4.5-8)
+Version: 1:4.4.5-8
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 120
+Depends: gcc-4.4-base (= 4.4.5-8), gcc-4.4 (>= 4.4.5-8), libc6 (>= 2.7-1)
+Filename: lenny/gcc-4.4-lenny/protoize_4.4.5-8_i386.deb
+Size: 41874
+MD5sum: b02c3976c0cdb665dedc85dbeb150f68
+SHA1: ae6e184aee3c5498ba2b919f432b20731529873a
+SHA256: 465c790dd2277ca7e9608ef618a986e07eaa4ff031799dd765485e838cd6f409
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Create/remove ANSI prototypes from C code
+ "protoize" can be used to add prototypes to a program, thus converting
+ the program to ANSI C in one respect.  The companion program "unprotoize"
+ does the reverse: it removes argument types from any prototypes
+ that are found.
+
+Package: swi-prolog
+Version: 5.8.2-1vnz1
+Architecture: i386
+Maintainer: Chris Lamb <lamby@debian.org>
+Installed-Size: 48
+Depends: swi-prolog-nox (= 5.8.2-1vnz1), swi-prolog-x (= 5.8.2-1vnz1)
+Suggests: swi-prolog-doc, prolog-el
+Filename: lenny/swiprolog/swi-prolog_5.8.2-1vnz1_i386.deb
+Size: 11652
+MD5sum: 301ae41077c2c1df6ad6d87c5aec1b66
+SHA1: a09b0762f9dee8fe14227d725219236abd6e2357
+SHA256: 9bd7996dc985d6c69e463fbca7ab56cb9095eff2b5cd7c2f30671424da7b58b1
+Section: interpreters
+Priority: optional
+Homepage: http://www.swi-prolog.org
+Description: ISO/Edinburgh-style Prolog interpreter
+ SWI-Prolog is a fast and powerful ISO/Edinburgh-style Prolog compiler with a
+ rich set of built-in predicates. It offers a fast, robust and small
+ environment which enables substantial applications to be developed with it.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+
+Package: swi-prolog-nox
+Source: swi-prolog
+Version: 5.8.2-1vnz1
+Architecture: i386
+Maintainer: Chris Lamb <lamby@debian.org>
+Installed-Size: 11928
+Depends: libc6 (>= 2.3.6-6), libgmp3c2, libncursesw5 (>= 5.4-5), libreadline5 (>= 5.2), libgmp3-dev, libreadline-dev
+Suggests: swi-prolog-doc, prolog-el
+Conflicts: swi-prolog (<< 5.8.2-1)
+Replaces: swi-prolog-clib, swi-prolog-http, swi-prolog-semweb, swi-prolog-sgml, swi-prolog-table
+Filename: lenny/swiprolog/swi-prolog-nox_5.8.2-1vnz1_i386.deb
+Size: 3060976
+MD5sum: e7f6f00b5ec9d979706236651326f72c
+SHA1: fc4a23cf8cc98fa41867aeea9903ec741878a292
+SHA256: e6da88ceb8ad14471cb549bfb4d2bfc0d92f481d38b1b4ca53f18b10fea05bdb
+Section: interpreters
+Priority: optional
+Homepage: http://www.swi-prolog.org
+Description: ISO/Edinburgh-style Prolog interpreter (without X support)
+ SWI-Prolog is a fast and powerful ISO/Edinburgh-style Prolog compiler with a
+ rich set of built-in predicates. It offers a fast, robust and small
+ environment which enables substantial applications to be developed with it.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package contains a working SWI-Prolog installation with GUI components.
+
+Package: swi-prolog-odbc
+Source: swi-prolog
+Version: 5.8.2-1vnz1
+Architecture: i386
+Maintainer: Chris Lamb <lamby@debian.org>
+Installed-Size: 128
+Depends: libc6 (>= 2.3.6-6), libodbc1, swi-prolog-nox (= 5.8.2-1vnz1)
+Filename: lenny/swiprolog/swi-prolog-odbc_5.8.2-1vnz1_i386.deb
+Size: 34504
+MD5sum: 9a9206d66272f4b9b5ea7752d82b3594
+SHA1: db7919fcc5a2af0491a0beea4ba1b42a8b0d77f4
+SHA256: 45872a462c60e80a72eb076d2f23d69427cf7d78b43bfc47993a8561a59fe5be
+Section: interpreters
+Priority: optional
+Homepage: http://www.swi-prolog.org
+Description: ODBC library for SWI-Prolog
+ SWI-Prolog is a fast and powerful ISO/Edinburgh-style Prolog compiler with a
+ rich set of built-in predicates. It offers a fast, robust and small
+ environment which enables substantial applications to be developed with it.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ This package provides a foreign language extension to ODBC, a standard for
+ interfacing with database systems.
+
+Package: swi-prolog-x
+Source: swi-prolog
+Version: 5.8.2-1vnz1
+Architecture: i386
+Maintainer: Chris Lamb <lamby@debian.org>
+Installed-Size: 14072
+Depends: libc6 (>= 2.3.6-6), libfontconfig1 (>= 2.4.0), libice6 (>= 1:1.0.0), libjpeg62 (>= 6b1), libsm6, libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxt6, swi-prolog-nox (= 5.8.2-1vnz1)
+Replaces: swi-prolog-xpce
+Filename: lenny/swiprolog/swi-prolog-x_5.8.2-1vnz1_i386.deb
+Size: 2901692
+MD5sum: 87045fc024811c8b7c25b21ea28b059f
+SHA1: 19692e14f1a6bb539edef152ff52e148530ee141
+SHA256: ed36fb0e5c3f3719a96433aada1e52232fd5d1e8d667576f3db44d293cf61cc8
+Section: interpreters
+Priority: optional
+Homepage: http://www.swi-prolog.org
+Description: User interface library for SWI-Prolog (with X support)
+ SWI-Prolog is a fast and powerful ISO/Edinburgh-style Prolog compiler with a
+ rich set of built-in predicates. It offers a fast, robust and small
+ environment which enables substantial applications to be developed with it.
+ .
+ SWI-Prolog additionally offers:
+ .
+  * A powerful module system
+  * Garbage collection
+  * Unicode character set handling
+  * Unbounted integer and rational number arithmetic
+  * Multithreading support
+  * A powerful C/C++ interface
+  * GNU Readline interface
+ .
+ XPCE is an object-oriented symbolic programming environment for user
+ interfaces. Although XPCE was designed to be language-independent, it has
+ gained popularity most with Prolog.
+

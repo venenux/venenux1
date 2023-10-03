@@ -1,0 +1,6 @@
+Archive: stable
+Origin: Debian
+Label: Debian
+Version: 4.0
+Component: main
+Architecture: i386

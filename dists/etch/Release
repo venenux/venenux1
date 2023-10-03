@@ -1,0 +1,8 @@
+Origin: Debian
+Label: Debian
+Suite: stable
+Version: 4.0
+Codename: etch
+Architectures: i386
+Components: main
+Description: Debian 4 VenenuX massenkoh

@@ -1,0 +1,8 @@
+Origin: Debian
+Label: Debian
+Suite: stable
+Version: 5.0
+Codename: lenny
+Architectures: i386
+Components: main
+Description: Debian 5 VenenuX massenkoh
