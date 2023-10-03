@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 08 Feb 2019 11:42:37 -0430
+Source: swi-prolog
+Binary: swi-prolog swi-prolog-nox swi-prolog-x swi-prolog-java swi-prolog-odbc
+Architecture: source i386
+Version: 5.8.2-1vnz1
+Distribution: unstable
+Urgency: low
+Maintainer: Chris Lamb <lamby@debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ swi-prolog - ISO/Edinburgh-style Prolog interpreter
+ swi-prolog-java - Bidirectional interface between SWI-Prolog and Java
+ swi-prolog-nox - ISO/Edinburgh-style Prolog interpreter (without X support)
+ swi-prolog-odbc - ODBC library for SWI-Prolog
+ swi-prolog-x - User interface library for SWI-Prolog (with X support)
+Changes: 
+ swi-prolog (5.8.2-1vnz1) unstable; urgency=low
+ .
+   * backported for older venenux, build with no java for now
+Checksums-Sha1: 
+ 796135684b07b83d736b11e7a7bcead24a9d19a3 1523 swi-prolog_5.8.2-1vnz1.dsc
+ 4be8d685bd4dadce2323fc2554bd1d39ecabdfd1 14463 swi-prolog_5.8.2-1vnz1.debian.tar.gz
+ a09b0762f9dee8fe14227d725219236abd6e2357 11652 swi-prolog_5.8.2-1vnz1_i386.deb
+ fc4a23cf8cc98fa41867aeea9903ec741878a292 3060976 swi-prolog-nox_5.8.2-1vnz1_i386.deb
+ 19692e14f1a6bb539edef152ff52e148530ee141 2901692 swi-prolog-x_5.8.2-1vnz1_i386.deb
+ db7919fcc5a2af0491a0beea4ba1b42a8b0d77f4 34504 swi-prolog-odbc_5.8.2-1vnz1_i386.deb
+Checksums-Sha256: 
+ 14f26d3b02ab1cec580835658d10ae1fc6ada1dab04e9fab71e145b2cc4f3c89 1523 swi-prolog_5.8.2-1vnz1.dsc
+ 38d976fb7d915523bfdbcf5784706c52dc14f9c1fd4a1325f8edbeaedca68293 14463 swi-prolog_5.8.2-1vnz1.debian.tar.gz
+ 9bd7996dc985d6c69e463fbca7ab56cb9095eff2b5cd7c2f30671424da7b58b1 11652 swi-prolog_5.8.2-1vnz1_i386.deb
+ e6da88ceb8ad14471cb549bfb4d2bfc0d92f481d38b1b4ca53f18b10fea05bdb 3060976 swi-prolog-nox_5.8.2-1vnz1_i386.deb
+ ed36fb0e5c3f3719a96433aada1e52232fd5d1e8d667576f3db44d293cf61cc8 2901692 swi-prolog-x_5.8.2-1vnz1_i386.deb
+ 45872a462c60e80a72eb076d2f23d69427cf7d78b43bfc47993a8561a59fe5be 34504 swi-prolog-odbc_5.8.2-1vnz1_i386.deb
+Files: 
+ 228e92bc2176cdaf0aa2de5a76a52b05 1523 interpreters optional swi-prolog_5.8.2-1vnz1.dsc
+ f9bb93f9d7e89f436b64675c96b66490 14463 interpreters optional swi-prolog_5.8.2-1vnz1.debian.tar.gz
+ 301ae41077c2c1df6ad6d87c5aec1b66 11652 interpreters optional swi-prolog_5.8.2-1vnz1_i386.deb
+ e7f6f00b5ec9d979706236651326f72c 3060976 interpreters optional swi-prolog-nox_5.8.2-1vnz1_i386.deb
+ 87045fc024811c8b7c25b21ea28b059f 2901692 interpreters optional swi-prolog-x_5.8.2-1vnz1_i386.deb
+ 9a9206d66272f4b9b5ea7752d82b3594 34504 interpreters optional swi-prolog-odbc_5.8.2-1vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcXa+Rz+9Ts05YtsQRAvC4AJ4xOlUQxGIymf83LL9svk7j6lv3fACgsh49
+xrAp4akAVO9i1K8P9BfpgUE=
+=tf2D
+-----END PGP SIGNATURE-----

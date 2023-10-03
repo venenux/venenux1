@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 27 Jan 2019 12:22:07 -0430
+Source: gmp
+Binary: libgmp3c2 libgmp3 libgmpxx4ldbl libgmp3-dev lib32gmp3 lib32gmpxx4 lib32gmp3-dev lib64gmp3 lib64gmpxx4 lib64gmp3-dev libgmp3-doc
+Architecture: source all i386
+Version: 2:4.3.2+dfsg-1vnz1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ lib32gmp3  - Multiprecision arithmetic library (32bit)
+ lib32gmp3-dev - Multiprecision arithmetic library developers tools (32bit)
+ lib32gmpxx4 - Multiprecision arithmetic library (C++ bindings, 32bit)
+ lib64gmp3  - Multiprecision arithmetic library (64bit library)
+ lib64gmp3-dev - Multiprecision arithmetic library developers tools (64bit)
+ lib64gmpxx4 - Multiprecision arithmetic library (C++ bindings, 64bit)
+ libgmp3    - Multiprecision arithmetic library backguard compat
+ libgmp3-dev - Multiprecision arithmetic library developers tools
+ libgmp3-doc - Multiprecision arithmetic library example code
+ libgmp3c2  - Multiprecision arithmetic library
+ libgmpxx4ldbl - Multiprecision arithmetic library (C++ bindings)
+Changes: 
+ gmp (2:4.3.2+dfsg-1vnz1) unstable; urgency=low
+ .
+   * backported for venenux updates to gcc
+   * disale checks due fails under etch suite
+Checksums-Sha1: 
+ 3cd88940c00fd6f90acba42ac155c09422d23f2f 1454 gmp_4.3.2+dfsg-1vnz1.dsc
+ 3f3bbb7f6dc983fd2f24ef329b411fbd2a661b6f 16136 gmp_4.3.2+dfsg-1vnz1.diff.gz
+ 55fa7a7d18cc949804a95ee48d42ac0803d647de 149170 libgmp3-doc_4.3.2+dfsg-1vnz1_all.deb
+ 43442507422fe9e1b8252f6ecdeca38259672e4e 314516 libgmp3c2_4.3.2+dfsg-1vnz1_i386.deb
+ 7a3998729065a90fbdbfb5d1309418a46358490f 11906 libgmp3_4.3.2+dfsg-1vnz1_i386.deb
+ 03f4be8dbc05a7972d5a92ae26fbe0810abafe71 18686 libgmpxx4ldbl_4.3.2+dfsg-1vnz1_i386.deb
+ fc5e5c0510c0ea0c97f20c6d27fbe7500aa72a04 653990 libgmp3-dev_4.3.2+dfsg-1vnz1_i386.deb
+Checksums-Sha256: 
+ bfd9cf9d78f86e73433b389dbd1b15fbdcff8fc67041788c8da1f8c2a8b61d67 1454 gmp_4.3.2+dfsg-1vnz1.dsc
+ 5da7bed12b392762845259cf8aa5843c3519f1a2dab3118e082f063a1ddbca72 16136 gmp_4.3.2+dfsg-1vnz1.diff.gz
+ 0e4a27ce0df2ed4818db1766d176269aaae945d9fbef933d6cd7aedac5144b66 149170 libgmp3-doc_4.3.2+dfsg-1vnz1_all.deb
+ abc27b32712459af44dd1a437718a98c462f9dcb920fada9a520351e4e38c4d8 314516 libgmp3c2_4.3.2+dfsg-1vnz1_i386.deb
+ 4a99face3fa6f2fa0634151c77e9d8b6e37244f2ac87a09a103acdb12003411a 11906 libgmp3_4.3.2+dfsg-1vnz1_i386.deb
+ 4f3366f4317b79f6a46dec6ecf6e78fa4f0e3f3ce0cd7312e82e980b6e1fac5b 18686 libgmpxx4ldbl_4.3.2+dfsg-1vnz1_i386.deb
+ 6a98ad934ce927c93325ea64ed5b03c71a660850d8a618b0e80159601e6c750c 653990 libgmp3-dev_4.3.2+dfsg-1vnz1_i386.deb
+Files: 
+ 935c13c547f68057aaf38b90d24d8ddb 1454 libs optional gmp_4.3.2+dfsg-1vnz1.dsc
+ 4fc73b8d24cebfc49f7645a2add31096 16136 libs optional gmp_4.3.2+dfsg-1vnz1.diff.gz
+ 00f1547e1f7a47432c5d984397734215 149170 doc optional libgmp3-doc_4.3.2+dfsg-1vnz1_all.deb
+ 13c1990d99b6d8a7791e9add93c779d8 314516 libs optional libgmp3c2_4.3.2+dfsg-1vnz1_i386.deb
+ 2562321edb576f1b7da15570a84f8b41 11906 libs optional libgmp3_4.3.2+dfsg-1vnz1_i386.deb
+ 1a94cf7a41a3d4eb2e51c67d94928858 18686 libs optional libgmpxx4ldbl_4.3.2+dfsg-1vnz1_i386.deb
+ ff246deb7c16c14e8c883204011ce528 653990 libdevel optional libgmp3-dev_4.3.2+dfsg-1vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcTiVrz+9Ts05YtsQRAnHYAJ0Q/lWxgm2QOYl6z9JqBZpJI9acJQCgh3NZ
+VU7Jb1d4wg4B+pylOLEt0d8=
+=vltw
+-----END PGP SIGNATURE-----

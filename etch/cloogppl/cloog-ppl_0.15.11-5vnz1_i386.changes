@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 08 Feb 2019 18:44:46 -0430
+Source: cloog-ppl
+Binary: libcloog-ppl-dev libcloog-ppl0 cloog-ppl
+Architecture: source i386
+Version: 0.15.11-5vnz1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ cloog-ppl  - Chunky Loop Generator
+ libcloog-ppl-dev - Chunky Loop Generator (development files)
+ libcloog-ppl0 - Chunky Loop Generator (runtime library)
+Changes: 
+ cloog-ppl (0.15.11-5vnz1) unstable; urgency=low
+ .
+   * backported for venenux 0.X series
+   * remove multiarch
+   * empty dependency libs on *.la files and install them
+   * alternate depends on libgmp3-dev for libgmp-dev
+Checksums-Sha1: 
+ 4f6bb83cf53f7e9929d395f09bd0389a09d29c6f 1240 cloog-ppl_0.15.11-5vnz1.dsc
+ 1d6317b62c3f91a41367ea1407851491507fa9be 215399 cloog-ppl_0.15.11-5vnz1.debian.tar.gz
+ 1250845c17c1093e2e4a65bf4779d4e4823e586b 88728 libcloog-ppl-dev_0.15.11-5vnz1_i386.deb
+ 590409b4bfb9dbb30efb87d927b2f719a8778f83 50806 libcloog-ppl0_0.15.11-5vnz1_i386.deb
+ ee097b55c7b98f0fc5a9e5ca4825b3f18e37fdb3 7988 cloog-ppl_0.15.11-5vnz1_i386.deb
+Checksums-Sha256: 
+ 470302bc3e2253d00a972dcde422b2606885ab009a736003c06580a2d8a682e4 1240 cloog-ppl_0.15.11-5vnz1.dsc
+ 3c5ba2a11d1a36214dbc7ed03da4724312c5d2894eda48aee5d80f3b534c7001 215399 cloog-ppl_0.15.11-5vnz1.debian.tar.gz
+ f2e20fc2946384b30a3558174957493a0237d602ea9dc080fbc4e4a01c1dbc70 88728 libcloog-ppl-dev_0.15.11-5vnz1_i386.deb
+ 80fd4b177104cffbe949b2190204928d9b42a65e7b27a8f2edbccdf62ec9b798 50806 libcloog-ppl0_0.15.11-5vnz1_i386.deb
+ 70f88baec75d9c1605a8471667e16fe4a1001ada94c1192f5936ac85274e3aab 7988 cloog-ppl_0.15.11-5vnz1_i386.deb
+Files: 
+ 646c89020e531a67ceb6d01a75e7db33 1240 libs optional cloog-ppl_0.15.11-5vnz1.dsc
+ 50b7f0b9675c12edce8672239d89beb7 215399 libs optional cloog-ppl_0.15.11-5vnz1.debian.tar.gz
+ 63d02b668a7f916a64bcf40041c0a0e3 88728 libdevel optional libcloog-ppl-dev_0.15.11-5vnz1_i386.deb
+ 09bc88f8ee2b35fbd912d3e37a8e8feb 50806 libs optional libcloog-ppl0_0.15.11-5vnz1_i386.deb
+ 255af5001b01bcf3c057c1067376cc93 7988 devel optional cloog-ppl_0.15.11-5vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcXhktz+9Ts05YtsQRAlSvAKCBG/bUZ7vpRtGntZiYc0ykbgjENgCg0hsy
++PrV9+9SJm0XcQ2tel56heI=
+=o0am
+-----END PGP SIGNATURE-----
