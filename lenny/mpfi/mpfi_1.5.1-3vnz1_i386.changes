@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 08 Feb 2019 08:26:47 -0430
+Source: mpfi
+Binary: libmpfi-dev libmpfi0
+Architecture: source i386
+Version: 1.5.1-3vnz1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ libmpfi-dev - multiple precision floating-point interval computation library
+ libmpfi0   - multiple precision floating-point interval computation library
+Changes: 
+ mpfi (1.5.1-3vnz1) UNRELEASED; urgency=low
+ .
+   * backported for venenux 0.X series
+   * clean dependency libs *.la files and use it in install for backguard compat
+Checksums-Sha1: 
+ df5616ddc7a64bf791bd49907931cd475cbb3696 1293 mpfi_1.5.1-3vnz1.dsc
+ 5e31a86b7bb1a93bc3aa8f1179b09c032a4b4ec1 3519 mpfi_1.5.1-3vnz1.debian.tar.gz
+ 27ac5482d7c9b804843997ae730eecc66ba5f8ad 68120 libmpfi-dev_1.5.1-3vnz1_i386.deb
+ e3de4cd970b545a4d6c95d980a869876a4307bbf 39670 libmpfi0_1.5.1-3vnz1_i386.deb
+Checksums-Sha256: 
+ 948b89f350df40689e0b604d376e065facfb80f15b860824a4124c0e87a261d1 1293 mpfi_1.5.1-3vnz1.dsc
+ d73809a88742126d44001cab64cbe9f1c37e41e6d44de7f0e54af41ed46092d4 3519 mpfi_1.5.1-3vnz1.debian.tar.gz
+ e1d4ab4d78dd6df323d2b0073b6d8b96f21fbc6280dea2c7ee3b8d48e6323188 68120 libmpfi-dev_1.5.1-3vnz1_i386.deb
+ e7bed11c2bfa6ae3de4aaf2cb3d8699479602862e8b3144cda2e15ecd7252ccc 39670 libmpfi0_1.5.1-3vnz1_i386.deb
+Files: 
+ aaaef72fde703efb76a5438ca2be697e 1293 math optional mpfi_1.5.1-3vnz1.dsc
+ f3eb43f6ccc851e775f21bbafced7c22 3519 math optional mpfi_1.5.1-3vnz1.debian.tar.gz
+ 88c4e36fb4c6cbe8731d05e389060ec5 68120 libdevel optional libmpfi-dev_1.5.1-3vnz1_i386.deb
+ e1be1a9d0fe90eff586d8d41f02dfa73 39670 libs optional libmpfi0_1.5.1-3vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAlxd57wACgkQz+9Ts05YtsRiRwCcCG66Fen4kCyXsceNZPCnSGbP
+V5YAnAoZgeK7HW+GXqt8HUG+uVdkAGlS
+=SQuF
+-----END PGP SIGNATURE-----

@@ -1,0 +1,111 @@
+Format: 1.8
+Date: Sun, 06 Dec 2009 21:13:48 +0000
+Source: gcc-defaults
+Binary: cpp g++ g++-multilib gobjc gobjc-multilib gobjc++ gobjc++-multilib gfortran gfortran-multilib libgcj-common gcj gij libgcj-bc gcj-jdk gcj-jre-headless gcj-jre gpc gcc gcc-multilib gpc-doc gdc gcc-spu g++-spu gfortran-spu
+Architecture: source all i386
+Version: 1.89
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ cpp        - The GNU C preprocessor (cpp)
+ g++        - The GNU C++ compiler
+ g++-multilib - The GNU C++ compiler (multilib files)
+ g++-spu    - SPU cross-compiler (C++ compiler)
+ gcc        - The GNU C compiler
+ gcc-multilib - The GNU C compiler (multilib files)
+ gcc-spu    - SPU cross-compiler (preprocessor and C compiler)
+ gcj        - The GNU Java compiler (transitional package)
+ gcj-jdk    - gcj and classpath development tools for Java(TM)
+ gcj-jre    - Java runtime environment using GIJ/classpath
+ gcj-jre-headless - Java runtime environment using GIJ/classpath (headless version)
+ gdc        - The D compiler
+ gfortran   - The GNU Fortran 95 compiler
+ gfortran-multilib - The GNU Fortran 95 compiler (multilib files)
+ gfortran-spu - SPU cross-compiler (Fortran compiler)
+ gij        - The GNU Java bytecode interpreter (transitional package)
+ gobjc      - The GNU Objective-C compiler
+ gobjc++    - The GNU Objective-C++ compiler
+ gobjc++-multilib - The GNU Objective-C++ compiler (multilib files)
+ gobjc-multilib - The GNU Objective-C compiler (multilib files)
+ gpc        - The GNU Pascal compiler
+ gpc-doc    - Documentation for the GNU Pascal compiler (gpc)
+ libgcj-bc  - Link time only library for use with gcj
+ libgcj-common - Java runtime library (common files)
+Changes: 
+ gcc-defaults (1.89) unstable; urgency=medium
+ .
+   * backported for venenux 0.8
+Checksums-Sha1: 
+ c4c670f2d60860e3a58258b71cae5351caeb2024 988 gcc-defaults_1.89.dsc
+ 116a77aa027d80b94337a3673ccee69350bc2ae3 58294 gcc-defaults_1.89.tar.gz
+ 4dccac340db848488bdd8858ae3a4ba2a4384c57 26824 libgcj-common_4.2.1-34_all.deb
+ e5318ab7a703f6495437abc484a841982e37a9a6 14716 cpp_4.4.1-2_i386.deb
+ 61b14e6c1a88a0a19c0e19f3d85de70832719b00 4968 gcc_4.4.1-2_i386.deb
+ 62740d84450e262b98357634058edbd4db089d58 820 gcc-multilib_4.4.1-2_i386.deb
+ 0f5f177e79315f5bbc1f1a95116f79b720dec304 14738 gdc_4.1.2-39_i386.deb
+ ec55292376bf18bb4ee77920b9b52b6cee8f2784 1360 g++_4.4.1-2_i386.deb
+ c3b77ee880ec64d5d663610f31f9bd8236ffbfba 826 g++-multilib_4.4.1-2_i386.deb
+ ebb181ecb45a53f8ee43089cfb2a923aa544b813 848 gobjc_4.4.1-2_i386.deb
+ 6e7e2117252b8a0e178dabc584a7dd65ad1ac678 840 gobjc-multilib_4.4.1-2_i386.deb
+ 0131c4b5b91c70d7402b549fa54c5ce05ef4b695 870 gobjc++_4.4.1-2_i386.deb
+ 31ff5847352cbbbc8bd9ae0abb046ff15d98f57d 848 gobjc++-multilib_4.4.1-2_i386.deb
+ 4ed1da3770ec17b009476bb374e11c0cb32e19d4 1120 gfortran_4.4.1-2_i386.deb
+ 339d81d682c5f5b7a50a505216e800dc7e8d59ab 842 gfortran-multilib_4.4.1-2_i386.deb
+ 4285c4d4692890a9e13dac2b8a5b30ec4af6014f 1458 gpc_2.1-4.1.2-39_i386.deb
+ 7a07793cd4fc546b52957051e3e9cffd78f3d0e5 11682 gpc-doc_2.1-4.1.2-39_i386.deb
+ 3efa03fab4898e994828a711cdfca37bc3303dbb 866 gcj_4.1.2-39_i386.deb
+ e4ff4e48a6300e3cb95e5d3ffcfb838265dab858 1050 gij_4.1.2-39_i386.deb
+ 3c5dc6259fb83f522f4bd0fe1b6018146a0c049e 1128 libgcj-bc_4.4.1-2_i386.deb
+ 1cc81968e387a5d2178d6dbecb757c19c9a2413e 1416 gcj-jre-headless_4.1.2-39_i386.deb
+ 7ae03e5bb02bad9afdd2ada5317325abef383f32 1024 gcj-jre_4.1.2-39_i386.deb
+ 4d883dbfc340afbebaaec296e25e0461f6bcd72d 1536 gcj-jdk_4.1.2-39_i386.deb
+Checksums-Sha256: 
+ 35d2809c5677a4294cc1657b7b38e3845885904593fa7b88421a233cb3ae102a 988 gcc-defaults_1.89.dsc
+ 6b2aac1edee3deb350f77be6d8e229bc31ad742e94a1a4aa04254f79fec35dad 58294 gcc-defaults_1.89.tar.gz
+ 5250ad1b463ea495e096b8bb7a55a6b24e37f7802255bf96856b1cd26677b2dd 26824 libgcj-common_4.2.1-34_all.deb
+ 01adc4aaa59107e054036265ae34e344128171628990c7fe17db8722e2d503d6 14716 cpp_4.4.1-2_i386.deb
+ a84380603d2dbef8511d5f97c56df1bf745d2b9b2d835f9d189660ad403a27fe 4968 gcc_4.4.1-2_i386.deb
+ 51d41677ff448c5890563f7dfa2c7d78d40a26eec1af48f6ad9055d4f4d5bfc6 820 gcc-multilib_4.4.1-2_i386.deb
+ 4cf0aeee724199c17cea3b63458986fedb3bb188a900d1575150cf479f0038de 14738 gdc_4.1.2-39_i386.deb
+ 48bc39e2dbe7d20ebe3a7e47f786e28833dc3c614a0589b5e0e8fb6cbfcd87e8 1360 g++_4.4.1-2_i386.deb
+ 13f7fcf56b00bcc555bb7b4234bcc0d112ceee09fc97c589025706da5a9050dd 826 g++-multilib_4.4.1-2_i386.deb
+ f188b568b52a3db00fc4ae60597f02968f74e229a9168a0776821ed1a076647a 848 gobjc_4.4.1-2_i386.deb
+ 55daf5bce48e400b2e8b00207196476e1f8725033230bda0b8ecbf9611f2193b 840 gobjc-multilib_4.4.1-2_i386.deb
+ 2631200c38a10390ee7c8b74f67897870896acd78095c91cf81d44198e1630d9 870 gobjc++_4.4.1-2_i386.deb
+ 48e443cc6901416642342e0f3f969e142fddab0ebf7bf7111779dad36f94ccf5 848 gobjc++-multilib_4.4.1-2_i386.deb
+ 5ea0ee11c771e78fa8430329b47ab2f6f168ce0875f470c6dd84516972b6164e 1120 gfortran_4.4.1-2_i386.deb
+ 863e0edbe29e186f0c51bdd949bb52fe93a142c7a004044546e2b29863a43614 842 gfortran-multilib_4.4.1-2_i386.deb
+ 9b130fedc645d03b9dd72d916e7e2e3814c6a5fb95d2deea565bfd78830c0029 1458 gpc_2.1-4.1.2-39_i386.deb
+ c1c93feb091f5ad2068602711a369afb06d7ca46909c585851b32d481ca0461a 11682 gpc-doc_2.1-4.1.2-39_i386.deb
+ ebccac10a50f71ab29dccf893297376597eb1d902570528bacdd871df0ba0c71 866 gcj_4.1.2-39_i386.deb
+ 2eab5c66c27c0e731ae929f9b952d6840a8e45704e17fb60d4909804ec757dfb 1050 gij_4.1.2-39_i386.deb
+ 8f9690c9ea5d5b52d5d6e0b12a7c04cdab52d676f0475149ea603170e3ef76a6 1128 libgcj-bc_4.4.1-2_i386.deb
+ ce23525b93fece6052680d3d2c53ebeda1c0d05e5f92f6fc4f365aa647225007 1416 gcj-jre-headless_4.1.2-39_i386.deb
+ 13fca2102556f38ead366699d1324adecb07f86a4db28aa1bf5717b379cdc90e 1024 gcj-jre_4.1.2-39_i386.deb
+ 9e6fbf894bed7c8e18583dfa3cbb500b2d8c722ed072a72394a8c474b1f7a9cb 1536 gcj-jdk_4.1.2-39_i386.deb
+Files: 
+ d1496191d0dc31ff5ca99d1d9c3bc5bf 988 devel standard gcc-defaults_1.89.dsc
+ 3360de270e1e229302ab48da1b382956 58294 devel standard gcc-defaults_1.89.tar.gz
+ 37f3dd912f64e4f8df4a58e84df2335c 26824 java optional libgcj-common_4.2.1-34_all.deb
+ c3c8d9670080d53699cd95feeae46441 14716 interpreters optional cpp_4.4.1-2_i386.deb
+ 5fb6330061e9538a63d0aec868950873 4968 devel optional gcc_4.4.1-2_i386.deb
+ 30e4fc7c6637f30820b57d0f1c789839 820 devel optional gcc-multilib_4.4.1-2_i386.deb
+ a84a5c66571c0c637406067d04ba0d93 14738 devel optional gdc_4.1.2-39_i386.deb
+ a6c2b7bd9da62e01cc2b4a500e42dbe2 1360 devel optional g++_4.4.1-2_i386.deb
+ 429ce88e1de63008d4823dbfb1f1bd82 826 devel optional g++-multilib_4.4.1-2_i386.deb
+ 8c2b9012695ad225fe6ec0b83df0dcb4 848 devel optional gobjc_4.4.1-2_i386.deb
+ b61e8451e590184b4ef546dd09d1ed3f 840 devel optional gobjc-multilib_4.4.1-2_i386.deb
+ 0973ec81095f9b404d3042c6b991751e 870 devel optional gobjc++_4.4.1-2_i386.deb
+ abb53aaf4c10a197b7907a41ce2b96d8 848 devel optional gobjc++-multilib_4.4.1-2_i386.deb
+ c6b3f155b540637ded7797889857d983 1120 devel optional gfortran_4.4.1-2_i386.deb
+ 83cb88bbb56450e635a526d699f01360 842 devel optional gfortran-multilib_4.4.1-2_i386.deb
+ eaa24910cbf8829d143f65b15da718ac 1458 devel optional gpc_2.1-4.1.2-39_i386.deb
+ 511e8e1b9c01a8bae6ee6787e6f495b2 11682 doc optional gpc-doc_2.1-4.1.2-39_i386.deb
+ 67faef018a3b0aca5cfb2b01e34b4f25 866 java optional gcj_4.1.2-39_i386.deb
+ aa08d8d7b01876901b3392b3560a31d2 1050 java optional gij_4.1.2-39_i386.deb
+ 1fb47c3b25cc71b0f13cd292d1d0dcc6 1128 java optional libgcj-bc_4.4.1-2_i386.deb
+ 54e99b4ece072b1cb3527b803d8898a5 1416 java optional gcj-jre-headless_4.1.2-39_i386.deb
+ a8d8eda1a8a61e133b7148af53e72215 1024 java optional gcj-jre_4.1.2-39_i386.deb
+ 6827b2f59f1209473a7049bf345c47ef 1536 java optional gcj-jdk_4.1.2-39_i386.deb

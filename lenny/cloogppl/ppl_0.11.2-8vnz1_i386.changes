@@ -1,0 +1,71 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 29 Jan 2019 06:50:00 -0400
+Source: ppl
+Binary: libppl9 libppl0.11-dev ppl-dev libppl-c4 libpwl5 libpwl-dev libppl-doc libppl-swi
+Architecture: source i386 all
+Version: 0.11.2-8vnz1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ libppl-c4  - Parma Polyhedra Library (C interface)
+ libppl-doc - Parma Polyhedra Library: Documentation
+ libppl-swi - Parma Polyhedra Library (SWI Prolog interface)
+ libppl0.11-dev - Parma Polyhedra Library (development)
+ libppl9    - Parma Polyhedra Library (runtime library)
+ libpwl-dev - Parma Watchdog Library (Watchdog timers - development)
+ libpwl5    - Parma Watchdog Library (Watchdog timers - runtime library)
+ ppl-dev    - Parma Polyhedra Library (development binaries)
+Changes: 
+ ppl (0.11.2-8vnz1) unstable; urgency=low
+ .
+   * backported up to date for venenux builds of gcc 4.6/4.7 specifically
+   * added alternate depends of libgmp-dev versioned
+   * remove multiarch support for squeeze/lenny/etch
+   * use installdocx command due usage of copatibility version in ethc/lenny
+   * empty dependency libs on *.la files for depends
+Checksums-Sha1: 
+ df6b950a2f2095d440bf26f04de8cd522a5dc952 1450 ppl_0.11.2-8vnz1.dsc
+ 077af8aa38cfac2ceb6594aabc6300786bf34578 15272 ppl_0.11.2-8vnz1.debian.tar.gz
+ 778e31eccb84de89d4a08a8f643f150fdb4a37f6 519230 libppl9_0.11.2-8vnz1_i386.deb
+ 32a574bc9d54b589af1bb83ed921989cf327010d 4179564 libppl0.11-dev_0.11.2-8vnz1_i386.deb
+ bc6ad3ce3faeb3c5a0cc20c98021a97bad31be52 121752 ppl-dev_0.11.2-8vnz1_i386.deb
+ fb6b98536b303ec8e0352a9d90ddd9b0de990ffb 1269834 libppl-c4_0.11.2-8vnz1_i386.deb
+ 456365ff98b1be8786dd3187b78ea863eb6e35d0 32122 libpwl5_0.11.2-8vnz1_i386.deb
+ 0f497966ac9905037e58b43702ad9ac9099e6c21 42046 libpwl-dev_0.11.2-8vnz1_i386.deb
+ 5f81dd8e7385449f9a48b652eefed2ffda11435c 4714598 libppl-swi_0.11.2-8vnz1_i386.deb
+ da21745bec5a1c20a1e9cb2414de07d342a2c957 4339350 libppl-doc_0.11.2-8vnz1_all.deb
+Checksums-Sha256: 
+ 0338777498458bec6bf9173763a12b5bd7372b925dd3227383baaa996ff99f42 1450 ppl_0.11.2-8vnz1.dsc
+ a15a844f3b6938762ff7e598bcd999fa80c73ee6cd22a55866f3448c2a4c219d 15272 ppl_0.11.2-8vnz1.debian.tar.gz
+ edd8a56ebe2681a5546bf6a2eba66102cb15c07329f246f7dbf890cf2039363c 519230 libppl9_0.11.2-8vnz1_i386.deb
+ fa8daea9a83e0e5f876d9ca9e0098408a02cce651e2669cb26b396c7c8ea32af 4179564 libppl0.11-dev_0.11.2-8vnz1_i386.deb
+ 390ad0149b0ab4aa08813ae1a97db2834baaf0ac48aeb623e4b8fcc523b259f9 121752 ppl-dev_0.11.2-8vnz1_i386.deb
+ 95f02c10f12e397e087615993df9bbe67b8a7c818244f6aafcc90b463807268b 1269834 libppl-c4_0.11.2-8vnz1_i386.deb
+ b3956880212a4a499c99b2907c20a7d47f62b55fb23dab36e77f37986bd6f594 32122 libpwl5_0.11.2-8vnz1_i386.deb
+ df02403b17979dc07538175bffae736a21c509d1ae732622019eb7899f2fd82a 42046 libpwl-dev_0.11.2-8vnz1_i386.deb
+ de8d39da3e74063e70a221078d3e8b013f592f16dc35ad9ad1708a75c112764d 4714598 libppl-swi_0.11.2-8vnz1_i386.deb
+ 738f69141f5008ba78341652ed4501799f2d2b731228b29b8b6ff33c36a51d81 4339350 libppl-doc_0.11.2-8vnz1_all.deb
+Files: 
+ 95535a6421ae71edc075980eee593387 1450 libs optional ppl_0.11.2-8vnz1.dsc
+ 19f7f821625ffa2527f09c950a0c26b7 15272 libs optional ppl_0.11.2-8vnz1.debian.tar.gz
+ 0442291b48fdcd84bc7130dd706ab294 519230 libs optional libppl9_0.11.2-8vnz1_i386.deb
+ 3c86b2888caa021246f9dbb4500df2fd 4179564 libdevel optional libppl0.11-dev_0.11.2-8vnz1_i386.deb
+ e639ac89e19d08ebe4002a849c7fca16 121752 devel optional ppl-dev_0.11.2-8vnz1_i386.deb
+ 68a21aeac7a1c5de45fb29e431215b33 1269834 libs optional libppl-c4_0.11.2-8vnz1_i386.deb
+ d72fe0b35114e157862cb3bbe6e18676 32122 libs optional libpwl5_0.11.2-8vnz1_i386.deb
+ 0c38c63127a7af01f87d0294b2d4d2f1 42046 libdevel optional libpwl-dev_0.11.2-8vnz1_i386.deb
+ 28ca858b616805acde2ab073cd0f8f35 4714598 libs optional libppl-swi_0.11.2-8vnz1_i386.deb
+ b8b517a23a9e4d175ea4eedecda09657 4339350 doc optional libppl-doc_0.11.2-8vnz1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcXhjXz+9Ts05YtsQRAr/RAKCCx2UKq4j3NAVQ1hcp+6SX51rnPQCcCeve
+uPSqfyktBVjN3V9aCnXpXEQ=
+=Ney8
+-----END PGP SIGNATURE-----
