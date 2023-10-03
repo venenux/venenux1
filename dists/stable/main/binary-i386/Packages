@@ -1685,52 +1685,6 @@ Description: Fast and secure remote access system
  transform your machine into a server in the cloud or a remote
  desktop client according to your needs.
 
-Package: nomachine
-Version: 6.2.4-1
-Architecture: i386
-Maintainer: NoMachine S.a.r.l. <info@nomachine.com>
-Installed-Size: 172856
-Conflicts: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine-enterprise-client
-Replaces: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine
-Filename: anex/nomachine/nomachine_6.2.4_1_i386.deb
-Size: 42993882
-MD5sum: a1e77efcd6fa40b2d5e27e9890511768
-SHA1: 5aee78f3881b54af73aaa49cdc6f33dbee8ac1aa
-SHA256: 280960ae42d087e07e27682f84f44ec7c861cde954aff5032421f58ed6acda53
-Section: net
-Priority: optional
-Description: Fast and secure remote access system
- NoMachine is a fast and secure remote access system and terminal server
- service. It provides a full set of administration tools that make it a complete
- desktop virtualization solution for you or for your organization.
- .
- This package includes all programs and libraries necessary to
- transform your machine into a server in the cloud or a remote
- desktop client according to your needs.
-
-Package: nomachine
-Version: 8.8.1-1
-Architecture: i386
-Maintainer: NoMachine S.a.r.l. <info@nomachine.com>
-Installed-Size: 222260
-Conflicts: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine-enterprise-client, nomachine-enterprise-runner
-Replaces: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine
-Filename: anex/nomachine/nomachine_8.8.1_1_i386.deb
-Size: 54318030
-MD5sum: c57f6e464bde15d87edccd3f9fb9c7b4
-SHA1: 2b58047895299bb72c4341df352d06b451de3a35
-SHA256: c94001bd4c61f782f6f1ecd920756ab6fe0f9eb8347bff3c8fce31e99f9067f3
-Section: net
-Priority: optional
-Description: Fast and secure remote access system
- NoMachine is a fast and secure remote access system and terminal server
- service. It provides a full set of administration tools that make it a complete
- desktop virtualization solution for you or for your organization.
- .
- This package includes all programs and libraries necessary to
- transform your machine into a server in the cloud or a remote
- desktop client according to your needs.
-
 Package: slimjet
 Version: 29.0.3.0
 Architecture: i386

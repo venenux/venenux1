@@ -45,8 +45,8 @@ always supported older distros:
 
 | Package            | etch      | lenny     | queeze    | notes    |
 | ------------------ | --------- | --------- | --------- | -------- |
-| anydesk            |           |           | 2.3.9     | amd64/i386 but cannot view remote desks due SSL |
-| nomachine          | 6.12.3    | 8.8.1     | 8.8.1     | 6.7.6 and 6.9.2 also for lenny and squeeze |
+| anydesk            |           |           | 2.3.9     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
+| nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for lenny and squeeze on amd64 |
 | slimjet            |           |           | 29        | like have a 32bit chrome/brave, cos today there no 32bit builds of |
 
 Those package are only in the `stable` branc component, not in `main` one of the repository.
