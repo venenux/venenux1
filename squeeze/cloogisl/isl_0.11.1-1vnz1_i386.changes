@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 03 Feb 2019 10:45:53 -0430
+Source: isl
+Binary: libisl-dev libisl-dbg libisl10
+Architecture: source i386
+Version: 0.11.1-1vnz1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ libisl-dbg - manipulating sets and relations of integer points bounded by line
+ libisl-dev - manipulating sets and relations of integer points bounded by line
+ libisl10   - manipulating sets and relations of integer points bounded by line
+Changes: 
+ isl (0.11.1-1vnz1) unstable; urgency=low
+ .
+   * backported for venenux gcc builds
+   * Build using dh-autoreconf.
+   * set alternate depends for gmp
+   * remove multiarch
+Checksums-Sha1: 
+ ecd89f98cf872c65003b39326db5892086056ec6 1153 isl_0.11.1-1vnz1.dsc
+ efed41f65167227076044707882b28a56b20c8e3 4352 isl_0.11.1-1vnz1.debian.tar.gz
+ 2b6da2da4183e11382ad19baeb6683d331f16e17 476886 libisl-dev_0.11.1-1vnz1_i386.deb
+ 787008399711ad9f246c22b88d3d78a02e7aa6a7 706008 libisl-dbg_0.11.1-1vnz1_i386.deb
+ ffa04994af77e4e2a4193052c07d870909c9e682 409344 libisl10_0.11.1-1vnz1_i386.deb
+Checksums-Sha256: 
+ d228ed0ecd1bcd487c54640dc383bcff709c1349f11697f9b27f55a29ae446ae 1153 isl_0.11.1-1vnz1.dsc
+ 10386919139fc7ff6f0fcb927560b0e4601f853f6a1f5571b3fd5b1b7b20c281 4352 isl_0.11.1-1vnz1.debian.tar.gz
+ 5fbf489af4a45e01f8a80c217818634dec390582467d684801c47eac6fc6372f 476886 libisl-dev_0.11.1-1vnz1_i386.deb
+ 927ad54cfab2ec0de63699eb2c1b83ec2f3ec1085a828e73ac600ab0684ab3da 706008 libisl-dbg_0.11.1-1vnz1_i386.deb
+ 735209bebaf27e5744bc9b565933a4e1fcd12c8faeaf8c80c62b9503b89d74ef 409344 libisl10_0.11.1-1vnz1_i386.deb
+Files: 
+ 7d788c7da0283f32f8591ee98406c69f 1153 libs optional isl_0.11.1-1vnz1.dsc
+ acc645ee9a266112c9b5d961f7a649ae 4352 libs optional isl_0.11.1-1vnz1.debian.tar.gz
+ ebe88ccf1f25f19bda958759244346e6 476886 libdevel optional libisl-dev_0.11.1-1vnz1_i386.deb
+ 2095ca2c527aae158e1e5f9c0203fd80 706008 debug extra libisl-dbg_0.11.1-1vnz1_i386.deb
+ df6258ba17e32bf872b8e3955cf2d913 409344 libs optional libisl10_0.11.1-1vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcXI+Az+9Ts05YtsQRAtUIAJwLQVi8DOUxCDrFrK2kzqCMBc65BgCfeXsg
+W7iHlD5D5HLYa244nfCM6IE=
+=CUP4
+-----END PGP SIGNATURE-----

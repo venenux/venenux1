@@ -1,0 +1,283 @@
+Format: 1.8
+Date: Sat, 12 Jan 2019 13:10:52 +0000
+Source: gcc-4.6
+Binary: gcc-4.6-base libgcc1 libgcc1-dbg libgcc2 libgcc2-dbg libgcc4 libgcc4-dbg lib64gcc1 lib64gcc1-dbg lib32gcc1 lib32gcc1-dbg libn32gcc1 libn32gcc1-dbg gcc-4.6 gcc-4.6-multilib gcc-4.6-plugin-dev gcc-4.6-hppa64 gcc-4.6-spu g++-4.6-spu gfortran-4.6-spu cpp-4.6 gcc-4.6-locales g++-4.6 g++-4.6-multilib libmudflap0 libmudflap0-dbg lib32mudflap0 lib32mudflap0-dbg lib64mudflap0 lib64mudflap0-dbg libn32mudflap0 libn32mudflap0-dbg libmudflap0-4.6-dev libgomp1 libgomp1-dbg lib32gomp1 lib32gomp1-dbg lib64gomp1 lib64gomp1-dbg libn32gomp1 libn32gomp1-dbg libquadmath0 libquadmath0-dbg lib32quadmath0 lib32quadmath0-dbg lib64quadmath0 lib64quadmath0-dbg libn32quadmath0 libn32quadmath0-dbg gobjc++-4.6 gobjc++-4.6-multilib gobjc-4.6 gobjc-4.6-multilib libobjc3 libobjc3-dbg lib64objc3 lib64objc3-dbg lib32objc3 lib32objc3-dbg libn32objc3 libn32objc3-dbg gfortran-4.6 gfortran-4.6-multilib libgfortran3 libgfortran3-dbg lib64gfortran3 lib64gfortran3-dbg lib32gfortran3 lib32gfortran3-dbg
+ libn32gfortran3 libn32gfortran3-dbg gccgo-4.6 gccgo-4.6-multilib libgo0 libgo0-dbg lib64go0 lib64go0-dbg lib32go0 lib32go0-dbg libn32go0 libn32go0-dbg libstdc++6 lib32stdc++6 lib64stdc++6 libn32stdc++6 libstdc++6-4.6-dev libstdc++6-4.6-pic libstdc++6-4.6-dbg lib32stdc++6-4.6-dbg lib64stdc++6-4.6-dbg libn32stdc++6-4.6-dbg libstdc++6-4.6-doc gcc-4.6-soft-float fixincludes
+ gcc-4.6-source
+Architecture: source all i386
+Version: 4.6.0-14.1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: root <root@svdata6>
+Description: 
+ cpp-4.6    - GNU C preprocessor
+ fixincludes - Fix non-ANSI header files
+ g++-4.6    - GNU C++ compiler
+ g++-4.6-multilib - GNU C++ compiler (multilib files)
+ g++-4.6-spu - SPU cross-compiler (C++ compiler)
+ gcc-4.6    - GNU C compiler
+ gcc-4.6-base - GCC, the GNU Compiler Collection (base package)
+ gcc-4.6-hppa64 - GNU C compiler (cross compiler for hppa64)
+ gcc-4.6-locales - GCC, the GNU compiler collection (native language support files)
+ gcc-4.6-multilib - GNU C compiler (multilib files)
+ gcc-4.6-plugin-dev - Files for GNU GCC plugin development.
+ gcc-4.6-soft-float - GCC soft-floating-point gcc libraries (arm)
+ gcc-4.6-source - Source of the GNU Compiler Collection
+ gcc-4.6-spu - SPU cross-compiler (preprocessor and C compiler)
+ gccgo-4.6  - GNU Go compiler
+ gccgo-4.6-multilib - GNU Go compiler (multilib files)
+ gfortran-4.6 - GNU Fortran 95 compiler
+ gfortran-4.6-multilib - GNU Fortran 95 compiler (multilib files)
+ gfortran-4.6-spu - SPU cross-compiler (Fortran compiler)
+ gobjc++-4.6 - GNU Objective-C++ compiler
+ gobjc++-4.6-multilib - GNU Objective-C++ compiler (multilib files)
+ gobjc-4.6  - GNU Objective-C compiler
+ gobjc-4.6-multilib - GNU Objective-C compiler (multilib files)
+ lib32gcc1  - GCC support library (32 bit Version)
+ lib32gcc1-dbg - GCC support library (debug symbols)
+ lib32gfortran3 - Runtime library for GNU Fortran applications (32bit)
+ lib32gfortran3-dbg - Runtime library for GNU Fortran applications (32 bit debug symbol
+ lib32go0   - Runtime library for GNU Go applications (32bit)
+ lib32go0-dbg - Runtime library for GNU Go applications (32 bit debug symbols)
+ lib32gomp1 - GCC OpenMP (GOMP) support library (32bit)
+ lib32gomp1-dbg - GCC OpenMP (GOMP) support library (32 bit debug symbols)
+ lib32mudflap0 - GCC mudflap shared support libraries (32bit)
+ lib32mudflap0-dbg - GCC mudflap shared support libraries (32 bit debug symbols)
+ lib32objc3 - Runtime library for GNU Objective-C applications (32bit)
+ lib32objc3-dbg - Runtime library for GNU Objective-C applications (32 bit debug sy
+ lib32quadmath0 - GCC Quad-Precision Math Library (32bit)
+ lib32quadmath0-dbg - GCC Quad-Precision Math Library (32 bit debug symbols)
+ lib32stdc++6 - GNU Standard C++ Library v3 (32 bit Version)
+ lib32stdc++6-4.6-dbg - GNU Standard C++ Library v3 (debugging files)
+ lib64gcc1  - GCC support library (64bit)
+ lib64gcc1-dbg - GCC support library (debug symbols)
+ lib64gfortran3 - Runtime library for GNU Fortran applications (64bit)
+ lib64gfortran3-dbg - Runtime library for GNU Fortran applications (64bit debug symbols
+ lib64go0   - Runtime library for GNU Go applications (64bit)
+ lib64go0-dbg - Runtime library for GNU Go applications (64bit debug symbols)
+ lib64gomp1 - GCC OpenMP (GOMP) support library (64bit)
+ lib64gomp1-dbg - GCC OpenMP (GOMP) support library (64bit debug symbols)
+ lib64mudflap0 - GCC mudflap shared support libraries (64bit)
+ lib64mudflap0-dbg - GCC mudflap shared support libraries (64 bit debug symbols)
+ lib64objc3 - Runtime library for GNU Objective-C applications (64bit)
+ lib64objc3-dbg - Runtime library for GNU Objective-C applications (64 bit debug sy
+ lib64quadmath0 - GCC Quad-Precision Math Library  (64bit)
+ lib64quadmath0-dbg - GCC Quad-Precision Math Library  (64bit debug symbols)
+ lib64stdc++6 - GNU Standard C++ Library v3 (64bit)
+ lib64stdc++6-4.6-dbg - GNU Standard C++ Library v3 (debugging files)
+ libgcc1    - GCC support library
+ libgcc1-dbg - GCC support library (debug symbols)
+ libgcc2    - GCC support library
+ libgcc2-dbg - GCC support library (debug symbols)
+ libgcc4    - GCC support library
+ libgcc4-dbg - GCC support library (debug symbols)
+ libgfortran3 - Runtime library for GNU Fortran applications
+ libgfortran3-dbg - Runtime library for GNU Fortran applications (debug symbols)
+ libgo0     - Runtime library for GNU Go applications
+ libgo0-dbg - Runtime library for GNU Go applications (debug symbols)
+ libgomp1   - GCC OpenMP (GOMP) support library
+ libgomp1-dbg - GCC OpenMP (GOMP) support library (debug symbols)
+ libmudflap0 - GCC mudflap shared support libraries
+ libmudflap0-4.6-dev - GCC mudflap support libraries (development files)
+ libmudflap0-dbg - GCC mudflap shared support libraries (debug symbols)
+ libn32gcc1 - GCC support library (n32)
+ libn32gcc1-dbg - GCC support library (debug symbols)
+ libn32gfortran3 - Runtime library for GNU Fortran applications (n32)
+ libn32gfortran3-dbg - Runtime library for GNU Fortran applications (n32 debug symbols)
+ libn32go0  - Runtime library for GNU Go applications (n32)
+ libn32go0-dbg - Runtime library for GNU Go applications (n32 debug symbols)
+ libn32gomp1 - GCC OpenMP (GOMP) support library (n32)
+ libn32gomp1-dbg - GCC OpenMP (GOMP) support library (n32 debug symbols)
+ libn32mudflap0 - GCC mudflap shared support libraries (n32)
+ libn32mudflap0-dbg - GCC mudflap shared support libraries (n32 debug symbols)
+ libn32objc3 - Runtime library for GNU Objective-C applications (n32)
+ libn32objc3-dbg - Runtime library for GNU Objective-C applications (n32 debug symbo
+ libn32quadmath0 - GCC Quad-Precision Math Library (n32)
+ libn32quadmath0-dbg - GCC Quad-Precision Math Library (n32 debug symbols)
+ libn32stdc++6 - GNU Standard C++ Library v3 (n32)
+ libn32stdc++6-4.6-dbg - GNU Standard C++ Library v3 (debugging files)
+ libobjc3   - Runtime library for GNU Objective-C applications
+ libobjc3-dbg - Runtime library for GNU Objective-C applications (debug symbols)
+ libquadmath0 - GCC Quad-Precision Math Library
+ libquadmath0-dbg - GCC Quad-Precision Math Library (debug symbols)
+ libstdc++6 - GNU Standard C++ Library v3
+ libstdc++6-4.6-dbg - GNU Standard C++ Library v3 (debugging files)
+ libstdc++6-4.6-dev - GNU Standard C++ Library v3 (development files)
+ libstdc++6-4.6-doc - GNU Standard C++ Library v3 (documentation files)
+ libstdc++6-4.6-pic - GNU Standard C++ Library v3 (shared library subset kit)
+Changes: 
+ gcc-4.6 (4.6.0-14.1) unstable; urgency=low
+ .
+   * test build with no multiarch
+Checksums-Sha1: 
+ 8f58628771e2ea0f12f4443b68466575b49d1c73 7081 gcc-4.6_4.6.0-14.1.dsc
+ 52c935a8f6b121c45b361cbc697407fe27708f6e 9648935 gcc-4.6_4.6.0-14.1.debian.tar.gz
+ 483d38baedc26f2b5beb3063c6690720a352868f 65863390 gcc-4.6-source_4.6.0-14.1_all.deb
+ 0cb42d94dffb831945c9989527e694e8e7bd4f5b 3760718 libstdc++6-4.6-doc_4.6.0-14.1_all.deb
+ e0d7be412ddbd2b1ea96d05ca49839c6362330b8 2586316 gcc-4.6-locales_4.6.0-14.1_all.deb
+ f5bb974ef9e10d2da9eaf0f9d1a197d01e99a7c4 130522 gcc-4.6-base_4.6.0-14.1_i386.deb
+ 03b0afa2fa79dd258f3648b0042cd02f4f258ea2 54112 libgcc1_4.6.0-14.1_i386.deb
+ a5667fcebd649155f72c1d3736586bb254e76cb4 99454 libgcc1-dbg_4.6.0-14.1_i386.deb
+ 8bbf94979f7058a894bffb5ac01ec161aa4f6d9f 42660 lib64gcc1_4.6.0-14.1_i386.deb
+ 8096434b04870ba7c0131ac16eb014091297eb21 93014 lib64gcc1-dbg_4.6.0-14.1_i386.deb
+ 929968522d52b2cc1038d297b06c6c15bf32ac86 195108 libquadmath0_4.6.0-14.1_i386.deb
+ 0ec3cb945132790882748cf1edc23eacc4e91978 169486 libquadmath0-dbg_4.6.0-14.1_i386.deb
+ 8fa0b3b291e513eeded0cba06090f0ac5acc927e 125880 lib64quadmath0_4.6.0-14.1_i386.deb
+ 6492aae927b1c6df433bdbc409c38739873a6618 149630 lib64quadmath0-dbg_4.6.0-14.1_i386.deb
+ 4ae73b6c75357d45fc337101ecc9f065b01a446d 27136 libgomp1_4.6.0-14.1_i386.deb
+ d7656233c246bec54cb2891bf4cb355790e28bf6 64602 libgomp1-dbg_4.6.0-14.1_i386.deb
+ 83dc92546797a9e670c344f47e085330edb49fd6 25576 lib64gomp1_4.6.0-14.1_i386.deb
+ 28410d9fed8a938173b5e0a02604239d68c6acf1 62828 lib64gomp1-dbg_4.6.0-14.1_i386.deb
+ 5ffc07b54b00e502aa40eb2f546948c385c837c9 4523900 cpp-4.6_4.6.0-14.1_i386.deb
+ 9a5fe8a84a218c3d3abfecf007f3c21df6dca8cb 63914 fixincludes_4.6.0-14.1_i386.deb
+ 38d86d282c7d7a779c797e99f0ea6665dcd25d6a 219020 libmudflap0-4.6-dev_4.6.0-14.1_i386.deb
+ fcbb6977f8e265ed1fbfa57a787e275bfcf0d7f4 87904 libmudflap0_4.6.0-14.1_i386.deb
+ 6568f3dd628089a7349aa1a170cadc94a7cf0ac0 118438 libmudflap0-dbg_4.6.0-14.1_i386.deb
+ dcbd43a61a085d6a00dc4d1609f3db4960058a33 97564 lib64mudflap0_4.6.0-14.1_i386.deb
+ 9ac931582e0a29d95636676c954c7622caf7d943 133608 lib64mudflap0-dbg_4.6.0-14.1_i386.deb
+ 9aeb3270c80f27bd81966e819867c9ef1117f460 872 gobjc++-4.6-multilib_4.6.0-14.1_i386.deb
+ 3dcc46d7752138d49dfd46cbe8704b7d592bfefe 4893960 gobjc++-4.6_4.6.0-14.1_i386.deb
+ 766809181cf762a76fa895fb26013d4537d2b7f2 215018 gobjc-4.6-multilib_4.6.0-14.1_i386.deb
+ 4cd6303bd0db3ad1194637050d281d7f86a2e4f8 4743904 gobjc-4.6_4.6.0-14.1_i386.deb
+ c8e665d70dd3484303ca9df6ebb51cf85a127ef2 180164 libobjc3_4.6.0-14.1_i386.deb
+ 32c793dfc5048b015fd411b77a6d21607274b0eb 335760 libobjc3-dbg_4.6.0-14.1_i386.deb
+ 896e1b8f1051226120220dcfe2d46d5ba735eddb 184578 lib64objc3_4.6.0-14.1_i386.deb
+ 81a0d29512ac4cc996e988f9738ade3946165d9e 362664 lib64objc3-dbg_4.6.0-14.1_i386.deb
+ e3ed3961aba25aef68d1b7e8171610cf037bcfae 2099976 libgo0_4.6.0-14.1_i386.deb
+ 1b1b40aa694c4413d1701e26e1dae5cd0ac9f715 1577716 libgo0-dbg_4.6.0-14.1_i386.deb
+ 5749b8ba6af705183dcd1e0272e2bb45fd179d76 2301750 lib64go0_4.6.0-14.1_i386.deb
+ f9bec1f8864152830cc2752be7aac1e61ab09a4c 2047338 lib64go0-dbg_4.6.0-14.1_i386.deb
+ ee2ac9cedf992cab65ff764edf50e3d702b40d3c 7697918 gccgo-4.6_4.6.0-14.1_i386.deb
+ 5c3293401b14ab2a39b6df3a01d39929088dfbbf 3003184 gccgo-4.6-multilib_4.6.0-14.1_i386.deb
+ 125c9f00f668227523fe4dd221358aab041e2a65 1034638 g++-4.6-multilib_4.6.0-14.1_i386.deb
+ 84b6a04c5618716c5bfd78542387b8109d1c7df0 4942114 g++-4.6_4.6.0-14.1_i386.deb
+ dacfb3ee1819c2e7370af874c21678c09f70580b 351650 libstdc++6_4.6.0-14.1_i386.deb
+ 1ac4d38ea6fe2ba34dd7cf69252e3b2e6a2f2948 336746 lib64stdc++6_4.6.0-14.1_i386.deb
+ 5dec098f6daee6af034bffc6e095ca69211447ec 7013736 lib64stdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+ 5edcdbc8939a97b14b31a1d0e6ed6ead60309ace 1579420 libstdc++6-4.6-dev_4.6.0-14.1_i386.deb
+ 30c1490788e9a2f421dceae6b463a99101c3d170 500554 libstdc++6-4.6-pic_4.6.0-14.1_i386.deb
+ 0595abfe2e81816e237cb9f10ec09403ea984eb8 4165046 libstdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+ c0e508ac3dfd2a0c1f842b230f64cd0057a51823 355106 libgfortran3_4.6.0-14.1_i386.deb
+ d41a759154809a8746fc9f388b232bdc50656036 640720 libgfortran3-dbg_4.6.0-14.1_i386.deb
+ 93f0424fbb871187397b3906d5dc2daa144f2561 358300 lib64gfortran3_4.6.0-14.1_i386.deb
+ 448ebf5159166994b538ffd2e35c4f1d56ef1b9c 805588 lib64gfortran3-dbg_4.6.0-14.1_i386.deb
+ 56697de072af82c2778e5b251a14d9eb7971007c 432710 gfortran-4.6-multilib_4.6.0-14.1_i386.deb
+ 76d48f1b39ba826bfddfd68753d8767c579627c1 5257470 gfortran-4.6_4.6.0-14.1_i386.deb
+ 362148927183fcfb8ec57cab498e029fb5a45a92 2356126 gcc-4.6-multilib_4.6.0-14.1_i386.deb
+ d8ac3172ae01ac5231f19ceddd51c17310c45320 831594 gcc-4.6-plugin-dev_4.6.0-14.1_i386.deb
+ 6a535a82947b1634011654d0833bab9c999f8296 7233442 gcc-4.6_4.6.0-14.1_i386.deb
+Checksums-Sha256: 
+ a4f96dd0f51f7d3dcfc920dd0da36eb91282b9d6dccd86edd6d6e46031d76a84 7081 gcc-4.6_4.6.0-14.1.dsc
+ 0b3e468aababc19c4c51d50996032f522100f3aeeef7e3507adb50790ca6f2fa 9648935 gcc-4.6_4.6.0-14.1.debian.tar.gz
+ 04c8c5e78c397e01772750349e243e084f7a0acee67cdda0a85f022e1af41032 65863390 gcc-4.6-source_4.6.0-14.1_all.deb
+ 7cdcbb989ca6bf4ea698499850b4ad008f409321ac1364f9b5b3811047649531 3760718 libstdc++6-4.6-doc_4.6.0-14.1_all.deb
+ de58658109ff3a2cb2d89a462728d85f56ed14a5a9e324ce058a9c712360ec4a 2586316 gcc-4.6-locales_4.6.0-14.1_all.deb
+ a0ef6609e395481d325107087e6439a7940b08514eacd9137b750e895c918369 130522 gcc-4.6-base_4.6.0-14.1_i386.deb
+ e81bc718a5e2c0eabd1ad344756db20ffc9a3f6ba8ab2e81df0981e2c2084f17 54112 libgcc1_4.6.0-14.1_i386.deb
+ 0c90f592a639c766c8e0c26903a6f13285a4514dd2eafde5bc65a581c68c0cad 99454 libgcc1-dbg_4.6.0-14.1_i386.deb
+ 22477b435c45fb84ee9f5ab2644d4b21ebbe13c606401393053fdeabe9f300d0 42660 lib64gcc1_4.6.0-14.1_i386.deb
+ 01ccb89575867b503778758c4ef0660ef1c7e05622a177bae08da2860420bf64 93014 lib64gcc1-dbg_4.6.0-14.1_i386.deb
+ 279e5572edd1ce53508332a369fc3e9fe8e2bae9b0f4d2d048c489b56bf634ce 195108 libquadmath0_4.6.0-14.1_i386.deb
+ 93b9cfbeff3ceaf4b3ad9b0dc7bbbced83701261293fab826613d4309ce022f2 169486 libquadmath0-dbg_4.6.0-14.1_i386.deb
+ b34376a8f3d714cc52a65b11e58a589714e560b807d6393e99511c5fa074aa35 125880 lib64quadmath0_4.6.0-14.1_i386.deb
+ 8619a3b13ac74a6eb6398853ee97a9b421fc063b561d4a063089884c6401b63c 149630 lib64quadmath0-dbg_4.6.0-14.1_i386.deb
+ 6d9ef23492d5a98dccb16be67469bd17dbf5f3228afb8cf02f773521a9115d47 27136 libgomp1_4.6.0-14.1_i386.deb
+ 52138264a81565f4b965bacff74dc043bb1ecee4e808455b5a310857975a4420 64602 libgomp1-dbg_4.6.0-14.1_i386.deb
+ 8db79d945b958d7e195e7a1db4002d50b6236fe91b188cfa225277ebfc95ee4e 25576 lib64gomp1_4.6.0-14.1_i386.deb
+ 48c35c44259080e961cf5e45891dae93367008e8dbe61c890c1f9957f8d414b5 62828 lib64gomp1-dbg_4.6.0-14.1_i386.deb
+ 593d86737a259ffa174785be42f921ac76fd8387422f3b8ed70626a0bbb08e1b 4523900 cpp-4.6_4.6.0-14.1_i386.deb
+ 394e836815cefe045ea08c57b1914327b2e52c00e51384617c59cc0b71f4919f 63914 fixincludes_4.6.0-14.1_i386.deb
+ 1ce5e6464c3b1a61f1da07721bb1e52645aaf1aa01a3ca60793919343f577abb 219020 libmudflap0-4.6-dev_4.6.0-14.1_i386.deb
+ db32d73137959dc4fee0b77171cbbb711f249f25f0404362f79ed7fb3cc54402 87904 libmudflap0_4.6.0-14.1_i386.deb
+ 236c7f4180951493c1dfaac6f2935aa44bbf0a9603bb9a4e1f3476959806d9bc 118438 libmudflap0-dbg_4.6.0-14.1_i386.deb
+ 5c7a5f394e62ebd29ed7d8886f86eb923dc64998a6c001eb66f2dfce6cf5053e 97564 lib64mudflap0_4.6.0-14.1_i386.deb
+ 67481242ccd5859e8dc9a34a8189259470cb7696d7065644974c8ec7813a6cb5 133608 lib64mudflap0-dbg_4.6.0-14.1_i386.deb
+ 8fe1196fb293867977f0058746ec6728d87b3043d439b323f792935261a9a367 872 gobjc++-4.6-multilib_4.6.0-14.1_i386.deb
+ 92802ddd69b50ac92ed891a804e5375a5bf1630e4a05acde2e98abdb649db9f7 4893960 gobjc++-4.6_4.6.0-14.1_i386.deb
+ f04f987ce401f5471bddf71c6830d29c05755228bc5458b3aed1723e0a5f4606 215018 gobjc-4.6-multilib_4.6.0-14.1_i386.deb
+ 755aa0c02adf03d7fb920eb2fb172f4ade76355192c1b9638414b2e5a5570661 4743904 gobjc-4.6_4.6.0-14.1_i386.deb
+ 9b2482f2527364b345c966014d982c108e4cda3d5f09f341ee0d7cbaa3c7e3ed 180164 libobjc3_4.6.0-14.1_i386.deb
+ bdb2187e9c0c7f0368b98a025f6c422784c91e5a0ecc618c1b776f62c389c763 335760 libobjc3-dbg_4.6.0-14.1_i386.deb
+ 232718f9e46659ebe78186ce5afd67fe4aeb786c9a39ed37344dafa338287886 184578 lib64objc3_4.6.0-14.1_i386.deb
+ 10099168a266a1d832ce7cc9e0781114e9937c31d090a75957874bdff53fed60 362664 lib64objc3-dbg_4.6.0-14.1_i386.deb
+ f6c6f4bd4c0faee8734281af1c5afd54f537939ef2d6866fd176cffaa4738904 2099976 libgo0_4.6.0-14.1_i386.deb
+ 8447105f6dc14240c5ec66df1261c6ca8236a11efc6b6b3df1a0b33343567a6c 1577716 libgo0-dbg_4.6.0-14.1_i386.deb
+ 69c59102f63c45992a4eb54f657c2afd0a5620abe59159f74de61342ee632f66 2301750 lib64go0_4.6.0-14.1_i386.deb
+ c0b3c74cfa38eff2d40aa3b8a5083b9e2c154dc242c9a8bca9e0abefcb9febf5 2047338 lib64go0-dbg_4.6.0-14.1_i386.deb
+ 0e52116d71519b42190bb21ba63df55a460346366dbe774f5bbddaffa88c8825 7697918 gccgo-4.6_4.6.0-14.1_i386.deb
+ 6e9006b54e7e844003ca49dcba4e5c93c97197c6c498cbafa2bf93a0b185d62e 3003184 gccgo-4.6-multilib_4.6.0-14.1_i386.deb
+ c9542f9295ec6233063a10ac58c8584240072e8e9bd94f0c104758b3c3a182bc 1034638 g++-4.6-multilib_4.6.0-14.1_i386.deb
+ 22e0a8585ad7a75327fe8082cc3e53ced384a81320a5a3f48d64a50230dc65ce 4942114 g++-4.6_4.6.0-14.1_i386.deb
+ c37b85ec4679c89ca7b8c0c755352fa383dacda1d5d866c679e36493bb23c844 351650 libstdc++6_4.6.0-14.1_i386.deb
+ 18ba6b72c211916315b72fac998fd0eebf1f7e8a3ae768925852014949bd4600 336746 lib64stdc++6_4.6.0-14.1_i386.deb
+ 8819e61ac7669e8552f5fa001bc9b8ce11a2d092d3c1ddabf9a4f9b7eeb8c457 7013736 lib64stdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+ 46556f63f8de7b1fc57bf06ae67b4986d091d560a76699ee7f50158fe641f73b 1579420 libstdc++6-4.6-dev_4.6.0-14.1_i386.deb
+ 69886f59ae6a9530a913d921f4ae0fdc8438adb8e57bf0ac74a56a59dee39fe5 500554 libstdc++6-4.6-pic_4.6.0-14.1_i386.deb
+ 56c0085a653e3f2ecf03d05515189bedeccf3e8b466f75d9d7926744bdd1a47a 4165046 libstdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+ b1d92ba0ad9d1d0a0d9be1b9018fb17303229bc264eb72c032bc0dacf32f59ef 355106 libgfortran3_4.6.0-14.1_i386.deb
+ 12eda2f592a2a46de5c332f65f88679a1625f877dc436e8b6ddf5855f3cd8511 640720 libgfortran3-dbg_4.6.0-14.1_i386.deb
+ ce70e2db78b4e116710e1a9811ff21744ec28158b95c44cd3326f33f0a37f389 358300 lib64gfortran3_4.6.0-14.1_i386.deb
+ ac801a43320d758f753f238929d84c2f138342beabc348d389301a8a866f6d87 805588 lib64gfortran3-dbg_4.6.0-14.1_i386.deb
+ 0adea2cb396eff657c7a5250719dc244ee555e67fa7f8563bd306246faa19903 432710 gfortran-4.6-multilib_4.6.0-14.1_i386.deb
+ c5f9a37fc9133b2376142f47ac51b6394806f99909b4f8cfde896fda5ce84155 5257470 gfortran-4.6_4.6.0-14.1_i386.deb
+ 639cc9e12a5473a13779b1a97f778eeae97be9db44e448080bacabe239a2f6cb 2356126 gcc-4.6-multilib_4.6.0-14.1_i386.deb
+ e353c2c911c60016408146024ae4814edb85242443b58e68eaf6e557fed94207 831594 gcc-4.6-plugin-dev_4.6.0-14.1_i386.deb
+ 933fae7da661792dbae8b645b0abe582c4ca9b91a8021436c1df0801ce6351ba 7233442 gcc-4.6_4.6.0-14.1_i386.deb
+Files: 
+ c134d91ea833a43eb7fcf14190d1a461 7081 devel optional gcc-4.6_4.6.0-14.1.dsc
+ 698fa14772448c92e4df83a795754647 9648935 devel optional gcc-4.6_4.6.0-14.1.debian.tar.gz
+ c04122159cf45e4d42800a7bb83786eb 65863390 devel optional gcc-4.6-source_4.6.0-14.1_all.deb
+ ad87ec975662317eb123b503e1c1b4ed 3760718 doc optional libstdc++6-4.6-doc_4.6.0-14.1_all.deb
+ c9c76d57a29f0c72a4ba7b1e2e08e05a 2586316 devel optional gcc-4.6-locales_4.6.0-14.1_all.deb
+ 9a46f0c73bee5832f1af9be2c6fef95f 130522 libs required gcc-4.6-base_4.6.0-14.1_i386.deb
+ dc6f699be2ad5b848f7e48b32a8c4bbc 54112 libs required libgcc1_4.6.0-14.1_i386.deb
+ 68c8d7f2392c733f2217e8b96ac54158 99454 debug extra libgcc1-dbg_4.6.0-14.1_i386.deb
+ 8a0654ff31755982b630423fb2660208 42660 libs optional lib64gcc1_4.6.0-14.1_i386.deb
+ 1978e387a638b662a39a731c0be2c13d 93014 debug extra lib64gcc1-dbg_4.6.0-14.1_i386.deb
+ 5abbbdcebdc84fdecf9597a1c257a78e 195108 libs optional libquadmath0_4.6.0-14.1_i386.deb
+ 4727649041e78712e36fa2b80848849a 169486 debug extra libquadmath0-dbg_4.6.0-14.1_i386.deb
+ 6222b638fb1bd5d1da0a869898c60792 125880 libs optional lib64quadmath0_4.6.0-14.1_i386.deb
+ d950294d60ecdfe681fad18824b2827b 149630 debug extra lib64quadmath0-dbg_4.6.0-14.1_i386.deb
+ 1174a29ccbee463f6db6ed77ae926c6b 27136 libs optional libgomp1_4.6.0-14.1_i386.deb
+ e304ab51ea8e2273507fbb65e99cbdb5 64602 debug extra libgomp1-dbg_4.6.0-14.1_i386.deb
+ 361e3cb234a43cdeeaf9382e59db13b0 25576 libs optional lib64gomp1_4.6.0-14.1_i386.deb
+ b753a08bcf35092bf0ffffc431fb561b 62828 debug extra lib64gomp1-dbg_4.6.0-14.1_i386.deb
+ 43b8508ba36b827092e0c092886efe33 4523900 interpreters optional cpp-4.6_4.6.0-14.1_i386.deb
+ d3e3a47a0c5e602e7aafc3278b409775 63914 devel optional fixincludes_4.6.0-14.1_i386.deb
+ 99cf1662a3b59261eef60882707091ec 219020 libdevel optional libmudflap0-4.6-dev_4.6.0-14.1_i386.deb
+ 3003b85690fca85d1df5bae6d592383a 87904 libs optional libmudflap0_4.6.0-14.1_i386.deb
+ b5484d929e041c2b739f4cf70a69ea95 118438 debug extra libmudflap0-dbg_4.6.0-14.1_i386.deb
+ 290f6160ba4444dd88b71b9852e084af 97564 libs optional lib64mudflap0_4.6.0-14.1_i386.deb
+ 91fa26a3dbdc89807ed95a52c0d1c29e 133608 debug extra lib64mudflap0-dbg_4.6.0-14.1_i386.deb
+ 1fc40fe36c717d1c657c6ce9b8bac437 872 devel optional gobjc++-4.6-multilib_4.6.0-14.1_i386.deb
+ d5c3436253e4eb2a4ea7ec07b2e06776 4893960 devel optional gobjc++-4.6_4.6.0-14.1_i386.deb
+ 6f9798bc36835c04b23079b523fd2fe3 215018 devel optional gobjc-4.6-multilib_4.6.0-14.1_i386.deb
+ 2ddea4bd5a8622655da09bb278d40664 4743904 devel optional gobjc-4.6_4.6.0-14.1_i386.deb
+ e9a9a2b601f3a4b31e10c11bc2b1f0db 180164 libs optional libobjc3_4.6.0-14.1_i386.deb
+ a0a28ef055e9b887a2a442ee2749cc37 335760 debug extra libobjc3-dbg_4.6.0-14.1_i386.deb
+ 045418d3b1b2702181da47c661721ccb 184578 libs optional lib64objc3_4.6.0-14.1_i386.deb
+ b314a1cf20972e222c4692cf49393eda 362664 debug extra lib64objc3-dbg_4.6.0-14.1_i386.deb
+ dbf93eb73294abc5c4180988bab2cc01 2099976 libs optional libgo0_4.6.0-14.1_i386.deb
+ 08a4afa302373f1e3dc2ef60571c2caf 1577716 debug extra libgo0-dbg_4.6.0-14.1_i386.deb
+ 9f4e7d81bdb764635ac31f3c844e117f 2301750 libs optional lib64go0_4.6.0-14.1_i386.deb
+ 9eed7e6dcc9b68c0f404d77fe697c2a0 2047338 debug extra lib64go0-dbg_4.6.0-14.1_i386.deb
+ 2cd0c9c517b04c412078f178fca4161f 7697918 devel optional gccgo-4.6_4.6.0-14.1_i386.deb
+ 0ddaba7333443badd43809d32700c854 3003184 devel optional gccgo-4.6-multilib_4.6.0-14.1_i386.deb
+ 39ac902a6b693a5ad559af27a44093a8 1034638 devel optional g++-4.6-multilib_4.6.0-14.1_i386.deb
+ 2d02396487ee7fed844c51e4d31f1d4c 4942114 devel optional g++-4.6_4.6.0-14.1_i386.deb
+ b397616d398fd5e05755647f3ecbbba7 351650 libs required libstdc++6_4.6.0-14.1_i386.deb
+ 8680fc5722df83f521ca659e430524d2 336746 libs optional lib64stdc++6_4.6.0-14.1_i386.deb
+ 0aa8a97d00dc74f43a7d2e3d2a842252 7013736 debug extra lib64stdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+ eb941f3bdd57c4ab36da3b4880106099 1579420 libdevel optional libstdc++6-4.6-dev_4.6.0-14.1_i386.deb
+ a2004d526f134968a6aa56f4472fbf44 500554 libdevel extra libstdc++6-4.6-pic_4.6.0-14.1_i386.deb
+ 21b66bcb129726de89d01977bcf8c319 4165046 debug extra libstdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+ 9f75ef13906de4fc813764855c95c6f2 355106 libs optional libgfortran3_4.6.0-14.1_i386.deb
+ 808130ce83ee7fc87843fb6c8d84935c 640720 debug extra libgfortran3-dbg_4.6.0-14.1_i386.deb
+ 9d4c32e31d9af54ee6cb62fc41a38d31 358300 libs optional lib64gfortran3_4.6.0-14.1_i386.deb
+ 8665399877d5f4f86d5b5c6881223e7b 805588 debug extra lib64gfortran3-dbg_4.6.0-14.1_i386.deb
+ 5562074a812ab98adc845d233369db77 432710 devel optional gfortran-4.6-multilib_4.6.0-14.1_i386.deb
+ 47c729395a3dbb67ad9b4eaba47e30e6 5257470 devel optional gfortran-4.6_4.6.0-14.1_i386.deb
+ b03ba4a807b4f4c3b14dce9e5a4cd46b 2356126 devel optional gcc-4.6-multilib_4.6.0-14.1_i386.deb
+ 995c98730bc7b5b50efbbc5096d8aa11 831594 devel optional gcc-4.6-plugin-dev_4.6.0-14.1_i386.deb
+ 6d607750eb4eb5cf4a21ed3a1abf721f 7233442 devel optional gcc-4.6_4.6.0-14.1_i386.deb

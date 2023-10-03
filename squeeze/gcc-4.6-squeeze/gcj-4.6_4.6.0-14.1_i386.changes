@@ -1,0 +1,68 @@
+Format: 1.8
+Date: Sun, 13 Jan 2019 07:50:28 +0000
+Source: gcj-4.6
+Binary: gcj-4.6-base gcj-4.6-jdk gcj-4.6-jre-headless gcj-4.6-jre libgcj12 gcj-4.6-jre-lib libgcj12-awt libgcj12-dev libgcj12-dbg gcj-4.6-source libgcj-doc
+Architecture: source all i386
+Version: 4.6.0-14.1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ gcj-4.6-base - GCC, the GNU Compiler Collection (gcj base package)
+ gcj-4.6-jdk - gcj and classpath development tools for Java(TM)
+ gcj-4.6-jre - Java runtime environment using GIJ/classpath
+ gcj-4.6-jre-headless - Java runtime environment using GIJ/classpath (headless version)
+ gcj-4.6-jre-lib - Java runtime library for use with gcj (jar files)
+ gcj-4.6-source - GCJ java sources for use in IDEs like eclipse and netbeans
+ libgcj-doc - libgcj API documentation and example programs
+ libgcj12   - Java runtime library for use with gcj
+ libgcj12-awt - AWT peer runtime libraries for use with gcj
+ libgcj12-dbg - Debugging symbols for libraries provided in libgcj12-dev
+ libgcj12-dev - Java development headers for use with gcj
+Changes: 
+ gcj-4.6 (4.6.0-14.1) unstable; urgency=low
+ .
+   * backported for venenux 0.9 and ebian squeeze
+Checksums-Sha1: 
+ 4367a09a15fb376435471798361eb57238bfc6da 3301 gcj-4.6_4.6.0-14.1.dsc
+ b5b901e13f7c1cb3448330900f87591a8ca6b080 9621997 gcj-4.6_4.6.0-14.1.debian.tar.gz
+ 51276c4ab04d2ffcf614bcdb481f47ba31bdaf5f 10485830 gcj-4.6-jre-lib_4.6.0-14.1_all.deb
+ b0f1597fa73b7b388f2723a2a376cacb67e06bbb 12299898 gcj-4.6-source_4.6.0-14.1_all.deb
+ c4210cfbe9e04e255fbf93e74740e3b293d05dca 44532450 libgcj-doc_4.6.0-14.1_all.deb
+ 31344f0726ca8dde17e0c4f7e1c9e5a5660717da 123546 gcj-4.6-base_4.6.0-14.1_i386.deb
+ ed019f30a7a901e9424b6abe560f276028bc4d44 48808 gcj-4.6-jre-headless_4.6.0-14.1_i386.deb
+ f4825a95badac40bf026f403056ddc948a33da43 11591644 libgcj12_4.6.0-14.1_i386.deb
+ 3edac23ce23c98e53b8255784f7bf73736269235 84776 libgcj12-awt_4.6.0-14.1_i386.deb
+ c5d1413139cc17546442bb24ca0d489de5d40829 1012 gcj-4.6-jre_4.6.0-14.1_i386.deb
+ 3be41368f5fcee829084fd039f7b26adfa74cd9b 751722 libgcj12-dev_4.6.0-14.1_i386.deb
+ bd4011c54d0123d666570c402b5fad03f8159197 22307646 libgcj12-dbg_4.6.0-14.1_i386.deb
+ 1a6bc06731cfab141c61824d49ac67239e8f077d 4675506 gcj-4.6-jdk_4.6.0-14.1_i386.deb
+Checksums-Sha256: 
+ 41d5d3a5803c3b3300f01e2337a960b3096dc7fa206fcbe7fe2efc58198d1b9a 3301 gcj-4.6_4.6.0-14.1.dsc
+ 54dc81ccd751dfb7e2e4de04615d576780195d6c35852e4b55d532c877634ff9 9621997 gcj-4.6_4.6.0-14.1.debian.tar.gz
+ 21ea5114ad85b299ab5bba04fa3e9e0ed65717bcf823dcf9d9025165b0cad0a5 10485830 gcj-4.6-jre-lib_4.6.0-14.1_all.deb
+ be08e2ea36c516f64e76ab3d8fa8e2a936bc90932688fb581660632689a50534 12299898 gcj-4.6-source_4.6.0-14.1_all.deb
+ 828c261108d86864a05c4891b7ffd455b9273af1968f6377493c0ec3d7d2d8fa 44532450 libgcj-doc_4.6.0-14.1_all.deb
+ 20c3ebb719fb6a3ec7021fce3b8819fa5b4a6171f782d96ed688ef2881b82e3a 123546 gcj-4.6-base_4.6.0-14.1_i386.deb
+ 576bf74a766146daaac7860c213e871f2e3c3ffd44cb6e2cf5338d5849c23469 48808 gcj-4.6-jre-headless_4.6.0-14.1_i386.deb
+ f811638149fafad7ba49ecc7ee5ad7b823f61495b7d3264d6f3cb49a5c10badb 11591644 libgcj12_4.6.0-14.1_i386.deb
+ 68ee8d5613a8531bb636f72bb2cb07bbd4aac33d3f57f6b71281924288d31a68 84776 libgcj12-awt_4.6.0-14.1_i386.deb
+ 17e182a1466942b347000a80ceb7d7daebdeada9c0699d32f7cff7e35ba00332 1012 gcj-4.6-jre_4.6.0-14.1_i386.deb
+ 0de958ed4dc0aafcef0287670a9be76032a9e9593282ebbeaeb6989c1a43986c 751722 libgcj12-dev_4.6.0-14.1_i386.deb
+ f72c13950ace511905c00c3bddfc44facfe79c03ddf85c5da50ff001c0ba3898 22307646 libgcj12-dbg_4.6.0-14.1_i386.deb
+ 2a191d23fa8afbd2057364982e687381b78ecd3accff208343662abbd48f9236 4675506 gcj-4.6-jdk_4.6.0-14.1_i386.deb
+Files: 
+ 24d3cb9537a9dd7596343ae328a5dc86 3301 devel optional gcj-4.6_4.6.0-14.1.dsc
+ 257c135c3bab35972818ab3c7d56f601 9621997 devel optional gcj-4.6_4.6.0-14.1.debian.tar.gz
+ 9f763ef44f17006f7272a0431fc6d3c5 10485830 java optional gcj-4.6-jre-lib_4.6.0-14.1_all.deb
+ 63257b3e338637ed3d39266b90abaafc 12299898 java optional gcj-4.6-source_4.6.0-14.1_all.deb
+ 0bf0bd61a5ec6a733011942ed45e1abe 44532450 doc optional libgcj-doc_4.6.0-14.1_all.deb
+ b9b00991c1da345f3a3b9ff90fa5bf8e 123546 libs optional gcj-4.6-base_4.6.0-14.1_i386.deb
+ e8b94e8d5520836faa216050e2e54f5b 48808 java optional gcj-4.6-jre-headless_4.6.0-14.1_i386.deb
+ 003c90836135420f9dc07b33115ffc7c 11591644 libs optional libgcj12_4.6.0-14.1_i386.deb
+ 3f83f93c70996fba3b54b65597b25f97 84776 libs optional libgcj12-awt_4.6.0-14.1_i386.deb
+ bf24c6216484118a4a29cd29437e75f7 1012 java optional gcj-4.6-jre_4.6.0-14.1_i386.deb
+ 556f764b6fa5035d9c5dc8dd5fea4fa9 751722 libdevel optional libgcj12-dev_4.6.0-14.1_i386.deb
+ 8a0c2b177bf3662741d196be7d92a79b 22307646 debug extra libgcj12-dbg_4.6.0-14.1_i386.deb
+ 2222d5f577d1964b8e2fca6da6ffe0c9 4675506 java optional gcj-4.6-jdk_4.6.0-14.1_i386.deb

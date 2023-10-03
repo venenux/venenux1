@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 29 Jan 2019 06:18:12 -0430
+Source: mpfr4
+Binary: libmpfr4 libmpfr4-dbg libmpfr-dev libmpfr-doc lib32mpfr4 lib32mpfr-dev
+Architecture: source all i386
+Version: 3.0.1-4
+Distribution: unstable
+Urgency: low
+Maintainer: Laurent Fousse <lfousse@debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ lib32mpfr-dev - multiple precision floating-point computation developers tools (3
+ lib32mpfr4 - multiple precision floating-point computation (32bit)
+ libmpfr-dev - multiple precision floating-point computation developers tools
+ libmpfr-doc - multiple precision floating-point computation documentation
+ libmpfr4   - multiple precision floating-point computation
+ libmpfr4-dbg - multiple precision floating-point computation
+Closes: 630782
+Changes: 
+ mpfr4 (3.0.1-4) unstable; urgency=low
+ .
+   [ Laurent Fousse ]
+   * Correct PATCHES file, thanks Vincent Lefevre (closes: #630782).
+ .
+   [ PICCORO Lenz McKAY ]
+   * backported for venenux recent builds of gcc
+   * added backguard links for squeeze, dont care lenny/etch due package are new
+Checksums-Sha1: 
+ a7e4b96e79afa7282fcaa869aeb499c717b620ff 1456 mpfr4_3.0.1-4.dsc
+ fd3f122e779731c7b727918e7060951905775a68 10758 mpfr4_3.0.1-4.debian.tar.gz
+ 1d27d88eac99d3a4156a4e14382c42a71988323e 767266 libmpfr-doc_3.0.1-4_all.deb
+ fc1cbbe6488e445d319d43e1bf77531ea0d3c76a 472722 libmpfr4_3.0.1-4_i386.deb
+ 8bbf4bad1ecf30e1e5d78afda02fb10a14838303 533048 libmpfr4-dbg_3.0.1-4_i386.deb
+ 6c6db33bcce5ea5f8e5a6258d4e0d74306bcfb9a 522580 libmpfr-dev_3.0.1-4_i386.deb
+Checksums-Sha256: 
+ 65e192667788409ca1cb76eee068d42f9ed8571cdd44bf1eeefce42d32be33b8 1456 mpfr4_3.0.1-4.dsc
+ e537a47a16d8a5297158bb6a42bc8ef2d59fbd5a6fca0906220bc69857c9e6d7 10758 mpfr4_3.0.1-4.debian.tar.gz
+ 1b239fd575c62cbc24cb12958473a46cc2da88fc445dd3ddf3d50054c8d07fe7 767266 libmpfr-doc_3.0.1-4_all.deb
+ 17e26b5e9b1e30143bb172c43a992146161a41cee6c36afb459bf2f318af39c3 472722 libmpfr4_3.0.1-4_i386.deb
+ e0e96656e80dee38cea9f43898c4271cf39e4a91fb1361768460b9df62bac965 533048 libmpfr4-dbg_3.0.1-4_i386.deb
+ a81709a903ea84129ac20bf4c1f1ee52f4a4f61f1a5a7d4724ae730f0005c2de 522580 libmpfr-dev_3.0.1-4_i386.deb
+Files: 
+ c95d30c80bc097eb7741fe1a541bbf00 1456 math optional mpfr4_3.0.1-4.dsc
+ b95372f6dccbdbaf5f435ac3bccfdabf 10758 math optional mpfr4_3.0.1-4.debian.tar.gz
+ 744051f7fd1e0dddd6ba378de17294d6 767266 doc optional libmpfr-doc_3.0.1-4_all.deb
+ c5a4e5c63015cd4e028338bd5d441ecc 472722 libs optional libmpfr4_3.0.1-4_i386.deb
+ a593f9b4835350d2a165aba714281b97 533048 debug extra libmpfr4-dbg_3.0.1-4_i386.deb
+ 6cf17dd32fc98c6c9c586c9d0cc5725a 522580 libdevel optional libmpfr-dev_3.0.1-4_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcUDFUz+9Ts05YtsQRAlWmAJ4oSfZkdpc0aAY09SALk/6sNFTObgCgxtN+
+uMcyntfPEagRpARu5ppGvWo=
+=t89N
+-----END PGP SIGNATURE-----

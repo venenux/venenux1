@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 07 Feb 2019 15:41:44 -0430
+Source: cloog
+Binary: libcloog-isl-dev libcloog-isl4 cloog-isl
+Architecture: source i386
+Version: 0.18.0-1vnz1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ cloog-isl  - Chunky Loop Generator (runtime library)
+ libcloog-isl-dev - Chunky Loop Generator (development files)
+ libcloog-isl4 - Chunky Loop Generator (runtime library)
+Closes: 703734
+Changes: 
+ cloog (0.18.0-1vnz1) unstable; urgency=low
+ .
+   * backported for venenux 0.X releases with alternate libgmp3-dev
+   * remove multiarch
+   * build without fstack protector, for backguard compatibility
+   * use new dh format non diff
+   * Install the pkgconfig file. Closes: #703734.
+Checksums-Sha1: 
+ b22786b2af52ff3a58ecad508c12398a130f63eb 1218 cloog_0.18.0-1vnz1.dsc
+ de0797a27047a315dc917e7fcb76d5df14898e1b 4665 cloog_0.18.0-1vnz1.debian.tar.gz
+ 25010bdb9a3a49e53fce359ae2891daf880051fd 71048 libcloog-isl-dev_0.18.0-1vnz1_i386.deb
+ 915545791ba8880a7e002e1d683dd5e29f9c6272 56464 libcloog-isl4_0.18.0-1vnz1_i386.deb
+ 5b11d97a356b0fb8e10d24686b40830407a355a3 7946 cloog-isl_0.18.0-1vnz1_i386.deb
+Checksums-Sha256: 
+ aed431830fc83005db6c107417d5122cf178838e2c37abb9bc884ab09db35fa7 1218 cloog_0.18.0-1vnz1.dsc
+ 0b2dd00e660f330f61a8dd3edffbdceb6e3be26a7b0f87b9d90edf0ffe95462f 4665 cloog_0.18.0-1vnz1.debian.tar.gz
+ cff28ba5aae41b39d888fa39fb016069521a1e946f3c2dd881fbd144543cfab2 71048 libcloog-isl-dev_0.18.0-1vnz1_i386.deb
+ 72d209dfadeeb667b08f76ef94242cff5834876d3fa95be161b106ad30c277f5 56464 libcloog-isl4_0.18.0-1vnz1_i386.deb
+ ee3638066b3a893a69104fc5cefe416e77b5e7ba2353eb407c30ae628b8dc86b 7946 cloog-isl_0.18.0-1vnz1_i386.deb
+Files: 
+ a4787aba6b099717d3c9b5ca8ca0b57c 1218 libs optional cloog_0.18.0-1vnz1.dsc
+ f4f18c2e986e0189d2ca9bbabbc95ba0 4665 libs optional cloog_0.18.0-1vnz1.debian.tar.gz
+ 621111c4bf0692749e54c8a32d6c6c55 71048 libdevel optional libcloog-isl-dev_0.18.0-1vnz1_i386.deb
+ 2d4daaa9b5dbf21baae8df2f8e99521a 56464 libs optional libcloog-isl4_0.18.0-1vnz1_i386.deb
+ fa6bb086adb275eb11b35ac6783d3f01 7946 libs optional cloog-isl_0.18.0-1vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFcXU6Lz+9Ts05YtsQRAprrAJ9TRqAvkGB7SHGUTO8hCAnqgjoNZwCguefm
+gnO9V7d/2iRMsSQsMK7pqiQ=
+=QBsk
+-----END PGP SIGNATURE-----
