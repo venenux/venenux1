@@ -14,9 +14,9 @@ Just add to sources list using your name distro:
 
 | Release | Repo entry in source.list |
 | ------- | ------------------------------------------------------------- |
-| etch    | `deb https://venenux.github.io/venenuxrepogen1/ etch main`    |
-| lenny   | `deb https://venenux.github.io/venenuxrepogen1/ lenny main`   |
-| squeeze | `deb https://venenux.github.io/venenuxrepogen1/ squeeze main` |
+| etch    | `deb https://venenux.github.io/vnxrepo1/ etch main`    |
+| lenny   | `deb https://venenux.github.io/vnxrepo1/ lenny main`   |
+| squeeze | `deb https://venenux.github.io/vnxrepo1/ squeeze main` |
 
 ## How to avoid or use the https
 
