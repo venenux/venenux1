@@ -55,7 +55,8 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 | ------------------ | --------- | --------- | --------- | -------- |
 | autoconf           | 2.59/2.64 | 2.59/2.64 | 2.59/2.64 |          |
 | Gcc                | 4.1.2     | 4.4.5     | 4.6.0     | etch has some probles with gettex packages |
-
+| gnutls             | 0.9.12    | 0.9.12    | 0.9.12    | etch has some probles with gettex packages |
+| wget               | 1.13      | 1.13      | 1.13      |          |
 
 more to come
 
@@ -70,7 +71,7 @@ always supported older distros:
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for lenny and squeeze on amd64 |
 | slimjet            |           |           | 29        | like have a 32bit chrome/brave, cos today there no 32bit builds of |
 
-Those package are only in the `stable` branc component, not in `main` one of the repository.
+Those package are only in the `stable` branch component, not in `main` one of the repository index debian packages.
 
 ##  Why this repository and why older distro
 
@@ -95,7 +96,11 @@ for those, a debian 6 or debian 8 are recommended for those devices.
 
 ## CONTRIBUTE
 
-PLease read [HACKING.md](HACKING.md)
+PLease read [HACKING.md](HACKING.md) You can fill an issue on Codeberg, or use Telegram Venenux groups:
+
+* https://codeberg.org/venenux/venenux/issues
+* https://t.me/latam_debian (Debian only spanish)
+* https://t.me/venenux (English and Spanish also)
 
 ## LICENSE
 
