@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 20 Apr 2018 10:59:53 -0400
+Source: wget
+Binary: wget
+Architecture: source i386
+Version: 1.13.4-3vnz1
+Distribution: wheezy-security
+Urgency: high
+Maintainer: Noël Köthe <noel@debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ wget       - retrieves files from the web
+Closes: 653267 857073
+Changes: 
+ wget (1.13.4-3vnz1) wheezy-security; urgency=high
+ .
+   * backported due many issues in olders distros
+     + CVE-2017-13089 Fix stack overflow in HTTP protocol handling.
+     + CVE-2017-13090 Fix heap overflow in HTTP protocol handling.
+     + CVE-2017-6508: Prevent a CRLF injection. (Closes: #857073)
+     + CVE-2016-4971
+     + backported TLS Server Name Indication (SNI) closes: #653267
+Checksums-Sha1: 
+ 2807e3306dd7f25e7ea453ae1cc4a9436c182406 1119 wget_1.13.4-3vnz1.dsc
+ f57a738c34487831f20f5646cc940885b4d41392 31653 wget_1.13.4-3vnz1.debian.tar.gz
+ bc9bcdfc3604ac7461d325abceb4c977fa6fd5d8 736486 wget_1.13.4-3vnz1_i386.deb
+Checksums-Sha256: 
+ 3836003c0a6d0fb920492e7ae194068c6f4ca24554009c95f1f031c6ee5f4413 1119 wget_1.13.4-3vnz1.dsc
+ 3efd52de6229e09aa6b1a766c5ed4c7db99972c8f7418655440d9958b978a448 31653 wget_1.13.4-3vnz1.debian.tar.gz
+ 117a203f0d8519d2f7d426cc4cd76b04f1b86bfea0deec76a70306efb334f7a2 736486 wget_1.13.4-3vnz1_i386.deb
+Files: 
+ bf5b2dcba57e68443211f3fb9e759540 1119 web important wget_1.13.4-3vnz1.dsc
+ fe01dab87e9c16fb3e52eb1b86efeb57 31653 web important wget_1.13.4-3vnz1.debian.tar.gz
+ 939ad9135f8f19f63e573e569857ad02 736486 web important wget_1.13.4-3vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAlraAVgACgkQz+9Ts05YtsTUhQCdG/NeuryKMMnm6PGRjExMsIb4
+A8sAnRvMPCTirfYvpfPl2KVj+8d594oZ
+=Kwn2
+-----END PGP SIGNATURE-----
