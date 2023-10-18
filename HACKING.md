@@ -28,3 +28,17 @@ for that you can use (by sending a task/proposal) on OBS
 place at https://build.opensuse.org/project/subprojects/home:venenux for older 
 debians or at https://build.opensuse.org/project/subprojects/home:vengnuli
 
+#### regenerate index packages
+
+after cloning the repo just get into the directory and then run in root repository:
+`for dist in etch lenny squeeze; do for ar in i386 amd64; do dpkg-scanpackages -m $dist > dists/etch/main/binary-$ar/Packages; done; done`
+and later you can generate the index compresed with
+`for dist in etch lenny squeeze; do for ar in i386; do gzip -c dists/$dist/main/binary-$ar/Packages > dists/$dist/main/binary-$ar/Packages.gz; done; done`
+
+This is basically for each distro (etch, lenny squeeze) do a dpkg-scanpackages toa specific architecture, 
+by example for i386 packages over etch index will be :
+`dpkg-scanpackages -m etch > dists/etch/main/binary-i386/Packages`
+and later compreses with :
+`gzip -c dists/etch/main/binary-i386/Packages > dists/etch/main/binary-i386/Packages.gz`
+
+This repository only provide 32bit i386 packages cos older computers were focused on that!
