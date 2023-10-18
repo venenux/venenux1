@@ -1,12 +1,14 @@
-# venenux-repos-gen1
+# venenux repositories for older releases
 
-VenenuX repositories for first generation of modern computers, means this repository its for 32bit systems and older debians.
+VenenuX repositories for first generation of modern computers, means this repository its for 32bit systems and older debians/venenux.
+
+**Do you want more modern ones? theck http://venenux.github.io/venenux2/ repository for Debian 10/11/12!**
 
 ## Supported Debians
 
-* Debian 4.0 etch and with this support limited to winbuntu 6.04
-* Debian 5.0 lenny and with this support limited to winbuntu 7.10/8.04
-* Debian 6.0 squeeze and with this support limited to winbuntu 9.10/10.0.4
+* Debian 4.0 etch and with this support limited to winbuntu 6.04, **likely VenenuX 0.6**
+* Debian 5.0 lenny and with this support limited to winbuntu 7.10/8.04, **likely VenenuX 0.8**
+* Debian 6.0 squeeze and with this support limited to winbuntu 9.10/10.0.4, **likely VenenuX 0.9**
 
 ## How to use this repository
 
@@ -14,18 +16,36 @@ Just add to sources list using your name distro:
 
 | Release | Repo entry in source.list |
 | ------- | ------------------------------------------------------------- |
-| etch    | `deb https://venenux.github.io/venenuxrepogen1/ etch main`    |
-| lenny   | `deb https://venenux.github.io/venenuxrepogen1/ lenny main`   |
-| squeeze | `deb https://venenux.github.io/venenuxrepogen1/ squeeze main` |
+| etch    | `deb https://venenux.github.io/venenux1/ etch main`    |
+| lenny   | `deb https://venenux.github.io/venenux1/ lenny main`   |
+| squeeze | `deb https://venenux.github.io/venenux1/ squeeze main` |
 
 ## How to avoid or use the https
 
-Sinde apt 0.7.0 exist the `apt-transport-https` package, unfortunatelly 
-is not available for etch, so the ony solution is to reverse proxy 
+Since apt 0.7.0 exist the `apt-transport-https` package, unfortunatelly 
+is not available for etch, so the only solution is to reverse proxy 
 the repo or mirror the repo, we will buil a disk in a future for this.
 
 You must install  `apt-transport-https` package for lenny or squeeze able 
 to use this repository directly.
+
+#### About the TLS and incompatible SSL layer on https for apt
+
+To being able to use this repository with `apt-transport-https` package for lenny or squeeze, 
+please do as root account logged in:
+
+```
+cat > /etc/apt/apt.conf.d/50venenuxgithubrepo << EOF
+APT::Get::AllowUnauthenticated "true";
+Acquire::AllowInsecureRepositories "true";
+Acquire::AllowDowngradeToInsecureRepositories "true";
+Acquire::Check-Valid-Until "false";
+Aptitude::CmdLine::Ignore-Trust-Violations "true";
+Acquire::https::venenux.github.io::Verify-Peer "false";
+EOF
+```
+
+And then make the apt update procedure.
 
 ## Packages and architecture supported
 
@@ -35,6 +55,7 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 | ------------------ | --------- | --------- | --------- | -------- |
 | autoconf           | 2.59/2.64 | 2.59/2.64 | 2.59/2.64 |          |
 | Gcc                | 4.1.2     | 4.4.5     | 4.6.0     | etch has some probles with gettex packages |
+
 
 more to come
 
@@ -71,3 +92,15 @@ a Debian 6 could be installed, like the magallanes/canaimitas laptops.
 and only can run 32bit instructions, so also modern distros are not recomended 
 for those, a debian 6 or debian 8 are recommended for those devices.
 
+
+## CONTRIBUTE
+
+PLease read [HACKING.md](HACKING.md)
+
+## LICENSE
+
+* GPL v 3 100% with one exception: you must cited authors of this work!
+* Each package has own license but the work of packaging itselft must cite authors.
+
+Those packages in mayority are backports from Debian originals with security updates, 
+also includes patches long awaiting or fixeds that never was acepted becouse deviated to next release of debians.
