@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 23 May 2015 08:15:40 -0430
+Source: apt-conf-vnx
+Binary: apt-conf-vnx
+Architecture: source all
+Version: 0.3.1
+Distribution: unstable
+Urgency: high
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ apt-conf-vnx - preferencias iniciales para sistema de paquetes de software Venen
+Changes: 
+ apt-conf-vnx (0.3.1) unstable; urgency=high
+ .
+   * New mantainer upload: sync the repos files
+     + set urgency due autoconfiguring the repositories now
+   * debian/postinst:
+     + autoconfigures repository for all venenux versions and archvie debian if proper
+     - moves removing garbage files to preinst script to sure do not conflict exitsting files
+     + autoconfiguring now the repositories for the older supported debian releases of venenux
+   * debian/preinst:
+     + remove garbage files before installing so do not conflicts when/during install
+   * debian/control:
+     + not provide personal keyrings, only refers to other vnx derived key
+     + new depends, lsb-release to autoconfiguring repositories
+   * apt:
+     + fix repositories common places for redirectme and venenux.net, no-ip are not free now
+     + now uses venenux-repo at fundacite
+     + fix and sync the apt pin priority between packages and repositories availables
+Checksums-Sha1: 
+ a955d649bd54facb8e6d1f201d90c96322852b8d 731 apt-conf-vnx_0.3.1.dsc
+ ef47036fb53edee7143e75bd38df5ad331bedddf 109989 apt-conf-vnx_0.3.1.tar.gz
+ 16b9c356ecd3b96fab008355360d86deaeaeeb48 13738 apt-conf-vnx_0.3.1_all.deb
+Checksums-Sha256: 
+ 04ef00a4f93dc16aa49634517f9a77ba74b336b4100970d90555e0cd5bbc0289 731 apt-conf-vnx_0.3.1.dsc
+ d530b6ad378e3e6dd063867c773ecd22e7378d818d2d074d06e4338bf7b56819 109989 apt-conf-vnx_0.3.1.tar.gz
+ 28172f859b1acbf99ad990accd0613f919098d1ed50945cadd538e3c5bf43689 13738 apt-conf-vnx_0.3.1_all.deb
+Files: 
+ fc3b7c5568012b7810cfbbf3f60d35c9 731 admin important apt-conf-vnx_0.3.1.dsc
+ 0b7b9ec1e295d74c2c73e71f7abefbf9 109989 admin important apt-conf-vnx_0.3.1.tar.gz
+ db3606eeae29f36a3db9a9915982c617 13738 admin important apt-conf-vnx_0.3.1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFVh0qlz+9Ts05YtsQRAvqPAKCdizu0364QwRrK5Ev7VqFtu7ktRQCghpSz
+FTWs2KAGzR/aWyI52nC3LLs=
+=8CAN
+-----END PGP SIGNATURE-----

@@ -60,7 +60,7 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 
 more to come
 
-#### non free packages
+#### extra and non free packages
 
 We provide some minimal nonfree packages that unless gnu or open source crap 
 always supported older distros:
@@ -70,8 +70,9 @@ always supported older distros:
 | anydesk            |           |           | 2.3.9     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for lenny and squeeze on amd64 |
 | slimjet            |           |           | 29        | like have a 32bit chrome/brave, cos today there no 32bit builds of |
+| apt-conf-vnz       | 0.5.0     | 0.5.0     | 0.5.0     | auto configures repositories and apt for usage on older or newer debians |
 
-Those package are only in the `stable` branch component, not in `main` one of the repository index debian packages.
+Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
 ##  Why this repository and why older distro
 

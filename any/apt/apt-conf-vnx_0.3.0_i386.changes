@@ -1,0 +1,48 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 14 Apr 2012 03:38:59 -0430
+Source: apt-conf-vnx
+Binary: apt-conf-vnx
+Architecture: source all
+Version: 0.3.0
+Distribution: unstable
+Urgency: medium
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ apt-conf-vnx - preferencias iniciales para sistema de paquetes de software Venen
+Changes: 
+ apt-conf-vnx (0.3.0) unstable; urgency=medium
+ .
+   * Non-maintainer upload. Not necessary.. almost for now.
+     + but still need defined sources.list
+     + added keyrings for venenux PICCORO from me and the older 64studio due are 0.8 compat
+     + added ping priority high for backported repositories in debian oficial stable
+     + added common repositories for all venenux releases
+     + added common pachamama repository now as common for all venenux releases
+     + added devel repositories but with lowes ping priority
+   * backported for massenkoh and makes conflicts/provides
+     + fix repositories common places for redirectme and venenux.net
+     + disable the msk non-free cleaning repositories, they are use only for cleaning packages
+Checksums-Sha1: 
+ 8def3d0a696ae46d211ed578edc42733d399f537 739 apt-conf-vnx_0.3.0.dsc
+ d792f74a9c5dbeb393fddcc6ac89dc7dd738df42 107635 apt-conf-vnx_0.3.0.tar.gz
+ f6099dfbb19bf46e8725d91260fc864bcf1d6b41 11474 apt-conf-vnx_0.3.0_all.deb
+Checksums-Sha256: 
+ bd4ebf7bab57b04f4569662efdcbfbd4bfafa055d71c82fac3a3027b74bbfe9f 739 apt-conf-vnx_0.3.0.dsc
+ ed2a2ab9dbf321763b425616bef0a8354c99b26a3d479e35a640d64c158c7068 107635 apt-conf-vnx_0.3.0.tar.gz
+ ae4e65a322c63f9febcfc5de51decd82c4b89eb71d754a03606db2a50eebea51 11474 apt-conf-vnx_0.3.0_all.deb
+Files: 
+ eadc06953a61d51eb98dfe4e2272e66c 739 admin extra apt-conf-vnx_0.3.0.dsc
+ 2085c8b06f56e2c0fbeed62cb617b06e 107635 admin extra apt-conf-vnx_0.3.0.tar.gz
+ 1c54203c92a8b72310235b44fe74988e 11474 admin extra apt-conf-vnx_0.3.0_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAlH+2vYACgkQz+9Ts05YtsR0NgCfXEkNiMFRD8W5qtiio3NlOk2R
+bdMAnjwIHxAFb6g4uUSQsxyiBx6dsleY
+=6vJ0
+-----END PGP SIGNATURE-----

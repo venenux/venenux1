@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 30 Aug 2014 08:39:46 -0430
+Source: apt-proz
+Binary: apt-proz
+Architecture: source i386
+Version: 0.1~tahutek1-1vnz1
+Distribution: unstable
+Urgency: medium
+Maintainer: Damar Riyadi <tldm217@gmail.com>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ apt-proz   - apt-proz: apt interface using prozilla for gettin packages
+Changes: 
+ apt-proz (0.1~tahutek1-1vnz1) unstable; urgency=medium
+ .
+   * rebuild for venenux apt addons, set prior to medium due new apt sing key feature
+   * debian/control: more explicy description
+   * apt-proz: force the install always due now apt use sing keys for verifing packages
+Checksums-Sha1: 
+ 1cdd691ac3c5d99c5148ad161ce6ef0cc90201ef 813 apt-proz_0.1~tahutek1-1vnz1.dsc
+ 12e16396299b23191d8bb44425fcbaaf637f9ae4 3625 apt-proz_0.1~tahutek1-1vnz1.tar.gz
+ 5583c825dcd16ba5682b89b829dfabffc49bdaff 3950 apt-proz_0.1~tahutek1-1vnz1_i386.deb
+Checksums-Sha256: 
+ 45f641886e500e6a6137ae4f2bd502d5409a9ded1786e4663b8f2727ad215fed 813 apt-proz_0.1~tahutek1-1vnz1.dsc
+ d6b00135948175a729309108bf8d41e2db277ac4af9124292340118bd271f33d 3625 apt-proz_0.1~tahutek1-1vnz1.tar.gz
+ 49d2450a541d92f6bd6fde60584731ab4386e1e523f72cc395c95f65b31986c6 3950 apt-proz_0.1~tahutek1-1vnz1_i386.deb
+Files: 
+ 2a5d014326ad7d66ba8c4e7184006c8c 813 admin extra apt-proz_0.1~tahutek1-1vnz1.dsc
+ f4e2b2c68f0298153904c5e3664c098e 3625 admin extra apt-proz_0.1~tahutek1-1vnz1.tar.gz
+ fc7567aa096f150cd2f086b5888044b3 3950 admin extra apt-proz_0.1~tahutek1-1vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAlQB1PQACgkQz+9Ts05YtsRJrACfSJAk94oPgjjMXmCSiCkTdLlj
+fbgAniJuBG1Wf1MU/1jybSI8D4f3bYNY
+=gr+a
+-----END PGP SIGNATURE-----

@@ -1,0 +1,1828 @@
+Package: anydesk
+Version: 2.3.0-1
+Architecture: i386
+Maintainer: AnyDesk <info@anydesk.com>
+Installed-Size: 5593
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.20.1), libgtkglext1, libstdc++6 (>= 4.1.1), libx11-6, libxcb-damage0, libxcb-randr0 (>= 1.3), libxcb-shm0, libxcb-xfixes0, libxcb-xtest0, libxcb1, libpango1.0-0, libcairo2
+Filename: any/anydesk/anydesk_2.3.0-1_i386.deb
+Size: 2200184
+MD5sum: c4c6d32c8d96cec9affac49c6b1d5da8
+SHA1: e7367f453dcda7a74afa0f63fd57c2e00c83179d
+SHA256: a8fd6e9d2f86459f600c3c0762cea90343d01532a2a7e4df1c4bac3bb9e560c3
+Section: net
+Priority: extra
+Homepage: http://anydesk.com
+Description: the world's fastest remote desktop application
+
+Package: anydesk
+Version: 2.6.1-1
+Architecture: i386
+Maintainer: AnyDesk <info@anydesk.com>
+Installed-Size: 6728
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.20.1), libgtkglext1, libstdc++6 (>= 4.1.1), libx11-6, libxcb-shm0, libxcb1, libpango1.0-0, libcairo2, libxrandr2 (>= 1.3), libx11-xcb1, libxtst6, libxfixes3, libxdamage1
+Filename: any/anydesk/anydesk_2.6.1-1_i386.deb
+Size: 2635804
+MD5sum: 27b58af108dea9795dd170ec94249c3e
+SHA1: 5d91f4f77fa5aa5d3f2ea90106004fd72a1ffdc3
+SHA256: 36d8fa8d3dbaf56830d2a9230fe0874543ab595ff5a18cdab9916235fa7b3e2c
+Section: net
+Priority: extra
+Homepage: http://anydesk.com
+Description: the world's fastest remote desktop application
+
+Package: anydesk
+Version: 2.7.1-1
+Architecture: i386
+Maintainer: AnyDesk <info@anydesk.com>
+Installed-Size: 7117
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.20.1), libgtkglext1, libstdc++6 (>= 4.1.1), libx11-6, libxcb-shm0, libxcb1, libpango1.0-0, libcairo2, libxrandr2 (>= 1.3), libx11-xcb1, libxtst6, libxfixes3, libxdamage1
+Filename: any/anydesk/anydesk_2.7.1-1_i386.deb
+Size: 2774644
+MD5sum: 9bd1053c067a37d61d668c21fcffc7e7
+SHA1: 8d9ca9282f39cfa68686ffc57ed0f72e57eb37ed
+SHA256: 38f89b214cdb537e9a35d71462bb2edfae6b1ff137f69c12f402f5d52af84288
+Section: net
+Priority: extra
+Homepage: http://anydesk.com
+Description: the world's fastest remote desktop application
+
+Package: apt-build
+Version: 0.12.38.1vnz1
+Architecture: i386
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 150
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.3.6-6), perl, apt (>= 0.5), gcc, g++, dpkg-dev (>= 1.9), libappconfig-perl (>= 1.5), libapt-pkg-perl (>= 0.1.11), devscripts, apt-utils
+Recommends: fakeroot, build-essential
+Filename: any/apt/apt-build_0.12.38.1vnz1_i386.deb
+Size: 36092
+MD5sum: bfab27f5059908446c6f5a50d1ad056f
+SHA1: 5e2c7988ea031c667372afd0360c637ab1fb7c54
+SHA256: 1e8d1726bed650e5fa188dfe00a5b35015c43ebd764c8ed637a8969fa72d55fe
+Section: devel
+Priority: optional
+Description: frontend to apt to build, optimize and install packages
+ This is an apt-get front-end for compiling software optimized
+ for your architecture by creating a local repository with built packages.
+ It can manage system upgrades too.
+
+Package: apt-conf-vnx
+Version: 0.4.0
+Architecture: all
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 45
+Depends: lsb-release, gnupg, apt
+Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archive-keyrings, massenkoh-keyrings, venenux-piccoro-keyrings
+Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
+Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
+Filename: any/apt/apt-conf-vnx_0.4.0_all.deb
+Size: 13878
+MD5sum: 0c45e9a88a3969fce90d4bce3a5d6078
+SHA1: 4a889dd14cec15c5f7e58cd35f114423b7ae79da
+SHA256: b1f9effc0e4026c453f3a69165c41b2469c5e0844ef93fc0226213a4c9981186
+Section: admin
+Priority: important
+Description: preferencias iniciales para sistema de paquetes de software VenenuX
+ This added default sources repository and configs for aptitude software package system.
+ Esto agrega preferencias iniciales y onfiguraciones para aptitude el sistema de paquetes de programas.
+ .
+ Venenux emplea como sistema de paquetes de software y programas el programa aptitude,
+ que maneja en una interfaz tanto de comandos como interfaz de usuario las relaciones y
+ registros del software por medio de los paquetes debian. Es el mejor sistema de manejo
+ de software en Debian y es el oficial para VenenuX.
+ .
+ Este paquete hace lo siguiente:
+  * establece configuraciones para el sistema de paqueteria,
+    impidiendo que usuarios inexpertos instalen mucha basura que perjudicaria el soporte.
+  * prioritiza la instalacion de software de paquetes desde los repositorios
+    ya actualizados de venenux, para las versiones tanto viejas como nuevas
+  * agrega la llaves de trabajo de paqueteria,
+    que permiten verificar y autenticar el software de nuestros desarrolladores.
+  * agrega por defecto repositorios especiales, comunes para todas las distribuciones
+    y para todas las versiones de venenux dado asi paquetes al dia a estas.
+  * agrega repositorios estables de backports como repositorios normales ya que
+    estos poseen paquetes mas actuales en la rama estable de debian
+  * fuerza la nuevas configuraciones desde lo paquetes de lo repositorios,
+    esto significa que si un novato intenta actualizar un servidor, perdera su configuracion
+    dado que los paquetes nuevos pueden diferir en configuraciones establecemos la nuevas siempre.
+ .
+ En debian apt es un sistema demasiado facilista que no permite una buena administracion.
+ apt 0.7 se convirtio en aptitude y con este paquete se devuelve su antiguo funcionamiento.
+ apt 0.7 basically transforms apt into aptitude, revert to traditional apt
+ behaviour as far as that is possible by disabling, among others, the
+ automatic installation of recommends (and suggests), as well as disabling
+ and hiding the autoremove functionality.
+
+Package: apt-conf-vnx
+Version: 0.4.1
+Architecture: all
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 69
+Depends: lsb-release, gnupg, apt
+Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archive-keyrings, massenkoh-keyrings, venenux-piccoro-keyrings
+Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
+Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
+Filename: any/apt/apt-conf-vnx_0.4.1_all.deb
+Size: 13796
+MD5sum: 0d7e5d8c51265826305a8dc3702171c6
+SHA1: 844d15daf89c794fb88a4a0f4967677292ea96c4
+SHA256: 3d506bbb91f63791257839a53d2d210ea1e47111b18fd352d95e5e6f885cd8b1
+Section: admin
+Priority: important
+Description: preferencias iniciales para sistema de paquetes de software VenenuX
+ This added default sources repository and configs for aptitude software package system.
+ Esto agrega preferencias iniciales y onfiguraciones para aptitude el sistema de paquetes de programas.
+ .
+ Venenux emplea como sistema de paquetes de software y programas el programa aptitude,
+ que maneja en una interfaz tanto de comandos como interfaz de usuario las relaciones y
+ registros del software por medio de los paquetes debian. Es el mejor sistema de manejo
+ de software en Debian y es el oficial para VenenuX.
+ .
+ Este paquete hace lo siguiente:
+  * establece configuraciones para el sistema de paqueteria,
+    impidiendo que usuarios inexpertos instalen mucha basura que perjudicaria el soporte.
+  * prioritiza la instalacion de software de paquetes desde los repositorios
+    ya actualizados de venenux, para las versiones tanto viejas como nuevas
+  * agrega la llaves de trabajo de paqueteria,
+    que permiten verificar y autenticar el software de nuestros desarrolladores.
+  * agrega por defecto repositorios especiales, comunes para todas las distribuciones
+    y para todas las versiones de venenux dado asi paquetes al dia a estas.
+  * agrega repositorios estables de backports como repositorios normales ya que
+    estos poseen paquetes mas actuales en la rama estable de debian
+  * fuerza la nuevas configuraciones desde lo paquetes de lo repositorios,
+    esto significa que si un novato intenta actualizar un servidor, perdera su configuracion
+    dado que los paquetes nuevos pueden diferir en configuraciones establecemos la nuevas siempre.
+ .
+ En debian apt es un sistema demasiado facilista que no permite una buena administracion.
+ apt 0.7 se convirtio en aptitude y con este paquete se devuelve su antiguo funcionamiento.
+ apt 0.7 basically transforms apt into aptitude, revert to traditional apt
+ behaviour as far as that is possible by disabling, among others, the
+ automatic installation of recommends (and suggests), as well as disabling
+ and hiding the autoremove functionality.
+
+Package: apt-conf-vnx
+Version: 0.5.0
+Architecture: all
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 43
+Depends: lsb-release, gnupg, apt
+Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archive-keyrings, massenkoh-keyrings, venenux-piccoro-keyrings
+Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
+Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
+Filename: any/apt/apt-conf-vnx_0.5.0_all.deb
+Size: 13232
+MD5sum: 856ac099c1ea3162212873c8b7da14da
+SHA1: fa76062a1a37012c6e357b8ed504a3fb17c86881
+SHA256: baaa8eda4b4cf3765b1710d8469a9484d21636a8375ed7f90cdf9adbcde2793f
+Section: admin
+Priority: important
+Description: preferencias iniciales para sistema de paquetes de software VenenuX
+ This added default sources repository and configs for aptitude software package system.
+ Esto agrega preferencias iniciales y onfiguraciones para aptitude el sistema de paquetes de programas.
+ .
+ Venenux emplea como sistema de paquetes de software y programas el programa aptitude,
+ que maneja en una interfaz tanto de comandos como interfaz de usuario las relaciones y
+ registros del software por medio de los paquetes debian. Es el mejor sistema de manejo
+ de software en Debian y es el oficial para VenenuX.
+ .
+ Este paquete hace lo siguiente:
+  * establece configuraciones para el sistema de paqueteria,
+    impidiendo que usuarios inexpertos instalen mucha basura que perjudicaria el soporte.
+  * prioritiza la instalacion de software de paquetes desde los repositorios
+    ya actualizados de venenux, para las versiones tanto viejas como nuevas
+  * agrega la llaves de trabajo de paqueteria,
+    que permiten verificar y autenticar el software de nuestros desarrolladores.
+  * agrega por defecto repositorios especiales, comunes para todas las distribuciones
+    y para todas las versiones de venenux dado asi paquetes al dia a estas.
+  * agrega repositorios estables de backports como repositorios normales ya que
+    estos poseen paquetes mas actuales en la rama estable de debian
+  * fuerza la nuevas configuraciones desde lo paquetes de lo repositorios,
+    esto significa que si un novato intenta actualizar un servidor, perdera su configuracion
+    dado que los paquetes nuevos pueden diferir en configuraciones establecemos la nuevas siempre.
+ .
+ En debian apt es un sistema demasiado facilista que no permite una buena administracion.
+ apt 0.7 se convirtio en aptitude y con este paquete se devuelve su antiguo funcionamiento.
+ apt 0.7 basically transforms apt into aptitude, revert to traditional apt
+ behaviour as far as that is possible by disabling, among others, the
+ automatic installation of recommends (and suggests), as well as disabling
+ and hiding the autoremove functionality.
+
+Package: apt-proz
+Version: 0.1~tahutek1-1vnz1
+Architecture: i386
+Maintainer: Damar Riyadi <tldm217@gmail.com>
+Installed-Size: 24
+Depends: apt, prozilla
+Filename: any/apt/apt-proz_0.1~tahutek1-1vnz1_i386.deb
+Size: 3950
+MD5sum: fc7567aa096f150cd2f086b5888044b3
+SHA1: 5583c825dcd16ba5682b89b829dfabffc49bdaff
+SHA256: 49d2450a541d92f6bd6fde60584731ab4386e1e523f72cc395c95f65b31986c6
+Section: admin
+Priority: extra
+Homepage: http://www.tahutek.net
+Description: apt-proz: apt interface using prozilla for gettin packages
+ apt interface using prozilla for gettin packages
+ making roughly 26x Faster apt-get Installations
+ and Upgrades using prozilla for downloading files.
+
+Package: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 39992
+Depends: lsb-release, libasound2 (>> 1.0.25), libatk1.0-0 (>= 1.29.3), libc6 (>= 2.7-1), libcairo2 (>= 1.8.0-2), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.3.9), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.25.0), libgtk2.0-0 (>= 2.20.0), libnotify1 (>= 0.5.0), libnotify1-gtk2.10, libnspr4 (>= 2:4.9.2), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.13.2), libpango1.0-0 (>= 1.24.0), libstartup-notification0 (>= 0.8-1), libstdc++6 (>= 4.2.1), libx11-6, libxext6, libxrender1, libxt6
+Recommends: dictionaries-common, myspell-dictionary, venenux-firefox, libcanberra0
+Suggests: latex-xft-fonts, libthai0, firefox-gnome-support
+Conflicts: abrowser (<= 4.0~b11+build3+nobinonly-1), abrowser-branding (<= 4.0~b11+build3+nobinonly-1), firefox-2 (<< 3), firefox-2-dom-inspector (<< 3), firefox-2-libthai (<< 3), firefox-3.0 (<< 3.6~hg20100117r33523), firefox-3.5 (<< 3.6~hg20100117r33523), firefox-3.6 (<< 3.6~hg20100117r33523), firefox-3.6-gnome-support (<< 3.6~hg20100117r33523), firefox-branding (<= 4.0~b11+build3+nobinonly-1), gcu-plugin (<= 0.10.12-2), gecko-mediaplayer (<= 0.9.9.2-1), iceweasel (>> 16.99.99.99), iceweasel (<< 16), mozilla-gtk-vnc (<= 0.3.10-1), mozilla-opensc (<= 0.11.12-1), mozilla-plugin-pcmanx (<= 0.3.9-2), mozilla-virt-viewer (<= 0.0.3-67), mozplugger (<= 1.12.0-1), xine-plugin (<= 1.0.2-1)
+Replaces: abrowser, abrowser-branding, firefox-2, firefox-2-dom-inspector, firefox-2-libthai, firefox-3.0, firefox-3.5, firefox-3.6, firefox-3.6-gnome-support, firefox-branding, iceweasel
+Provides: firefox-2, firefox-2-dom-inspector, firefox-2-libthai, firefox-3.0, firefox-3.5, firefox-3.6, gnome-www-browser, iceweasel, www-browser, x-www-browser
+Filename: any/firefox16/firefox_16.0.2+build1-1vnz1_i386.deb
+Size: 20143554
+MD5sum: e37d5a69f52fe3519494a986bc9323a4
+SHA1: 8ce7e75b15bb047b403ed295b1b2e1e1f1026f76
+SHA256: 620bb13b5460fd3e8a4fd4c42a95cbcc7af47f5c5798fc7cbf763c517fb02ebf
+Section: web
+Priority: optional
+Description: Safe and easy web browser from Mozilla
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+Xul-Appid: {ec8030f7-c20a-464f-9b0e-13a3a9e97384}
+
+Package: firefox-dev
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 37536
+Depends: libc6 (>= 2.7-1), libgcc1 (>= 1:4.1.1), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libstdc++6 (>= 4.1.1), firefox (= 16.0.2+build1-1vnz1)
+Conflicts: firefox-2-dev (<< 3), firefox-3.0-dev (<< 3.6~hg20100117r33523), firefox-3.5-dev (<< 3.6~hg20100117r33523), firefox-3.6-dev (<< 3.6~hg20100117r33523+nobinonly), xulrunner-1.9-dev, xulrunner-1.9.2-dev, xulrunner-2.0-dev
+Replaces: firefox-2-dev, firefox-3.0-dev, firefox-3.5-dev, firefox-3.6-dev, xulrunner-dev
+Provides: firefox-2-dev, firefox-3.0-dev, firefox-3.5-dev, firefox-3.6-dev, xulrunner-dev
+Filename: any/firefox16/firefox-dev_16.0.2+build1-1vnz1_i386.deb
+Size: 5868466
+MD5sum: 9266fddb36556c02d5aa1604b816459f
+SHA1: fc7f1c47660f82dcf4a9b8edda6fe33cfa4d78b1
+SHA256: abfe061f13906b3344486da950627e9542a872e6d1fae1275b1b6dcaaafa8a32
+Section: devel
+Priority: extra
+Description: Safe and easy web browser from Mozilla - development files
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package contains the headers and SDK for building plugins with Firefox
+
+Package: firefox-gnome-support
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 112
+Depends: libatk1.0-0 (>= 1.29.3), libc6 (>= 2.7-1), libcairo2 (>= 1.8.0-2), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.25.0), libgtk2.0-0 (>= 2.14), libnotify1 (>= 0.5.0), libnotify1-gtk2.10, libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libpango1.0-0 (>= 1.24.0), libstdc++6 (>= 4.1.1), firefox
+Conflicts: firefox-2 (<< 3), firefox-3.0-gnome-support (<< 3.6~hg20100117r33523), firefox-3.5-gnome-support (<< 3.6~hg20100117r33523), firefox-3.6-gnome-support (<< 3.6~hg20100117r33523+nobinonly), iceweasel-gnome-support
+Replaces: firefox-2-gnome-support, firefox-3.0-gnome-support, firefox-3.5-gnome-support, firefox-3.6-gnome-support, iceweasel-gnome-support
+Provides: firefox-2, firefox-3.0-gnome-support, firefox-3.5-gnome-support, firefox-3.6-gnome-support, iceweasel-gnome-support
+Filename: any/firefox16/firefox-gnome-support_16.0.2+build1-1vnz1_i386.deb
+Size: 47980
+MD5sum: bae699581201414c1fa00ee2d6c5cb70
+SHA1: c6191dc07e7288089bc20c073947c9e23d93014f
+SHA256: cb0f96a64c09d4e19530664d4dab3cf668e4a476705553cbf4ed7c5523123d07
+Section: gnome
+Priority: optional
+Description: Safe and easy web browser from Mozilla - GNOME support
+ Firefox delivers safe, easy web browsing. A familiar user interface,
+ enhanced security features including protection from online identity theft,
+ and integrated search let you get the most out of the web.
+ .
+ This package depends on the GNOME libraries which allow Firefox to take
+ advantage of technologies such as GConf, GIO libnotify
+
+Package: firefox-locale-af
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 436
+Depends: firefox
+Replaces: language-pack-af-base
+Filename: any/firefox16/firefox-locale-af_16.0.2+build1-1vnz1_i386.deb
+Size: 291994
+MD5sum: 9ed09a178612a28f69e678b5ecadf95c
+SHA1: 8d90453d0407773d2fbe59fd5db84d987b836945
+SHA256: a223427c7cf94d6b0ba262b738390e02cd1a962e13dadbaf973d2b8f8922436d
+Section: web
+Priority: optional
+Description: Afrikaans language pack for Firefox
+ This package contains Afrikaans translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ar
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 468
+Depends: firefox
+Replaces: language-pack-ar-base
+Filename: any/firefox16/firefox-locale-ar_16.0.2+build1-1vnz1_i386.deb
+Size: 322260
+MD5sum: a2609371a814bb1b4b02cf4e80122707
+SHA1: c931f1669bf81102e7428f9a5c56b3c29bd39e07
+SHA256: a622f914aad6f2a1ed64a6224d99f53d231ea7e7a0d0256a3efb30fa802d86a6
+Section: web
+Priority: optional
+Description: Arabic language pack for Firefox
+ This package contains Arabic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-as
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 480
+Depends: firefox
+Replaces: language-pack-as-base
+Filename: any/firefox16/firefox-locale-as_16.0.2+build1-1vnz1_i386.deb
+Size: 337604
+MD5sum: 416208ec789f66492c502b1105436f4e
+SHA1: e8737066cbbd9f124eadce58b88c5443c5946b3e
+SHA256: 27a927b531567c1f1c1235f4d30d0e9fe3dac8c59f6f4854b58125089729dbb4
+Section: web
+Priority: optional
+Description: Assamese language pack for Firefox
+ This package contains Assamese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ast
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 416
+Depends: firefox
+Replaces: language-pack-ast-base
+Filename: any/firefox16/firefox-locale-ast_16.0.2+build1-1vnz1_i386.deb
+Size: 270398
+MD5sum: f788d6d6a2a38086c1a3a187f71f7a28
+SHA1: 60f38751b984b1e06256cf8134371315913bb2cc
+SHA256: ea2b2667eb5d05ee666bfa915b3594a996bc926dcdcddd921e2c53ce692123d3
+Section: web
+Priority: optional
+Description: Asturian language pack for Firefox
+ This package contains Asturian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-be
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 444
+Depends: firefox
+Replaces: language-pack-be-base
+Filename: any/firefox16/firefox-locale-be_16.0.2+build1-1vnz1_i386.deb
+Size: 295450
+MD5sum: f136e4be084663f0768ecce791e49ec9
+SHA1: d6f46cb12227389e5927ca475f1b8c0c6be3dfa5
+SHA256: 4e9a05835b5e1e69edc65b5493d9b9c6b124e6b58a42880490e96ff95758d010
+Section: web
+Priority: optional
+Description: Belarusian language pack for Firefox
+ This package contains Belarusian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bg
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 484
+Depends: firefox
+Replaces: language-pack-bg-base
+Filename: any/firefox16/firefox-locale-bg_16.0.2+build1-1vnz1_i386.deb
+Size: 338778
+MD5sum: 88bcc688fe6128a771abb668dcfd41db
+SHA1: bc1c590dcb92a536723d1c531287bdf41c4a0dae
+SHA256: fff89597a0213f41adb5051dd3ed0b7b48c4ce1b26ba15270d39e5c2f8600892
+Section: web
+Priority: optional
+Description: Bulgarian language pack for Firefox
+ This package contains Bulgarian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bn
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 896
+Depends: firefox
+Replaces: language-pack-bn-base
+Filename: any/firefox16/firefox-locale-bn_16.0.2+build1-1vnz1_i386.deb
+Size: 675686
+MD5sum: 9cf79d95bdab56035dc5b8de937a62ee
+SHA1: 61a918ea8ebdf563a4b2019d52c200fb6ed5f4d2
+SHA256: 4c531eaf4b0701c9d9883b5c5df864aee0a95793ff8bfa1fd3fcb447289b44c0
+Section: web
+Priority: optional
+Description: Bengali language pack for Firefox
+ This package contains Bengali translations and search plugins
+ for Firefox
+
+Package: firefox-locale-br
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-br-base
+Filename: any/firefox16/firefox-locale-br_16.0.2+build1-1vnz1_i386.deb
+Size: 303566
+MD5sum: 0383556e920fbc7f04b647775fd4beb8
+SHA1: d944cb5d0eea908394bb347bbe092f8b51c2f1c2
+SHA256: 5bd7af7631ca49636d8becf71fac882e8730b76970f3eb999f358e33c9cfe491
+Section: web
+Priority: optional
+Description: Breton language pack for Firefox
+ This package contains Breton translations and search plugins
+ for Firefox
+
+Package: firefox-locale-bs
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 456
+Depends: firefox
+Replaces: language-pack-bs-base
+Filename: any/firefox16/firefox-locale-bs_16.0.2+build1-1vnz1_i386.deb
+Size: 306558
+MD5sum: d3fa8186e1af6f2152d972a64f26a48d
+SHA1: 3e1e988016c12723cd82f48d07b8d1c7262e0d71
+SHA256: 5ae693036edcdd3c8f301c211a7bafc65f1fe7fe3465078e643e5e7dddc8144b
+Section: web
+Priority: optional
+Description: Bosnian language pack for Firefox
+ This package contains Bosnian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ca
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 452
+Depends: firefox
+Replaces: language-pack-ca-base
+Filename: any/firefox16/firefox-locale-ca_16.0.2+build1-1vnz1_i386.deb
+Size: 306554
+MD5sum: e11a5aab143c00a3e6ffac796edbdf7c
+SHA1: d65526d984fa050867853a08c96178516abaebb2
+SHA256: 02075bebfbeb798b7d2f164564127537eb304d26d84f652d5146ca316573d07b
+Section: web
+Priority: optional
+Description: Catalan; Valencian language pack for Firefox
+ This package contains Catalan; Valencian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-cs
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 452
+Depends: firefox
+Replaces: language-pack-cs-base
+Filename: any/firefox16/firefox-locale-cs_16.0.2+build1-1vnz1_i386.deb
+Size: 305328
+MD5sum: cf4b0fa826593431d2fbae7e5073a4cc
+SHA1: 0d17c35d524f16ec684c90f7f0f7ee7dc70cbf1d
+SHA256: 489b52a494851634169635c60af34fdca01640948a1f6a4c0eeb63eaead91b33
+Section: web
+Priority: optional
+Description: Czech language pack for Firefox
+ This package contains Czech translations and search plugins
+ for Firefox
+
+Package: firefox-locale-csb
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 456
+Depends: firefox
+Replaces: language-pack-csb-base
+Filename: any/firefox16/firefox-locale-csb_16.0.2+build1-1vnz1_i386.deb
+Size: 309004
+MD5sum: cba7034d5682024c07c218b842de1129
+SHA1: 32b7bc8f983107dff86b27e68b1bfb73f5864526
+SHA256: f03e3c8a6b465ff4972be3c784078fc975ebe221be4f07b08b464ea622d0df3d
+Section: web
+Priority: optional
+Description: Kashubian language pack for Firefox
+ This package contains Kashubian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-cy
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-cy-base
+Filename: any/firefox16/firefox-locale-cy_16.0.2+build1-1vnz1_i386.deb
+Size: 296650
+MD5sum: 50db81973816ab3fb06e7c2ae7796628
+SHA1: 376aa6dc02e0b631b788b3d637b6020ec8eadb1c
+SHA256: 4342765f0c115851d7bd93aacd9f2bfdc0929c471c8e1214d6940d3a759c22a1
+Section: web
+Priority: optional
+Description: Welsh language pack for Firefox
+ This package contains Welsh translations and search plugins
+ for Firefox
+
+Package: firefox-locale-da
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 436
+Depends: firefox
+Replaces: language-pack-da-base
+Filename: any/firefox16/firefox-locale-da_16.0.2+build1-1vnz1_i386.deb
+Size: 294906
+MD5sum: 8415420ca04b3df3e9f6be7b6e360914
+SHA1: 51e19e6c0026847e9d94d6ce76a18cd5ad61158f
+SHA256: 327945ce2267295cc243d2f2971c12969cb7010e515a80958929eba3b52e0b5f
+Section: web
+Priority: optional
+Description: Danish language pack for Firefox
+ This package contains Danish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-de
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 436
+Depends: firefox
+Replaces: language-pack-de-base
+Filename: any/firefox16/firefox-locale-de_16.0.2+build1-1vnz1_i386.deb
+Size: 282576
+MD5sum: 6f94c3360a4e2b4c44b2ddbba8b39dd8
+SHA1: 776240fdd97c335ea6471404527d7093fa208a9e
+SHA256: 920e1ce2df6a0a13bfc4d7b2c207dbd667d75afac7b885b701a9b81436a0cce8
+Section: web
+Priority: optional
+Description: German language pack for Firefox
+ This package contains German translations and search plugins
+ for Firefox
+
+Package: firefox-locale-el
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 464
+Depends: firefox
+Replaces: language-pack-el-base
+Filename: any/firefox16/firefox-locale-el_16.0.2+build1-1vnz1_i386.deb
+Size: 319090
+MD5sum: 5d9161635fbeaef151ae35ad7d4a6b78
+SHA1: ca13c693c92a58214364432c375aacdf848b03b0
+SHA256: bd9d6e3e6f8cbd9a7aa0f663ce23184ba8e0fd003d984b0d3b872852d5e94415
+Section: web
+Priority: optional
+Description: Greek language pack for Firefox
+ This package contains Greek translations and search plugins
+ for Firefox
+
+Package: firefox-locale-en
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 732
+Depends: firefox
+Replaces: language-pack-en-base
+Filename: any/firefox16/firefox-locale-en_16.0.2+build1-1vnz1_i386.deb
+Size: 512318
+MD5sum: 603d4a9382bdc482a5cc15874b4bc491
+SHA1: 62af150980149c3b22b854691e76addd6e6ea937
+SHA256: 1a2c87317d5dc781a43870ceee87d95e0612e5182df466f4d6df0d15ce05e05f
+Section: web
+Priority: optional
+Description: English language pack for Firefox
+ This package contains English translations and search plugins
+ for Firefox
+
+Package: firefox-locale-eo
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-eo-base
+Filename: any/firefox16/firefox-locale-eo_16.0.2+build1-1vnz1_i386.deb
+Size: 297240
+MD5sum: 827e97471f8ad2302eed14b424f8a7b8
+SHA1: c6835f12a68e0f26a9b6b68de7d102f54bdaff86
+SHA256: 34db34b43cfb0fc4f8a4446697c7f93399cfc0658a20ded8441a258aaaab0182
+Section: web
+Priority: optional
+Description: Esperanto language pack for Firefox
+ This package contains Esperanto translations and search plugins
+ for Firefox
+
+Package: firefox-locale-es
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 1308
+Depends: firefox
+Replaces: language-pack-es-base
+Filename: any/firefox16/firefox-locale-es_16.0.2+build1-1vnz1_i386.deb
+Size: 956314
+MD5sum: 71366176372a6b23dc5c293030fc052c
+SHA1: 4f8c74894b8a851ffa03744548cbabe90137cf05
+SHA256: 61d2f92ea82e0495490a91c1d84b18a278ef19ef482bf37c9f4724cd579ee1fa
+Section: web
+Priority: optional
+Description: Spanish; Castilian language pack for Firefox
+ This package contains Spanish; Castilian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-et
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 440
+Depends: firefox
+Replaces: language-pack-et-base
+Filename: any/firefox16/firefox-locale-et_16.0.2+build1-1vnz1_i386.deb
+Size: 296854
+MD5sum: ee99b3dcbe94e83039264c57de837c4a
+SHA1: 70c14b46a42439bfcef9e14482e7df7624f3440d
+SHA256: d1f2285426a51a17b1abd54311cb664bcbbb96572f18b31f3358457be214e7ed
+Section: web
+Priority: optional
+Description: Estonian language pack for Firefox
+ This package contains Estonian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-eu
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-eu-base
+Filename: any/firefox16/firefox-locale-eu_16.0.2+build1-1vnz1_i386.deb
+Size: 295654
+MD5sum: 9718cd77999868aab768245e753731b0
+SHA1: d5dfc4511cda3d3b35ea82da02e22775b2a0d3e6
+SHA256: 89cc4b4326052fccd37543638fb4f64952f2c1605a41f3049ae17d9d5c31e048
+Section: web
+Priority: optional
+Description: Basque language pack for Firefox
+ This package contains Basque translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fa
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 476
+Depends: firefox
+Replaces: language-pack-fa-base
+Filename: any/firefox16/firefox-locale-fa_16.0.2+build1-1vnz1_i386.deb
+Size: 332508
+MD5sum: d3fb9ef69ffb316a1c1e2fab03a448d5
+SHA1: 46d5e6468767b6cc01778a4542dabe54398d7e67
+SHA256: 9e6d1c0828a497e92ba66ad2bd600d2e9aad0d9c9ee5cb9baa3e2e516593398e
+Section: web
+Priority: optional
+Description: Persian language pack for Firefox
+ This package contains Persian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fi
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 444
+Depends: firefox
+Replaces: language-pack-fi-base
+Filename: any/firefox16/firefox-locale-fi_16.0.2+build1-1vnz1_i386.deb
+Size: 299296
+MD5sum: 4a6a641dfcf6bef7d23c87abb958a8e5
+SHA1: b96db4146f752bab8f89edbc65ac0e2da931740d
+SHA256: b171674014b47da1dd7692f5b6217450b631f35a4912e6605021bc60bad0d578
+Section: web
+Priority: optional
+Description: Finnish language pack for Firefox
+ This package contains Finnish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fr
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-fr-base
+Filename: any/firefox16/firefox-locale-fr_16.0.2+build1-1vnz1_i386.deb
+Size: 298478
+MD5sum: ccb46db1244516ae30d85bab867caa57
+SHA1: 813301dcb06975036e47f7e1f2af68d8159a4da8
+SHA256: 6df34a1647462ffdbbed4896c3cb8f3917881eabdb64edf2bd7085ab08a5b9e4
+Section: web
+Priority: optional
+Description: French language pack for Firefox
+ This package contains French translations and search plugins
+ for Firefox
+
+Package: firefox-locale-fy
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 444
+Depends: firefox
+Replaces: language-pack-fy-base
+Filename: any/firefox16/firefox-locale-fy_16.0.2+build1-1vnz1_i386.deb
+Size: 295882
+MD5sum: a24bdb7ed59a359da761d2cb612dc22b
+SHA1: ea439462ad346721923672a296268cb94284360a
+SHA256: 85465926df04769f05863027b19c349466457811fb635207c4aace7384ecb10a
+Section: web
+Priority: optional
+Description: Western Frisian language pack for Firefox
+ This package contains Western Frisian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ga
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 464
+Depends: firefox
+Replaces: language-pack-ga-base
+Filename: any/firefox16/firefox-locale-ga_16.0.2+build1-1vnz1_i386.deb
+Size: 308424
+MD5sum: 4c987862c672d9dad0a60424c17a374f
+SHA1: c85d18fe2190c9c5995bca60922ec0db2f21ac3a
+SHA256: 55567572a8836cfcb3f380b0a810acb14229a54099512862a396a7aa0eef72a7
+Section: web
+Priority: optional
+Description: Irish language pack for Firefox
+ This package contains Irish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gd
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 456
+Depends: firefox
+Replaces: language-pack-gd-base
+Filename: any/firefox16/firefox-locale-gd_16.0.2+build1-1vnz1_i386.deb
+Size: 310298
+MD5sum: 37755a9d73680c76257f9ed95ea13fa4
+SHA1: d7d0d5dba54b167ffc567cf6dcf26c4a23121d32
+SHA256: 1b79dab377e8fdf7b6732a2e2a4d7c89f39047572578f33f4bee326e7f995f85
+Section: web
+Priority: optional
+Description: Gaelic; Scottish Gaelic language pack for Firefox
+ This package contains Gaelic; Scottish Gaelic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gl
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 444
+Depends: firefox
+Replaces: language-pack-gl-base
+Filename: any/firefox16/firefox-locale-gl_16.0.2+build1-1vnz1_i386.deb
+Size: 300112
+MD5sum: 050ab611d45bb26cb790f141ebe69c08
+SHA1: b9b3fbdd03b57712e5c76b838de2be1958fb469c
+SHA256: a5a85b80d9a8ebe1a57a213f006ce8379a6d9ce34ed0e3c74d69994c43cc05b8
+Section: web
+Priority: optional
+Description: Galician language pack for Firefox
+ This package contains Galician translations and search plugins
+ for Firefox
+
+Package: firefox-locale-gu
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 472
+Depends: firefox
+Replaces: language-pack-gu-base
+Filename: any/firefox16/firefox-locale-gu_16.0.2+build1-1vnz1_i386.deb
+Size: 323822
+MD5sum: ab85a1a0181ef79c547a75068b12e76a
+SHA1: 518b2e54735035ae9a55b71922154d8f13cfc516
+SHA256: de038a65e265df36f872cd4e293794a7309acf5bf436372479de1e489e9265d9
+Section: web
+Priority: optional
+Description: Gujarati language pack for Firefox
+ This package contains Gujarati translations and search plugins
+ for Firefox
+
+Package: firefox-locale-he
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-he-base
+Filename: any/firefox16/firefox-locale-he_16.0.2+build1-1vnz1_i386.deb
+Size: 311096
+MD5sum: 25ee8bbef6a967923e06bb15d4ca3524
+SHA1: 7006982dd1ba12f0f4687a43ca60f9d978e2e5f7
+SHA256: 0b5008e4361364d3c39417f0986d7c4a25c82618f8ad9cc876358f7a3b9863cd
+Section: web
+Priority: optional
+Description: Hebrew language pack for Firefox
+ This package contains Hebrew translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hi
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 480
+Depends: firefox
+Replaces: language-pack-hi-base
+Filename: any/firefox16/firefox-locale-hi_16.0.2+build1-1vnz1_i386.deb
+Size: 338570
+MD5sum: 60d6c530ff5776565f21c0039896725f
+SHA1: 985e000ae5b0f5c2c0c1021f32dfdf18d30f6d08
+SHA256: 551ea911210efb5f6edc3462c35ae8af3b9eeab05fe9b846a1f5b411a82bf9b7
+Section: web
+Priority: optional
+Description: Hindi language pack for Firefox
+ This package contains Hindi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hr
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 456
+Depends: firefox
+Replaces: language-pack-hr-base
+Filename: any/firefox16/firefox-locale-hr_16.0.2+build1-1vnz1_i386.deb
+Size: 303768
+MD5sum: d0dbf5477b055528b2fb29b6416faad2
+SHA1: 04c4ffaf9daed63a8ed47463ba21c45bb171af71
+SHA256: ae5574c6fb6cb99b1917acb94cf175de0dbb18f8e8221a96353897e0dd4718c9
+Section: web
+Priority: optional
+Description: Croatian language pack for Firefox
+ This package contains Croatian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hu
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 456
+Depends: firefox
+Replaces: language-pack-hu-base
+Filename: any/firefox16/firefox-locale-hu_16.0.2+build1-1vnz1_i386.deb
+Size: 313364
+MD5sum: 65c98b7771dbc42a899eb44e65d9b43d
+SHA1: fa5e8c84d986924065c5fa1a33f5afee7cf4b060
+SHA256: 9e1949de2310d435a0332b9dcee3f24f4cd8cc56673cec312dcdc36eadfbbdf1
+Section: web
+Priority: optional
+Description: Hungarian language pack for Firefox
+ This package contains Hungarian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-hy
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 484
+Depends: firefox
+Replaces: language-pack-hy-base
+Filename: any/firefox16/firefox-locale-hy_16.0.2+build1-1vnz1_i386.deb
+Size: 337254
+MD5sum: c4de88b8cabfc06bd07797bd84fbfcbf
+SHA1: a7a38c06ddce545fc24999e781ea0cb2a123ff6b
+SHA256: c9a7d4cd907effa226da0e754d6f6da20358fd3305b1199fe8b609b5ac52e4eb
+Section: web
+Priority: optional
+Description: Armenian language pack for Firefox
+ This package contains Armenian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-id
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 424
+Depends: firefox
+Replaces: language-pack-id-base
+Filename: any/firefox16/firefox-locale-id_16.0.2+build1-1vnz1_i386.deb
+Size: 289384
+MD5sum: dff56dd0d21664a1829f0b03f9e30a6f
+SHA1: 24fbdcdf86c7425d0b61f04783b3bb4e71809712
+SHA256: 82cc2535daa3a6abff340903e17aff488b82a7f2faa2934a07c87ea42736a751
+Section: web
+Priority: optional
+Description: Indonesian language pack for Firefox
+ This package contains Indonesian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-is
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 444
+Depends: firefox
+Replaces: language-pack-is-base
+Filename: any/firefox16/firefox-locale-is_16.0.2+build1-1vnz1_i386.deb
+Size: 296066
+MD5sum: 5f78dc5e37a18b45f800769cd50c0294
+SHA1: 86a42a704e3d9330d223a93da9a1e44926dcc883
+SHA256: 463436d8ce7662dac6851653e69694ae8d6d5631adb89fb12e8bd33bf8a7710c
+Section: web
+Priority: optional
+Description: Icelandic language pack for Firefox
+ This package contains Icelandic translations and search plugins
+ for Firefox
+
+Package: firefox-locale-it
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 400
+Depends: firefox
+Replaces: language-pack-it-base
+Filename: any/firefox16/firefox-locale-it_16.0.2+build1-1vnz1_i386.deb
+Size: 250130
+MD5sum: b08b96de25f98566625d368d592435b5
+SHA1: b1b0539b25f10e5ac4e357c0b9b6c9c6a8d975db
+SHA256: 9a5ebb0ec3963ba355810a7173518603b8101c931aa96fa9cce82a35decdbe6f
+Section: web
+Priority: optional
+Description: Italian language pack for Firefox
+ This package contains Italian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ja
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 484
+Depends: firefox
+Replaces: language-pack-ja-base
+Filename: any/firefox16/firefox-locale-ja_16.0.2+build1-1vnz1_i386.deb
+Size: 334966
+MD5sum: 1c8093c042c19396b24bfeefd44d92cc
+SHA1: 7a918633bd744ffd7446f1a5203a59d037220f28
+SHA256: b8fc820187ef456ab5196c4a2571c978bf0928054e63a39472e76cb659f4ad37
+Section: web
+Priority: optional
+Description: Japanese language pack for Firefox
+ This package contains Japanese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ka
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 100
+Depends: firefox
+Filename: any/firefox16/firefox-locale-ka_16.0.2+build1-1vnz1_i386.deb
+Size: 47508
+MD5sum: 3f107b9bc661df00a27e82b159861e43
+SHA1: 6d51d20deb5ad0359b7f38587c2b05fe763bbc4d
+SHA256: 2ae245bf7cb6fe8950ef460e5e5e12842dc0593a3f0f8f79332e34da12a351f7
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-kk
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 484
+Depends: firefox
+Replaces: language-pack-kk-base
+Filename: any/firefox16/firefox-locale-kk_16.0.2+build1-1vnz1_i386.deb
+Size: 342300
+MD5sum: 93d59b2fa01dcb6a8f1957e1416ea722
+SHA1: f13141ae52693186407fa17ba0730e23ebfcbfa8
+SHA256: a757fa0e3f87224f1ae0a86b2915a5b26fb4d7ebd23c9623e7bbc24388cf607a
+Section: web
+Priority: optional
+Description: Kazakh language pack for Firefox
+ This package contains Kazakh translations and search plugins
+ for Firefox
+
+Package: firefox-locale-km
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 504
+Depends: firefox
+Replaces: language-pack-km-base
+Filename: any/firefox16/firefox-locale-km_16.0.2+build1-1vnz1_i386.deb
+Size: 356994
+MD5sum: c6f938a00008c32b49c8423b76f047d2
+SHA1: 03f2df2f3f7561bb9bcdcc5913a2d7d4075a5abd
+SHA256: 9d882931be36a7dcf930efbe6bbfe4ecc1da6305cfd2c3b2083eddc6f97c2306
+Section: web
+Priority: optional
+Description: Central Khmer language pack for Firefox
+ This package contains Central Khmer translations and search plugins
+ for Firefox
+
+Package: firefox-locale-kn
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 504
+Depends: firefox
+Replaces: language-pack-kn-base
+Filename: any/firefox16/firefox-locale-kn_16.0.2+build1-1vnz1_i386.deb
+Size: 362944
+MD5sum: a759aa894a28d05f830e4d8094bdc21a
+SHA1: 077151dfe7a39d7409b4535b8bc482a770999330
+SHA256: aeb0f7d45448cc7b3c68272cfb4c5781efb1add3cfb8bf64e2fa9a5eb3332507
+Section: web
+Priority: optional
+Description: Kannada language pack for Firefox
+ This package contains Kannada translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ko
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 440
+Depends: firefox
+Replaces: language-pack-ko-base
+Filename: any/firefox16/firefox-locale-ko_16.0.2+build1-1vnz1_i386.deb
+Size: 286278
+MD5sum: a0eddb83e9214d76285a1a005699e35e
+SHA1: 077e7ce80bebdf0a8089bce6989f6dab4dba25d0
+SHA256: 17af89f13fd6da78149b998af42118e0be0aa2aa782c10ddf301199f36bd7b2f
+Section: web
+Priority: optional
+Description: Korean language pack for Firefox
+ This package contains Korean translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ku
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 460
+Depends: firefox
+Replaces: language-pack-ku-base
+Filename: any/firefox16/firefox-locale-ku_16.0.2+build1-1vnz1_i386.deb
+Size: 314276
+MD5sum: a0f40ac26455c23684d1178e7b523c5f
+SHA1: e208ede2542f8182614e2a6c3a1061d8ded8fb56
+SHA256: a74a965bcd46e03faba283203c6bab0163664bdc1de641bb58602404bb3aba67
+Section: web
+Priority: optional
+Description: Kurdish language pack for Firefox
+ This package contains Kurdish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-lg
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-lg-base
+Filename: any/firefox16/firefox-locale-lg_16.0.2+build1-1vnz1_i386.deb
+Size: 301792
+MD5sum: 2ac48b8124de34a380dbd71e1d5132fd
+SHA1: ba2debb84f0167d437c3e8853b3b4a678ad77492
+SHA256: e78bc51ebf74e846d95cda4c1528f5151c62026423f555837c5dc448c762c8ed
+Section: web
+Priority: optional
+Description: Ganda language pack for Firefox
+ This package contains Ganda translations and search plugins
+ for Firefox
+
+Package: firefox-locale-lt
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 500
+Depends: firefox
+Replaces: language-pack-lt-base
+Filename: any/firefox16/firefox-locale-lt_16.0.2+build1-1vnz1_i386.deb
+Size: 359658
+MD5sum: 845fc76bfe0ec05a29d7b17137b66556
+SHA1: 5d1db8a19af81c25e9a5f5d035bf04c376214d6b
+SHA256: 29b72b5d52caba3f819a97ff8c9e904fa5be6a403f4d555042c7cfb705a0ac6a
+Section: web
+Priority: optional
+Description: Lithuanian language pack for Firefox
+ This package contains Lithuanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-lv
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-lv-base
+Filename: any/firefox16/firefox-locale-lv_16.0.2+build1-1vnz1_i386.deb
+Size: 301192
+MD5sum: 89d6b6423503072ff7aba323a7f043ab
+SHA1: 7228578291e82d5b8237825b0a825f97b1efe8ec
+SHA256: b4dd49be2c8f9da708fd2172039cf931f6457bfaade338cc42dc0726c8ca8d35
+Section: web
+Priority: optional
+Description: Latvian language pack for Firefox
+ This package contains Latvian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mai
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 484
+Depends: firefox
+Replaces: language-pack-mai-base
+Filename: any/firefox16/firefox-locale-mai_16.0.2+build1-1vnz1_i386.deb
+Size: 338436
+MD5sum: c3698b9faad589ac9a9d2109db3c2d8f
+SHA1: 5efd420d2437fa298918efddefed77f22dd43ef9
+SHA256: 669e54c45bd8868fbd5cb2207096b2e5c2820385b08abb2f4f022e92d2b1553d
+Section: web
+Priority: optional
+Description: Maithili language pack for Firefox
+ This package contains Maithili translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mk
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 480
+Depends: firefox
+Replaces: language-pack-mk-base
+Filename: any/firefox16/firefox-locale-mk_16.0.2+build1-1vnz1_i386.deb
+Size: 328050
+MD5sum: 49ddf48b03e96486397f17d58f47794c
+SHA1: fc5c6a3e74d5b5f6fa2100ec1a7d0ad55e97ffd9
+SHA256: a7f95469cb0df91ce9d35faa068ae13a56a21e10af93888334e770a1dc0ff48d
+Section: web
+Priority: optional
+Description: Macedonian language pack for Firefox
+ This package contains Macedonian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ml
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 516
+Depends: firefox
+Replaces: language-pack-ml-base
+Filename: any/firefox16/firefox-locale-ml_16.0.2+build1-1vnz1_i386.deb
+Size: 370048
+MD5sum: a14cd185692ec252802bd696c0248877
+SHA1: 2fb9f81220cf70b5dbfff9b3be141482924d1314
+SHA256: 30f7b2176aa4771996e42637c8bed120b113653938bf5cc0e6c3dad17c05ef2e
+Section: web
+Priority: optional
+Description: Malayalam language pack for Firefox
+ This package contains Malayalam translations and search plugins
+ for Firefox
+
+Package: firefox-locale-mn
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 100
+Depends: firefox
+Filename: any/firefox16/firefox-locale-mn_16.0.2+build1-1vnz1_i386.deb
+Size: 47508
+MD5sum: 3b55930614c07c260e7d72a5d2e93a9c
+SHA1: d4b0cd7715dff9fe2013576b03644cc41b272a70
+SHA256: eb87ac30f636b220f92c6b63bf52d494035e055007cbf28e6a8d95719fd8cf95
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-mr
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 488
+Depends: firefox
+Replaces: language-pack-mr-base
+Filename: any/firefox16/firefox-locale-mr_16.0.2+build1-1vnz1_i386.deb
+Size: 340214
+MD5sum: 245b5813f01b2d842edd5197947c87c8
+SHA1: e8fb721edb3cf5d05b3ac3289065c074663c7692
+SHA256: 8d73fb619150b96b00b40cd16e47186cc3eacca200231f108a1fdbc599b2af0c
+Section: web
+Priority: optional
+Description: Marathi language pack for Firefox
+ This package contains Marathi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nb
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 436
+Depends: firefox
+Replaces: language-pack-nb-base
+Filename: any/firefox16/firefox-locale-nb_16.0.2+build1-1vnz1_i386.deb
+Size: 282404
+MD5sum: f9319144d99b9e27654d1ad893fa8216
+SHA1: cd35f58009b1ffe58bf1485d10131c0cf11c2363
+SHA256: ca4177f1910f9117b1a2e517ebc8b51be596a6d21bf032d175dc3d623c3b0075
+Section: web
+Priority: optional
+Description: Bokmål, Norwegian; Norwegian Bokmål language pack for Firefox
+ This package contains Bokmål, Norwegian; Norwegian Bokmål translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nl
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 444
+Depends: firefox
+Replaces: language-pack-nl-base
+Filename: any/firefox16/firefox-locale-nl_16.0.2+build1-1vnz1_i386.deb
+Size: 302244
+MD5sum: a403f6680098e6d4ae47219e86fbf30d
+SHA1: fb0d5b783b09961e3daec90d2127a6b2a930115e
+SHA256: d661ed9b73e4e44e89c676c9a4a45e4c6ded751156aacadd7b7d3a9eb8fe920d
+Section: web
+Priority: optional
+Description: Dutch; Flemish language pack for Firefox
+ This package contains Dutch; Flemish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nn
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-nn-base
+Filename: any/firefox16/firefox-locale-nn_16.0.2+build1-1vnz1_i386.deb
+Size: 296428
+MD5sum: 60a21057eb704d90ceb23c4791036639
+SHA1: 48786ff30b5ea8179f47657738d57e7737421415
+SHA256: b7e05841e2b23c242dce24a8e2ae4525ccaa168ec25b9a79eeb3aeb16e994b10
+Section: web
+Priority: optional
+Description: Norwegian Nynorsk; Nynorsk, Norwegian language pack for Firefox
+ This package contains Norwegian Nynorsk; Nynorsk, Norwegian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-nso
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 444
+Depends: firefox
+Replaces: language-pack-nso-base
+Filename: any/firefox16/firefox-locale-nso_16.0.2+build1-1vnz1_i386.deb
+Size: 297524
+MD5sum: 1c0bf272d83eca73d3dfedf65afb8fb5
+SHA1: ebb07567ec05b2ab13724456d194d9e29ec50423
+SHA256: dd42482403f73298811d5ebcc2c144b74f00626056496aae47abeafe652b1f07
+Section: web
+Priority: optional
+Description: Sotho, Northern language pack for Firefox
+ This package contains Sotho, Northern translations and search plugins
+ for Firefox
+
+Package: firefox-locale-oc
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 100
+Depends: firefox
+Filename: any/firefox16/firefox-locale-oc_16.0.2+build1-1vnz1_i386.deb
+Size: 47504
+MD5sum: 4705a59b7e1b01a0ca8a99f6bb5362bc
+SHA1: bbaf0c2348ece680beecbcc6018fb4b9c00e0610
+SHA256: b520f330e900e62c5ed9c1c712ec5490bb5ad7828eea7b6fc1fc17e206417355
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-or
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 480
+Depends: firefox
+Replaces: language-pack-or-base
+Filename: any/firefox16/firefox-locale-or_16.0.2+build1-1vnz1_i386.deb
+Size: 336750
+MD5sum: 6961a2068edc0101c3c82740a955d2d0
+SHA1: 33fb6004f2ad63635959bc486ad2b489a57514d3
+SHA256: 919f6ebeb42ebb37ce45a30b6e22eaa8c4bf64969d3154eca663b7ac826a2b1f
+Section: web
+Priority: optional
+Description: Oriya language pack for Firefox
+ This package contains Oriya translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pa
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 468
+Depends: firefox
+Replaces: language-pack-pa-base
+Filename: any/firefox16/firefox-locale-pa_16.0.2+build1-1vnz1_i386.deb
+Size: 326528
+MD5sum: bdf673e7257c9397bb750bc31fb270dc
+SHA1: d3a3ccc04a3e6de521d7db404c0e09e317f1ff46
+SHA256: fdfe686d513b244c526867aead4c8893adcf2cac30846e16533e7e54bc543027
+Section: web
+Priority: optional
+Description: Panjabi; Punjabi language pack for Firefox
+ This package contains Panjabi; Punjabi translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pl
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 460
+Depends: firefox
+Replaces: language-pack-pl-base
+Filename: any/firefox16/firefox-locale-pl_16.0.2+build1-1vnz1_i386.deb
+Size: 311198
+MD5sum: 7a5e91e42e000bf9640210b7e36862b9
+SHA1: ae57bc3e6fa39708c97eb543cc8d4b3cfbb7b88b
+SHA256: 98e2323146cb81ae5632279eba5187d22f46cbb457c678ab55127053cc2d6745
+Section: web
+Priority: optional
+Description: Polish language pack for Firefox
+ This package contains Polish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-pt
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 752
+Depends: firefox
+Replaces: language-pack-pt-base
+Filename: any/firefox16/firefox-locale-pt_16.0.2+build1-1vnz1_i386.deb
+Size: 547048
+MD5sum: 58231af1a6d9f9289b5c75563cd54fc5
+SHA1: 034cb38863b103f7f6d847bc707f0c17b9b000f2
+SHA256: a587f1b626773ecb51a80b5ccaf040788986c6c437c3891609d0e62f980c382d
+Section: web
+Priority: optional
+Description: Portuguese language pack for Firefox
+ This package contains Portuguese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ro
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 468
+Depends: firefox
+Replaces: language-pack-ro-base
+Filename: any/firefox16/firefox-locale-ro_16.0.2+build1-1vnz1_i386.deb
+Size: 322676
+MD5sum: 07336ffed75452c4f2442ede9e4bf6b3
+SHA1: a811e890ce9be0c941b3370174b238014441252f
+SHA256: ad04fb8d8401d1f7c5148ede48d85dc63f05b8b802b3d5fc5c852e8ca5ea1c50
+Section: web
+Priority: optional
+Description: Romanian language pack for Firefox
+ This package contains Romanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-ru
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-ru-base
+Filename: any/firefox16/firefox-locale-ru_16.0.2+build1-1vnz1_i386.deb
+Size: 299774
+MD5sum: 4fc2cee7fec983a4827854567ad85278
+SHA1: ea45c13dddf68d7d04bc92990da0231d0f7bb387
+SHA256: f1f1a6b84bf450c496e8fa84ee4cedffb2f120c825a1b2dc1c62fdf9bcd8274a
+Section: web
+Priority: optional
+Description: Russian language pack for Firefox
+ This package contains Russian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-si
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 476
+Depends: firefox
+Replaces: language-pack-si-base
+Filename: any/firefox16/firefox-locale-si_16.0.2+build1-1vnz1_i386.deb
+Size: 328562
+MD5sum: 17b666b4e1fd9869d2c6e6c0ccf0fb9f
+SHA1: ff8b2db68670624731086e5737f197fa774ae5cd
+SHA256: 19da3b8cab227b4184fac5c86e22f05e3413331cccec471f81d3e7ecd2486029
+Section: web
+Priority: optional
+Description: Sinhala; Sinhalese language pack for Firefox
+ This package contains Sinhala; Sinhalese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sk
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 464
+Depends: firefox
+Replaces: language-pack-sk-base
+Filename: any/firefox16/firefox-locale-sk_16.0.2+build1-1vnz1_i386.deb
+Size: 314828
+MD5sum: 41e3dcb09d0c836b0f202cb08edb445b
+SHA1: 6384a7952f790f8e9daba98f9749beb0540425c1
+SHA256: 75881c547918973c330872b48cb13a315ecd5820b449b282bff4ff8e9c8db48b
+Section: web
+Priority: optional
+Description: Slovak language pack for Firefox
+ This package contains Slovak translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sl
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-sl-base
+Filename: any/firefox16/firefox-locale-sl_16.0.2+build1-1vnz1_i386.deb
+Size: 301180
+MD5sum: 2a49dbc01ce018a4bee1c6efc7ee6a2c
+SHA1: 1262c42fde076a9d9092e7c0cb4be2d85dd93ad9
+SHA256: 3644b6f2e3edf248b6b7a5fd811e52fed16006def3d7306ae95216f4dfed9a13
+Section: web
+Priority: optional
+Description: Slovenian language pack for Firefox
+ This package contains Slovenian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sq
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 424
+Depends: firefox
+Replaces: language-pack-sq-base
+Filename: any/firefox16/firefox-locale-sq_16.0.2+build1-1vnz1_i386.deb
+Size: 280806
+MD5sum: bb3cf531ad3a2d15bba513259cf6306d
+SHA1: 0c44a6d552b8fc87f1e82e3a58f3239a56503d88
+SHA256: 1d0b234b3799bcf453ebce1dd210aa96b902023807c4d41069860578587a637c
+Section: web
+Priority: optional
+Description: Albanian language pack for Firefox
+ This package contains Albanian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sr
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 488
+Depends: firefox
+Replaces: language-pack-sr-base
+Filename: any/firefox16/firefox-locale-sr_16.0.2+build1-1vnz1_i386.deb
+Size: 342914
+MD5sum: b7691a65d9784c0331f6b573bb496d7f
+SHA1: 8e413869fc31a9618ec2b06cdc432476229f3e1e
+SHA256: 26acb23c9be43976d6972d6d3297ecd4548903209fa5e76e7e857154608baa2f
+Section: web
+Priority: optional
+Description: Serbian language pack for Firefox
+ This package contains Serbian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sv
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-sv-base
+Filename: any/firefox16/firefox-locale-sv_16.0.2+build1-1vnz1_i386.deb
+Size: 298288
+MD5sum: efd4032665274d4d6fede8d96984aea1
+SHA1: 637bc30c5171cf95cccf0a3ae2d94f81b58ec86d
+SHA256: 3962d07f5a68dbbc651537fd63ce2b30edb482eb21e0b3323d10f938ddf3f71e
+Section: web
+Priority: optional
+Description: Swedish language pack for Firefox
+ This package contains Swedish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-sw
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 100
+Depends: firefox
+Filename: any/firefox16/firefox-locale-sw_16.0.2+build1-1vnz1_i386.deb
+Size: 47504
+MD5sum: c34477b9e5480d2f1db8844855e8b80d
+SHA1: b14c8ef2c2e641f6c995bf3800be1f710a5ab845
+SHA256: d7443a78e1077d3c9fbdabad3c07b24180ca74c37de3e73bce5ffbd04208c895
+Section: web
+Priority: optional
+Description: Transitional package for unavailable language
+ This language is unavailable for the current version of Firefox
+ .
+ This is an empty transitional package to ensure a clean upgrade
+ process. You can safely remove this package after installation.
+
+Package: firefox-locale-ta
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 472
+Depends: firefox
+Replaces: language-pack-ta-base
+Filename: any/firefox16/firefox-locale-ta_16.0.2+build1-1vnz1_i386.deb
+Size: 333806
+MD5sum: cfb31d3851a8bb33e3755bb34730ab63
+SHA1: f80daf3468d8c4c5dbae435bf797a28ca82ee3c2
+SHA256: 5f1fe154fc5663debc7b384d758859bb73fda55e1944a360c2bce880848f562e
+Section: web
+Priority: optional
+Description: Tamil language pack for Firefox
+ This package contains Tamil translations and search plugins
+ for Firefox
+
+Package: firefox-locale-te
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 496
+Depends: firefox
+Replaces: language-pack-te-base
+Filename: any/firefox16/firefox-locale-te_16.0.2+build1-1vnz1_i386.deb
+Size: 350894
+MD5sum: ceae54a7d6dc52355b1907b03a86ab25
+SHA1: 4712d7e78d1c63cb372b6933e88dd5d37e367f9c
+SHA256: 87d2adcf2cb1a28b826ab1eecb0830d7afd77565685139c3b43636c6797d7928
+Section: web
+Priority: optional
+Description: Telugu language pack for Firefox
+ This package contains Telugu translations and search plugins
+ for Firefox
+
+Package: firefox-locale-th
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 484
+Depends: firefox
+Replaces: language-pack-th-base
+Filename: any/firefox16/firefox-locale-th_16.0.2+build1-1vnz1_i386.deb
+Size: 332670
+MD5sum: ef32a9e2f53ce6bfda52973aa734cad1
+SHA1: dd948edcef5eb9e420db1c23f0ce15162aad1eab
+SHA256: c76953f069d015440dd84cd575167f4093fcbb26c19a870cd49092b179435232
+Section: web
+Priority: optional
+Description: Thai language pack for Firefox
+ This package contains Thai translations and search plugins
+ for Firefox
+
+Package: firefox-locale-tr
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-tr-base
+Filename: any/firefox16/firefox-locale-tr_16.0.2+build1-1vnz1_i386.deb
+Size: 305864
+MD5sum: 3afa13659ec92749148350455e065599
+SHA1: fcdccfaaf2161655ab43b6d0c7d797c5fa1035c1
+SHA256: ba725b3f4a1b074ac3c651724dc4d37a4f7b1c6dbdd8fa6fe2481f95ef74ed6a
+Section: web
+Priority: optional
+Description: Turkish language pack for Firefox
+ This package contains Turkish translations and search plugins
+ for Firefox
+
+Package: firefox-locale-uk
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 476
+Depends: firefox
+Replaces: language-pack-uk-base
+Filename: any/firefox16/firefox-locale-uk_16.0.2+build1-1vnz1_i386.deb
+Size: 334204
+MD5sum: c0dbfa9d282dc1da7896be6f21b48698
+SHA1: 1205b5bbb3c60f4e261f1d19b4747da52f531036
+SHA256: 9f1905c546439851e7e65bea7e97f23edc0093f656f518d9396088453c58fe5d
+Section: web
+Priority: optional
+Description: Ukrainian language pack for Firefox
+ This package contains Ukrainian translations and search plugins
+ for Firefox
+
+Package: firefox-locale-vi
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 476
+Depends: firefox
+Replaces: language-pack-vi-base
+Filename: any/firefox16/firefox-locale-vi_16.0.2+build1-1vnz1_i386.deb
+Size: 327324
+MD5sum: 3597f0d6bc70e49cf77f1f7e593ff357
+SHA1: 7d99bfe5f3d6505c5a44cf7eff2507ffee29e918
+SHA256: 0403392709eeb91157f9750fe7c97e34b7c4eec6dc98aee4fd9ab8baf8312e28
+Section: web
+Priority: optional
+Description: Vietnamese language pack for Firefox
+ This package contains Vietnamese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zh-hans
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 472
+Depends: firefox
+Replaces: language-pack-zh-hans-base
+Filename: any/firefox16/firefox-locale-zh-hans_16.0.2+build1-1vnz1_i386.deb
+Size: 315988
+MD5sum: 6e123996459d55e8adbc567963d275d6
+SHA1: 046820da9dca42047bc3158e56a16bed00864b5c
+SHA256: b4511ce8da036575ecaf6842867ae8deeee08c3dfad740b33ef5ab53aa38d0d7
+Section: web
+Priority: optional
+Description: Simplified Chinese language pack for Firefox
+ This package contains Simplified Chinese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zh-hant
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 464
+Depends: firefox
+Replaces: language-pack-zh-hant-base
+Filename: any/firefox16/firefox-locale-zh-hant_16.0.2+build1-1vnz1_i386.deb
+Size: 314590
+MD5sum: cf134817c9a52069a4b09ed71187cd1b
+SHA1: f6d7ffb0197414b87f688d32cbc91888168f8d27
+SHA256: 27915184491755d498eb5b0433412d132d486a71468d0e8394e1b45d1e8d3042
+Section: web
+Priority: optional
+Description: Traditional Chinese language pack for Firefox
+ This package contains Traditional Chinese translations and search plugins
+ for Firefox
+
+Package: firefox-locale-zu
+Source: firefox
+Version: 16.0.2+build1-1vnz1
+Architecture: i386
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 448
+Depends: firefox
+Replaces: language-pack-zu-base
+Filename: any/firefox16/firefox-locale-zu_16.0.2+build1-1vnz1_i386.deb
+Size: 305690
+MD5sum: 32d0324f00a1faa5972d4b6bff4a12f1
+SHA1: 7d0c76ae494b855fc671ae4a3f1a68084c11fa7e
+SHA256: 382ea822a857ba4adf5f358befb3ce84f40e33b12deb3b834ea631f4ee8fee4f
+Section: web
+Priority: optional
+Description: Zulu language pack for Firefox
+ This package contains Zulu translations and search plugins
+ for Firefox
+
+Package: nomachine
+Version: 6.12.3-8
+Architecture: i386
+Maintainer: NoMachine S.a.r.l. <info@nomachine.com>
+Installed-Size: 191816
+Conflicts: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine-enterprise-client
+Replaces: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine
+Filename: any/nomachine/nomachine_6.12.3_8_i386.deb
+Size: 46902940
+MD5sum: 4a4ccd01cc668ee65a930400103fcc7c
+SHA1: ff5c5aa9ec9f058469ff494e7663efb5f967d78c
+SHA256: e64f3b5a630f86f71ca4c3aed02b71cc1da318db5566872a100105fe0187bf4a
+Section: net
+Priority: optional
+Description: Fast and secure remote access system
+ NoMachine is a fast and secure remote access system and terminal server
+ service. It provides a full set of administration tools that make it a complete
+ desktop virtualization solution for you or for your organization.
+ .
+ This package includes all programs and libraries necessary to
+ transform your machine into a server in the cloud or a remote
+ desktop client according to your needs.
+

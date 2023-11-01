@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 02 Sep 2016 00:23:15 -0400
+Source: apt-conf-vnx
+Binary: apt-conf-vnx
+Architecture: source all
+Version: 0.4.0
+Distribution: unstable
+Urgency: high
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ apt-conf-vnx - preferencias iniciales para sistema de paquetes de software Venen
+Changes: 
+ apt-conf-vnx (0.4.0) unstable; urgency=high
+ .
+   * No mantainer upload: sync the repos files nor squeeze are archived!
+     + set urgency due autoconfiguring the repository now correctly
+     + set squeeze and complete venenux 0.X series as archived! now!
+   * debian/postinst:
+     + fix autoconfigures repository for garbages and testing versions of venenux wrong detected
+     + autoconfiguring now the repositories for the older supported debian releases of venenux
+   * apt:
+     + fix repositories common places for redirectme and venenux.net, no-ip are not free now
+     + now uses venenux-repo at intranet for now, due fundacite are in staled manteniance
+     + due previous, set lower priority to the fundacite repo for now
+     + fix and sync the apt pin priority between packages and repositories availables
+     + fix repo creation and added sloppy and older backports org index from archives
+Checksums-Sha1: 
+ 58beb6b75fe5d5df35c3a86fd0c963d5913a0ea7 789 apt-conf-vnx_0.4.0.dsc
+ 0ae4fe0ee1b6d452f4998ca00e13bc2bb91eda7b 108359 apt-conf-vnx_0.4.0.tar.gz
+ 4a889dd14cec15c5f7e58cd35f114423b7ae79da 13878 apt-conf-vnx_0.4.0_all.deb
+Checksums-Sha256: 
+ b4276d42efec31b31dcbf86f38d0e94a702abb722eed5acc1b96cae1033547db 789 apt-conf-vnx_0.4.0.dsc
+ ac3efe6094bf1ca7c87de65c06666dbf10e81efb8b2b9752eedddd6d98e712ca 108359 apt-conf-vnx_0.4.0.tar.gz
+ b1f9effc0e4026c453f3a69165c41b2469c5e0844ef93fc0226213a4c9981186 13878 apt-conf-vnx_0.4.0_all.deb
+Files: 
+ 3ba1194243ee9d0812c44451fd88edb4 789 admin important apt-conf-vnx_0.4.0.dsc
+ a25218f7a712f3652e9f3745f08fb874 108359 admin important apt-conf-vnx_0.4.0.tar.gz
+ 0c45e9a88a3969fce90d4bce3a5d6078 13878 admin important apt-conf-vnx_0.4.0_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAlfQdP8ACgkQz+9Ts05YtsS1BwCgtgUWRfPxVsCrq+gYTGDvxaS7
+r6EAnj052Ob/jup7pKWWGqdIrBwwtq0M
+=0B+b
+-----END PGP SIGNATURE-----

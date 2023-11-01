@@ -6,7 +6,7 @@ Installed-Size: 1420
 Depends: m4, debianutils (>= 1.8), autoconf (>= 2.50), perl, libfile-temp-perl
 Conflicts: autoconf (<< 2.50)
 Replaces: autoconf (<< 2.50)
-Filename: etch/autoconf/autoconf2.59_2.59-1_all.deb
+Filename: squeeze/autoconf/autoconf2.59_2.59-1_all.deb
 Size: 358338
 MD5sum: fca831fb69da586dde0ac67c615fc772
 SHA1: 718dff4593ebfc286db46829c791c7b198ff04cd
@@ -25,7 +25,7 @@ Installed-Size: 1908
 Depends: m4, debianutils (>= 1.8), autoconf (>= 2.50), perl, libfile-temp-perl
 Conflicts: autoconf (<< 2.50)
 Replaces: autoconf (<< 2.50)
-Filename: etch/autoconf/autoconf2.64_2.64-3_all.deb
+Filename: squeeze/autoconf/autoconf2.64_2.64-3_all.deb
 Size: 521508
 MD5sum: 15c7b1575159e65a34bde0d12a826b8b
 SHA1: 677602d39d559bf8788464d3d6a6b851a45e28c4
@@ -44,7 +44,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 64
 Depends: libcloog-isl4 (= 0.18.0-1vnz1), libc6 (>= 2.3.6-6), libgmp3c2
 Conflicts: cloog-ppl (<< 0.15.11-4), libcloog-ppl-dev (<< 0.15.11-1)
-Filename: etch/cloogisl/cloog-isl_0.18.0-1vnz1_i386.deb
+Filename: squeeze/cloogisl/cloog-isl_0.18.0-1vnz1_i386.deb
 Size: 7946
 MD5sum: fa6bb086adb275eb11b35ac6783d3f01
 SHA1: 5b11d97a356b0fb8e10d24686b40830407a355a3
@@ -65,7 +65,7 @@ Installed-Size: 68
 Depends: libcloog-ppl0 (= 0.15.11-5vnz1), libc6 (>= 2.3.6-6), libgmp3c2, libgmpxx4ldbl, libppl-c4, libppl9, libstdc++6 (>= 4.1.1-12)
 Replaces: libcloog-ppl-dev (<< 0.15.9-4)
 Provides: cloog
-Filename: etch/cloogppl/cloog-ppl_0.15.11-5vnz1_i386.deb
+Filename: squeeze/cloogppl/cloog-ppl_0.15.11-5vnz1_i386.deb
 Size: 7988
 MD5sum: 255af5001b01bcf3c057c1067376cc93
 SHA1: ee097b55c7b98f0fc5a9e5ca4825b3f18e37fdb3
@@ -79,22 +79,22 @@ Description: Chunky Loop Generator
  This package contains the cloog binary.
 
 Package: cpp
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 68
-Depends: cpp-4.1 (>= 4.1.2-1)
+Installed-Size: 62
+Depends: cpp-4.6 (>= 4.6.0-1)
 Suggests: cpp-doc
 Conflicts: cpp-doc (<< 1:2.95.3)
-Filename: etch/gcc-4.1-etch/cpp_4.1.2-2.1_i386.deb
-Size: 12008
-MD5sum: b3c2bde60e9d4e9b87f4cd93edd6f57d
-SHA1: 806e069a9da532f76c13b05a3f9589f8a86e2dfc
-SHA256: 56a585cd3698e8f4a04dd457d355ee096738f4c63b7f8dc693247bb000f358ae
+Filename: squeeze/gcc-4.6-squeeze/cpp_4.6.0-6_i386.deb
+Size: 15556
+MD5sum: e78cec1a237bbf69c7ff6697e93217c0
+SHA1: f440346c928d327f72220ccbd1e40a9d4db6b5ff
+SHA256: a5edbdaf4fa7e78291531d74a057040ceaf0cb4ef5a1bf35b970be6300180ac6
 Section: interpreters
 Priority: optional
-Description: The GNU C preprocessor (cpp)
+Description: GNU C preprocessor (cpp)
  The GNU C preprocessor is a macro processor that is used automatically
  by the GNU C compiler to transform programs before actual compilation.
  .
@@ -103,173 +103,44 @@ Description: The GNU C preprocessor (cpp)
  .
  This is a dependency package providing the default GNU C preprocessor.
 
-Package: cpp-4.1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: cpp-4.6
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 5192
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Suggests: gcc-4.1-locales (>= 4.1.2-2)
-Conflicts: gcj-4.1 (<< 4.1.1), gnat-4.1 (<= 4.1.1-22)
-Replaces: gcj-4.1 (<< 4.1.1)
-Filename: etch/gcc-4.1-etch/cpp-4.1_4.1.2-4vnz1_i386.deb
-Size: 2302944
-MD5sum: 6923ef90a80193f5342dbb0330e5bd9e
-SHA1: dc7a4865bd9783820b39eac09fb195156719f261
-SHA256: a0a83b7ee4d14883b7dac7045c6568d5ffa3003f1a106db071e7cb79740ae06c
+Installed-Size: 10602
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.11), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4)
+Suggests: gcc-4.6-locales (>= 4.6.0-12)
+Filename: squeeze/gcc-4.6-squeeze/cpp-4.6_4.6.0-14.1_i386.deb
+Size: 4523900
+MD5sum: 43b8508ba36b827092e0c092886efe33
+SHA1: 5ffc07b54b00e502aa40eb2f546948c385c837c9
+SHA256: 593d86737a259ffa174785be42f921ac76fd8387422f3b8ed70626a0bbb08e1b
 Section: interpreters
 Priority: optional
-Description: The GNU C preprocessor
+Homepage: http://gcc.gnu.org/
+Description: GNU C preprocessor
  A macro processor that is used automatically by the GNU C compiler
  to transform programs before actual compilation.
  .
  This package has been separated from gcc for the benefit of those who
  require the preprocessor but not the compiler.
 
-Package: ecj
-Version: 3.2.2-2
-Architecture: all
-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 1220
-Depends: gij-4.1 (>= 4.1.1-20), libgcj7-jar (>= 4.1.1-20), java-common (>= 0.23)
-Recommends: ecj-gcj
-Suggests: ant
-Conflicts: ecj-bootstrap (<< 3.2.2)
-Replaces: ecj-bootstrap (<< 3.2.2)
-Filename: etch/gcc-4.1-etch/ecj_3.2.2-2_all.deb
-Size: 1114956
-MD5sum: 61fb739ef21ad3d980324e9b2d9caedc
-SHA1: 154d12039b1f3d37985b8b567b1861d0f5df4dfb
-SHA256: efe0df6185018a336b81efe5c2f1bec1f5837e24c3a21f7bec16c5979664c8f4
-Section: devel
-Priority: optional
-Description: standalone version of the Eclipse Java compiler
- This package provides a standalone version of the Eclipse JDT compiler which
- is distributed as part of Eclipse. It passes the JCK (Java Compatibility Kit)
- and is compatible with Java 1.3, 1.4, 1.5 and 1.6.
-
-Package: ecj-bootstrap
-Version: 3.2.1-4
-Architecture: all
-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 1216
-Depends: gij-4.1 (>= 4.1.1-13), libgcj7-jar (>= 4.1.1), java-common (>= 0.23)
-Recommends: ecj-bootstrap-gcj
-Suggests: ant
-Provides: ecj
-Filename: etch/gcc-4.1-etch/ecj-bootstrap_3.2.1-4_all.deb
-Size: 1111810
-MD5sum: 10734ea8d35e65d63ec576b096e0eef0
-SHA1: e696e5ec0f86f3b06e08322fe27eb16451d33dcc
-SHA256: 15d7b7cd3256b4e8cdf6bfb74a3890105989a6f04569867fa9e254092f4261c9
-Section: devel
-Priority: optional
-Description: bootstrap version of the Eclipse Java compiler
- This package provides a bootstrap version of the Eclipse JDT compiler which is
- distributed as part of Eclipse. It passes the JCK (Java Compatibility Kit) and
- is compatible with Java 1.3, 1.4, 1.5 and 1.6.
- .
- This bootstrap version should be used for uploading initial versions of
- packages which are a dependency of Eclipse and build with ECJ.
-
-Package: ecj-bootstrap
-Source: ecj
-Version: 3.2.2-2
-Architecture: all
-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 60
-Depends: ecj
-Recommends: ecj-bootstrap-gcj
-Filename: etch/gcc-4.1-etch/ecj-bootstrap_3.2.2-2_all.deb
-Size: 10090
-MD5sum: 273b9c0854751587ce88a09ef4cc6e3a
-SHA1: 1a588847b5733b3c2c98b2bbbdcd8e5f0eff23f8
-SHA256: 8ed0399dbb9a81fb3c90bc16018ff9f010d37796ea96fcd22429ecd07e047aa8
-Section: devel
-Priority: optional
-Description: standalone version of the Eclipse Java compiler (transitional package)
- This is a transitional package; it can safely be removed.
-
-Package: ecj-bootstrap-gcj
-Source: ecj-bootstrap
-Version: 3.2.1-4
-Architecture: i386
-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 7616
-Depends: ecj-bootstrap (>= 3.2.1-4), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.2), libgcj-bc (>= 4.1), libgcj7-0 (>= 4.1.1-12), zlib1g (>= 1:1.2.1)
-Recommends: java-gcj-compat (>= 1.0.63)
-Filename: etch/gcc-4.1-etch/ecj-bootstrap-gcj_3.2.1-4_i386.deb
-Size: 2505038
-MD5sum: acab4d44539fe950585bd58c4896b168
-SHA1: 29688fcdccb4e57e31f929b8637cc91b85655586
-SHA256: 3eb0e686fd032644b2ee685a065e8689f2da1df99044fcc754b93bae06d97721
-Section: devel
-Priority: optional
-Description: bootstrap version of the Eclipse Java compiler (native version)
- This package provides a bootstrap version of the Eclipse JDT compiler which is
- distributed as part of Eclipse. It passes the JCK (Java Compatibility Kit) and
- is compatible with Java 1.3, 1.4, 1.5 and 1.6.
- .
- This bootstrap version should be used for uploading initial versions of
- packages which are a dependency of Eclipse and build with ECJ.
- .
- This package contains a native version of ecj built using gcj.
-
-Package: ecj-bootstrap-gcj
-Source: ecj
-Version: 3.2.2-2
-Architecture: all
-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 44
-Depends: ecj-bootstrap (>= 3.2.2-2), ecj-gcj (>= 3.2.2-2)
-Filename: etch/gcc-4.1-etch/ecj-bootstrap-gcj_3.2.2-2_all.deb
-Size: 9638
-MD5sum: 6d4bd7fb706753398ec66c67421f0fdf
-SHA1: 1938eacaaed28f8ec3e1a37e0bf19b43e374fda7
-SHA256: 8fd2ead777c5da8d674f3ac3e479c741c720028a8e05dadc969cc88b50671f53
-Section: devel
-Priority: optional
-Description: standalone version of the Eclipse Java compiler (transitional package)
- This is a transitional package; it can safely be removed.
-
-Package: ecj-gcj
-Source: ecj
-Version: 3.2.2-2
-Architecture: i386
-Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
-Installed-Size: 7680
-Depends: ecj (>= 3.2.2-2), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.2), libgcj-bc (>= 4.1.2-1), libgcj7-1 (>= 4.1.2-1), zlib1g (>= 1:1.2.1)
-Recommends: java-gcj-compat (>= 1.0.69)
-Replaces: ecj-bootstrap-gcj (<< 3.2.2)
-Filename: etch/gcc-4.1-etch/ecj-gcj_3.2.2-2_i386.deb
-Size: 2515164
-MD5sum: f8eb3f71d1f1164efa98bf26b96868e3
-SHA1: 6b543cabdc2f477be562f8cb797796d7b695664f
-SHA256: f8d7d66ad5fdd44b21b3d69b60efbb08019be84f98f3f10bbc5289069fdb3b7b
-Section: devel
-Priority: optional
-Description: standalone version of the Eclipse Java compiler (native version)
- This package provides a standalone version of the Eclipse JDT compiler which
- is distributed as part of Eclipse. It passes the JCK (Java Compatibility Kit)
- and is compatible with Java 1.3, 1.4, 1.5 and 1.6.
- .
- This package contains a native version of ecj built using gcj.
-
 Package: fixincludes
-Source: gcc-4.1 (4.1.2-4vnz1)
-Version: 1:4.1.2-4vnz1
+Source: gcc-4.6 (4.6.0-14.1)
+Version: 1:4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 412
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gcc-4.1 (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/fixincludes_4.1.2-4vnz1_i386.deb
-Size: 83396
-MD5sum: 8482fc0f7cc754c4ee4ce1beda0f373b
-SHA1: 02d6ebda5db65ad3c5e35057d712649b65bbdb0b
-SHA256: fe03d1f20ae636e0289554483487d8fb2ddae98aabc1bb9ca3e878cc4cd2e582
+Installed-Size: 212
+Depends: gcc-4.6-base (= 4.6.0-14.1), gcc-4.6 (= 4.6.0-14.1), libc6 (>= 2.3)
+Filename: squeeze/gcc-4.6-squeeze/fixincludes_4.6.0-14.1_i386.deb
+Size: 63914
+MD5sum: d3e3a47a0c5e602e7aafc3278b409775
+SHA1: 9a5fe8a84a218c3d3abfecf007f3c21df6dca8cb
+SHA256: 394e836815cefe045ea08c57b1914327b2e52c00e51384617c59cc0b71f4919f
 Section: devel
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: Fix non-ANSI header files
  FixIncludes was created to fix non-ANSI system header files. Many
  system manufacturers supply proprietary headers that are not ANSI compliant.
@@ -281,394 +152,635 @@ Description: Fix non-ANSI header files
  packages, such that checking tools like lintian can make use of it.
 
 Package: g++
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 40
-Depends: cpp (>= 4:4.1.2-2.1), gcc (>= 4:4.1.2-2.1), g++-4.1 (>= 4.1.2-1), gcc-4.1 (>= 4.1.2-1)
+Installed-Size: 34
+Depends: cpp (>= 4:4.6.0-6), gcc (>= 4:4.6.0-6), g++-4.6 (>= 4.6.0-1), gcc-4.6 (>= 4.6.0-1)
 Suggests: g++-multilib
 Provides: c++-compiler
-Filename: etch/gcc-4.1-etch/g++_4.1.2-2.1_i386.deb
-Size: 1368
-MD5sum: a52be3e72bc5e041b4de7b21e89cbabe
-SHA1: fc7d7d053ff42e382c3728fdf1dc2eb5f93a7a6c
-SHA256: f902b13ede043855972b009f5bfbe99962fa39a83dd8f2d0d517dedf46daf0ce
+Filename: squeeze/gcc-4.6-squeeze/g++_4.6.0-6_i386.deb
+Size: 1372
+MD5sum: 2676f134fa03e92b8408ec8c8dfd9aa6
+SHA1: a7ff04c7dcf7c27c604fef0ee18a6c956116159e
+SHA256: f4e3dd5ef6361862ce8e9602d28465a3763d7af7eb67baa71ace17e52a56e098
 Section: devel
 Priority: optional
-Description: The GNU C++ compiler
+Description: GNU C++ compiler
  This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
  .
  This is a dependency package providing the default GNU C++ compiler.
 
-Package: g++-4.1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: g++-4.6
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 5716
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gcc-4.1 (= 4.1.2-4vnz1), libstdc++6-4.1-dev (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Suggests: g++-4.1-multilib, gcc-4.1-doc (>= 4.1.2-2)
+Installed-Size: 11436
+Depends: gcc-4.6-base (= 4.6.0-14.1), gcc-4.6 (= 4.6.0-14.1), libstdc++6-4.6-dev (= 4.6.0-14.1), libc6 (>= 2.11), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4)
+Suggests: g++-4.6-multilib, gcc-4.6-doc (>= 4.6.0-12), libstdc++6-4.6-dbg
 Provides: c++-compiler, c++abi2-dev
-Filename: etch/gcc-4.1-etch/g++-4.1_4.1.2-4vnz1_i386.deb
-Size: 2584796
-MD5sum: c92bd533671a4b4b61b6452c68bb64d3
-SHA1: d8c825b66daa0df9c38b62d2a29c44bcbf59ff76
-SHA256: 54cae8fb747267733ede90e53612ee7b55c60ea1c21e463ae2e1e6f28de19dc8
+Filename: squeeze/gcc-4.6-squeeze/g++-4.6_4.6.0-14.1_i386.deb
+Size: 4942114
+MD5sum: 2d02396487ee7fed844c51e4d31f1d4c
+SHA1: 84b6a04c5618716c5bfd78542387b8109d1c7df0
+SHA256: 22e0a8585ad7a75327fe8082cc3e53ced384a81320a5a3f48d64a50230dc65ce
 Section: devel
 Priority: optional
-Description: The GNU C++ compiler
+Homepage: http://gcc.gnu.org/
+Description: GNU C++ compiler
  This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
 
-Package: g++-4.1-multilib
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: g++-4.6-multilib
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 5444
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), g++-4.1 (= 4.1.2-4vnz1), gcc-4.1-multilib (= 4.1.2-4vnz1), lib64stdc++6 (>= 4.1.2-4vnz1)
-Suggests: lib64stdc++6-dbg
-Replaces: libstdc++6-4.1-dev (<< 4.1.2-4)
-Filename: etch/gcc-4.1-etch/g++-4.1-multilib_4.1.2-4vnz1_i386.deb
-Size: 904258
-MD5sum: e2f87c68ae8c49168ded08c98f1dc98b
-SHA1: 81821ff8d8ae7b6bac95509e44b23d91dea46e77
-SHA256: d9cbe0c2bbb74a9c2b26fd48978e47e276a001a3f124cf8ab09ef638c1a548a5
+Installed-Size: 5863
+Depends: gcc-4.6-base (= 4.6.0-14.1), g++-4.6 (= 4.6.0-14.1), gcc-4.6-multilib (= 4.6.0-14.1), lib64stdc++6 (>= 4.6.0-14.1)
+Suggests: lib64stdc++6-4.6-dbg
+Filename: squeeze/gcc-4.6-squeeze/g++-4.6-multilib_4.6.0-14.1_i386.deb
+Size: 1034638
+MD5sum: 39ac902a6b693a5ad559af27a44093a8
+SHA1: 125c9f00f668227523fe4dd221358aab041e2a65
+SHA256: c9542f9295ec6233063a10ac58c8584240072e8e9bd94f0c104758b3c3a182bc
 Section: devel
 Priority: optional
-Description: The GNU C++ compiler (multilib files)
+Homepage: http://gcc.gnu.org/
+Description: GNU C++ compiler (multilib files)
  This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
  .
  On architectures with multilib support, the package contains files
  and dependencies for the non-default multilib architecture(s).
 
 Package: g++-multilib
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: cpp (>= 4:4.1.2-2.1), g++ (>= 4:4.1.2-2.1), g++-4.1-multilib (>= 4.1.2-1)
-Filename: etch/gcc-4.1-etch/g++-multilib_4.1.2-2.1_i386.deb
-Size: 828
-MD5sum: c79604f3166e01a418d9174d3a9044b3
-SHA1: cbe7f42cbcd1bd52533b886d803b51008fb293c5
-SHA256: 17beb1a04b156bd4b87cf60ca6ce24a22f7b10b096ebda591f067d5c2b29fedd
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gcc-multilib (>= 4:4.6.0-6), g++ (>= 4:4.6.0-6), g++-4.6-multilib (>= 4.6.0-1)
+Filename: squeeze/gcc-4.6-squeeze/g++-multilib_4.6.0-6_i386.deb
+Size: 832
+MD5sum: bd831edbcf59d09e524c28e42cdc9dca
+SHA1: 9655de08fb1fa9fad1d37b306a4b1b1a6bd116cd
+SHA256: 03d42a4401c253bd607f2bf8a5ef6872112252d62d0f262f2b0fadd510f2bafb
 Section: devel
-Priority: standard
-Description: The GNU C++ compiler (multilib files)
+Priority: optional
+Description: GNU C++ compiler (multilib files)
  This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
  .
  On architectures with multilib support, the package contains dependencies
  for the non-default multilib architecture(s).
 
-Package: g77
-Source: gcc-defaults (1.52.1)
-Version: 4:3.4.6-21.1
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 40
-Depends: cpp (>= 4:4.1.2-2.1), gcc (>= 4:4.1.2-2.1), g77-3.4 (>= 3.4.6-1)
-Suggests: g77-doc
-Provides: fortran-compiler
-Filename: etch/gcc-4.1-etch/g77_3.4.6-21.1_i386.deb
-Size: 1222
-MD5sum: 00b261ddde9308de4acf0965f96d4ed0
-SHA1: 9d582bbdbed669c70f0031cd5a27cac2f26fbd03
-SHA256: 32b68066064ad542fdcabbcdd794c7385dcf00d4b9c6d16f80df98f54d9aaa57
-Section: devel
-Priority: optional
-Description: The GNU Fortran 77 compiler
- This is the GNU g77 Fortran compiler, which compiles Fortran 77 on platforms
- supported by the gcc compiler. It uses the gcc backend to generate optimized
- code.
- .
- This is a dependency package providing the default GNU Fortran 77 compiler.
-
-Package: gappletviewer-4.1
-Source: gcj-4.1
-Version: 4.1.2-4
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 64
-Depends: gcj-4.1-base (= 4.1.2-4), gij-4.1 (= 4.1.2-4), libgcj7-1-awt (= 4.1.2-4)
-Filename: etch/gcc-4.1-etch/gappletviewer-4.1_4.1.2-4_i386.deb
-Size: 12242
-MD5sum: 2db243ddf415f7d6f08d918f4c74cd05
-SHA1: ed124b4759e4d45ee7f112de387ce532d551beba
-SHA256: 11baaf0dc7bfac5e01d75c0dc6ad8fab779609ef7648869120d639fa92fdb584
-Section: utils
-Priority: optional
-Description: Standalone application to execute Java (tm) applets
- gappletviewer is a standalone application to execute Java (tm) applets.
-
 Package: gcc
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 64
-Depends: cpp (>= 4:4.1.2-2.1), gcc-4.1 (>= 4.1.2-1)
+Installed-Size: 41
+Depends: cpp (>= 4:4.6.0-6), gcc-4.6 (>= 4.6.0-1)
 Recommends: libc6-dev | libc-dev
 Suggests: gcc-multilib, make, manpages-dev, autoconf, automake1.9, libtool, flex, bison, gdb, gcc-doc
 Conflicts: gcc-doc (<< 1:2.95.3)
 Provides: c-compiler
-Filename: etch/gcc-4.1-etch/gcc_4.1.2-2.1_i386.deb
-Size: 5044
-MD5sum: db64e70a237836bbb121edc017afb3c1
-SHA1: a43aae761353e2d62559d3363b14d6b4cd996a40
-SHA256: 62f7687de41047599312b7fcd1a00526a695daade424ac773474812be657785a
+Filename: squeeze/gcc-4.6-squeeze/gcc_4.6.0-6_i386.deb
+Size: 5018
+MD5sum: 516abaf70aaa2bedf7507317b1a390d9
+SHA1: cd89cac9298eaaa404287407ccc0bb8aac60de54
+SHA256: 6ca865caedb11d1bafdd1290bd3b96f20fe8d2bbe7d9e76c27c2ac1bfd5d171a
 Section: devel
 Priority: optional
-Description: The GNU C compiler
+Description: GNU C compiler
  This is the GNU C compiler, a fairly portable optimizing compiler for C.
  .
  This is a dependency package providing the default GNU C compiler.
 
-Package: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 1144
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), cpp-4.1 (= 4.1.2-4vnz1), binutils (>= 2.17), libgcc1 (>= 1:4.1.2-4vnz1), libssp0, libc6 (>= 2.3.6-6)
-Recommends: libc6-dev (>= 2.3.6-7), libmudflap0-dev (>= 4.1.2-4vnz1)
-Suggests: gcc-4.1-multilib, gcc-4.1-doc (>= 4.1.2-2), gcc-4.1-locales (>= 4.1.2-2)
-Conflicts: libssp0-dev (<< 4.1.1-6)
-Replaces: gcj-4.1 (<< 4.1.1), libssp0-dev (<< 4.1.1-6)
-Provides: c-compiler, libssp0-dev
-Filename: etch/gcc-4.1-etch/gcc-4.1_4.1.2-4vnz1_i386.deb
-Size: 421474
-MD5sum: 7d8f9cb08c90c140946f42b56ff806c3
-SHA1: fa48fe6ae2dc7d2341eefdb3b74f08c61935ea8b
-SHA256: 030e17e07ecfb79cf53ea4efbb608559b137d5f936d1e1b9f744af5c12c2673b
+Installed-Size: 14981
+Depends: gcc-4.6-base (= 4.6.0-14.1), cpp-4.6 (= 4.6.0-14.1), binutils (>= 2.20.51~), libgcc1 (>= 1:4.6.0-14.1), libgomp1 (>= 4.6.0-14.1), libquadmath0 (>= 4.6.0-14.1), libc6 (>= 2.11), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4)
+Recommends: libc6-dev (>= 2.5)
+Suggests: gcc-4.6-multilib, libmudflap0-4.6-dev (>= 4.6.0-14.1), gcc-4.6-doc (>= 4.6.0-12), gcc-4.6-locales (>= 4.6.0-12), libgcc1-dbg, libgomp1-dbg, libquadmath0-dbg, libmudflap0-dbg, binutils-gold (>= 2.20.51~)
+Provides: c-compiler
+Filename: squeeze/gcc-4.6-squeeze/gcc-4.6_4.6.0-14.1_i386.deb
+Size: 7233442
+MD5sum: 6d607750eb4eb5cf4a21ed3a1abf721f
+SHA1: 6a535a82947b1634011654d0833bab9c999f8296
+SHA256: 933fae7da661792dbae8b645b0abe582c4ca9b91a8021436c1df0801ce6351ba
 Section: devel
 Priority: optional
-Description: The GNU C compiler
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler
  This is the GNU C compiler, a fairly portable optimizing compiler for C.
 
-Package: gcc-4.1-base
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gcc-4.6-base
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 260
-Filename: etch/gcc-4.1-etch/gcc-4.1-base_4.1.2-4vnz1_i386.deb
-Size: 201762
-MD5sum: 876ec8853c6ecf894303c0280d0b7ba7
-SHA1: 41fdbe9f75f55ab39b1c94215261c11ddf6d28a4
-SHA256: e330f30e7dd1654982a282efda2584c088d3ad36db3b0d22b0fcd59dff256abf
+Installed-Size: 184
+Filename: squeeze/gcc-4.6-squeeze/gcc-4.6-base_4.6.0-14.1_i386.deb
+Size: 130522
+MD5sum: 9a46f0c73bee5832f1af9be2c6fef95f
+SHA1: f5bb974ef9e10d2da9eaf0f9d1a197d01e99a7c4
+SHA256: a0ef6609e395481d325107087e6439a7940b08514eacd9137b750e895c918369
 Section: libs
 Priority: required
-Description: The GNU Compiler Collection (base package)
+Homepage: http://gcc.gnu.org/
+Description: GCC, the GNU Compiler Collection (base package)
  This package contains files common to all languages and libraries
  contained in the GNU Compiler Collection (GCC).
 
-Package: gcc-4.1-locales
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gcc-4.6-locales
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: all
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 6192
-Depends: gcc-4.1-base (>= 4.1.2-2), cpp-4.1 (>= 4.1.2-2)
-Recommends: gcc-4.1 (>= 4.1.2-2)
-Filename: etch/gcc-4.1-etch/gcc-4.1-locales_4.1.2-4vnz1_all.deb
-Size: 1899834
-MD5sum: 8c4bcde68687106c7c5e80ed52f5c68b
-SHA1: f7e0cb90813f6b82df516c8103237135cbb5a6e9
-SHA256: 7cadab1d3491b77326dda4da8920fc6b3eca8152d783dd53227d6427b3006d97
+Installed-Size: 8422
+Depends: gcc-4.6-base (>= 4.6.0-12), cpp-4.6 (>= 4.6.0-12)
+Recommends: gcc-4.6 (>= 4.6.0-12)
+Filename: squeeze/gcc-4.6-squeeze/gcc-4.6-locales_4.6.0-14.1_all.deb
+Size: 2586316
+MD5sum: c9c76d57a29f0c72a4ba7b1e2e08e05a
+SHA1: e0d7be412ddbd2b1ea96d05ca49839c6362330b8
+SHA256: de58658109ff3a2cb2d89a462728d85f56ed14a5a9e324ce058a9c712360ec4a
 Section: devel
 Priority: optional
-Description: The GNU C compiler (native language support files)
+Homepage: http://gcc.gnu.org/
+Description: GCC, the GNU compiler collection (native language support files)
  Native language support for GCC. Lets GCC speak your language,
  if translations are available.
  .
  Please do NOT submit bug reports in other languages than "C".
  Always reset your language settings to use the "C" locales.
 
-Package: gcc-4.1-multilib
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gcc-4.6-multilib
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 304
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gcc-4.1 (= 4.1.2-4vnz1), libc6-dev-amd64, lib64gcc1 (>= 1:4.1.2-4vnz1), lib64ssp0 (>= 4.1.2-4vnz1)
-Recommends: lib64mudflap0
-Replaces: gcc-4.1 (<< 4.1.2-4)
-Filename: etch/gcc-4.1-etch/gcc-4.1-multilib_4.1.2-4vnz1_i386.deb
-Size: 46070
-MD5sum: fefd30f1b6f5087e32e4906586834d7c
-SHA1: fe732ddc2c039ccd0cec6be2db3ebc696c937f5e
-SHA256: 16d7b1b992594395ff83174382668a30b671a9bda74858210c6edd2991d03fbc
+Installed-Size: 3734
+Depends: gcc-4.6-base (= 4.6.0-14.1), gcc-4.6 (= 4.6.0-14.1), libc6-dev-amd64 (>= 2.5), lib64gcc1 (>= 1:4.6.0-14.1), lib64gomp1 (>= 4.6.0-14.1)
+Suggests: lib64mudflap0 (>= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/gcc-4.6-multilib_4.6.0-14.1_i386.deb
+Size: 2356126
+MD5sum: b03ba4a807b4f4c3b14dce9e5a4cd46b
+SHA1: 362148927183fcfb8ec57cab498e029fb5a45a92
+SHA256: 639cc9e12a5473a13779b1a97f778eeae97be9db44e448080bacabe239a2f6cb
 Section: devel
 Priority: optional
-Description: The GNU C compiler (multilib files)
+Homepage: http://gcc.gnu.org/
+Description: GNU C compiler (multilib files)
  This is the GNU C compiler, a fairly portable optimizing compiler for C.
  .
  On architectures with multilib support, the package contains files
  and dependencies for the non-default multilib architecture(s).
 
-Package: gcc-4.1-source
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
-Architecture: all
+Package: gcc-4.6-plugin-dev
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 51136
-Depends: gcc-4.1-base (>= 4.1.2-2), make (>= 3.81)
-Filename: etch/gcc-4.1-etch/gcc-4.1-source_4.1.2-4vnz1_all.deb
-Size: 48163626
-MD5sum: c25a3960b5356869e97e10a123e93905
-SHA1: 937bf5fdcdb3cf0bf3ab0317cd86753432253da5
-SHA256: 01d67a5fab580dbb8cade344effb296a01c90ce73874f35d4c08190b6b053359
+Installed-Size: 4411
+Depends: gcc-4.6-base (= 4.6.0-14.1), gcc-4.6 (= 4.6.0-14.1), libgmp3-dev, libc6 (>= 2.3)
+Filename: squeeze/gcc-4.6-squeeze/gcc-4.6-plugin-dev_4.6.0-14.1_i386.deb
+Size: 831594
+MD5sum: 995c98730bc7b5b50efbbc5096d8aa11
+SHA1: d8ac3172ae01ac5231f19ceddd51c17310c45320
+SHA256: e353c2c911c60016408146024ae4814edb85242443b58e68eaf6e557fed94207
 Section: devel
 Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Files for GNU GCC plugin development.
+ This package contains (header) files for GNU GCC plugin development. It
+ is only used for the development of GCC plugins, but not needed to run
+ plugins.
+
+Package: gcc-4.6-source
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 105518
+Depends: make (>= 3.81), autoconf2.64, automake, quilt, patchutils, gawk
+Filename: squeeze/gcc-4.6-squeeze/gcc-4.6-source_4.6.0-14.1_all.deb
+Size: 65863390
+MD5sum: c04122159cf45e4d42800a7bb83786eb
+SHA1: 483d38baedc26f2b5beb3063c6690720a352868f
+SHA256: 04c8c5e78c397e01772750349e243e084f7a0acee67cdda0a85f022e1af41032
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: Source of the GNU Compiler Collection
  This package contains the sources and patches which are needed to
  build the GNU Compiler Collection (GCC).
 
 Package: gcc-multilib
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: cpp (>= 4:4.1.2-2.1), gcc (>= 4:4.1.2-2.1), gcc-4.1-multilib (>= 4.1.2-1)
-Filename: etch/gcc-4.1-etch/gcc-multilib_4.1.2-2.1_i386.deb
-Size: 822
-MD5sum: 3fe317acdc33a838e653e41cfb390964
-SHA1: 51f4e6aa5729a0e5cef366e55b4cdbaa138f053e
-SHA256: b1dbe7b7894de402cd35e9fb4fc30da2bfd9fe9598f081f5ddaa8ad19384dc9b
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gcc (>= 4:4.6.0-6), gcc-4.6-multilib (>= 4.6.0-1)
+Filename: squeeze/gcc-4.6-squeeze/gcc-multilib_4.6.0-6_i386.deb
+Size: 820
+MD5sum: 8d0d3f78b6c1632b6426a227404ffa67
+SHA1: a5471d1fb28e864b21d2ba451e000dc9cb6aada6
+SHA256: eae410b8c364fb20b466383926f4382b4b60375a159ffdea3c1d01fb68ea6cec
 Section: devel
-Priority: standard
-Description: The GNU C compiler (multilib files)
+Priority: optional
+Description: GNU C compiler (multilib files)
  This is the GNU C compiler, a fairly portable optimizing compiler for C.
  .
  On architectures with multilib support, the package contains dependencies
  for the non-default multilib architecture(s).
 
-Package: gcj
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Package: gccgo
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 44
-Depends: cpp (>= 4:4.1.2-2.1), gij (>= 4:4.1.2-2.1), gcj-4.1 (>= 4.1.2-1)
-Conflicts: libgcj2, libgcj3
-Replaces: libgcj5-dev, libgcj6-dev, libgcj7-dev (<< 4.1.1-12)
-Provides: java-compiler, libgcj-dev
-Filename: etch/gcc-4.1-etch/gcj_4.1.2-2.1_i386.deb
-Size: 1372
-MD5sum: 5a79a64d4346a94037a111c1600621df
-SHA1: 9c1de26b026efcc90a82541db99b847e0be81764
-SHA256: d5999fdb060d0fb72721fdc1a1dde3e21ede3a17789939b6781191eafd0cf989
+Installed-Size: 25
+Depends: cpp (>= 4:4.6.0-6), gcc (>= 4:4.6.0-6), gccgo-4.6 (>= 4.6.0-1)
+Suggests: gccgo-multilib
+Provides: go-compiler
+Filename: squeeze/gcc-4.6-squeeze/gccgo_4.6.0-6_i386.deb
+Size: 916
+MD5sum: eb547c3a46c737f10ef37a2342c5547f
+SHA1: 5c8646a8b72d9c927e2b864236b5108b2a5c386a
+SHA256: abc4017799f0d08f334c13f428f04636d3ad20e04a37e00a71df1652de64ccb6
 Section: devel
 Priority: optional
-Description: The GNU Java compiler
- GCJ is a front end to the GCC compiler which can natively compile both
- Java(tm) source and bytecode files. The compiler can also generate class
- files.
+Description: Go compiler, based on the GCC backend
+ This is the GNU Go compiler, which compiles Go on platforms supported by
+ the gcc compiler. It uses the gcc backend to generate optimized code.
  .
- This is a dependency package providing the default GNU Java compiler.
+ This is a dependency package providing the default GNU Go compiler.
 
-Package: gcj-4.1
-Version: 4.1.2-4
+Package: gccgo-4.6
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 5472
-Depends: gcj-4.1-base (= 4.1.2-4), gcc-4.1 (>= 4.1.2-2), libc6-dev (>= 2.3.6-7), gij-4.1 (= 4.1.2-4), libgcj7-dev (= 4.1.2-4), libgcj7-jar (>= 4.1.2-2), ecj (>= 3.2.1-4), java-common
-Recommends: fastjar, ecj-gcj
-Suggests: java-gcj-compat-dev
-Conflicts: cpp-4.1 (<< 4.1.1), gcc-4.1 (<< 4.1.1), java-gcj-compat-dev (<< 1.0.56-2)
-Provides: java-compiler
-Filename: etch/gcc-4.1-etch/gcj-4.1_4.1.2-4_i386.deb
-Size: 2601164
-MD5sum: 9b391e74dc3e265a5081661b53f74a72
-SHA1: 032d96fea9b3637933f9f709a319292ec2dff3ef
-SHA256: 7c3e95e3a093ae61faf71270de5a39dd5082983730750fd40b3818d36ceac4c1
+Installed-Size: 21813
+Depends: gcc-4.6-base (= 4.6.0-14.1), gcc-4.6 (= 4.6.0-14.1), libgo0 (>= 4.6.0-14.1), libc6-dev (>= 2.5), libc6 (>= 2.11), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4)
+Suggests: gccgo-4.6-doc, libgo0-dbg
+Provides: go-compiler
+Filename: squeeze/gcc-4.6-squeeze/gccgo-4.6_4.6.0-14.1_i386.deb
+Size: 7697918
+MD5sum: 2cd0c9c517b04c412078f178fca4161f
+SHA1: ee2ac9cedf992cab65ff764edf50e3d702b40d3c
+SHA256: 0e52116d71519b42190bb21ba63df55a460346366dbe774f5bbddaffa88c8825
 Section: devel
 Priority: optional
-Description: The GNU compiler for Java(TM)
- GCJ is a front end to the GCC compiler which can natively compile both
- Java(tm) source and bytecode files. The compiler can also generate class
- files.
+Homepage: http://gcc.gnu.org/
+Description: GNU Go compiler
+ This is the GNU Go compiler, which compiles Go on platforms supported
+ by the gcc compiler. It uses the gcc backend to generate optimized code.
 
-Package: gcj-4.1-base
-Source: gcj-4.1
-Version: 4.1.2-4
+Package: gccgo-4.6-multilib
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 144
-Filename: etch/gcc-4.1-etch/gcj-4.1-base_4.1.2-4_i386.deb
-Size: 94252
-MD5sum: c1ee48aebda7381b96322af076ce4f1f
-SHA1: 2f8ba9723dd4d9fbe8e4ce42dcc73e08332de0af
-SHA256: f784c3cd1bba290ad7c3d0a72d273c7515de9f4a7bce7c4a2089b96ba693bd61
+Installed-Size: 15311
+Depends: gcc-4.6-base (= 4.6.0-14.1), gccgo-4.6 (= 4.6.0-14.1), gcc-4.6-multilib (= 4.6.0-14.1), lib64go0 (>= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/gccgo-4.6-multilib_4.6.0-14.1_i386.deb
+Size: 3003184
+MD5sum: 0ddaba7333443badd43809d32700c854
+SHA1: 5c3293401b14ab2a39b6df3a01d39929088dfbbf
+SHA256: 6e9006b54e7e844003ca49dcba4e5c93c97197c6c498cbafa2bf93a0b185d62e
+Section: devel
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GNU Go compiler (multilib files)
+ This is the GNU Go compiler, which compiles Go on platforms supported
+ by the gcc compiler.
+ .
+ On architectures with multilib support, the package contains files
+ and dependencies for the non-default multilib architecture(s).
+
+Package: gccgo-multilib
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gcc-multilib (>= 4:4.6.0-6), gccgo (>= 4:4.6.0-6), gccgo-4.6-multilib (>= 4.6.0-1)
+Filename: squeeze/gcc-4.6-squeeze/gccgo-multilib_4.6.0-6_i386.deb
+Size: 878
+MD5sum: 287113a7263024e856f9168d06ef59e6
+SHA1: 1b536128bb41df6277832e5d456b819388e7a8db
+SHA256: f20a324df424fd73cc5d43224bd63739d7d922c06b081ac43c2d8085474ea2c6
+Section: devel
+Priority: optional
+Description: Go compiler, based on the GCC backend (multilib files)
+ This is the GNU Go compiler, which compiles Go on platforms supported by
+ the gcc compiler. It uses the gcc backend to generate optimized code.
+ .
+ On architectures with multilib support, the package contains dependencies
+ for the non-default multilib architecture(s).
+
+Package: gcj-4.6-base
+Source: gcj-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 161
+Filename: squeeze/gcc-4.6-squeeze/gcj-4.6-base_4.6.0-14.1_i386.deb
+Size: 123546
+MD5sum: b9b00991c1da345f3a3b9ff90fa5bf8e
+SHA1: 31344f0726ca8dde17e0c4f7e1c9e5a5660717da
+SHA256: 20c3ebb719fb6a3ec7021fce3b8819fa5b4a6171f782d96ed688ef2881b82e3a
 Section: libs
 Priority: optional
-Description: The GNU Compiler Collection (gcj base package)
+Homepage: http://gcc.gnu.org/
+Description: GCC, the GNU Compiler Collection (gcj base package)
  This package contains files common to all java related packages
  built from the GNU Compiler Collection (GCC).
 
-Package: gfortran
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Package: gcj-4.6-jdk
+Source: gcj-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 40
-Depends: cpp (>= 4:4.1.2-2.1), gcc (>= 4:4.1.2-2.1), gfortran-4.1 (>= 4.1.2-1)
-Suggests: gfortran-multilib, gfortran-doc
-Provides: fortran-compiler
-Filename: etch/gcc-4.1-etch/gfortran_4.1.2-2.1_i386.deb
-Size: 1128
-MD5sum: c8a84cbc69b69ca7616ac045f38a997f
-SHA1: 24a417b0d8f70dfa2c7b9f6608572f8192b2a3d0
-SHA256: ca52bbe9e98b0bdebd0a810991268629a031f18dec71b7ac4547fd41e30da621
+Installed-Size: 10699
+Depends: gcj-4.6-base (= 4.6.0-14.1), gcc-4.6 (>= 4.6.0-12), libc6-dev (>= 2.5), gcj-4.6-jre (= 4.6.0-14.1), libgcj12-dev (= 4.6.0-14.1), gcj-4.6-jre-lib (>= 4.6.0-12), ecj-gcj, libecj-java-gcj (>= 3.5.1), fastjar, libgcj-bc, java-common, libantlr-java, libc6 (>= 2.11), libgcc1, libgcj12 (>= 4.6), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Suggests: gcj-4.6-source (>= 4.6.0-12), libgcj12-dbg
+Conflicts: cpp-4.1 (<< 4.1.1), gcc-4.1 (<< 4.1.1), gcj-4.4
+Replaces: libgcj11 (<< 4.5-20100101-1)
+Provides: java-compiler, java-sdk, java2-sdk, java5-sdk
+Filename: squeeze/gcc-4.6-squeeze/gcj-4.6-jdk_4.6.0-14.1_i386.deb
+Size: 4675506
+MD5sum: 2222d5f577d1964b8e2fca6da6ffe0c9
+SHA1: 1a6bc06731cfab141c61824d49ac67239e8f077d
+SHA256: 2a191d23fa8afbd2057364982e687381b78ecd3accff208343662abbd48f9236
+Section: java
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: gcj and classpath development tools for Java(TM)
+ GCJ is a front end to the GCC compiler which can natively compile both
+ Java(tm) source and bytecode files. The compiler can also generate class
+ files. Other java development tools from classpath are included in this
+ package.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-SDK-like interface to the GCJ tool set.
+
+Package: gcj-4.6-jre
+Source: gcj-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 21
+Depends: gcj-4.6-base (= 4.6.0-14.1), gcj-4.6-jre-headless (= 4.6.0-14.1), libgcj12-awt (= 4.6.0-14.1)
+Provides: java-runtime, java1-runtime, java2-runtime, java5-runtime
+Filename: squeeze/gcc-4.6-squeeze/gcj-4.6-jre_4.6.0-14.1_i386.deb
+Size: 1012
+MD5sum: bf24c6216484118a4a29cd29437e75f7
+SHA1: c5d1413139cc17546442bb24ca0d489de5d40829
+SHA256: 17e182a1466942b347000a80ceb7d7daebdeada9c0699d32f7cff7e35ba00332
+Section: java
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Java runtime environment using GIJ/classpath
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set.
+
+Package: gcj-4.6-jre-headless
+Source: gcj-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 179
+Depends: gcj-4.6-base (= 4.6.0-14.1), libgcj12 (= 4.6.0-14.1), libc6 (>= 2.3.6-6~), libgcc1, zlib1g (>= 1:1.1.4)
+Suggests: fastjar, gcj-4.6-jdk (= 4.6.0-14.1), libgcj12-awt (= 4.6.0-14.1)
+Conflicts: gij-4.4, java-gcj-compat (<< 1.0.76-4)
+Provides: java-runtime-headless, java1-runtime-headless, java2-runtime-headless, java5-runtime-headless
+Filename: squeeze/gcc-4.6-squeeze/gcj-4.6-jre-headless_4.6.0-14.1_i386.deb
+Size: 48808
+MD5sum: e8b94e8d5520836faa216050e2e54f5b
+SHA1: ed019f30a7a901e9424b6abe560f276028bc4d44
+SHA256: 576bf74a766146daaac7860c213e871f2e3c3ffd44cb6e2cf5338d5849c23469
+Section: java
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Java runtime environment using GIJ/classpath (headless version)
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set,
+ limited to the headless tools and libraries.
+
+Package: gcj-4.6-jre-lib
+Source: gcj-4.6
+Version: 4.6.0-14.1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 11209
+Depends: gcj-4.6-base (>= 4.6.0-12), libgcj12 (>= 4.6.0-12)
+Filename: squeeze/gcc-4.6-squeeze/gcj-4.6-jre-lib_4.6.0-14.1_all.deb
+Size: 10485830
+MD5sum: 9f763ef44f17006f7272a0431fc6d3c5
+SHA1: 51276c4ab04d2ffcf614bcdb481f47ba31bdaf5f
+SHA256: 21ea5114ad85b299ab5bba04fa3e9e0ed65717bcf823dcf9d9025165b0cad0a5
+Section: java
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Java runtime library for use with gcj (jar files)
+ This is the jar file that goes along with the gcj front end to gcc.
+
+Package: gcj-4.6-source
+Source: gcj-4.6
+Version: 4.6.0-14.1
+Architecture: all
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 12655
+Depends: gcj-4.6-base (>= 4.6.0-12), gcj-4.6-jdk (>= 4.6.0-12)
+Filename: squeeze/gcc-4.6-squeeze/gcj-4.6-source_4.6.0-14.1_all.deb
+Size: 12299898
+MD5sum: 63257b3e338637ed3d39266b90abaafc
+SHA1: b0f1597fa73b7b388f2723a2a376cacb67e06bbb
+SHA256: be08e2ea36c516f64e76ab3d8fa8e2a936bc90932688fb581660632689a50534
+Section: java
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCJ java sources for use in IDEs like eclipse and netbeans
+ These are the java source files packaged as a zip file for use in development
+ environments like eclipse and netbeans.
+
+Package: gcj-jdk
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 50
+Depends: libgcj-common (>= 1:4.4.5-10), gcj-jre (>= 4:4.6.0-6), gcj-4.6-jdk (>= 4.6.0-1)
+Conflicts: classpath-common (<= 2:0.97.2-1.1), gcj (<< 4:4.4.0-2), gjdoc, java-gcj-compat-dev (<< 1.0.80-2)
+Replaces: gjdoc, java-gcj-compat-dev (<< 1.0.80-2)
+Provides: gjdoc, java-compiler, java-gcj-compat-dev, java-sdk, java2-sdk, java5-sdk
+Filename: squeeze/gcc-4.6-squeeze/gcj-jdk_4.6.0-6_i386.deb
+Size: 6250
+MD5sum: f0a4be07bbf4c9b6cca813e9cd4996d4
+SHA1: 1e3d49b7adb49b34a2a94c6bcf4f5b386c08ef19
+SHA256: fdeb936eea47ad356c87a9eee8bfeece3f0de5975502597d55f06043e8b22601
+Section: java
+Priority: optional
+Description: gcj and classpath development tools for Java(TM)
+ GCJ is a front end to the GCC compiler which can natively compile both
+ Java(tm) source and bytecode files. The compiler can also generate class
+ files. Other java development tools from classpath are included in this
+ package.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-SDK-like interface to the GCJ tool set.
+
+Package: gcj-jre
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 21
+Depends: libgcj-common (>= 1:4.4.5-10), gcj-jre-headless (>= 4:4.6.0-6), gcj-4.6-jre (>= 4.6.0-1)
+Provides: java-gcj-compat, java-runtime, java1-runtime, java2-runtime, java5-runtime
+Filename: squeeze/gcc-4.6-squeeze/gcj-jre_4.6.0-6_i386.deb
+Size: 1022
+MD5sum: 78b68917acb09f64b53f07f5eceed200
+SHA1: 12a05e6d211b69e4cab40600ab905fe23dd79813
+SHA256: 6b04daff783e850963f28afc67cc6063f9b73815a504507b3455863591e8e695
+Section: java
+Priority: optional
+Description: Java runtime environment using GIJ/classpath
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set.
+
+Package: gcj-jre-headless
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 41
+Depends: libgcj-common (>= 1:4.4.5-10), gcj-4.6-jre-headless (>= 4.6.0-1)
+Suggests: gcj-jdk
+Conflicts: gij (<< 4:4.4.0-2), java-gcj-compat-headless (<< 1.0.80-6)
+Replaces: java-gcj-compat-headless (<< 1.0.80-6)
+Provides: java-gcj-compat-headless, java-runtime-headless, java-virtual-machine, java1-runtime-headless, java2-runtime-headless, java5-runtime-headless
+Filename: squeeze/gcc-4.6-squeeze/gcj-jre-headless_4.6.0-6_i386.deb
+Size: 1488
+MD5sum: f28dd6d61fe2e91e8f3db832143365f1
+SHA1: 306b7a8f8d1e8ba23645c2e20c08f4d1774cf426
+SHA256: c94c544649d4c22f429813be55a8aa861c9613cd7f6d29304e6e890ce2450538
+Section: java
+Priority: optional
+Description: Java runtime environment using GIJ/classpath (headless version)
+ GIJ is a Java bytecode interpreter, not limited to interpreting bytecode.
+ It includes a class loader which can dynamically load shared objects, so
+ it is possible to give it the name of a class which has been compiled and
+ put into a shared library on the class path.
+ .
+ The package contains as well a collection of wrapper scripts and symlinks.
+ It is meant to provide a Java-RTE-like interface to the GIJ/GCJ tool set,
+ limited to the headless tools and libraries.
+
+Package: gdc
+Source: gcc-defaults (1.105)
+Version: 4.4.5-10
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 54
+Depends: gdc-4.4 (>= 1.063-4.4.5-1)
+Replaces: gdc-4.1 (<< 0.25-4.1.2-18), gdc-4.2 (<< 0.25-4.2.2-7), gdc-4.3 (<< 1:1.043-4.3.4-1)
+Filename: squeeze/gcc-4.6-squeeze/gdc_4.4.5-10_i386.deb
+Size: 15604
+MD5sum: 22ee07a718d14410cd0cfbfc955eb1b7
+SHA1: 0cde99353f71c3a894a909e0e3b1e750b4fa161f
+SHA256: ade84b36a7669803cc9c8fad83e8e786573ff1af79648d02c1e2e6ade5707656
 Section: devel
 Priority: optional
-Description: The GNU Fortran 95 compiler
+Description: D compiler, based on the GCC backend
+ This is a dependency package providing the default D compiler.
+ Per policy, all packages that contain D sources must use this package
+ in their Build-Depends line.
+
+Package: gfortran
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 33
+Depends: cpp (>= 4:4.6.0-6), gcc (>= 4:4.6.0-6), gfortran-4.6 (>= 4.6.0-1)
+Suggests: gfortran-multilib, gfortran-doc
+Provides: fortran-compiler
+Filename: squeeze/gcc-4.6-squeeze/gfortran_4.6.0-6_i386.deb
+Size: 1124
+MD5sum: d83ef7a322d374f8abfa949fc9e7c450
+SHA1: fc382ed5c40c693cd69f1d6478c5f777a2f55a39
+SHA256: eacab58aa09ad8fe37d8d700c4a2cf47789c698c293e39df3c91ca3cf35a26de
+Section: devel
+Priority: optional
+Description: GNU Fortran 95 compiler
  This is the GNU Fortran 95 compiler, which compiles Fortran 95 on platforms
  supported by the gcc compiler. It uses the gcc backend to generate optimized
  code.
  .
  This is a dependency package providing the default GNU Fortran 95 compiler.
 
-Package: gfortran-4.1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gfortran-4.6
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 6328
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gcc-4.1 (= 4.1.2-4vnz1), libgfortran1 (>= 4.1.2-4vnz1), libc6-dev (>= 2.3.6-7), libc6 (>= 2.3.6-6), libgmp3c2, libmpfr1
-Suggests: gfortran-4.1-multilib, gfortran-4.1-doc
-Replaces: libgfortran1-dev
+Installed-Size: 13178
+Depends: gcc-4.6-base (= 4.6.0-14.1), gcc-4.6 (= 4.6.0-14.1), libgfortran3 (>= 4.6.0-14.1), libc6-dev (>= 2.5), libc6 (>= 2.11), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4)
+Suggests: gfortran-4.6-multilib, gfortran-4.6-doc, libgfortran3-dbg
+Replaces: libgfortran3-dev
 Provides: fortran95-compiler
-Filename: etch/gcc-4.1-etch/gfortran-4.1_4.1.2-4vnz1_i386.deb
-Size: 2661008
-MD5sum: 109c102e4c8c3efd37b67195ecd35038
-SHA1: 1676c30efed6c6bc035fa21f3be094617f069804
-SHA256: bdd1d6992ce178f37d3df6307a7e244538fb863ffc3100d4e0a6d7b9a8ac04e8
+Filename: squeeze/gcc-4.6-squeeze/gfortran-4.6_4.6.0-14.1_i386.deb
+Size: 5257470
+MD5sum: 47c729395a3dbb67ad9b4eaba47e30e6
+SHA1: 76d48f1b39ba826bfddfd68753d8767c579627c1
+SHA256: c5f9a37fc9133b2376142f47ac51b6394806f99909b4f8cfde896fda5ce84155
 Section: devel
 Priority: optional
-Description: The GNU Fortran 95 compiler
+Homepage: http://gcc.gnu.org/
+Description: GNU Fortran 95 compiler
  This is the GNU Fortran compiler, which compiles
  Fortran 95 on platforms supported by the gcc compiler. It uses the
  gcc backend to generate optimized code.
 
-Package: gfortran-4.1-multilib
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gfortran-4.6-multilib
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 1472
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gfortran-4.1 (= 4.1.2-4vnz1), gcc-4.1-multilib (= 4.1.2-4vnz1), lib64gfortran1 (>= 4.1.2-4vnz1)
-Replaces: gfortran-4.1 (<< 4.1.2-4)
-Filename: etch/gcc-4.1-etch/gfortran-4.1-multilib_4.1.2-4vnz1_i386.deb
-Size: 226124
-MD5sum: a69c59ed05b9ae6a8e2e5b975db3f438
-SHA1: 4ab6fd5413e6d2437a65e8b4431f99e86642fb07
-SHA256: 841e236153c5ee473453f41df0e051381dc68d945b26f0283e946f2c2e7e7560
+Installed-Size: 2679
+Depends: gcc-4.6-base (= 4.6.0-14.1), gfortran-4.6 (= 4.6.0-14.1), gcc-4.6-multilib (= 4.6.0-14.1), lib64gfortran3 (>= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/gfortran-4.6-multilib_4.6.0-14.1_i386.deb
+Size: 432710
+MD5sum: 5562074a812ab98adc845d233369db77
+SHA1: 56697de072af82c2778e5b251a14d9eb7971007c
+SHA256: 0adea2cb396eff657c7a5250719dc244ee555e67fa7f8563bd306246faa19903
 Section: devel
 Priority: optional
-Description: The GNU Fortran 95 compiler (multilib files)
+Homepage: http://gcc.gnu.org/
+Description: GNU Fortran 95 compiler (multilib files)
  This is the GNU Fortran compiler, which compiles Fortran 95 on platforms
  supported by the gcc compiler.
  .
@@ -676,114 +788,88 @@ Description: The GNU Fortran 95 compiler (multilib files)
  and dependencies for the non-default multilib architecture(s).
 
 Package: gfortran-multilib
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: cpp (>= 4:4.1.2-2.1), gfortran (>= 4:4.1.2-2.1), gfortran-4.1-multilib (>= 4.1.2-1)
-Filename: etch/gcc-4.1-etch/gfortran-multilib_4.1.2-2.1_i386.deb
-Size: 846
-MD5sum: 5fdd87bf151bb4ea90457887831fa3b1
-SHA1: 06923e3de7a6f1762f45ede3062c55f2617b70f2
-SHA256: e809c1c14ca27a4fbcbd5d7cfa0515b41de899f7f62e63ef3e62d0ce89f30a9f
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gcc-multilib (>= 4:4.6.0-6), gfortran (>= 4:4.6.0-6), gfortran-4.6-multilib (>= 4.6.0-1)
+Filename: squeeze/gcc-4.6-squeeze/gfortran-multilib_4.6.0-6_i386.deb
+Size: 848
+MD5sum: 723d46342acdcc5cbe30683a028c13c3
+SHA1: df295aec488cdb811dd49483374ace9f3ed782fb
+SHA256: 002e6c17a43fd8fde65e1f95bcb00c1fca6fd88b83e8e7c1a6c54ee379f78750
 Section: devel
-Priority: standard
-Description: The GNU Fortran 95 compiler (multilib files)
+Priority: optional
+Description: GNU Fortran 95 compiler (multilib files)
  This is the GNU Fortran compiler, which compiles Fortran 95 on platforms
  supported by the gcc compiler.
  .
  On architectures with multilib support, the package contains dependencies
  for the non-default multilib architecture(s).
 
-Package: gij
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Package: gnutls-bin
+Source: gnutls26
+Version: 2.9.12-2
 Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 36
-Depends: libgcj-bc (>= 4.1.2-2.1), gij-4.1 (>= 4.1.2-1)
-Recommends: libgcj7-1-awt
-Suggests: gcj (>= 4:4.1.2-2.1)
-Conflicts: java-gcj-compat (<< 1.0.56), libgcj2 (<= 3.0.2-4)
-Provides: java-runtime, java-virtual-machine, java1-runtime, java2-runtime
-Filename: etch/gcc-4.1-etch/gij_4.1.2-2.1_i386.deb
-Size: 1452
-MD5sum: 4852d298a75ef85e20664ca07cf54591
-SHA1: adeb208c7e3613046d481cdf10c3d357d7bbf079
-SHA256: f374dafb8adf75c7a7a6ad2b35d9ccf92a1cb57b376b0fbd376f01c6e9636f8e
-Section: devel
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 517
+Depends: libc6 (>= 2.3), libgcrypt11 (>= 1.4.2), libgnutls26 (>= 2.9.11-0), libgpg-error0 (>= 1.6-1), libreadline6 (>= 6.0), libtasn1-3 (>= 1.6-0), zlib1g (>= 1:1.1.4)
+Conflicts: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls5-dev
+Replaces: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls5-dev
+Filename: squeeze/gnutls/gnutls-bin_2.9.12-2_i386.deb
+Size: 342854
+MD5sum: 39a976f96fa05d20c4fff190207e7e12
+SHA1: de99e0ec3951a4fbc02856b736201066a083f1b5
+SHA256: 2a2bb12d44c79fb28f9aaa8e81a4dd2fc9a717f61d98c1ab14ca84a3adffb495
+Section: net
 Priority: optional
-Description: The GNU Java bytecode interpreter
- GIJ is not limited to interpreting bytecode. It includes a class loader which
- can dynamically load shared objects, so it is possible to give it the name
- of a class which has been compiled and put into a shared library on the
- class path.
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - commandline utilities
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
  .
- This is a dependency package providing the default GNU Java bytecode
- interpreter.
+ This package contains a commandline interface to the GNU TLS library,
+ which can be used to set up secure connections from e.g. shell scripts.
 
-Package: gij-4.1
-Source: gcj-4.1
-Version: 4.1.2-4
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 152
-Depends: gcj-4.1-base (= 4.1.2-4), libgcj7-1 (= 4.1.2-4), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.2), libmagic1, zlib1g (>= 1:1.2.1)
-Recommends: libgcj7-1-awt (= 4.1.2-4)
-Suggests: fastjar, gcj-4.1 (= 4.1.2-4), java-gcj-compat
-Replaces: libgcj7, libgcj7-0 (<< 4.1.2-31)
-Provides: java-runtime, java-virtual-machine, java1-runtime, java2-runtime
-Filename: etch/gcc-4.1-etch/gij-4.1_4.1.2-4_i386.deb
-Size: 49986
-MD5sum: 7e427c47d50773371110bb2d92a09f09
-SHA1: 9a554c906b098dfcaabac5685e0f58191c1c2845
-SHA256: 78f28761636c973e76cb9be7f488e58ba575d221b01be1c415ea3dce8f5f90c5
-Section: devel
+Package: gnutls-doc
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: all
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 6748
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: squeeze/gnutls/gnutls-doc_2.9.12-2_all.deb
+Size: 3221812
+MD5sum: a0f234feb701e79352f5df1b6587ff82
+SHA1: 375b717bbe93853a4532370c69df74333d9072a6
+SHA256: 6566d74b03f36a48e5e7538ed9bb778fcc706d31d5def5db12be0d5ca3779b96
+Section: doc
 Priority: optional
-Description: The GNU Java bytecode interpreter
- GIJ is not limited to interpreting bytecode. It includes a class loader which
- can dynamically load shared objects, so it is possible to give it the name
- of a class which has been compiled and put into a shared library on the
- class path.
-
-Package: gnat
-Source: gcc-defaults (1.52.1)
-Version: 4.1.2-2.1
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 24
-Depends: gnat-4.1, cpp (>= 4:4.1.2-2.1)
-Conflicts: gnat-3.3, gnat-3.4, gnat-4.0, gnat-4.1 (<< 4.1.1-6)
-Filename: etch/gcc-4.1-etch/gnat_4.1.2-2.1_i386.deb
-Size: 870
-MD5sum: 70864cce7dd2b0a7da67b4e207b23a27
-SHA1: b66817828b97fde9286e1fe050b8942177c05623
-SHA256: 761b21c7eb19358221ea97a84880c91ec0d4c8d90604f2335bb08af387e2c7e4
-Section: devel
-Priority: optional
-Description: The GNU Ada compiler
- This is a dependency package providing the default GNU Ada compiler.
- Per policy, all packages that contain Ada sources must use this package
- in their Build-Depends line.
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - documentation and examples
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ This package contains all the gnutls documentation.
 
 Package: gobjc
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: cpp (>= 4:4.1.2-2.1), gcc (>= 4:4.1.2-2.1), gobjc-4.1 (>= 4.1.2-1)
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gcc (>= 4:4.6.0-6), gobjc-4.6 (>= 4.6.0-1)
 Suggests: gobjc-multilib
 Provides: objc-compiler
-Filename: etch/gcc-4.1-etch/gobjc_4.1.2-2.1_i386.deb
+Filename: squeeze/gcc-4.6-squeeze/gobjc_4.6.0-6_i386.deb
 Size: 850
-MD5sum: 15162ac49e348ae632598cccc32efc4d
-SHA1: 824dcfe98f3814228ac0350860b46a740ba397fc
-SHA256: 74f059e5f12ca9ea48764e00cbe7ea77b37a1bae7481e1e83d99a199baa37e38
+MD5sum: 34cadcfea414bdc36f7796e3c46ff175
+SHA1: 01c4f85385b1e8566c6351ee296de32a9a91bf29
+SHA256: df456caf5b80f450751dedfc5457a14c6c8b57298b985d3b90b65d1fa64b8e0d
 Section: devel
 Priority: optional
-Description: The GNU Objective-C compiler
+Description: GNU Objective-C compiler
  This is the GNU Objective-C compiler, which compiles Objective-C on platforms
  supported by the gcc compiler. It uses the gcc backend to generate optimized
  code.
@@ -791,65 +877,67 @@ Description: The GNU Objective-C compiler
  This is a dependency package providing the default GNU Objective-C compiler.
 
 Package: gobjc++
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: cpp (>= 4:4.1.2-2.1), gcc (>= 4:4.1.2-2.1), gobjc++-4.1 (>= 4.1.2-1)
-Recommends: g++ (>= 4:4.1.2-2.1), gobjc (>= 4:4.1.2-2.1)
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gcc (>= 4:4.6.0-6), gobjc++-4.6 (>= 4.6.0-1)
+Recommends: g++ (>= 4:4.6.0-6), gobjc (>= 4:4.6.0-6)
 Suggests: gobjc++-multilib
 Provides: objc++-compiler
-Filename: etch/gcc-4.1-etch/gobjc++_4.1.2-2.1_i386.deb
+Filename: squeeze/gcc-4.6-squeeze/gobjc++_4.6.0-6_i386.deb
 Size: 874
-MD5sum: 8caebe20f4c390ab5cabeddeedab8485
-SHA1: ebba559e88a3352deeb2695fc8ad0081787be902
-SHA256: fcc9732d61acdff2d48a15b1180927ae4007e59a2f1f2b71277da8aea85dca9b
+MD5sum: 0c7885b4779946437aa04a3d02299249
+SHA1: 0e779c312b3ca796c21e48fa4ce2cd64ac996fb7
+SHA256: a8046a428ec7cf11477b02a286afd7a15ae547913ec6f632a9b9814523edc03c
 Section: devel
 Priority: optional
-Description: The GNU Objective-C++ compiler
+Description: GNU Objective-C++ compiler
  This is the GNU Objective-C++ compiler, which compiles
  Objective-C++ on platforms supported by the gcc compiler. It uses the
  gcc backend to generate optimized code.
  .
  This is a dependency package providing the default GNU Objective-C++ compiler.
 
-Package: gobjc++-4.1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gobjc++-4.6
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 5540
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gobjc-4.1 (= 4.1.2-4vnz1), g++-4.1 (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6), libobjc1 (>= 1:4.1.2-4vnz1)
-Suggests: gobjc++-4.1-multilib, gcc-4.1-doc (>= 4.1.2-2)
+Installed-Size: 11310
+Depends: gcc-4.6-base (= 4.6.0-14.1), gobjc-4.6 (= 4.6.0-14.1), g++-4.6 (= 4.6.0-14.1), libc6 (>= 2.7), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4), libobjc3 (>= 4.6.0-14.1)
+Suggests: gobjc++-4.6-multilib, gcc-4.6-doc (>= 4.6.0-12)
 Provides: objc++-compiler
-Filename: etch/gcc-4.1-etch/gobjc++-4.1_4.1.2-4vnz1_i386.deb
-Size: 2493056
-MD5sum: 1bfe3e883382cfe806c5737cd8bdaa24
-SHA1: 156fd73c9f8d29813f409a48819fab4afdb8a35b
-SHA256: 8fe4b3bf48b5d2f431a35794884002863916b6d303e571168a2f043a9db59751
+Filename: squeeze/gcc-4.6-squeeze/gobjc++-4.6_4.6.0-14.1_i386.deb
+Size: 4893960
+MD5sum: d5c3436253e4eb2a4ea7ec07b2e06776
+SHA1: 3dcc46d7752138d49dfd46cbe8704b7d592bfefe
+SHA256: 92802ddd69b50ac92ed891a804e5375a5bf1630e4a05acde2e98abdb649db9f7
 Section: devel
 Priority: optional
-Description: The GNU Objective-C++ compiler
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C++ compiler
  This is the GNU Objective-C++ compiler, which compiles
  Objective-C++ on platforms supported by the gcc compiler. It uses the
  gcc backend to generate optimized code.
 
-Package: gobjc++-4.1-multilib
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gobjc++-4.6-multilib
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gobjc++-4.1 (= 4.1.2-4vnz1), g++-4.1-multilib (= 4.1.2-4vnz1), gobjc-4.1-multilib (= 4.1.2-4vnz1)
-Filename: etch/gcc-4.1-etch/gobjc++-4.1-multilib_4.1.2-4vnz1_i386.deb
-Size: 854
-MD5sum: 0dda927bc479514688fc91ccd94a350d
-SHA1: 53c2b511ab06f3d045a5ce4259e097dd34360c5b
-SHA256: becc98d3a3eebfe613115cf884d2fc73c1d41e7b4bdb0f5ecf84343e6a6e9eee
+Installed-Size: 21
+Depends: gcc-4.6-base (= 4.6.0-14.1), gobjc++-4.6 (= 4.6.0-14.1), g++-4.6-multilib (= 4.6.0-14.1), gobjc-4.6-multilib (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/gobjc++-4.6-multilib_4.6.0-14.1_i386.deb
+Size: 872
+MD5sum: 1fc40fe36c717d1c657c6ce9b8bac437
+SHA1: 9aeb3270c80f27bd81966e819867c9ef1117f460
+SHA256: 8fe1196fb293867977f0058746ec6728d87b3043d439b323f792935261a9a367
 Section: devel
 Priority: optional
-Description: The GNU Objective-C++ compiler (multilib files)
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C++ compiler (multilib files)
  This is the GNU Objective-C++ compiler, which compiles Objective-C++ on
  platforms supported by the gcc compiler.
  .
@@ -857,63 +945,64 @@ Description: The GNU Objective-C++ compiler (multilib files)
  and dependencies for the non-default multilib architecture(s).
 
 Package: gobjc++-multilib
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: cpp (>= 4:4.1.2-2.1), gobjc++ (>= 4:4.1.2-2.1), gobjc++-4.1-multilib (>= 4.1.2-1)
-Filename: etch/gcc-4.1-etch/gobjc++-multilib_4.1.2-2.1_i386.deb
-Size: 846
-MD5sum: 00e3d939dce5fee206dbda26c332d589
-SHA1: a91e5615212221afe15161768caeb15e7aa05c9b
-SHA256: 49d8237e195dcf47e4a9d18d55d9b9069d09a028fc17bf8a74c7fefa35700ab9
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gobjc-multilib (>= 4:4.6.0-6), gobjc++ (>= 4:4.6.0-6), gobjc++-4.6-multilib (>= 4.6.0-1)
+Filename: squeeze/gcc-4.6-squeeze/gobjc++-multilib_4.6.0-6_i386.deb
+Size: 852
+MD5sum: a780c3d8bc210362eff50c80f7fa11e3
+SHA1: fa3a71d2826970b35c04c4d8b41fd0efb56867e2
+SHA256: 3948d7fb2e7156613dc6054c4342ec1893f3bc1466924581b458e11d684640c7
 Section: devel
-Priority: standard
-Description: The GNU Objective-C++ compiler (multilib files)
+Priority: optional
+Description: GNU Objective-C++ compiler (multilib files)
  This is the GNU Objective-C++ compiler, which compiles Objective-C++ on
  platforms supported by the gcc compiler.
  .
  On architectures with multilib support, the package contains dependencies
  for the non-default multilib architecture(s).
 
-Package: gobjc-4.1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gobjc-4.6
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 5332
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gcc-4.1 (= 4.1.2-4vnz1), libc6-dev (>= 2.3.6-7), libc6 (>= 2.3.6-6), libobjc1 (>= 1:4.1.2-4vnz1)
-Suggests: gobjc-4.1-multilib, gcc-4.1-doc (>= 4.1.2-2)
+Installed-Size: 11232
+Depends: gcc-4.6-base (= 4.6.0-14.1), gcc-4.6 (= 4.6.0-14.1), libc6-dev (>= 2.5), libc6 (>= 2.7), libgmp3c2, libmpc2, libmpfr4, zlib1g (>= 1:1.1.4), libobjc3 (>= 4.6.0-14.1)
+Suggests: gobjc-4.6-multilib, gcc-4.6-doc (>= 4.6.0-12), libobjc3-dbg
 Provides: objc-compiler
-Filename: etch/gcc-4.1-etch/gobjc-4.1_4.1.2-4vnz1_i386.deb
-Size: 2321084
-MD5sum: a6f13d25f2dcca53c9addb1fc25315a3
-SHA1: 0f07806f226603703f5521ae88b91c4632042ae9
-SHA256: d98049ec015cf4adc047e8b1800ea30fcab33b3daa598898c3c908183f33d91e
+Filename: squeeze/gcc-4.6-squeeze/gobjc-4.6_4.6.0-14.1_i386.deb
+Size: 4743904
+MD5sum: 2ddea4bd5a8622655da09bb278d40664
+SHA1: 4cd6303bd0db3ad1194637050d281d7f86a2e4f8
+SHA256: 755aa0c02adf03d7fb920eb2fb172f4ade76355192c1b9638414b2e5a5570661
 Section: devel
 Priority: optional
-Description: The GNU Objective-C compiler
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C compiler
  This is the GNU Objective-C compiler, which compiles
  Objective-C on platforms supported by the gcc compiler. It uses the
  gcc backend to generate optimized code.
 
-Package: gobjc-4.1-multilib
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: gobjc-4.6-multilib
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 244
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gobjc-4.1 (= 4.1.2-4vnz1), gcc-4.1-multilib (= 4.1.2-4vnz1), lib64objc1 (>= 4.1.2-4vnz1)
-Replaces: gobjc-4.1 (<< 4.1.2-4)
-Filename: etch/gcc-4.1-etch/gobjc-4.1-multilib_4.1.2-4vnz1_i386.deb
-Size: 52882
-MD5sum: ef0881bb780109cd3a86dea9985a8c35
-SHA1: a10fdef84d9cf0f9fab40bb5caa855c916db30fd
-SHA256: a4214328128b7fe17d3b7c3130c935050cff9739c8355c8bdfd319cb35c2dbf9
+Installed-Size: 822
+Depends: gcc-4.6-base (= 4.6.0-14.1), gobjc-4.6 (= 4.6.0-14.1), gcc-4.6-multilib (= 4.6.0-14.1), lib64objc3 (>= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/gobjc-4.6-multilib_4.6.0-14.1_i386.deb
+Size: 215018
+MD5sum: 6f9798bc36835c04b23079b523fd2fe3
+SHA1: 766809181cf762a76fa895fb26013d4537d2b7f2
+SHA256: f04f987ce401f5471bddf71c6830d29c05755228bc5458b3aed1723e0a5f4606
 Section: devel
 Priority: optional
-Description: The GNU Objective-C compiler (multilib files)
+Homepage: http://gcc.gnu.org/
+Description: GNU Objective-C compiler (multilib files)
  This is the GNU Objective-C compiler, which compiles Objective-C on platforms
  supported by the gcc compiler.
  .
@@ -921,200 +1010,337 @@ Description: The GNU Objective-C compiler (multilib files)
  and dependencies for the non-default multilib architecture(s).
 
 Package: gobjc-multilib
-Source: gcc-defaults (1.52.1)
-Version: 4:4.1.2-2.1
+Source: gcc-defaults (1.105)
+Version: 4:4.6.0-6
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 20
-Depends: cpp (>= 4:4.1.2-2.1), gobjc (>= 4:4.1.2-2.1), gobjc-4.1-multilib (>= 4.1.2-1)
-Filename: etch/gcc-4.1-etch/gobjc-multilib_4.1.2-2.1_i386.deb
-Size: 844
-MD5sum: 66459f97a04c8e50722f22b764d1fd91
-SHA1: 5cc53fa7c6d6555c690cd1437a80d7a358d8bf43
-SHA256: 6559d0656d15614a8d57d49fabb22e63ae9fb6de13078e06bb100ccf9662115f
+Installed-Size: 21
+Depends: cpp (>= 4:4.6.0-6), gcc-multilib (>= 4:4.6.0-6), gobjc (>= 4:4.6.0-6), gobjc-4.6-multilib (>= 4.6.0-1)
+Filename: squeeze/gcc-4.6-squeeze/gobjc-multilib_4.6.0-6_i386.deb
+Size: 846
+MD5sum: 03eac28ebb6730929beecadfa8bfa838
+SHA1: 06c4c1f50be275ffc05904f35dd99e081417d898
+SHA256: 1310a8731abdb6a9ab51113651c4492297e8ef77aca2700de6674238854eec84
 Section: devel
-Priority: standard
-Description: The GNU Objective-C compiler (multilib files)
+Priority: optional
+Description: GNU Objective-C compiler (multilib files)
  This is the GNU Objective-C compiler, which compiles Objective-C on
  platforms supported by the gcc compiler.
  .
  On architectures with multilib support, the package contains dependencies
  for the non-default multilib architecture(s).
 
-Package: gpc
-Source: gcc-defaults (1.52.1)
-Version: 4:3.4.6-21.1
+Package: guile-gnutls
+Source: gnutls26
+Version: 2.9.12-2
 Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 40
-Depends: cpp (>= 4:4.1.2-2.1), gcc (>= 4:4.1.2-2.1), gpc-2.1-3.4 (>= 3.4.6-1)
-Suggests: gpc-doc
-Conflicts: gpc-doc (<< 1:2.95.3)
-Provides: pascal-compiler
-Filename: etch/gcc-4.1-etch/gpc_3.4.6-21.1_i386.deb
-Size: 1464
-MD5sum: 891fca6a58ad2e5a55ff062e27233c5d
-SHA1: 7d7d3c06b688919212a8fc80564236baa6aa6844
-SHA256: 1611eac2c018229717a7ab736162f6dbbe02c8319934775740cb665b0f305f7c
-Section: devel
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 417
+Depends: guile-1.8-libs, libc6 (>= 2.1.3), libgmp3c2, libgnutls26 (>= 2.9.11-0), libltdl7 (>= 2.2.6b), guile-1.8
+Filename: squeeze/gnutls/guile-gnutls_2.9.12-2_i386.deb
+Size: 277744
+MD5sum: 89cc75e12f5eb385ed044358697b33f2
+SHA1: a6e27c5dd8b4bfa3ee2556f80fdf0f28201093d7
+SHA256: 9dfa7e3993c9da920d0749b9dcf20f0550ec89475b85f19e817b1e8c9b92ebde
+Section: lisp
 Priority: optional
-Description: The GNU Pascal compiler
- This is the GNU Pascal compiler, which compiles Pascal on platforms supported
- by the gcc compiler. It uses the gcc backend to generate optimized code.
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - GNU Guile bindings
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
  .
- The current version 2.2 (release candidate 2) implements Standard Pascal
- (ISO 7185, level 1), a large subset of Extended Pascal (ISO 10206), and
- Borland Pascal. Many Borland Pascal units supported.
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
  .
- This is a dependency package providing the default GNU Pascal compiler.
-
-Package: gpc-doc
-Source: gcc-defaults (1.52.1)
-Version: 4:3.4.6-21.1
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 32
-Depends: gpc-2.1-3.4-doc (>= 3.4.6-1)
-Suggests: gpc (>= 4:3.4.6-21.1)
-Filename: etch/gcc-4.1-etch/gpc-doc_3.4.6-21.1_i386.deb
-Size: 1020
-MD5sum: 70a52270e80d3d0fb698506f0356aa50
-SHA1: 59e5394bfd8e9a6e36ca49bb1aa9f9ba90f05ce0
-SHA256: 89118f4fe1c8cc794900c631c0dedf035599af140ac9575c549da8b6cb3d2998
-Section: doc
-Priority: optional
-Description: Documentation for the GNU Pascal compiler (gpc)
- Documentation for the GNU Pascal compiler in info format (dependency package).
-
-Package: lib64ffi4
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 60
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6-amd64 (>= 2.3.6-7)
-Replaces: libffi4 (<< 4.1)
-Filename: etch/gcc-4.1-etch/lib64ffi4_4.1.2-4vnz1_i386.deb
-Size: 15386
-MD5sum: bb84261394d15f5f7aa6d17c4af80d31
-SHA1: d836bf08fc58f7d80f2b26a60a5a9aefa9b8af52
-SHA256: 94b2b62032b014591bc25986e48bd2023eadf6141012d8d105707858aafe722f
-Section: libs
-Priority: optional
-Description: Foreign Function Interface library runtime (64bit)
- A foreign function interface is the popular name for the interface that
- allows code written in one language to call code written in another
- language.
+ This package contains the GNU Guile 1.8 modules.
 
 Package: lib64gcc1
-Source: gcc-4.1 (4.1.2-4vnz1)
-Version: 1:4.1.2-4vnz1
+Source: gcc-4.6 (4.6.0-14.1)
+Version: 1:4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 88
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6-amd64 (>= 2.3.6-7)
+Installed-Size: 116
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6-amd64 (>= 2.5)
 Conflicts: libgcc1 (<= 1:3.3-0pre9)
-Filename: etch/gcc-4.1-etch/lib64gcc1_4.1.2-4vnz1_i386.deb
-Size: 25656
-MD5sum: 5794baa78e8783e076ddaefe73c7868e
-SHA1: 7b8a83662b55f507001a986a6033cdcabee244ab
-SHA256: 61d25470b1ded88a4690880e498a21341dd6c5373c18c8603fc1cd5753df1144
+Filename: squeeze/gcc-4.6-squeeze/lib64gcc1_4.6.0-14.1_i386.deb
+Size: 42660
+MD5sum: 8a0654ff31755982b630423fb2660208
+SHA1: 8bbf94979f7058a894bffb5ac01ec161aa4f6d9f
+SHA256: 22477b435c45fb84ee9f5ab2644d4b21ebbe13c606401393053fdeabe9f300d0
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: GCC support library (64bit)
  Shared version of the support library, a library of internal subroutines
  that GCC uses to overcome shortcomings of particular machines, or
  special needs for some languages.
 
-Package: lib64gfortran1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: lib64gcc1-dbg
+Source: gcc-4.6 (4.6.0-14.1)
+Version: 1:4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 640
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6-amd64 (>= 2.3.6-7)
-Filename: etch/gcc-4.1-etch/lib64gfortran1_4.1.2-4vnz1_i386.deb
-Size: 184772
-MD5sum: 39e33dd2ceb8795b5e1a8e7c7016f255
-SHA1: b6bc7266377f35808843eccf3ece508728dba3ac
-SHA256: be2200d8f7b8e5f1e19391560112f6b8ba2b4bb3b529ea2a370dc8705b685f87
+Installed-Size: 429
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64gcc1 (= 1:4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64gcc1-dbg_4.6.0-14.1_i386.deb
+Size: 93014
+MD5sum: 1978e387a638b662a39a731c0be2c13d
+SHA1: 8096434b04870ba7c0131ac16eb014091297eb21
+SHA256: 01ccb89575867b503778758c4ef0660ef1c7e05622a177bae08da2860420bf64
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: lib64gfortran3
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1191
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6-amd64 (>= 2.5), lib64quadmath0 (>= 4.6)
+Filename: squeeze/gcc-4.6-squeeze/lib64gfortran3_4.6.0-14.1_i386.deb
+Size: 358300
+MD5sum: 9d4c32e31d9af54ee6cb62fc41a38d31
+SHA1: 93f0424fbb871187397b3906d5dc2daa144f2561
+SHA256: ce70e2db78b4e116710e1a9811ff21744ec28158b95c44cd3326f33f0a37f389
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: Runtime library for GNU Fortran applications (64bit)
  Library needed for GNU Fortran applications linked against the
  shared library.
 
-Package: lib64mudflap0
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: lib64gfortran3-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 272
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6-amd64 (>= 2.3.6-7)
-Replaces: libmudflap0 (<< 4.1)
-Filename: etch/gcc-4.1-etch/lib64mudflap0_4.1.2-4vnz1_i386.deb
-Size: 90358
-MD5sum: 2823fdf1dccc0fb777e8d799b61718d4
-SHA1: 6d38ad119ac83f9ba19463473d3847abc8f49467
-SHA256: 01e2368246fda54b47820f42efed6cf36fc2ff60b9b034b69505b22f17c8720c
+Installed-Size: 4072
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64gfortran3 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64gfortran3-dbg_4.6.0-14.1_i386.deb
+Size: 805588
+MD5sum: 8665399877d5f4f86d5b5c6881223e7b
+SHA1: 448ebf5159166994b538ffd2e35c4f1d56ef1b9c
+SHA256: ac801a43320d758f753f238929d84c2f138342beabc348d389301a8a866f6d87
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Fortran applications (64bit debug symbols)
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: lib64go0
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 9626
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6-amd64 (>= 2.5), lib64gcc1 (>= 1:4.1.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64go0_4.6.0-14.1_i386.deb
+Size: 2301750
+MD5sum: 9f4e7d81bdb764635ac31f3c844e117f
+SHA1: 5749b8ba6af705183dcd1e0272e2bb45fd179d76
+SHA256: 69c59102f63c45992a4eb54f657c2afd0a5620abe59159f74de61342ee632f66
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Go applications (64bit)
+ Library needed for GNU Go applications linked against the
+ shared library.
+
+Package: lib64go0-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 7514
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64go0 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64go0-dbg_4.6.0-14.1_i386.deb
+Size: 2047338
+MD5sum: 9eed7e6dcc9b68c0f404d77fe697c2a0
+SHA1: f9bec1f8864152830cc2752be7aac1e61ab09a4c
+SHA256: c0b3c74cfa38eff2d40aa3b8a5083b9e2c154dc242c9a8bca9e0abefcb9febf5
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Go applications (64bit debug symbols)
+ Library needed for GNU Go applications linked against the
+ shared library.
+
+Package: lib64gomp1
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 83
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6-amd64 (>= 2.6)
+Filename: squeeze/gcc-4.6-squeeze/lib64gomp1_4.6.0-14.1_i386.deb
+Size: 25576
+MD5sum: 361e3cb234a43cdeeaf9382e59db13b0
+SHA1: 83dc92546797a9e670c344f47e085330edb49fd6
+SHA256: 8db79d945b958d7e195e7a1db4002d50b6236fe91b188cfa225277ebfc95ee4e
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library (64bit)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
+Package: lib64gomp1-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 251
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64gomp1 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64gomp1-dbg_4.6.0-14.1_i386.deb
+Size: 62828
+MD5sum: b753a08bcf35092bf0ffffc431fb561b
+SHA1: 28410d9fed8a938173b5e0a02604239d68c6acf1
+SHA256: 48c35c44259080e961cf5e45891dae93367008e8dbe61c890c1f9957f8d414b5
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library (64bit debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
+Package: lib64mudflap0
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 263
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6-amd64 (>= 2.7)
+Replaces: libmudflap0 (<< 4.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64mudflap0_4.6.0-14.1_i386.deb
+Size: 97564
+MD5sum: 290f6160ba4444dd88b71b9852e084af
+SHA1: dcbd43a61a085d6a00dc4d1609f3db4960058a33
+SHA256: 5c7a5f394e62ebd29ed7d8886f86eb923dc64998a6c001eb66f2dfce6cf5053e
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: GCC mudflap shared support libraries (64bit)
  The libmudflap libraries are used by GCC for instrumenting pointer and array
  dereferencing operations.
 
-Package: lib64objc1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: lib64mudflap0-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 136
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6-amd64 (>= 2.3.6-7)
-Filename: etch/gcc-4.1-etch/lib64objc1_4.1.2-4vnz1_i386.deb
-Size: 43156
-MD5sum: bdc9a92632744dd1ed5c98ea0dea61d0
-SHA1: caeaacbe9a06692466faa2539c8c02a896d7207a
-SHA256: a896c229bde849e3aedf4b8b6385f487c62bc8947a38f14dc40c1bbfab277527
+Installed-Size: 453
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64mudflap0 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64mudflap0-dbg_4.6.0-14.1_i386.deb
+Size: 133608
+MD5sum: 91fa26a3dbdc89807ed95a52c0d1c29e
+SHA1: 9ac931582e0a29d95636676c954c7622caf7d943
+SHA256: 67481242ccd5859e8dc9a34a8189259470cb7696d7065644974c8ec7813a6cb5
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC mudflap shared support libraries (64 bit debug symbols)
+ The libmudflap libraries are used by GCC for instrumenting pointer and array
+ dereferencing operations.
+
+Package: lib64objc3
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 480
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6-amd64 (>= 2.5), lib64gcc1 (>= 1:4.1.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64objc3_4.6.0-14.1_i386.deb
+Size: 184578
+MD5sum: 045418d3b1b2702181da47c661721ccb
+SHA1: 896e1b8f1051226120220dcfe2d46d5ba735eddb
+SHA256: 232718f9e46659ebe78186ce5afd67fe4aeb786c9a39ed37344dafa338287886
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: Runtime library for GNU Objective-C applications (64bit)
  Library needed for GNU ObjC applications linked against the shared library.
 
-Package: lib64ssp0
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: lib64objc3-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 36
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6-amd64 (>= 2.3.6-7)
-Replaces: libssp0 (<< 4.1)
-Filename: etch/gcc-4.1-etch/lib64ssp0_4.1.2-4vnz1_i386.deb
-Size: 4446
-MD5sum: 99095a961b5f6eb20497e4651ee02a7a
-SHA1: 82d12f6f79cab80263584eec176747cdf8cea6a7
-SHA256: 7007a260caa24f8c714b96c2d7f93b5c52ccc02ae38bc99a710c93356b3a3612
+Installed-Size: 1221
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64objc3 (= 4.6.0-14.1), lib64gcc1-dbg
+Filename: squeeze/gcc-4.6-squeeze/lib64objc3-dbg_4.6.0-14.1_i386.deb
+Size: 362664
+MD5sum: b314a1cf20972e222c4692cf49393eda
+SHA1: 81a0d29512ac4cc996e988f9738ade3946165d9e
+SHA256: 10099168a266a1d832ce7cc9e0781114e9937c31d090a75957874bdff53fed60
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Objective-C applications (64 bit debug symbols)
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: lib64quadmath0
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 241
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6-amd64 (>= 2.10)
+Filename: squeeze/gcc-4.6-squeeze/lib64quadmath0_4.6.0-14.1_i386.deb
+Size: 125880
+MD5sum: 6222b638fb1bd5d1da0a869898c60792
+SHA1: 8fa0b3b291e513eeded0cba06090f0ac5acc927e
+SHA256: b34376a8f3d714cc52a65b11e58a589714e560b807d6393e99511c5fa074aa35
 Section: libs
 Priority: optional
-Description: GCC stack smashing protection library (64bit)
- GCC can now emit code for protecting applications from stack-smashing attacks.
- The protection is realized by buffer overflow detection and reordering of
- stack variables to avoid pointer corruption.
+Homepage: http://gcc.gnu.org/
+Description: GCC Quad-Precision Math Library  (64bit)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
+
+Package: lib64quadmath0-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 582
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64quadmath0 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/lib64quadmath0-dbg_4.6.0-14.1_i386.deb
+Size: 149630
+MD5sum: d950294d60ecdfe681fad18824b2827b
+SHA1: 6492aae927b1c6df433bdbc409c38739873a6618
+SHA256: 8619a3b13ac74a6eb6398853ee97a9b421fc063b561d4a063089884c6401b63c
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC Quad-Precision Math Library  (64bit debug symbols)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype.
 
 Package: lib64stdc++6
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 1012
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), lib64gcc1 (>= 1:4.1.2)
-Filename: etch/gcc-4.1-etch/lib64stdc++6_4.1.2-4vnz1_i386.deb
-Size: 278076
-MD5sum: 23f424d2c34887c8791743bfad608db2
-SHA1: f06acb6c27cf211420c3a1189449cf43de66249b
-SHA256: e8e773ceaea5a0839c3303593b58855a41b8b505db8deab2e763c0aa4a78430f
+Installed-Size: 1226
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64gcc1 (>= 1:4.1.1), libc6-amd64 (>= 2.3.2)
+Filename: squeeze/gcc-4.6-squeeze/lib64stdc++6_4.6.0-14.1_i386.deb
+Size: 336746
+MD5sum: 8680fc5722df83f521ca659e430524d2
+SHA1: 1ac4d38ea6fe2ba34dd7cf69252e3b2e6a2f2948
+SHA256: 18ba6b72c211916315b72fac998fd0eebf1f7e8a3ae768925852014949bd4600
 Section: libs
 Priority: optional
-Description: The GNU Standard C++ Library v3 (64bit)
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3 (64bit)
  This package contains an additional runtime library for C++ programs
  built with the GNU compiler.
  .
@@ -1122,22 +1348,23 @@ Description: The GNU Standard C++ Library v3 (64bit)
  was included up to g++-2.95. The first version of libstdc++-v3 appeared
  in g++-3.0.
 
-Package: lib64stdc++6-4.1-dbg
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: lib64stdc++6-4.6-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 3680
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), lib64stdc++6 (>= 4.1.2-4vnz1), libstdc++6-4.1-dev (= 4.1.2-4vnz1)
-Conflicts: lib64stdc++6-4.0-dbg
-Filename: etch/gcc-4.1-etch/lib64stdc++6-4.1-dbg_4.1.2-4vnz1_i386.deb
-Size: 1107194
-MD5sum: 1e419610221605e637d6e92fb54d302e
-SHA1: 52e0303c54aa4a451c6b2a1c63b6929c7ae4e650
-SHA256: 9bb76ffff65a89c83f19a04c92955acfd3f4c88ff5de59b95ef215653f88f2e6
-Section: libdevel
+Installed-Size: 26290
+Depends: gcc-4.6-base (= 4.6.0-14.1), lib64stdc++6 (>= 4.6.0-14.1), libstdc++6-4.6-dev (= 4.6.0-14.1), lib64gcc1-dbg, lib64gcc1 (>= 1:4.1.1), libc6-amd64 (>= 2.3.2)
+Conflicts: lib64stdc++6-4.0-dbg, lib64stdc++6-4.1-dbg, lib64stdc++6-4.2-dbg, lib64stdc++6-4.3-dbg, lib64stdc++6-4.4-dbg, lib64stdc++6-4.5-dbg, lib64stdc++6-dbg
+Filename: squeeze/gcc-4.6-squeeze/lib64stdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+Size: 7013736
+MD5sum: 0aa8a97d00dc74f43a7d2e3d2a842252
+SHA1: 5dec098f6daee6af034bffc6e095ca69211447ec
+SHA256: 8819e61ac7669e8552f5fa001bc9b8ce11a2d092d3c1ddabf9a4f9b7eeb8c457
+Section: debug
 Priority: extra
-Description: The GNU Standard C++ Library v3 (debugging files)
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3 (debugging files)
  This package contains the shared library of libstdc++ compiled with
  debugging symbols.
 
@@ -1149,7 +1376,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 344
 Depends: libisl-dev (>= 0.11), libgmp-dev | libgmp3-dev, libcloog-isl4 (= 0.18.0-1vnz1), dpkg (>= 1.15.4) | install-info
 Conflicts: libcloog-ppl-dev
-Filename: etch/cloogisl/libcloog-isl-dev_0.18.0-1vnz1_i386.deb
+Filename: squeeze/cloogisl/libcloog-isl-dev_0.18.0-1vnz1_i386.deb
 Size: 71048
 MD5sum: 621111c4bf0692749e54c8a32d6c6c55
 SHA1: 25010bdb9a3a49e53fce359ae2891daf880051fd
@@ -1172,7 +1399,7 @@ Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 164
 Depends: libc6 (>= 2.3.6-6), libgmp3c2, libisl10
-Filename: etch/cloogisl/libcloog-isl4_0.18.0-1vnz1_i386.deb
+Filename: squeeze/cloogisl/libcloog-isl4_0.18.0-1vnz1_i386.deb
 Size: 56464
 MD5sum: 2d4daaa9b5dbf21baae8df2f8e99521a
 SHA1: 915545791ba8880a7e002e1d683dd5e29f9c6272
@@ -1192,7 +1419,7 @@ Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 296
 Depends: libppl0.11-dev, libgmp-dev | libgmp3-dev, libcloog-ppl0 (= 0.15.11-5vnz1), dpkg (>= 1.15.4) | install-info
-Filename: etch/cloogppl/libcloog-ppl-dev_0.15.11-5vnz1_i386.deb
+Filename: squeeze/cloogppl/libcloog-ppl-dev_0.15.11-5vnz1_i386.deb
 Size: 88728
 MD5sum: 63d02b668a7f916a64bcf40041c0a0e3
 SHA1: 1250845c17c1093e2e4a65bf4779d4e4823e586b
@@ -1215,7 +1442,7 @@ Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 156
 Depends: libc6 (>= 2.3.6-6), libgmp3c2, libgmpxx4ldbl, libppl-c4, libppl9
-Filename: etch/cloogppl/libcloog-ppl0_0.15.11-5vnz1_i386.deb
+Filename: squeeze/cloogppl/libcloog-ppl0_0.15.11-5vnz1_i386.deb
 Size: 50806
 MD5sum: 09bc88f8ee2b35fbd912d3e37a8e8feb
 SHA1: 590409b4bfb9dbb30efb87d927b2f719a8778f83
@@ -1236,7 +1463,7 @@ Maintainer: Alex Pennace <alex@pennace.org>
 Installed-Size: 172
 Depends: libc6 (>= 2.3.6-6)
 Conflicts: libelf, libelf0 (<= 0.6.4-5)
-Filename: etch/libefl/libelfg0_0.8.13-1_i386.deb
+Filename: squeeze/libefl/libelfg0_0.8.13-1_i386.deb
 Size: 56008
 MD5sum: 764931f41f0f8c54683ca88b26f6cfa2
 SHA1: 66e56f756a6f10f34048103c1c35b30b8d1899d4
@@ -1262,7 +1489,7 @@ Maintainer: Alex Pennace <alex@pennace.org>
 Installed-Size: 268
 Depends: libelfg0 (= 0.8.13-1), libc6-dev
 Conflicts: libelf-dev, libelf0-dev, libelf1-dev
-Filename: etch/libefl/libelfg0-dev_0.8.13-1_i386.deb
+Filename: squeeze/libefl/libelfg0-dev_0.8.13-1_i386.deb
 Size: 63208
 MD5sum: 766e97789350be22cf1634a47a7c1ce6
 SHA1: 9db14b0329f19a6b799b364829fc085c8a9bf9df
@@ -1281,82 +1508,60 @@ Description: an ELF object file access library: development files
  library (.a), and the required .so link to libelf0.so.0. To run programs
  linked with this library, install the libelfg0 package.
 
-Package: libffi4
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 180
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/libffi4_4.1.2-4vnz1_i386.deb
-Size: 119408
-MD5sum: 71aa0fe9a291571080497feec07fd04f
-SHA1: 5a35630184898bf07bd25e281ffa735d8f4b6d34
-SHA256: 474b99009f964d0daa081a53145c468f8fbfa4687703903c1abf560f93ac0042
-Section: libs
-Priority: optional
-Description: Foreign Function Interface library runtime
- A foreign function interface is the popular name for the interface that
- allows code written in one language to call code written in another
- language.
-
-Package: libffi4-dev
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 216
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libffi4 (>= 4.1.2-4vnz1)
-Conflicts: libffi, libffi-dev, libffi1-dev, libffi2-dev, libffi3-dev
-Provides: libffi-dev
-Filename: etch/gcc-4.1-etch/libffi4-dev_4.1.2-4vnz1_i386.deb
-Size: 59042
-MD5sum: a7f4cb6ba52e6359609635d01920999f
-SHA1: c9ff5ba7fe9b851f487c45a962e38cebcd2bf03c
-SHA256: 558366f11e251d5b27d53a8b6ed9f71bd483688bf63441f0871b56dd98a2c7a2
-Section: libdevel
-Priority: optional
-Description: Foreign Function Interface library (development files)
- This package contains the headers and static library files necessary for
- building programs which use libffi.
- .
- A foreign function interface is the popular name for the interface that
- allows code written in one language to call code written in another
- language.
-
 Package: libgcc1
-Source: gcc-4.1 (4.1.2-4vnz1)
-Version: 1:4.1.2-4vnz1
+Source: gcc-4.6 (4.6.0-14.1)
+Version: 1:4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 72
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/libgcc1_4.1.2-4vnz1_i386.deb
-Size: 22058
-MD5sum: 017b54bce5f4d7bc8c4dd51a4179859f
-SHA1: 1fa33a1099983c3feaa05e5e7f585bbcd0cae1ac
-SHA256: 6d3db1a6905a83d4904a1114f1bff659c82387aa6e1c5c28626349d5123e349f
+Installed-Size: 141
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.2.4)
+Filename: squeeze/gcc-4.6-squeeze/libgcc1_4.6.0-14.1_i386.deb
+Size: 54112
+MD5sum: dc6f699be2ad5b848f7e48b32a8c4bbc
+SHA1: 03b0afa2fa79dd258f3648b0042cd02f4f258ea2
+SHA256: e81bc718a5e2c0eabd1ad344756db20ffc9a3f6ba8ab2e81df0981e2c2084f17
 Section: libs
 Priority: required
+Homepage: http://gcc.gnu.org/
 Description: GCC support library
  Shared version of the support library, a library of internal subroutines
  that GCC uses to overcome shortcomings of particular machines, or
  special needs for some languages.
 
-Package: libgcj-bc
-Source: gcc-defaults (1.52.1)
-Version: 4.1.2-2.1
+Package: libgcc1-dbg
+Source: gcc-4.6 (4.6.0-14.1)
+Version: 1:4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 40
-Depends: libgcj-common (>= 1:4.1.2-1), libgcj7-1 (>= 4.1.2-1)
-Filename: etch/gcc-4.1-etch/libgcj-bc_4.1.2-2.1_i386.deb
-Size: 1126
-MD5sum: d92cbd27ab3e0eb6048876e857749a31
-SHA1: 26c24e18bf47702eee49ff815541279849ae5f89
-SHA256: bbda9db2acda1788c8498e6a34ee1639985e57f329527ff5e4549f88068583bc
-Section: libs
+Installed-Size: 370
+Depends: gcc-4.6-base (= 4.6.0-14.1), libgcc1 (= 1:4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/libgcc1-dbg_4.6.0-14.1_i386.deb
+Size: 99454
+MD5sum: 68c8d7f2392c733f2217e8b96ac54158
+SHA1: a5667fcebd649155f72c1d3736586bb254e76cb4
+SHA256: 0c90f592a639c766c8e0c26903a6f13285a4514dd2eafde5bc65a581c68c0cad
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC support library (debug symbols)
+ Debug symbols for the GCC support library.
+
+Package: libgcj-bc
+Source: gcc-defaults (1.105)
+Version: 4.6.0-6
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 33
+Pre-Depends: multiarch-support
+Depends: libgcj-common (>= 1:4.4.5-10), libgcj12 (>= 4.6.0-1)
+Filename: squeeze/gcc-4.6-squeeze/libgcj-bc_4.6.0-6_i386.deb
+Size: 1158
+MD5sum: 15a26e3a4e63a9fbca91e71613320d0c
+SHA1: 14bcf354058c86a3d9605d572761a114904b296f
+SHA256: 746a1c8b73221e14a3ef971ca4902dc7db8b0ba34faa19ccd3d6a712f2a4034c
+Section: java
 Priority: optional
+Multi-Arch: same
 Description: Link time only library for use with gcj
  A fake library that is used at link time only.  It ensures that
  binaries built with the BC-ABI link against a constant SONAME.
@@ -1364,180 +1569,169 @@ Description: Link time only library for use with gcj
  libgcj.so changes.
 
 Package: libgcj-common
-Source: gcc-defaults (1.52.1)
-Version: 1:4.1.1-2.1
-Architecture: i386
+Source: gcc-defaults (1.105)
+Version: 1:4.4.5-10
+Architecture: all
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 112
+Installed-Size: 231
+Depends: python
 Conflicts: classpath (<= 0.04-4)
-Replaces: java-gcj-compat (<< 1.0.65-8), java-gcj-compat-dev (<< 1.0.65-8)
-Filename: etch/gcc-4.1-etch/libgcj-common_4.1.1-2.1_i386.deb
-Size: 11760
-MD5sum: 230864b0380359f9fb501d2dfb324aec
-SHA1: 35d9822bcd973f0bdea52844eb6738c3d6a05206
-SHA256: 496a7af31195c5f43d51d274310348c06bbfed465d20c909fabe1ff76ba84c98
-Section: libs
+Replaces: java-gcj-compat (<< 1.0.65-8), java-gcj-compat-dev (<< 1.0.80-2)
+Filename: squeeze/gcc-4.6-squeeze/libgcj-common_4.4.5-10_all.deb
+Size: 119698
+MD5sum: 8a0094add7c53596f4a58cc29f717fbb
+SHA1: b920d78d9a5d7f6beba1e429b14f5408dc0a137b
+SHA256: 6bac9c3328b7d47a14154215c1070501a0cdd0df862f662497b11ed71eeb5da7
+Section: java
 Priority: optional
 Description: Java runtime library (common files)
  This package contains files shared by classpath and libgcj libraries.
 
-Package: libgcj-common
-Source: gcc-defaults (1.52.1)
-Version: 1:4.1.2-2.1
-Architecture: i386
+Package: libgcj-doc
+Source: gcj-4.6
+Version: 4.6.0-14.1
+Architecture: all
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 112
-Conflicts: classpath (<= 0.04-4)
-Replaces: java-gcj-compat (<< 1.0.65-8), java-gcj-compat-dev (<< 1.0.65-8)
-Filename: etch/gcc-4.1-etch/libgcj-common_4.1.2-2.1_i386.deb
-Size: 11756
-MD5sum: 02c0496211685c22e092643cde2e64cd
-SHA1: 124e439dd12fb36fa55c1f5af805baf1b03d29ed
-SHA256: 5af49f6913a185144158bd4f7c6476000d7363f457a74f16d45ec52b43a0b9a7
-Section: libs
+Installed-Size: 429557
+Depends: gcj-4.6-base (>= 4.6.0-12)
+Enhances: libgcj12-dev
+Provides: classpath-doc
+Filename: squeeze/gcc-4.6-squeeze/libgcj-doc_4.6.0-14.1_all.deb
+Size: 44532450
+MD5sum: 0bf0bd61a5ec6a733011942ed45e1abe
+SHA1: c4210cfbe9e04e255fbf93e74740e3b293d05dca
+SHA256: 828c261108d86864a05c4891b7ffd455b9273af1968f6377493c0ec3d7d2d8fa
+Section: doc
 Priority: optional
-Description: Java runtime library (common files)
- This package contains files shared by classpath and libgcj libraries.
+Homepage: http://gcc.gnu.org/
+Description: libgcj API documentation and example programs
+ Autogenerated documentation describing the API of the libgcj library.
+ Sources and precompiled example programs from the classpath library.
 
-Package: libgcj7-1
-Source: gcj-4.1
-Version: 4.1.2-4
+Package: libgcj12
+Source: gcj-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 34600
-Depends: gcj-4.1-base (>= 4.1.2-4), libgcj-common (>= 1:4.1.1-21), libasound2 (>> 1.0.12), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.2), libmagic1, zlib1g (>= 1:1.2.1)
-Recommends: libgcj7-jar (>= 4.1.2-2), libgcj7-1-awt (= 4.1.2-4)
-Suggests: libgcj7-dbg
-Conflicts: libgcj7
-Replaces: libgcj7, libgcj7-awt (<< 4.1.1-12)
-Filename: etch/gcc-4.1-etch/libgcj7-1_4.1.2-4_i386.deb
-Size: 10281460
-MD5sum: 3c6e242ccd73532a9d0c48b42b20352c
-SHA1: 206c934c854ea6277e2ba6d8b5e161f3edb04c46
-SHA256: ca53940735df1f967b9307c73f4e66cf8b8201f92005642d5479e3e2aa8546e4
+Installed-Size: 39321
+Depends: gcj-4.6-base (>= 4.6.0-14.1), libgcj-common (>= 1:4.1.1-21), libasound2 (>> 1.0.25), libc6 (>= 2.3.6-6~), libgcc1, libgmp3c2, zlib1g (>= 1:1.1.4)
+Recommends: gcj-4.6-jre-lib (>= 4.6.0-12)
+Suggests: libgcj12-dbg, libgcj12-awt (= 4.6.0-14.1)
+Replaces: gij-4.4 (<< 4.4.0-1)
+Filename: squeeze/gcc-4.6-squeeze/libgcj12_4.6.0-14.1_i386.deb
+Size: 11591644
+MD5sum: 003c90836135420f9dc07b33115ffc7c
+SHA1: f4825a95badac40bf026f403056ddc948a33da43
+SHA256: f811638149fafad7ba49ecc7ee5ad7b823f61495b7d3264d6f3cb49a5c10badb
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: Java runtime library for use with gcj
  This is the runtime that goes along with the gcj front end to
  gcc. libgcj includes parts of the Java Class Libraries, plus glue to
  connect the libraries to the compiler and the underlying OS.
  .
  To show file names and line numbers in stack traces, the packages
- libgcj7-dbg and binutils are required.
+ libgcj12-dbg and binutils are required.
 
-Package: libgcj7-1-awt
-Source: gcj-4.1
-Version: 4.1.2-4
+Package: libgcj12-awt
+Source: gcj-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 252
-Depends: gcj-4.1-base (>= 4.1.2-4), libgcj7-1 (= 4.1.2-4), libatk1.0-0 (>= 1.12.2), libc6 (>= 2.3.6-6), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.4.0), libfreetype6 (>= 2.2), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libice6 (>= 1:1.0.0), libpango1.0-0 (>= 1.14.8), libsm6, libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3 (>= 1:4.0.1), libxi6, libxinerama1, libxrandr2, libxrender1, libxtst6, zlib1g (>= 1:1.2.1)
-Filename: etch/gcc-4.1-etch/libgcj7-1-awt_4.1.2-4_i386.deb
-Size: 79006
-MD5sum: 3eef844e4fae071d95ab031a61c675f9
-SHA1: 3fcd2c2c48b57fee0a6613cc50b90940655f9f29
-SHA256: 17cb65441b3d0c3179b9092e1d0035944fffc643c7e43df9e4d257aeb51493fd
+Installed-Size: 262
+Depends: gcj-4.6-base (>= 4.6.0-14.1), libgcj12 (= 4.6.0-14.1), libatk1.0-0 (>= 1.29.3), libc6 (>= 2.3.6-6~), libcairo2 (>= 1.9.6), libfontconfig1 (>= 2.8.0), libfreetype6 (>= 2.2.1), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.8.0), libice6 (>= 1:1.0.0), libpango1.0-0 (>= 1.14.0), libsm6, libxrandr2 (>= 4.3), libxrender1, libxtst6, zlib1g (>= 1:1.1.4)
+Filename: squeeze/gcc-4.6-squeeze/libgcj12-awt_4.6.0-14.1_i386.deb
+Size: 84776
+MD5sum: 3f83f93c70996fba3b54b65597b25f97
+SHA1: 3edac23ce23c98e53b8255784f7bf73736269235
+SHA256: 68ee8d5613a8531bb636f72bb2cb07bbd4aac33d3f57f6b71281924288d31a68
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: AWT peer runtime libraries for use with gcj
  These are runtime libraries holding the AWT peer implementations
- for libgcj (currently only the GTK based peer library).
+ for libgcj (currently the GTK+ based peer library is required, the
+ QT bases library is not built).
 
-Package: libgcj7-dbg
-Source: gcj-4.1
-Version: 4.1.2-4
+Package: libgcj12-dbg
+Source: gcj-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 41756
-Depends: gcj-4.1-base (= 4.1.2-4), libgcj7-1 (= 4.1.2-4)
-Recommends: binutils
-Filename: etch/gcc-4.1-etch/libgcj7-dbg_4.1.2-4_i386.deb
-Size: 12383740
-MD5sum: 85f798a853e869318b5a93283aa0305d
-SHA1: 3b1433ce632e145ad420c3939704958ce9d1ba78
-SHA256: e7a80a18041dff67f1a458545ce7ad30861e3a724b508d19a34131b0f2f496a4
-Section: libdevel
+Installed-Size: 82936
+Depends: gcj-4.6-base (= 4.6.0-14.1), libgcj12 (= 4.6.0-14.1)
+Recommends: binutils, libc6-dbg | libc-dbg
+Filename: squeeze/gcc-4.6-squeeze/libgcj12-dbg_4.6.0-14.1_i386.deb
+Size: 22307646
+MD5sum: 8a0c2b177bf3662741d196be7d92a79b
+SHA1: bd4011c54d0123d666570c402b5fad03f8159197
+SHA256: f72c13950ace511905c00c3bddfc44facfe79c03ddf85c5da50ff001c0ba3898
+Section: debug
 Priority: extra
-Description: Debugging symbols for libraries provided in libgcj7-dev
+Homepage: http://gcc.gnu.org/
+Description: Debugging symbols for libraries provided in libgcj12-dev
  The package provides debugging symbols for the libraries provided
- in libgcj7-dev.
+ in libgcj12-dev.
  .
  binutils is required to show file names and line numbers in stack traces.
 
-Package: libgcj7-dev
-Source: gcj-4.1
-Version: 4.1.2-4
+Package: libgcj12-dev
+Source: gcj-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 16872
-Depends: gcj-4.1-base (= 4.1.2-4), gcj-4.1 (= 4.1.2-4), libgcj7-jar (>= 4.1.2-2), libgcj7-1-awt (= 4.1.2-4), libgcj-bc, zlib1g-dev, libgcj7-1 (>= 4.1.2-1)
+Installed-Size: 6665
+Depends: gcj-4.6-base (= 4.6.0-14.1), gcj-4.6-jdk (= 4.6.0-14.1), gcj-4.6-jre-lib (>= 4.6.0-12), libgcj12-awt (= 4.6.0-14.1), libgcj-bc, zlib1g-dev
 Suggests: libgcj-doc
-Provides: classpath-doc
-Filename: etch/gcc-4.1-etch/libgcj7-dev_4.1.2-4_i386.deb
-Size: 751360
-MD5sum: e0a3c888671f3d91ddedb68e8913cd47
-SHA1: 6d6e2262dd9e0937e362cee0de33fadd212fa663
-SHA256: c0de162517e4f0f82880973bda11f09054b84aab3cf413f5277b456af4d02e82
+Filename: squeeze/gcc-4.6-squeeze/libgcj12-dev_4.6.0-14.1_i386.deb
+Size: 751722
+MD5sum: 556f764b6fa5035d9c5dc8dd5fea4fa9
+SHA1: 3be41368f5fcee829084fd039f7b26adfa74cd9b
+SHA256: 0de958ed4dc0aafcef0287670a9be76032a9e9593282ebbeaeb6989c1a43986c
 Section: libdevel
 Priority: optional
-Description: Java development headers and static library for use with gcj
- These are the development headers and static libraries that go along
- with the gcj front end to gcc. libgcj includes parts of the Java Class
- Libraries, plus glue to connect the libraries to the compiler and the
- underlying OS.
+Homepage: http://gcc.gnu.org/
+Description: Java development headers for use with gcj
+ These are the development headers that go along with the gcj front end
+ to gcc. libgcj includes parts of the Java Class Libraries, plus glue
+ to connect the libraries to the compiler and the underlying OS.
 
-Package: libgcj7-jar
-Source: gcj-4.1
-Version: 4.1.2-4
-Architecture: all
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 10620
-Depends: gcj-4.1-base (>= 4.1.2-2), libgcj7-1 (>= 4.1.2-2)
-Conflicts: libgcj7-common
-Replaces: libgcj7-common
-Filename: etch/gcc-4.1-etch/libgcj7-jar_4.1.2-4_all.deb
-Size: 9775262
-MD5sum: 94939523eade79ce5ed14fdadcc2624d
-SHA1: 4911a508c5164571f0c8a9a3aee62680b83c6271
-SHA256: b0f9a4a2ca896620bf4360ba4417e67611557f050ce505267f071fbd27246fca
-Section: libs
-Priority: optional
-Description: Java runtime library for use with gcj (jar files)
- This is the jar file that goes along with the gcj front end to gcc.
-
-Package: libgcj7-src
-Source: gcj-4.1
-Version: 4.1.2-4
-Architecture: all
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 12636
-Depends: gcj-4.1-base (>= 4.1.2-2), gcj-4.1 (>= 4.1.2-2), libgcj7-jar (= 4.1.2-4)
-Filename: etch/gcc-4.1-etch/libgcj7-src_4.1.2-4_all.deb
-Size: 12237336
-MD5sum: 02e68f5defdbc6930cbf9792912aa2f2
-SHA1: 4e208ae6b106441a04a07121c069d2429aa69995
-SHA256: b742cc08335bb1104d8ad16413aa03b76b65bebb0a58e98619942f31534b27d6
-Section: libdevel
-Priority: optional
-Description: libgcj java sources for use in eclipse
- These are the java source files packaged as a zip file for use in development
- environments like eclipse.
-
-Package: libgfortran1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libgfortran3
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 512
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/libgfortran1_4.1.2-4vnz1_i386.deb
-Size: 157174
-MD5sum: 223daef19a18c5992c6c0fd1fdb126fe
-SHA1: 6c64ce5981959769597f999f4e04754e47ba65ed
-SHA256: 64bbb425ddbc1cd3287a41e8206bb56d949e0e25044854e36ac400076ae49e43
+Installed-Size: 1099
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.3), libquadmath0 (>= 4.6)
+Filename: squeeze/gcc-4.6-squeeze/libgfortran3_4.6.0-14.1_i386.deb
+Size: 355106
+MD5sum: 9f75ef13906de4fc813764855c95c6f2
+SHA1: c0e508ac3dfd2a0c1f842b230f64cd0057a51823
+SHA256: b1d92ba0ad9d1d0a0d9be1b9018fb17303229bc264eb72c032bc0dacf32f59ef
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: Runtime library for GNU Fortran applications
+ Library needed for GNU Fortran applications linked against the
+ shared library.
+
+Package: libgfortran3-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 2769
+Depends: gcc-4.6-base (= 4.6.0-14.1), libgfortran3 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/libgfortran3-dbg_4.6.0-14.1_i386.deb
+Size: 640720
+MD5sum: 808130ce83ee7fc87843fb6c8d84935c
+SHA1: d41a759154809a8746fc9f388b232bdc50656036
+SHA256: 12eda2f592a2a46de5c332f65f88679a1625f877dc436e8b6ddf5855f3cd8511
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Fortran applications (debug symbols)
  Library needed for GNU Fortran applications linked against the
  shared library.
 
@@ -1551,7 +1745,7 @@ Depends: libgmp3c2 (= 2:4.3.2+dfsg-1vnz1)
 Suggests: libgmpxx4ldbl (= 2:4.3.2+dfsg-1vnz1), libgmp3-doc
 Conflicts: libgmp2 (<< 2.0.2-10), libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
 Replaces: libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
-Filename: etch/gmp/libgmp3_4.3.2+dfsg-1vnz1_i386.deb
+Filename: squeeze/gmp/libgmp3_4.3.2+dfsg-1vnz1_i386.deb
 Size: 11906
 MD5sum: 2562321edb576f1b7da15570a84f8b41
 SHA1: 7a3998729065a90fbdbfb5d1309418a46358490f
@@ -1578,7 +1772,7 @@ Recommends: libstdc++-dev
 Suggests: libgmp3-doc, libmpfr-dev
 Conflicts: libgmp2-dev
 Replaces: libgmp2-dev
-Filename: etch/gmp/libgmp3-dev_4.3.2+dfsg-1vnz1_i386.deb
+Filename: squeeze/gmp/libgmp3-dev_4.3.2+dfsg-1vnz1_i386.deb
 Size: 653990
 MD5sum: ff246deb7c16c14e8c883204011ce528
 SHA1: fc5e5c0510c0ea0c97f20c6d27fbe7500aa72a04
@@ -1604,7 +1798,7 @@ Architecture: all
 Maintainer: Debian Scientific Computing Team <pkg-scicomp-devel@lists.alioth.debian.org>
 Installed-Size: 320
 Replaces: libgmp3 (<< 3.1.1-8)
-Filename: etch/gmp/libgmp3-doc_4.3.2+dfsg-1vnz1_all.deb
+Filename: squeeze/gmp/libgmp3-doc_4.3.2+dfsg-1vnz1_all.deb
 Size: 149170
 MD5sum: 00f1547e1f7a47432c5d984397734215
 SHA1: 55fa7a7d18cc949804a95ee48d42ac0803d647de
@@ -1625,7 +1819,7 @@ Depends: libc6 (>= 2.3.6-6)
 Suggests: libgmpxx4ldbl (= 2:4.3.2+dfsg-1vnz1), libgmp3-doc
 Conflicts: libgmp2 (<< 2.0.2-10), libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
 Replaces: libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
-Filename: etch/gmp/libgmp3c2_4.3.2+dfsg-1vnz1_i386.deb
+Filename: squeeze/gmp/libgmp3c2_4.3.2+dfsg-1vnz1_i386.deb
 Size: 314516
 MD5sum: 13c1990d99b6d8a7791e9add93c779d8
 SHA1: 43442507422fe9e1b8252f6ecdeca38259672e4e
@@ -1651,7 +1845,7 @@ Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libstdc++6 (>= 
 Conflicts: libgmp2 (<< 2.0.2-10), libgmp3 (<< 2:4.3.2+dfsg-1vnz1), libgmpxx4
 Replaces: libgmp3 (<< 2:4.3.2+dfsg-1vnz1)
 Provides: libgmpxx4
-Filename: etch/gmp/libgmpxx4ldbl_4.3.2+dfsg-1vnz1_i386.deb
+Filename: squeeze/gmp/libgmpxx4ldbl_4.3.2+dfsg-1vnz1_i386.deb
 Size: 18686
 MD5sum: 1a94cf7a41a3d4eb2e51c67d94928858
 SHA1: 03f4be8dbc05a7972d5a92ae26fbe0810abafe71
@@ -1664,6 +1858,202 @@ Description: Multiprecision arithmetic library (C++ bindings)
  arithmetic (ie, a bignum package).  It can operate on signed
  integer, rational, and floating point numeric types.
 
+Package: libgnutls-dev
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 1434
+Depends: libgnutls26 (= 2.9.12-2), libgnutlsxx26 (= 2.9.12-2), libgcrypt11-dev (>= 1.3.0), libc6-dev | libc-dev, zlib1g-dev, libtasn1-3-dev (>= 0.3.4)
+Suggests: gnutls-doc, gnutls-bin, guile-gnutls
+Conflicts: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls11-dev
+Replaces: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls11-dev
+Provides: gnutls-dev
+Filename: squeeze/gnutls/libgnutls-dev_2.9.12-2_i386.deb
+Size: 609646
+MD5sum: fe71784f1bfed37ebd07bbb4398964fc
+SHA1: 635606dac2df6e4d8cfd0fe110e54a9f8470a64e
+SHA256: eac9a61b35c09f6499edfac0388361fbac7da86c574a800c7ff6c48d77917fb7
+Section: libdevel
+Priority: optional
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - development files
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the gnutls development files.
+
+Package: libgnutls26
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 1140
+Depends: libc6 (>= 2.3), libgcrypt11 (>= 1.4.2), libgpg-error0 (>= 1.6-1), libtasn1-3 (>= 1.6-0), zlib1g (>= 1:1.1.4)
+Suggests: gnutls-bin
+Conflicts: gnutls0, gnutls0.4
+Replaces: gnutls0, gnutls0.4, gnutls3
+Filename: squeeze/gnutls/libgnutls26_2.9.12-2_i386.deb
+Size: 532548
+MD5sum: 9c364319a578d35df9fc9b4ac0e4745c
+SHA1: fffaa7842948190a001a0d407447fe427a069fcd
+SHA256: e44a1f20f62e1a743f9839f052056fb28f1fffb60fa6027cf21accc10c92aa0e
+Section: libs
+Priority: standard
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - runtime library
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the runtime libraries.
+
+Package: libgnutls26-dbg
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 3667
+Depends: libgnutls26 (= 2.9.12-2)
+Conflicts: libgnutls13-dbg
+Filename: squeeze/gnutls/libgnutls26-dbg_2.9.12-2_i386.deb
+Size: 1461090
+MD5sum: 68f228a4e5e224aba597a3ae9cd00122
+SHA1: 0c027dcc57a6589711cc7c26485989aec41312a7
+SHA256: 10e43d5b9b4175bcf1c9d8717041cfd27c074d46af54d870e6d22cf6b58c58d1
+Section: debug
+Priority: extra
+Homepage: http://www.gnutls.org/
+Description: GNU TLS library - debugger symbols
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the debugger symbols.
+
+Package: libgnutlsxx26
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 308
+Depends: libgnutls26 (= 2.9.12-2), libc6 (>= 2.1.3), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Filename: squeeze/gnutls/libgnutlsxx26_2.9.12-2_i386.deb
+Size: 245274
+MD5sum: 3cfcb15727a46faa4bd1f90f6d25f868
+SHA1: 15ebf95ab193866af8640c6dc3ff88082d71e382
+SHA256: c8e3a8966d6aafddd42540540f53e663aa530234478bbf68e3ce83fa9bb1fb93
+Section: libs
+Priority: extra
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - C++ runtime library
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the C++ runtime libraries.
+
+Package: libgo0
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 7049
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1)
+Filename: squeeze/gcc-4.6-squeeze/libgo0_4.6.0-14.1_i386.deb
+Size: 2099976
+MD5sum: dbf93eb73294abc5c4180988bab2cc01
+SHA1: e3ed3961aba25aef68d1b7e8171610cf037bcfae
+SHA256: f6c6f4bd4c0faee8734281af1c5afd54f537939ef2d6866fd176cffaa4738904
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Go applications
+ Library needed for GNU Go applications linked against the
+ shared library.
+
+Package: libgo0-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 4831
+Depends: gcc-4.6-base (= 4.6.0-14.1), libgo0 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/libgo0-dbg_4.6.0-14.1_i386.deb
+Size: 1577716
+MD5sum: 08a4afa302373f1e3dc2ef60571c2caf
+SHA1: 1b1b40aa694c4413d1701e26e1dae5cd0ac9f715
+SHA256: 8447105f6dc14240c5ec66df1261c6ca8236a11efc6b6b3df1a0b33343567a6c
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Go applications (debug symbols)
+ Library needed for GNU Go applications linked against the
+ shared library.
+
+Package: libgomp1
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 89
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.6)
+Filename: squeeze/gcc-4.6-squeeze/libgomp1_4.6.0-14.1_i386.deb
+Size: 27136
+MD5sum: 1174a29ccbee463f6db6ed77ae926c6b
+SHA1: 4ae73b6c75357d45fc337101ecc9f065b01a446d
+SHA256: 6d9ef23492d5a98dccb16be67469bd17dbf5f3228afb8cf02f773521a9115d47
+Section: libs
+Priority: optional
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
+Package: libgomp1-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 220
+Depends: gcc-4.6-base (= 4.6.0-14.1), libgomp1 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/libgomp1-dbg_4.6.0-14.1_i386.deb
+Size: 64602
+MD5sum: e304ab51ea8e2273507fbb65e99cbdb5
+SHA1: d7656233c246bec54cb2891bf4cb355790e28bf6
+SHA256: 52138264a81565f4b965bacff74dc043bb1ecee4e808455b5a310857975a4420
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC OpenMP (GOMP) support library (debug symbols)
+ GOMP is an implementation of OpenMP for the C, C++, and Fortran 95 compilers
+ in the GNU Compiler Collection.
+
 Package: libisl-dbg
 Source: isl
 Version: 0.11.1-1vnz1
@@ -1672,7 +2062,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 1872
 Depends: libisl10 (= 0.11.1-1vnz1)
 Replaces: libisl-dev (<< 0.08)
-Filename: etch/cloogisl/libisl-dbg_0.11.1-1vnz1_i386.deb
+Filename: squeeze/cloogisl/libisl-dbg_0.11.1-1vnz1_i386.deb
 Size: 706008
 MD5sum: 2095ca2c527aae158e1e5f9c0203fd80
 SHA1: 787008399711ad9f246c22b88d3d78a02e7aa6a7
@@ -1697,7 +2087,7 @@ Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 1672
 Depends: libisl10 (= 0.11.1-1vnz1)
-Filename: etch/cloogisl/libisl-dev_0.11.1-1vnz1_i386.deb
+Filename: squeeze/cloogisl/libisl-dev_0.11.1-1vnz1_i386.deb
 Size: 476886
 MD5sum: ebe88ccf1f25f19bda958759244346e6
 SHA1: 2b6da2da4183e11382ad19baeb6683d331f16e17
@@ -1722,7 +2112,7 @@ Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 1016
 Depends: libc6 (>= 2.3.6-6), libgmp3c2
-Filename: etch/cloogisl/libisl10_0.11.1-1vnz1_i386.deb
+Filename: squeeze/cloogisl/libisl10_0.11.1-1vnz1_i386.deb
 Size: 409344
 MD5sum: df6258ba17e32bf872b8e3955cf2d913
 SHA1: ffa04994af77e4e2a4193052c07d870909c9e682
@@ -1747,7 +2137,7 @@ Architecture: i386
 Maintainer: Laurent Fousse <lfousse@debian.org>
 Installed-Size: 220
 Depends: libmpc2 (= 0.9-2vnz1), libmpfr-dev, libgmp-dev | libgmp3-dev
-Filename: etch/mpc/libmpc-dev_0.9-2vnz1_i386.deb
+Filename: squeeze/mpc/libmpc-dev_0.9-2vnz1_i386.deb
 Size: 42792
 MD5sum: 7e709c497f8128bbad7712e2e59e5842
 SHA1: fcc2b8d73c2a678915483f49a59d1b1dca55a203
@@ -1774,7 +2164,7 @@ Architecture: i386
 Maintainer: Laurent Fousse <lfousse@debian.org>
 Installed-Size: 128
 Depends: libc6 (>= 2.3.6-6), libgmp3c2, libmpfr4
-Filename: etch/mpc/libmpc2_0.9-2vnz1_i386.deb
+Filename: squeeze/mpc/libmpc2_0.9-2vnz1_i386.deb
 Size: 33798
 MD5sum: 7be70579fc741a7a65fd89709e7b096d
 SHA1: 60fcf2f0fee31bdbde75062e77fa0870c355ac31
@@ -1801,7 +2191,7 @@ Architecture: i386
 Maintainer: Laurent Fousse <lfousse@debian.org>
 Installed-Size: 290
 Depends: libgmp-dev | libgmp3-dev, libmpfr-dev (>= 2.2.0.dfsg.1-1), libmpfi0 (= 1.5.1-3vnz1), dpkg (>= 1.15.4) | install-info
-Filename: etch/mpfi/libmpfi-dev_1.5.1-3vnz1_i386.deb
+Filename: squeeze/mpfi/libmpfi-dev_1.5.1-3vnz1_i386.deb
 Size: 68120
 MD5sum: 88c4e36fb4c6cbe8731d05e389060ec5
 SHA1: 27ac5482d7c9b804843997ae730eecc66ba5f8ad
@@ -1835,7 +2225,7 @@ Architecture: i386
 Maintainer: Laurent Fousse <lfousse@debian.org>
 Installed-Size: 118
 Depends: libc6 (>= 2.3), libgmp3c2, libmpfr4
-Filename: etch/mpfi/libmpfi0_1.5.1-3vnz1_i386.deb
+Filename: squeeze/mpfi/libmpfi0_1.5.1-3vnz1_i386.deb
 Size: 39670
 MD5sum: e1be1a9d0fe90eff586d8d41f02dfa73
 SHA1: e3de4cd970b545a4d6c95d980a869876a4307bbf
@@ -1874,7 +2264,7 @@ Depends: libgmp-dev | libgmp3-dev, libmpfr4 (= 3.0.1-4)
 Suggests: libmpfr-doc
 Conflicts: libgmp3-dev (<< 4.1.4-3)
 Replaces: libgmp3-dev (<< 4.1.4-3)
-Filename: etch/mpfr/libmpfr-dev_3.0.1-4_i386.deb
+Filename: squeeze/mpfr/libmpfr-dev_3.0.1-4_i386.deb
 Size: 522580
 MD5sum: 6cf17dd32fc98c6c9c586c9d0cc5725a
 SHA1: 6c6db33bcce5ea5f8e5a6258d4e0d74306bcfb9a
@@ -1900,7 +2290,7 @@ Architecture: all
 Maintainer: Laurent Fousse <lfousse@debian.org>
 Installed-Size: 1208
 Depends: dpkg (>= 1.15.4) | install-info
-Filename: etch/mpfr/libmpfr-doc_3.0.1-4_all.deb
+Filename: squeeze/mpfr/libmpfr-doc_3.0.1-4_all.deb
 Size: 767266
 MD5sum: 744051f7fd1e0dddd6ba378de17294d6
 SHA1: 1d27d88eac99d3a4156a4e14382c42a71988323e
@@ -1922,7 +2312,7 @@ Maintainer: Laurent Fousse <lfousse@debian.org>
 Installed-Size: 712
 Depends: libc6 (>= 2.3.6-6), libgmp3c2
 Conflicts: libgmp3 (<< 4.1.4-3)
-Filename: etch/mpfr/libmpfr4_3.0.1-4_i386.deb
+Filename: squeeze/mpfr/libmpfr4_3.0.1-4_i386.deb
 Size: 472722
 MD5sum: c5a4e5c63015cd4e028338bd5d441ecc
 SHA1: fc1cbbe6488e445d319d43e1bf77531ea0d3c76a
@@ -1944,7 +2334,7 @@ Architecture: i386
 Maintainer: Laurent Fousse <lfousse@debian.org>
 Installed-Size: 1156
 Depends: libmpfr4 (= 3.0.1-4)
-Filename: etch/mpfr/libmpfr4-dbg_3.0.1-4_i386.deb
+Filename: squeeze/mpfr/libmpfr4-dbg_3.0.1-4_i386.deb
 Size: 533048
 MD5sum: a593f9b4835350d2a165aba714281b97
 SHA1: 8bbf4bad1ecf30e1e5d78afda02fb10a14838303
@@ -1962,58 +2352,99 @@ Description: multiple precision floating-point computation
  This package contains the debugging symbols for libmpfr4.
 
 Package: libmudflap0
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 348
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/libmudflap0_4.1.2-4vnz1_i386.deb
-Size: 168922
-MD5sum: 55c58954914603ff6ce0ed266a3c4868
-SHA1: fd6e8608d2180fb6c4e2a6a12405bb0d19f427da
-SHA256: 33506461cacf3afac6d22eefa631ebe2d97631f92eaaffa18db305ead211e1f9
+Installed-Size: 250
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.7)
+Filename: squeeze/gcc-4.6-squeeze/libmudflap0_4.6.0-14.1_i386.deb
+Size: 87904
+MD5sum: 3003b85690fca85d1df5bae6d592383a
+SHA1: fcbb6977f8e265ed1fbfa57a787e275bfcf0d7f4
+SHA256: db32d73137959dc4fee0b77171cbbb711f249f25f0404362f79ed7fb3cc54402
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: GCC mudflap shared support libraries
  The libmudflap libraries are used by GCC for instrumenting pointer and array
  dereferencing operations.
 
-Package: libmudflap0-dev
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libmudflap0-4.6-dev
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 896
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libmudflap0 (>= 4.1.2-4vnz1), libc6-dev (>= 2.3.6-7)
-Filename: etch/gcc-4.1-etch/libmudflap0-dev_4.1.2-4vnz1_i386.deb
-Size: 196090
-MD5sum: 80f20901d68e178cc2e85f631ad6b8fa
-SHA1: 1f45fcb9a9f2b3b34413deb651d3ced9d8a523c8
-SHA256: 4b39c475aa280ee9666da9bb5bc70dc91c41b6dbaa4b2c985b7ee01d1f9fbc9f
+Installed-Size: 833
+Depends: gcc-4.6-base (= 4.6.0-14.1), libmudflap0 (>= 4.6.0-14.1), libc6-dev (>= 2.5)
+Conflicts: libmudflap0-dev
+Filename: squeeze/gcc-4.6-squeeze/libmudflap0-4.6-dev_4.6.0-14.1_i386.deb
+Size: 219020
+MD5sum: 99cf1662a3b59261eef60882707091ec
+SHA1: 38d86d282c7d7a779c797e99f0ea6665dcd25d6a
+SHA256: 1ce5e6464c3b1a61f1da07721bb1e52645aaf1aa01a3ca60793919343f577abb
 Section: libdevel
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: GCC mudflap support libraries (development files)
  The libmudflap libraries are used by GCC for instrumenting pointer and array
  dereferencing operations.
  .
  This package contains the headers and the static libraries.
 
-Package: libobjc1
-Source: gcc-4.1 (4.1.2-4vnz1)
-Version: 1:4.1.2-4vnz1
+Package: libmudflap0-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 264
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.2)
-Filename: etch/gcc-4.1-etch/libobjc1_4.1.2-4vnz1_i386.deb
-Size: 143408
-MD5sum: 922c3ea42ad0bf33434296ffcb81ad05
-SHA1: c8f2c7c689ae388b89be33e574c285e0d143792a
-SHA256: 5947a891c80c554603f7fefaa7627ef806dbedac57903eafa3069e1a0d124f32
+Installed-Size: 313
+Depends: gcc-4.6-base (= 4.6.0-14.1), libmudflap0 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/libmudflap0-dbg_4.6.0-14.1_i386.deb
+Size: 118438
+MD5sum: b5484d929e041c2b739f4cf70a69ea95
+SHA1: 6568f3dd628089a7349aa1a170cadc94a7cf0ac0
+SHA256: 236c7f4180951493c1dfaac6f2935aa44bbf0a9603bb9a4e1f3476959806d9bc
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC mudflap shared support libraries (debug symbols)
+ The libmudflap libraries are used by GCC for instrumenting pointer and array
+ dereferencing operations.
+
+Package: libobjc3
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 443
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.3.6-6~), libgcc1 (>= 1:4.1.1)
+Filename: squeeze/gcc-4.6-squeeze/libobjc3_4.6.0-14.1_i386.deb
+Size: 180164
+MD5sum: e9a9a2b601f3a4b31e10c11bc2b1f0db
+SHA1: c8e665d70dd3484303ca9df6ebb51cf85a127ef2
+SHA256: 9b2482f2527364b345c966014d982c108e4cda3d5f09f341ee0d7cbaa3c7e3ed
 Section: libs
 Priority: optional
+Homepage: http://gcc.gnu.org/
 Description: Runtime library for GNU Objective-C applications
+ Library needed for GNU ObjC applications linked against the shared library.
+
+Package: libobjc3-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 874
+Depends: gcc-4.6-base (= 4.6.0-14.1), libobjc3 (= 4.6.0-14.1), libgcc1-dbg
+Filename: squeeze/gcc-4.6-squeeze/libobjc3-dbg_4.6.0-14.1_i386.deb
+Size: 335760
+MD5sum: a0a28ef055e9b887a2a442ee2749cc37
+SHA1: 32c793dfc5048b015fd411b77a6d21607274b0eb
+SHA256: bdb2187e9c0c7f0368b98a025f6c422784c91e5a0ecc618c1b776f62c389c763
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: Runtime library for GNU Objective-C applications (debug symbols)
  Library needed for GNU ObjC applications linked against the shared library.
 
 Package: libppl-c4
@@ -2024,7 +2455,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 4532
 Depends: libppl9 (= 0.11.2-8vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libpwl5, libstdc++6 (>= 4.1.1-12)
 Suggests: libppl0.11-dev
-Filename: etch/cloogppl/libppl-c4_0.11.2-8vnz1_i386.deb
+Filename: squeeze/cloogppl/libppl-c4_0.11.2-8vnz1_i386.deb
 Size: 1269834
 MD5sum: 68a21aeac7a1c5de45fb29e431215b33
 SHA1: fb6b98536b303ec8e0352a9d90ddd9b0de990ffb
@@ -2051,7 +2482,7 @@ Version: 0.11.2-8vnz1
 Architecture: all
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 12124
-Filename: etch/cloogppl/libppl-doc_0.11.2-8vnz1_all.deb
+Filename: squeeze/cloogppl/libppl-doc_0.11.2-8vnz1_all.deb
 Size: 4339350
 MD5sum: b8b517a23a9e4d175ea4eedecda09657
 SHA1: da21745bec5a1c20a1e9cb2414de07d342a2c957
@@ -2079,7 +2510,7 @@ Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 23348
 Depends: libppl9 (= 0.11.2-8vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libpwl5, libstdc++6 (>= 4.1.1-12), swi-prolog
-Filename: etch/cloogppl/libppl-swi_0.11.2-8vnz1_i386.deb
+Filename: squeeze/cloogppl/libppl-swi_0.11.2-8vnz1_i386.deb
 Size: 4714598
 MD5sum: 28ca858b616805acde2ab073cd0f8f35
 SHA1: 5f81dd8e7385449f9a48b652eefed2ffda11435c
@@ -2112,7 +2543,7 @@ Suggests: libppl-doc
 Conflicts: libppl0.10-dev
 Replaces: libppl6, libppl7 (<< 0.10~pre27-4), libppl9
 Provides: libppl-c-dev, libppl-dev
-Filename: etch/cloogppl/libppl0.11-dev_0.11.2-8vnz1_i386.deb
+Filename: squeeze/cloogppl/libppl0.11-dev_0.11.2-8vnz1_i386.deb
 Size: 4179564
 MD5sum: 3c86b2888caa021246f9dbb4500df2fd
 SHA1: 32a574bc9d54b589af1bb83ed921989cf327010d
@@ -2142,7 +2573,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 1308
 Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libstdc++6 (>= 4.1.1-12)
 Suggests: libppl-swi (= 0.11.2-8vnz1), libppl-c4 (= 0.11.2-8vnz1), libpwl5 (= 0.11.2-8vnz1)
-Filename: etch/cloogppl/libppl9_0.11.2-8vnz1_i386.deb
+Filename: squeeze/cloogppl/libppl9_0.11.2-8vnz1_i386.deb
 Size: 519230
 MD5sum: 0442291b48fdcd84bc7130dd706ab294
 SHA1: 778e31eccb84de89d4a08a8f643f150fdb4a37f6
@@ -2170,7 +2601,7 @@ Installed-Size: 160
 Depends: libpwl5 (= 0.11.2-8vnz1)
 Replaces: libpwl3, libpwl4
 Provides: libppl-pwl-dev
-Filename: etch/cloogppl/libpwl-dev_0.11.2-8vnz1_i386.deb
+Filename: squeeze/cloogppl/libpwl-dev_0.11.2-8vnz1_i386.deb
 Size: 42046
 MD5sum: 0c38c63127a7af01f87d0294b2d4d2f1
 SHA1: 0f497966ac9905037e58b43702ad9ac9099e6c21
@@ -2194,7 +2625,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 112
 Depends: libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libstdc++6 (>= 4.1.1-12)
 Provides: libppl-pwl
-Filename: etch/cloogppl/libpwl5_0.11.2-8vnz1_i386.deb
+Filename: squeeze/cloogppl/libpwl5_0.11.2-8vnz1_i386.deb
 Size: 32122
 MD5sum: d72fe0b35114e157862cb3bbe6e18676
 SHA1: 456365ff98b1be8786dd3187b78ea863eb6e35d0
@@ -2208,41 +2639,62 @@ Description: Parma Watchdog Library (Watchdog timers - runtime library)
  PWL is currently distributed with the Parma Polyhedra Library (PPL),
  but is totally independent from it.
 
-Package: libssp0
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libquadmath0
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 36
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/libssp0_4.1.2-4vnz1_i386.deb
-Size: 4380
-MD5sum: 4ee148d750f071202522d805b0498ef4
-SHA1: 7aa05fd2d6e02f4d19d9db60449c9a7979233f37
-SHA256: 506746ef63a0793dadb6889d5c00f7d5d1d9f48036c72e33dc68db502a49a5ff
+Installed-Size: 483
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.10)
+Filename: squeeze/gcc-4.6-squeeze/libquadmath0_4.6.0-14.1_i386.deb
+Size: 195108
+MD5sum: 5abbbdcebdc84fdecf9597a1c257a78e
+SHA1: 929968522d52b2cc1038d297b06c6c15bf32ac86
+SHA256: 279e5572edd1ce53508332a369fc3e9fe8e2bae9b0f4d2d048c489b56bf634ce
 Section: libs
 Priority: optional
-Description: GCC stack smashing protection library
- GCC can now emit code for protecting applications from stack-smashing attacks.
- The protection is realized by buffer overflow detection and reordering of
- stack variables to avoid pointer corruption.
+Homepage: http://gcc.gnu.org/
+Description: GCC Quad-Precision Math Library
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype. The library is used to provide on such
+ targets the REAL(16) type in the GNU Fortran compiler.
 
-Package: libstdc++6
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libquadmath0-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 932
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.2)
+Installed-Size: 528
+Depends: gcc-4.6-base (= 4.6.0-14.1), libquadmath0 (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/libquadmath0-dbg_4.6.0-14.1_i386.deb
+Size: 169486
+MD5sum: 4727649041e78712e36fa2b80848849a
+SHA1: 0ec3cb945132790882748cf1edc23eacc4e91978
+SHA256: 93b9cfbeff3ceaf4b3ad9b0dc7bbbced83701261293fab826613d4309ce022f2
+Section: debug
+Priority: extra
+Homepage: http://gcc.gnu.org/
+Description: GCC Quad-Precision Math Library (debug symbols)
+ A library, which provides quad-precision mathematical functions on targets
+ supporting the __float128 datatype.
+
+Package: libstdc++6
+Source: gcc-4.6
+Version: 4.6.0-14.1
+Architecture: i386
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 1170
+Depends: gcc-4.6-base (= 4.6.0-14.1), libc6 (>= 2.3.2), libgcc1 (>= 1:4.1.1)
 Conflicts: scim (<< 1.4.2-1)
-Filename: etch/gcc-4.1-etch/libstdc++6_4.1.2-4vnz1_i386.deb
-Size: 280602
-MD5sum: 798ff9dd1277903c652a2d8d0ebcf6d3
-SHA1: 24f29332e1bc38b9ffc9401c3cda8b7dba13ebb3
-SHA256: 69e0d839ba3348e7be1beadcee51eee4daa936b60cbf47eca016d2035e061dc6
+Filename: squeeze/gcc-4.6-squeeze/libstdc++6_4.6.0-14.1_i386.deb
+Size: 351650
+MD5sum: b397616d398fd5e05755647f3ecbbba7
+SHA1: dacfb3ee1819c2e7370af874c21678c09f70580b
+SHA256: c37b85ec4679c89ca7b8c0c755352fa383dacda1d5d866c679e36493bb23c844
 Section: libs
 Priority: required
-Description: The GNU Standard C++ Library v3
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3
  This package contains an additional runtime library for C++ programs
  built with the GNU compiler.
  .
@@ -2250,44 +2702,46 @@ Description: The GNU Standard C++ Library v3
  was included up to g++-2.95. The first version of libstdc++-v3 appeared
  in g++-3.0.
 
-Package: libstdc++6-4.1-dbg
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libstdc++6-4.6-dbg
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 12672
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libstdc++6 (>= 4.1.2-4vnz1)
-Recommends: libstdc++6-4.1-dev (= 4.1.2-4vnz1)
-Conflicts: libstdc++5-3.3-dbg, libstdc++5-dbg, libstdc++6-4.0-dbg, libstdc++6-dbg
-Filename: etch/gcc-4.1-etch/libstdc++6-4.1-dbg_4.1.2-4vnz1_i386.deb
-Size: 3643936
-MD5sum: 0df3a8131f583356846042f88b579c28
-SHA1: f4bbf001a98b5c05f4a2a9b83c20b583c790b3c3
-SHA256: 1a02c7a1398903f6ac1e7bbbe09a8e031d6db1ee1b37011a637ea35dd4263a59
-Section: libdevel
+Installed-Size: 13689
+Depends: gcc-4.6-base (= 4.6.0-14.1), libstdc++6 (>= 4.6.0-14.1), libgcc1-dbg, libc6 (>= 2.3.2), libgcc1 (>= 1:4.1.1)
+Recommends: libstdc++6-4.6-dev (= 4.6.0-14.1)
+Conflicts: libstdc++5-3.3-dbg, libstdc++5-dbg, libstdc++6-4.0-dbg, libstdc++6-4.1-dbg, libstdc++6-4.2-dbg, libstdc++6-4.3-dbg, libstdc++6-4.4-dbg, libstdc++6-4.5-dbg, libstdc++6-dbg
+Filename: squeeze/gcc-4.6-squeeze/libstdc++6-4.6-dbg_4.6.0-14.1_i386.deb
+Size: 4165046
+MD5sum: 21b66bcb129726de89d01977bcf8c319
+SHA1: 0595abfe2e81816e237cb9f10ec09403ea984eb8
+SHA256: 56c0085a653e3f2ecf03d05515189bedeccf3e8b466f75d9d7926744bdd1a47a
+Section: debug
 Priority: extra
-Description: The GNU Standard C++ Library v3 (debugging files)
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3 (debugging files)
  This package contains the shared library of libstdc++ compiled with
  debugging symbols.
 
-Package: libstdc++6-4.1-dev
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libstdc++6-4.6-dev
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 7328
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), g++-4.1 (= 4.1.2-4vnz1), libstdc++6 (>= 4.1.2-4vnz1), libc6-dev (>= 2.3.6-7)
-Suggests: libstdc++6-4.1-doc
+Installed-Size: 9657
+Depends: gcc-4.6-base (= 4.6.0-14.1), g++-4.6 (= 4.6.0-14.1), libstdc++6 (>= 4.6.0-14.1), libc6-dev (>= 2.5)
+Suggests: libstdc++6-4.6-doc
 Conflicts: libg++2.8-dev, libg++27-dev, libg++272-dev (<< 2.7.2.8-1), libstdc++2.10-dev (<< 1:2.95.3-2), libstdc++2.8-dev, libstdc++2.9-dev, libstdc++2.9-glibc2.1-dev, libstdc++3.0-dev
 Provides: libstdc++-dev
-Filename: etch/gcc-4.1-etch/libstdc++6-4.1-dev_4.1.2-4vnz1_i386.deb
-Size: 1079346
-MD5sum: 6362bc5a17465ac5eb78c02da1a887fc
-SHA1: 41627669d3dba2bbfec573716308eafb4dbd78ac
-SHA256: c7327e3a9d141e844985cefa64b70bd36952a564779daff5bc1b66fcac6f51b0
+Filename: squeeze/gcc-4.6-squeeze/libstdc++6-4.6-dev_4.6.0-14.1_i386.deb
+Size: 1579420
+MD5sum: eb941f3bdd57c4ab36da3b4880106099
+SHA1: 5edcdbc8939a97b14b31a1d0e6ed6ead60309ace
+SHA256: 46556f63f8de7b1fc57bf06ae67b4986d091d560a76699ee7f50158fe641f73b
 Section: libdevel
 Priority: optional
-Description: The GNU Standard C++ Library v3 (development files)
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3 (development files)
  This package contains the headers and static library files necessary for
  building C++ programs which use libstdc++.
  .
@@ -2295,22 +2749,23 @@ Description: The GNU Standard C++ Library v3 (development files)
  was included up to g++-2.95. The first version of libstdc++-v3 appeared
  in g++-3.0.
 
-Package: libstdc++6-4.1-doc
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libstdc++6-4.6-doc
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: all
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 53856
-Depends: gcc-4.1-base (>= 4.1.2-2)
-Conflicts: libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-doc
-Filename: etch/gcc-4.1-etch/libstdc++6-4.1-doc_4.1.2-4vnz1_all.deb
-Size: 7335676
-MD5sum: 702295295d7a33f6900a55d3d9c6aa11
-SHA1: fb347f86895e0c6191701ea41d9bfddc1753574b
-SHA256: 3505f33046d19feb5f53c706841d3ce2da0c69de6d34ca09130b22e65e935e40
+Installed-Size: 10467
+Depends: gcc-4.6-base (>= 4.6.0-12)
+Conflicts: libstdc++5-3.3-doc, libstdc++5-doc, libstdc++6-4.0-doc, libstdc++6-4.1-doc, libstdc++6-4.2-doc, libstdc++6-4.3-doc, libstdc++6-4.4-doc, libstdc++6-4.5-doc, libstdc++6-doc
+Filename: squeeze/gcc-4.6-squeeze/libstdc++6-4.6-doc_4.6.0-14.1_all.deb
+Size: 3760718
+MD5sum: ad87ec975662317eb123b503e1c1b4ed
+SHA1: 0cb42d94dffb831945c9989527e694e8e7bd4f5b
+SHA256: 7cdcbb989ca6bf4ea698499850b4ad008f409321ac1364f9b5b3811047649531
 Section: doc
 Priority: optional
-Description: The GNU Standard C++ Library v3 (documentation files)
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3 (documentation files)
  This package contains documentation files for the GNU stdc++ library.
  .
  One set is the distribution documentation, the other set is the
@@ -2318,21 +2773,22 @@ Description: The GNU Standard C++ Library v3 (documentation files)
  alphabetical list, compound list, file list, namespace members,
  compound members and file members.
 
-Package: libstdc++6-4.1-pic
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: libstdc++6-4.6-pic
+Source: gcc-4.6
+Version: 4.6.0-14.1
 Architecture: i386
 Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 2080
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), libstdc++6 (>= 4.1.2-4vnz1), libstdc++6-4.1-dev (= 4.1.2-4vnz1)
-Filename: etch/gcc-4.1-etch/libstdc++6-4.1-pic_4.1.2-4vnz1_i386.deb
-Size: 422210
-MD5sum: 98f460588a7415394661fb10f0a77225
-SHA1: 4a42da5683668cdb124236ae573be311e5b65b61
-SHA256: 034aae4d013150ba1be65ed9215be3651d80afbc7f944d4b891b365af3df3ca6
+Installed-Size: 2313
+Depends: gcc-4.6-base (= 4.6.0-14.1), libstdc++6 (>= 4.6.0-14.1), libstdc++6-4.6-dev (= 4.6.0-14.1)
+Filename: squeeze/gcc-4.6-squeeze/libstdc++6-4.6-pic_4.6.0-14.1_i386.deb
+Size: 500554
+MD5sum: a2004d526f134968a6aa56f4472fbf44
+SHA1: 30c1490788e9a2f421dceae6b463a99101c3d170
+SHA256: 69886f59ae6a9530a913d921f4ae0fdc8438adb8e57bf0ac74a56a59dee39fe5
 Section: libdevel
 Priority: extra
-Description: The GNU Standard C++ Library v3 (shared library subset kit)
+Homepage: http://gcc.gnu.org/
+Description: GNU Standard C++ Library v3 (shared library subset kit)
  This is used to develop subsets of the libstdc++ shared libraries for
  use on custom installation floppies and in embedded systems.
  .
@@ -2346,7 +2802,7 @@ Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 Installed-Size: 232
 Depends: libppl0.11-dev (= 0.11.2-8vnz1), libc6 (>= 2.3.6-6), libgcc1 (>= 1:4.1.1-12), libgmp3c2, libgmpxx4ldbl, libppl9, libstdc++6 (>= 4.1.1-12)
 Replaces: libppl0.11-dev (<< 0.11.2-8~)
-Filename: etch/cloogppl/ppl-dev_0.11.2-8vnz1_i386.deb
+Filename: squeeze/cloogppl/ppl-dev_0.11.2-8vnz1_i386.deb
 Size: 121752
 MD5sum: e639ac89e19d08ebe4002a849c7fca16
 SHA1: bc6ad3ce3faeb3c5a0cc20c98021a97bad31be52
@@ -2367,26 +2823,6 @@ Description: Parma Polyhedra Library (development binaries)
  .
  This package provides the ppl-config binary.
 
-Package: protoize
-Source: gcc-4.1 (4.1.2-4vnz1)
-Version: 1:4.1.2-4vnz1
-Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 112
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gcc-4.1 (>= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/protoize_4.1.2-4vnz1_i386.deb
-Size: 39016
-MD5sum: 66aa86d0d0d411dd07b4907ed47f633b
-SHA1: e8c401f2e59faec3acdc312887146d867d30391c
-SHA256: 16e52d81a56d600972ea388c4610eb1282161f257e98228d0343ba20cda27600
-Section: devel
-Priority: optional
-Description: Create/remove ANSI prototypes from C code
- "protoize" can be used to add prototypes to a program, thus converting
- the program to ANSI C in one respect.  The companion program "unprotoize"
- does the reverse: it removes argument types from any prototypes
- that are found.
-
 Package: swi-prolog
 Version: 5.8.2-1vnz1
 Architecture: i386
@@ -2394,7 +2830,7 @@ Maintainer: Chris Lamb <lamby@debian.org>
 Installed-Size: 48
 Depends: swi-prolog-nox (= 5.8.2-1vnz1), swi-prolog-x (= 5.8.2-1vnz1)
 Suggests: swi-prolog-doc, prolog-el
-Filename: etch/swiprolog/swi-prolog_5.8.2-1vnz1_i386.deb
+Filename: squeeze/swiprolog/swi-prolog_5.8.2-1vnz1_i386.deb
 Size: 11652
 MD5sum: 301ae41077c2c1df6ad6d87c5aec1b66
 SHA1: a09b0762f9dee8fe14227d725219236abd6e2357
@@ -2427,7 +2863,7 @@ Depends: libc6 (>= 2.3.6-6), libgmp3c2, libncursesw5 (>= 5.4-5), libreadline5 (>
 Suggests: swi-prolog-doc, prolog-el
 Conflicts: swi-prolog (<< 5.8.2-1)
 Replaces: swi-prolog-clib, swi-prolog-http, swi-prolog-semweb, swi-prolog-sgml, swi-prolog-table
-Filename: etch/swiprolog/swi-prolog-nox_5.8.2-1vnz1_i386.deb
+Filename: squeeze/swiprolog/swi-prolog-nox_5.8.2-1vnz1_i386.deb
 Size: 3060976
 MD5sum: e7f6f00b5ec9d979706236651326f72c
 SHA1: fc4a23cf8cc98fa41867aeea9903ec741878a292
@@ -2459,7 +2895,7 @@ Architecture: i386
 Maintainer: Chris Lamb <lamby@debian.org>
 Installed-Size: 128
 Depends: libc6 (>= 2.3.6-6), libodbc1, swi-prolog-nox (= 5.8.2-1vnz1)
-Filename: etch/swiprolog/swi-prolog-odbc_5.8.2-1vnz1_i386.deb
+Filename: squeeze/swiprolog/swi-prolog-odbc_5.8.2-1vnz1_i386.deb
 Size: 34504
 MD5sum: 9a9206d66272f4b9b5ea7752d82b3594
 SHA1: db7919fcc5a2af0491a0beea4ba1b42a8b0d77f4
@@ -2493,7 +2929,7 @@ Maintainer: Chris Lamb <lamby@debian.org>
 Installed-Size: 14072
 Depends: libc6 (>= 2.3.6-6), libfontconfig1 (>= 2.4.0), libice6 (>= 1:1.0.0), libjpeg62 (>= 6b1), libsm6, libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxpm4, libxt6, swi-prolog-nox (= 5.8.2-1vnz1)
 Replaces: swi-prolog-xpce
-Filename: etch/swiprolog/swi-prolog-x_5.8.2-1vnz1_i386.deb
+Filename: squeeze/swiprolog/swi-prolog-x_5.8.2-1vnz1_i386.deb
 Size: 2901692
 MD5sum: 87045fc024811c8b7c25b21ea28b059f
 SHA1: 19692e14f1a6bb539edef152ff52e148530ee141
@@ -2520,24 +2956,39 @@ Description: User interface library for SWI-Prolog (with X support)
  interfaces. Although XPCE was designed to be language-independent, it has
  gained popularity most with Prolog.
 
-Package: treelang-4.1
-Source: gcc-4.1
-Version: 4.1.2-4vnz1
+Package: wget
+Version: 1.13.4-3vnz1
 Architecture: i386
-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
-Installed-Size: 4808
-Depends: gcc-4.1-base (= 4.1.2-4vnz1), gcc-4.1 (= 4.1.2-4vnz1), libc6 (>= 2.3.6-6)
-Filename: etch/gcc-4.1-etch/treelang-4.1_4.1.2-4vnz1_i386.deb
-Size: 2143520
-MD5sum: 07b12ce9a2a4f6f36a2e9dcf0b8ddea7
-SHA1: c184ca00249804a9fb3d83a1af0ed62520e8d1ab
-SHA256: 026813cb777d8290ec8c0a4ee95f3286537e1e30192cf7846537dadd5801c196
-Section: devel
-Priority: optional
-Description: The GNU Treelang compiler
- Treelang is a sample language, useful only to help people understand how
- to implement a new language front end to GCC. It is not a useful
- language in itself other than as an example or basis for building a new
- language. Therefore only language developers are likely to have an
- interest in it.
+Maintainer: Noël Köthe <noel@debian.org>
+Installed-Size: 2096
+Depends: libc6 (>= 2.11), libgcrypt11 (>= 1.4.2), libgnutls26 (>= 2.7.14-0), libgpg-error0 (>= 1.6-1), libidn11 (>= 1.13), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Conflicts: wget-ssl
+Filename: squeeze/wget/wget_1.13.4-3vnz1_i386.deb
+Size: 736486
+MD5sum: 939ad9135f8f19f63e573e569857ad02
+SHA1: bc9bcdfc3604ac7461d325abceb4c977fa6fd5d8
+SHA256: 117a203f0d8519d2f7d426cc4cd76b04f1b86bfea0deec76a70306efb334f7a2
+Section: web
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/wget/
+Description: retrieves files from the web
+ Wget is a network utility to retrieve files from the web
+ using HTTP(S) and FTP, the two most widely used internet
+ protocols. It works non-interactively, so it will work in
+ the background, after having logged off. The program supports
+ recursive retrieval of web-authoring pages as well as FTP
+ sites -- you can use Wget to make mirrors of archives and
+ home pages or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections
+ by continuing to retrieve a document until the document is fully
+ downloaded. Re-getting files from where it left off works on
+ servers (both HTTP and FTP) that support it. Both HTTP and FTP
+ retrievals can be time stamped, so Wget can see if the remote
+ file has changed since the last retrieval and automatically
+ retrieve the new version if it has.
+ .
+ Wget supports proxy servers; this can lighten the network load,
+ speed up retrieval, and provide access behind firewalls.
 

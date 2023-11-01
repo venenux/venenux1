@@ -1,0 +1,182 @@
+Package: anydesk
+Version: 6.2.1
+Architecture: amd64
+Maintainer: AnyDesk Software GmbH <linux-support@anydesk.com>
+Installed-Size: 15910
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.20.1), libstdc++6 (>= 4.1.1), libx11-6, libxcb-shm0, libxcb1, libpango-1.0-0, libcairo2, libxrandr2 (>= 1.3), libx11-xcb1, libxtst6, libxfixes3, libxdamage1, libxkbfile1, libgtkglext1
+Recommends: libglx-mesa0, xdg-utils
+Filename: any/anydesk/anydesk_6.2.1-1_amd64.deb
+Size: 6616686
+MD5sum: 9fabd3e91862c8ebed9524274e5920f0
+SHA1: 9616916a484ae8effc2f80c84950b42cfe1fd92f
+SHA256: 0428029fa9f7fb23c593fad76cfbf94c18f1c84af7aebd69720962dd5c8b77b7
+Section: net
+Priority: optional
+Homepage: https://anydesk.com/
+Description: The fastest remote desktop software on the market.
+  It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
+
+Package: apt-conf-vnx
+Version: 0.4.0
+Architecture: all
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 45
+Depends: lsb-release, gnupg, apt
+Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archive-keyrings, massenkoh-keyrings, venenux-piccoro-keyrings
+Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
+Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
+Filename: any/apt/apt-conf-vnx_0.4.0_all.deb
+Size: 13878
+MD5sum: 0c45e9a88a3969fce90d4bce3a5d6078
+SHA1: 4a889dd14cec15c5f7e58cd35f114423b7ae79da
+SHA256: b1f9effc0e4026c453f3a69165c41b2469c5e0844ef93fc0226213a4c9981186
+Section: admin
+Priority: important
+Description: preferencias iniciales para sistema de paquetes de software VenenuX
+ This added default sources repository and configs for aptitude software package system.
+ Esto agrega preferencias iniciales y onfiguraciones para aptitude el sistema de paquetes de programas.
+ .
+ Venenux emplea como sistema de paquetes de software y programas el programa aptitude,
+ que maneja en una interfaz tanto de comandos como interfaz de usuario las relaciones y
+ registros del software por medio de los paquetes debian. Es el mejor sistema de manejo
+ de software en Debian y es el oficial para VenenuX.
+ .
+ Este paquete hace lo siguiente:
+  * establece configuraciones para el sistema de paqueteria,
+    impidiendo que usuarios inexpertos instalen mucha basura que perjudicaria el soporte.
+  * prioritiza la instalacion de software de paquetes desde los repositorios
+    ya actualizados de venenux, para las versiones tanto viejas como nuevas
+  * agrega la llaves de trabajo de paqueteria,
+    que permiten verificar y autenticar el software de nuestros desarrolladores.
+  * agrega por defecto repositorios especiales, comunes para todas las distribuciones
+    y para todas las versiones de venenux dado asi paquetes al dia a estas.
+  * agrega repositorios estables de backports como repositorios normales ya que
+    estos poseen paquetes mas actuales en la rama estable de debian
+  * fuerza la nuevas configuraciones desde lo paquetes de lo repositorios,
+    esto significa que si un novato intenta actualizar un servidor, perdera su configuracion
+    dado que los paquetes nuevos pueden diferir en configuraciones establecemos la nuevas siempre.
+ .
+ En debian apt es un sistema demasiado facilista que no permite una buena administracion.
+ apt 0.7 se convirtio en aptitude y con este paquete se devuelve su antiguo funcionamiento.
+ apt 0.7 basically transforms apt into aptitude, revert to traditional apt
+ behaviour as far as that is possible by disabling, among others, the
+ automatic installation of recommends (and suggests), as well as disabling
+ and hiding the autoremove functionality.
+
+Package: apt-conf-vnx
+Version: 0.4.1
+Architecture: all
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 69
+Depends: lsb-release, gnupg, apt
+Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archive-keyrings, massenkoh-keyrings, venenux-piccoro-keyrings
+Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
+Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
+Filename: any/apt/apt-conf-vnx_0.4.1_all.deb
+Size: 13796
+MD5sum: 0d7e5d8c51265826305a8dc3702171c6
+SHA1: 844d15daf89c794fb88a4a0f4967677292ea96c4
+SHA256: 3d506bbb91f63791257839a53d2d210ea1e47111b18fd352d95e5e6f885cd8b1
+Section: admin
+Priority: important
+Description: preferencias iniciales para sistema de paquetes de software VenenuX
+ This added default sources repository and configs for aptitude software package system.
+ Esto agrega preferencias iniciales y onfiguraciones para aptitude el sistema de paquetes de programas.
+ .
+ Venenux emplea como sistema de paquetes de software y programas el programa aptitude,
+ que maneja en una interfaz tanto de comandos como interfaz de usuario las relaciones y
+ registros del software por medio de los paquetes debian. Es el mejor sistema de manejo
+ de software en Debian y es el oficial para VenenuX.
+ .
+ Este paquete hace lo siguiente:
+  * establece configuraciones para el sistema de paqueteria,
+    impidiendo que usuarios inexpertos instalen mucha basura que perjudicaria el soporte.
+  * prioritiza la instalacion de software de paquetes desde los repositorios
+    ya actualizados de venenux, para las versiones tanto viejas como nuevas
+  * agrega la llaves de trabajo de paqueteria,
+    que permiten verificar y autenticar el software de nuestros desarrolladores.
+  * agrega por defecto repositorios especiales, comunes para todas las distribuciones
+    y para todas las versiones de venenux dado asi paquetes al dia a estas.
+  * agrega repositorios estables de backports como repositorios normales ya que
+    estos poseen paquetes mas actuales en la rama estable de debian
+  * fuerza la nuevas configuraciones desde lo paquetes de lo repositorios,
+    esto significa que si un novato intenta actualizar un servidor, perdera su configuracion
+    dado que los paquetes nuevos pueden diferir en configuraciones establecemos la nuevas siempre.
+ .
+ En debian apt es un sistema demasiado facilista que no permite una buena administracion.
+ apt 0.7 se convirtio en aptitude y con este paquete se devuelve su antiguo funcionamiento.
+ apt 0.7 basically transforms apt into aptitude, revert to traditional apt
+ behaviour as far as that is possible by disabling, among others, the
+ automatic installation of recommends (and suggests), as well as disabling
+ and hiding the autoremove functionality.
+
+Package: apt-conf-vnx
+Version: 0.5.0
+Architecture: all
+Maintainer: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Installed-Size: 43
+Depends: lsb-release, gnupg, apt
+Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archive-keyrings, massenkoh-keyrings, venenux-piccoro-keyrings
+Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
+Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
+Filename: any/apt/apt-conf-vnx_0.5.0_all.deb
+Size: 13232
+MD5sum: 856ac099c1ea3162212873c8b7da14da
+SHA1: fa76062a1a37012c6e357b8ed504a3fb17c86881
+SHA256: baaa8eda4b4cf3765b1710d8469a9484d21636a8375ed7f90cdf9adbcde2793f
+Section: admin
+Priority: important
+Description: preferencias iniciales para sistema de paquetes de software VenenuX
+ This added default sources repository and configs for aptitude software package system.
+ Esto agrega preferencias iniciales y onfiguraciones para aptitude el sistema de paquetes de programas.
+ .
+ Venenux emplea como sistema de paquetes de software y programas el programa aptitude,
+ que maneja en una interfaz tanto de comandos como interfaz de usuario las relaciones y
+ registros del software por medio de los paquetes debian. Es el mejor sistema de manejo
+ de software en Debian y es el oficial para VenenuX.
+ .
+ Este paquete hace lo siguiente:
+  * establece configuraciones para el sistema de paqueteria,
+    impidiendo que usuarios inexpertos instalen mucha basura que perjudicaria el soporte.
+  * prioritiza la instalacion de software de paquetes desde los repositorios
+    ya actualizados de venenux, para las versiones tanto viejas como nuevas
+  * agrega la llaves de trabajo de paqueteria,
+    que permiten verificar y autenticar el software de nuestros desarrolladores.
+  * agrega por defecto repositorios especiales, comunes para todas las distribuciones
+    y para todas las versiones de venenux dado asi paquetes al dia a estas.
+  * agrega repositorios estables de backports como repositorios normales ya que
+    estos poseen paquetes mas actuales en la rama estable de debian
+  * fuerza la nuevas configuraciones desde lo paquetes de lo repositorios,
+    esto significa que si un novato intenta actualizar un servidor, perdera su configuracion
+    dado que los paquetes nuevos pueden diferir en configuraciones establecemos la nuevas siempre.
+ .
+ En debian apt es un sistema demasiado facilista que no permite una buena administracion.
+ apt 0.7 se convirtio en aptitude y con este paquete se devuelve su antiguo funcionamiento.
+ apt 0.7 basically transforms apt into aptitude, revert to traditional apt
+ behaviour as far as that is possible by disabling, among others, the
+ automatic installation of recommends (and suggests), as well as disabling
+ and hiding the autoremove functionality.
+
+Package: nomachine
+Version: 6.9.2-1
+Architecture: amd64
+Maintainer: NoMachine S.a.r.l. <info@nomachine.com>
+Installed-Size: 187048
+Conflicts: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine-enterprise-client
+Replaces: nxmanager, nxwebplayer, nxserver, nxnode, nxclient, nomachine
+Filename: any/nomachine/nomachine_6.9.2_1_amd64.deb
+Size: 46753672
+MD5sum: 86fe9a0f9ee06ee6fce41aa36674f727
+SHA1: f5b32e0b38d36a547298ef2c69d8e6f3ea3cbc69
+SHA256: 1393e520de72ff1f38feb27e77ae29dc51a175d3a60d4e6fc916a2fda0acc2ac
+Section: net
+Priority: optional
+Description: Fast and secure remote access system
+ NoMachine is a fast and secure remote access system and terminal server
+ service. It provides a full set of administration tools that make it a complete
+ desktop virtualization solution for you or for your organization.
+ .
+ This package includes all programs and libraries necessary to
+ transform your machine into a server in the cloud or a remote
+ desktop client according to your needs.
+

@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 03 Apr 2011 14:25:21 -0430
+Source: apt-build
+Binary: apt-build
+Architecture: source i386
+Version: 0.12.38.1vnz1
+Distribution: unstable
+Urgency: low
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Changed-By: PICCORO Lenz McKAY <mckaygerhard@gmail.com>
+Description: 
+ apt-build  - frontend to apt to build, optimize and install packages
+Changes: 
+ apt-build (0.12.38.1vnz1) unstable; urgency=low
+ .
+   * backported version for massenkoh
+     NOTE; massenkh always prior to most old version with new features--
+   * Use dpkg's option --print-installation-architecture in place of the newer option
+     --print-architecture in debian/postinst (ReOpens: #598092)
+   * Optimization detection and flags for all x86 variants
+Checksums-Sha1: 
+ ab2d17ef8d13bb650ee34768948bb74823bb552e 875 apt-build_0.12.38.1vnz1.dsc
+ ae755734bb0ecab6f3113c695c6ca15429e64b61 44559 apt-build_0.12.38.1vnz1.tar.gz
+ 5e2c7988ea031c667372afd0360c637ab1fb7c54 36092 apt-build_0.12.38.1vnz1_i386.deb
+Checksums-Sha256: 
+ 60ca9bece0a9f79390938b50dc199494efe71986e2c257d4ae9a4a6ceab2c194 875 apt-build_0.12.38.1vnz1.dsc
+ 0aa0fc7ef5bfbf1354a06ea968d5670d6f22601b19c1019b9e8eff2b5fea0b2a 44559 apt-build_0.12.38.1vnz1.tar.gz
+ 1e8d1726bed650e5fa188dfe00a5b35015c43ebd764c8ed637a8969fa72d55fe 36092 apt-build_0.12.38.1vnz1_i386.deb
+Files: 
+ d3d2125732e7bff99c18d3c9c37cb8d8 875 devel optional apt-build_0.12.38.1vnz1.dsc
+ 018c65d1c38ff7b985523e21b32530a4 44559 devel optional apt-build_0.12.38.1vnz1.tar.gz
+ bfab27f5059908446c6f5a50d1ad056f 36092 devel optional apt-build_0.12.38.1vnz1_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQFPM75ez+9Ts05YtsQRAnGXAJ4tf32/MFNVrv4ui2rpX/+uOHKsGgCcDmqt
+ob0CY8GbB6qkkOP35AaqdKQ=
+=i6Tm
+-----END PGP SIGNATURE-----

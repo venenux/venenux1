@@ -767,6 +767,51 @@ Description: The GNU Ada compiler
  Per policy, all packages that contain Ada sources must use this package
  in their Build-Depends line.
 
+Package: gnutls-bin
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 517
+Depends: libc6 (>= 2.3), libgcrypt11 (>= 1.4.2), libgnutls26 (>= 2.9.11-0), libgpg-error0 (>= 1.6-1), libreadline6 (>= 6.0), libtasn1-3 (>= 1.6-0), zlib1g (>= 1:1.1.4)
+Conflicts: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls5-dev
+Replaces: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls5-dev
+Filename: etch/gnutls/gnutls-bin_2.9.12-2_i386.deb
+Size: 342854
+MD5sum: 39a976f96fa05d20c4fff190207e7e12
+SHA1: de99e0ec3951a4fbc02856b736201066a083f1b5
+SHA256: 2a2bb12d44c79fb28f9aaa8e81a4dd2fc9a717f61d98c1ab14ca84a3adffb495
+Section: net
+Priority: optional
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - commandline utilities
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ This package contains a commandline interface to the GNU TLS library,
+ which can be used to set up secure connections from e.g. shell scripts.
+
+Package: gnutls-doc
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: all
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 6748
+Depends: dpkg (>= 1.15.4) | install-info
+Filename: etch/gnutls/gnutls-doc_2.9.12-2_all.deb
+Size: 3221812
+MD5sum: a0f234feb701e79352f5df1b6587ff82
+SHA1: 375b717bbe93853a4532370c69df74333d9072a6
+SHA256: 6566d74b03f36a48e5e7538ed9bb778fcc706d31d5def5db12be0d5ca3779b96
+Section: doc
+Priority: optional
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - documentation and examples
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ This package contains all the gnutls documentation.
+
 Package: gobjc
 Source: gcc-defaults (1.52.1)
 Version: 4:4.1.2-2.1
@@ -985,6 +1030,34 @@ Section: doc
 Priority: optional
 Description: Documentation for the GNU Pascal compiler (gpc)
  Documentation for the GNU Pascal compiler in info format (dependency package).
+
+Package: guile-gnutls
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 417
+Depends: guile-1.8-libs, libc6 (>= 2.1.3), libgmp3c2, libgnutls26 (>= 2.9.11-0), libltdl7 (>= 2.2.6b), guile-1.8
+Filename: etch/gnutls/guile-gnutls_2.9.12-2_i386.deb
+Size: 277744
+MD5sum: 89cc75e12f5eb385ed044358697b33f2
+SHA1: a6e27c5dd8b4bfa3ee2556f80fdf0f28201093d7
+SHA256: 9dfa7e3993c9da920d0749b9dcf20f0550ec89475b85f19e817b1e8c9b92ebde
+Section: lisp
+Priority: optional
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - GNU Guile bindings
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the GNU Guile 1.8 modules.
 
 Package: lib64ffi4
 Source: gcc-4.1
@@ -1663,6 +1736,126 @@ Description: Multiprecision arithmetic library (C++ bindings)
  GNU MP is a programmer's library for arbitrary precision
  arithmetic (ie, a bignum package).  It can operate on signed
  integer, rational, and floating point numeric types.
+
+Package: libgnutls-dev
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 1434
+Depends: libgnutls26 (= 2.9.12-2), libgnutlsxx26 (= 2.9.12-2), libgcrypt11-dev (>= 1.3.0), libc6-dev | libc-dev, zlib1g-dev, libtasn1-3-dev (>= 0.3.4)
+Suggests: gnutls-doc, gnutls-bin, guile-gnutls
+Conflicts: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls11-dev
+Replaces: gnutls-dev (<< 0.4.0-0), gnutls0.4-dev, libgnutls11-dev
+Provides: gnutls-dev
+Filename: etch/gnutls/libgnutls-dev_2.9.12-2_i386.deb
+Size: 609646
+MD5sum: fe71784f1bfed37ebd07bbb4398964fc
+SHA1: 635606dac2df6e4d8cfd0fe110e54a9f8470a64e
+SHA256: eac9a61b35c09f6499edfac0388361fbac7da86c574a800c7ff6c48d77917fb7
+Section: libdevel
+Priority: optional
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - development files
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the gnutls development files.
+
+Package: libgnutls26
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 1140
+Depends: libc6 (>= 2.3), libgcrypt11 (>= 1.4.2), libgpg-error0 (>= 1.6-1), libtasn1-3 (>= 1.6-0), zlib1g (>= 1:1.1.4)
+Suggests: gnutls-bin
+Conflicts: gnutls0, gnutls0.4
+Replaces: gnutls0, gnutls0.4, gnutls3
+Filename: etch/gnutls/libgnutls26_2.9.12-2_i386.deb
+Size: 532548
+MD5sum: 9c364319a578d35df9fc9b4ac0e4745c
+SHA1: fffaa7842948190a001a0d407447fe427a069fcd
+SHA256: e44a1f20f62e1a743f9839f052056fb28f1fffb60fa6027cf21accc10c92aa0e
+Section: libs
+Priority: standard
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - runtime library
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the runtime libraries.
+
+Package: libgnutls26-dbg
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 3667
+Depends: libgnutls26 (= 2.9.12-2)
+Conflicts: libgnutls13-dbg
+Filename: etch/gnutls/libgnutls26-dbg_2.9.12-2_i386.deb
+Size: 1461090
+MD5sum: 68f228a4e5e224aba597a3ae9cd00122
+SHA1: 0c027dcc57a6589711cc7c26485989aec41312a7
+SHA256: 10e43d5b9b4175bcf1c9d8717041cfd27c074d46af54d870e6d22cf6b58c58d1
+Section: debug
+Priority: extra
+Homepage: http://www.gnutls.org/
+Description: GNU TLS library - debugger symbols
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the debugger symbols.
+
+Package: libgnutlsxx26
+Source: gnutls26
+Version: 2.9.12-2
+Architecture: i386
+Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
+Installed-Size: 308
+Depends: libgnutls26 (= 2.9.12-2), libc6 (>= 2.1.3), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1)
+Filename: etch/gnutls/libgnutlsxx26_2.9.12-2_i386.deb
+Size: 245274
+MD5sum: 3cfcb15727a46faa4bd1f90f6d25f868
+SHA1: 15ebf95ab193866af8640c6dc3ff88082d71e382
+SHA256: c8e3a8966d6aafddd42540540f53e663aa530234478bbf68e3ce83fa9bb1fb93
+Section: libs
+Priority: extra
+Homepage: http://www.gnutls.org/
+Description: the GNU TLS library - C++ runtime library
+ gnutls is a portable library which implements the Transport Layer
+ Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+ .
+ Currently gnutls implements:
+  - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+    controlled algorithms
+  - X509 Public Key Infrastructure (with several limitations).
+  - SRP for TLS authentication.
+  - TLS Extension mechanism
+ .
+ This package contains the C++ runtime libraries.
 
 Package: libisl-dbg
 Source: isl
@@ -2540,4 +2733,40 @@ Description: The GNU Treelang compiler
  language in itself other than as an example or basis for building a new
  language. Therefore only language developers are likely to have an
  interest in it.
+
+Package: wget
+Version: 1.13.4-3vnz1
+Architecture: i386
+Maintainer: Noël Köthe <noel@debian.org>
+Installed-Size: 2096
+Depends: libc6 (>= 2.11), libgcrypt11 (>= 1.4.2), libgnutls26 (>= 2.7.14-0), libgpg-error0 (>= 1.6-1), libidn11 (>= 1.13), zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Conflicts: wget-ssl
+Filename: etch/wget/wget_1.13.4-3vnz1_i386.deb
+Size: 736486
+MD5sum: 939ad9135f8f19f63e573e569857ad02
+SHA1: bc9bcdfc3604ac7461d325abceb4c977fa6fd5d8
+SHA256: 117a203f0d8519d2f7d426cc4cd76b04f1b86bfea0deec76a70306efb334f7a2
+Section: web
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.gnu.org/software/wget/
+Description: retrieves files from the web
+ Wget is a network utility to retrieve files from the web
+ using HTTP(S) and FTP, the two most widely used internet
+ protocols. It works non-interactively, so it will work in
+ the background, after having logged off. The program supports
+ recursive retrieval of web-authoring pages as well as FTP
+ sites -- you can use Wget to make mirrors of archives and
+ home pages or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections
+ by continuing to retrieve a document until the document is fully
+ downloaded. Re-getting files from where it left off works on
+ servers (both HTTP and FTP) that support it. Both HTTP and FTP
+ retrievals can be time stamped, so Wget can see if the remote
+ file has changed since the last retrieval and automatically
+ retrieve the new version if it has.
+ .
+ Wget supports proxy servers; this can lighten the network load,
+ speed up retrieval, and provide access behind firewalls.
 
