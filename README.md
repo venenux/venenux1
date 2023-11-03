@@ -1,8 +1,9 @@
-# venenux repositories for older releases
+# venenux repositories of packages for older releases
 
-VenenuX repositories for first generation of modern computers, means this repository its for 32bit systems and older debians/venenux.
+VenenuX repositories for first generation of modern computers, means this repository 
+its for 32bit systems and older Debian's/VenenuX's, mostly, Debian 4, Debian 5 and Debian 6.
 
-**Do you want more modern ones? theck http://venenux.github.io/venenux2/ repository for Debian 10/11/12!**
+**Do you want more modern ones? theck http://venenux.github.io/venenux2/ repository for Debian 7/8/9!**
 
 ## Supported Debians
 
@@ -67,10 +68,11 @@ always supported older distros:
 
 | Package            | etch      | lenny     | queeze    | notes    |
 | ------------------ | --------- | --------- | --------- | -------- |
-| anydesk            |           |           | 2.3.9     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
+| anydesk            | 2.3.9     |           | 5.0.5     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for lenny and squeeze on amd64 |
-| slimjet            |           |           | 29        | like have a 32bit chrome/brave, cos today there no 32bit builds of |
+| google chrome      | 29        |           | 29        | like have a 32bit chrome/brave, cos today there no 32bit builds of |
 | apt-conf-vnz       | 0.5.0     | 0.5.0     | 0.5.0     | auto configures repositories and apt for usage on older or newer debians |
+| nodejs             | 9.11      | 9.11      | 9.11      | latest oficial build for lenny and squeeze from nodejs nodesource |
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
