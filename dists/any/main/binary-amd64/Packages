@@ -1,4 +1,21 @@
 Package: anydesk
+Version: 6.0.1
+Architecture: amd64
+Maintainer: Markus Plichta <mplichta@anydesk.com>
+Installed-Size: 12990
+Depends: libc6 (>= 2.7), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.20.1), libstdc++6 (>= 4.1.1), libx11-6, libxcb-shm0, libxcb1, libpango-1.0-0, libcairo2, libxrandr2 (>= 1.3), libx11-xcb1, libxtst6, libxfixes3, libxdamage1, libxkbfile1, libgtkglext1
+Recommends: libglx-mesa0, xdg-utils
+Filename: any/anydesk/anydesk_6.0.1-1_amd64.deb
+Size: 5197638
+MD5sum: 03d9e09116d70b9324fec106424d2f75
+SHA1: 5e9cdae15fcfe9ad1a3f7af41e5adb12f0bf7d24
+SHA256: d1a576d6e757a7f82b10e6e3c27d19cb84c25e4add8fe50545d23ea1688df485
+Section: network
+Priority: optional
+Homepage: https://www.anydesk.com/
+Description: AnyDesk is the fastest remote desktop software on the market. It allows for new usage scenarios and applications that have not been possible with current remote desktop software.
+
+Package: anydesk
 Version: 6.2.1
 Architecture: amd64
 Maintainer: AnyDesk Software GmbH <linux-support@anydesk.com>
@@ -157,6 +174,29 @@ Description: preferencias iniciales para sistema de paquetes de software VenenuX
  automatic installation of recommends (and suggests), as well as disabling
  and hiding the autoremove functionality.
 
+Package: cowsay
+Version: 3.03+dfsg1-11
+Architecture: all
+Maintainer: Francois Marier <francois@debian.org>
+Installed-Size: 66
+Depends: perl
+Recommends: xcowsay
+Suggests: filters
+Filename: any/venenux/cowsay_3.03+dfsg1-11_all.deb
+Size: 22542
+MD5sum: 24ad727ccd047b503581bc4db70e2a1d
+SHA1: 88dff9a1fc0696661e8c9333ffd512dd3a211d0f
+SHA256: e9956618462f5a6ec46665d3b52337b1965b57cfd3b10a2122eb1a0a9c610c18
+Section: games
+Priority: optional
+Homepage: http://www.nog.net/~tony/warez
+Description: configurable talking cow
+ Cowsay (or cowthink) will turn text into happy ASCII cows, with
+ speech (or thought) balloons. If you don't like cows, ASCII art is
+ available to replace it with some other creatures (Tux, the BSD
+ daemon, dragons, and a plethora of animals, from a turkey to
+ an elephant in a snake).
+
 Package: nodejs
 Version: 9.11.2-1nodesource1
 Architecture: amd64
@@ -207,4 +247,27 @@ Description: Fast and secure remote access system
  This package includes all programs and libraries necessary to
  transform your machine into a server in the cloud or a remote
  desktop client according to your needs.
+
+Package: venenux-defaults
+Version: 1.0
+Architecture: all
+Maintainer: VeGNUli <vegnuli@gmail.com>
+Installed-Size: 12504
+Depends: librsvg2-common, apt-conf-vnx
+Suggests: venenux-defaults-desktop, venenux-multimedia-devels | venenux-multimedia-codecs
+Provides: mintsystem, venenux-art-wallpaper-theme, venenux-manifiesto
+Filename: any/venenux/venenux-defaults_1.0_all.deb
+Size: 10244076
+MD5sum: 58290807f7ff0ed326d9771a44913414
+SHA1: ffec0d529165f061e3dd4950b090456f8b21ab35
+SHA256: 8483364e5cce977e8e591245ef3ad0f1cef56e95fdcaa37ad3d6b530de7fce1d
+Section: x11
+Priority: optional
+Description: VNXDE Debian Desktop VenenuX
+ This package contains various miscellaneous files which are used by
+ Debian Desktop installations.  Currently, it provides some
+ VenenuX-related artwork and themes, .desktop files containing links to
+ VenenuX related material (suitable for placement on a user's desktop),
+ and other common files between the available desktop environments
+ such as LXDE, XFCE4 and RazorQt.
 
