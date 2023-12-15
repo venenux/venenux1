@@ -21,6 +21,8 @@ Just add to sources list using your name distro:
 | lenny   | `deb https://venenux.github.io/venenuxdebs1/ lenny main`   |
 | squeeze | `deb https://venenux.github.io/venenuxdebs1/ squeeze main` |
 
+Autoconfiguration can be made for more repos by using the package: [any/apt/apt-conf-vnx_0.5.0_all.deb](any/apt/apt-conf-vnx_0.5.0_all.deb)
+
 ## How to avoid or use the https
 
 Since apt 0.7.0 exist the `apt-transport-https` package, unfortunatelly 
@@ -58,6 +60,7 @@ Older machines are not 64bit capable, so only 32bit i386 packages are provided.
 | Gcc                | 4.1.2     | 4.4.5     | 4.6.0     | etch has some probles with gettex packages |
 | gnutls             | 0.9.12    | 0.9.12    | 0.9.12    | etch has some probles with gettex packages |
 | wget               | 1.13      | 1.13      | 1.13      |          |
+| la-capitaine       | 2.1       | 2.1       | 2.1       | icon and cursor |
 
 more to come
 
@@ -73,6 +76,7 @@ always supported older distros:
 | google chrome      | 29        |           | 29        | like have a 32bit chrome/brave, cos today there no 32bit builds of |
 | apt-conf-vnz       | 0.5.0     | 0.5.0     | 0.5.0     | auto configures repositories and apt for usage on older or newer debians |
 | nodejs             | 9.11      | 9.11      | 9.11      | latest oficial build for lenny and squeeze from nodejs nodesource |
+| yarn               | 1.29      | 1.29      | 1.29      | not tested      |
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 

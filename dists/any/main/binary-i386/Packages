@@ -186,10 +186,10 @@ Conflicts: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, massenkoh-archiv
 Replaces: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, mintsystem
 Provides: apt-conf-aptitude, apt-conf-sidux, apt-conf-venenux, debian-archive-repositories, debian-repositories, mintsystem, venenux-devel-repositories, venenux-piccoro-keyrings, venenux-repositories
 Filename: any/apt/apt-conf-vnx_0.5.0_all.deb
-Size: 13232
-MD5sum: 856ac099c1ea3162212873c8b7da14da
-SHA1: fa76062a1a37012c6e357b8ed504a3fb17c86881
-SHA256: baaa8eda4b4cf3765b1710d8469a9484d21636a8375ed7f90cdf9adbcde2793f
+Size: 13568
+MD5sum: ed01db46ff1c763cfd5f7258719d276f
+SHA1: 8982b1eefdb2d44b035e08e7422fa953a6650b6f
+SHA256: 4133045bc8330f5fcc44383df5d6e635028147cc2de1530c748d964d2f10b441
 Section: admin
 Priority: important
 Description: preferencias iniciales para sistema de paquetes de software VenenuX
@@ -1842,6 +1842,46 @@ Priority: optional
 Description: Zulu language pack for Firefox
  This package contains Zulu translations and search plugins
  for Firefox
+
+Package: la-capitaine-cursor-theme
+Version: 2.1-1-0.1~mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 1947
+Depends: gnome-themes-standard (>= 3.18.0)
+Filename: any/thememac/la-capitaine-cursor-theme_2.1-1-0.1~mx17+1_all.deb
+Size: 151970
+MD5sum: 65cbef631e2c072343076d873c74aa32
+SHA1: fa56d9a30aaef5359f52a7c657e0b4eb5664917c
+SHA256: 2a2a0a74c1415d563e11a4783f3e9e97db707c3281ad693512c0d687a1c30b54
+Section: x11
+Priority: optional
+Homepage: https://github.com/keeferrourke/capitaine-cursors
+Description: cursor theme inspired by macOS and based on KDE Breeze
+ The source files were made in Inkscape, and the theme was designed to pair well
+ with the la-capitaine-icon-theme.
+Original-Maintainer: Igor Dyatlov <dyatlov.igor@gmail.com>
+
+Package: la-capitaine-icon-theme
+Version: 0.6.0-2-0.1~mx17+1
+Architecture: all
+Maintainer: Steven Pusser <stevep@mxlinux.org>
+Installed-Size: 24265
+Depends: gnome-themes-standard, gtk-update-icon-cache
+Filename: any/thememac/la-capitaine-icon-theme_0.6.0-2-0.1~mx17+1_all.deb
+Size: 1427564
+MD5sum: 392d8e2a3def02f10beaa94f7be8c37e
+SHA1: 5d430fc8528d6d4379ff12a73b8c893683a5a03e
+SHA256: 38382cc98eed46022b754c53bb75bcf358fdd052ad1309d6f7276ed511e4aa44
+Section: gnome
+Priority: optional
+Homepage: https://github.com/keeferrourke/la-capitaine-icon-theme
+Description: icon pack designed to integrate with most desktop environments
+ .
+ The set of icons takes inspiration from the latest iterations of macOS
+ and Google's Material Design through the use of visually pleasing gradients,
+ shadowing, and simple icon geometry.
+Original-Maintainer: Igor Dyatlov <dyatlov.igor@gmail.com>
 
 Package: nodejs
 Version: 9.11.2-1nodesource1
