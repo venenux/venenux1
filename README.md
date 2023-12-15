@@ -1,7 +1,7 @@
 # venenux repositories of packages for older releases
 
 VenenuX repositories for first generation of modern computers, means this repository 
-its for 32bit systems and older Debian's/VenenuX's, mostly, Debian 4, Debian 5 and Debian 6.
+its **for 32bit systems** and older Debian's/VenenuX's, mostly, **Debian 4, Debian 5 and Debian 6**.
 
 **Do you want more modern ones? theck http://venenux.github.io/venenux2/ repository for Debian 7/8/9!**
 
@@ -17,9 +17,9 @@ Just add to sources list using your name distro:
 
 | Release | Repo entry in source.list |
 | ------- | ------------------------------------------------------------- |
-| etch    | `deb https://venenux.github.io/venenux1/ etch main`    |
-| lenny   | `deb https://venenux.github.io/venenux1/ lenny main`   |
-| squeeze | `deb https://venenux.github.io/venenux1/ squeeze main` |
+| etch    | `deb https://venenux.github.io/venenuxdebs1/ etch main`    |
+| lenny   | `deb https://venenux.github.io/venenuxdebs1/ lenny main`   |
+| squeeze | `deb https://venenux.github.io/venenuxdebs1/ squeeze main` |
 
 ## How to avoid or use the https
 
