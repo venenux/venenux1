@@ -73,10 +73,11 @@ always supported older distros:
 | ------------------ | --------- | --------- | --------- | -------- |
 | anydesk            | 2.3.9     |           | 5.0.5     | amd64/i386 but cannot view remote desks due SSL, 6.0.1 for amd64 and i386 |
 | nomachine          | 6.12.3    | 6.12.3    | 6.12.3    | 6.9.2 also for lenny and squeeze on amd64 |
-| google chrome      | 29        |           | 29        | like have a 32bit chrome/brave, cos today there no 32bit builds of |
 | apt-conf-vnz       | 0.5.0     | 0.5.0     | 0.5.0     | auto configures repositories and apt for usage on older or newer debians |
 | nodejs             | 9.11      | 9.11      | 9.11      | latest oficial build for lenny and squeeze from nodejs nodesource |
 | yarn               | 1.29      | 1.29      | 1.29      | not tested      |
+| docker             | 0.0.0     | 17        | 18        | docker-ce + docker-cli |
+| nerolinux          | 4.0.0     | 4.0.0     | 4.0.0     | nerolinux key provided in telegram, or inside venenux debian |
 
 Those package are only in the `any` branch component, not in `main` one of the repository index debian packages.
 
